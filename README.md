@@ -42,4 +42,14 @@ This repository is the generated public site, not the collection engine. It does
 
 ## Public-content boundary
 
-The published snapshots contain literature metadata and the review fields intentionally selected for the public reader. They are research-triage aids, not authoritative factual databases, clinical guidance, or experimental validation. Readers should verify important claims against the linked primary sources.
+The published snapshots contain literature metadata and the review fields intentionally selected for the public reader. The current lab-facing interpretations and follow-up ideas are part of this public example. They are research-triage aids, not authoritative factual databases, clinical guidance, or experimental validation. Readers should verify important claims against the linked primary sources.
+
+## License
+
+- Site code is released under the [MIT License](LICENSE).
+- Original Papertrail summaries, editorial notes, interface copy, and project-created figures are released under [CC BY 4.0](LICENSE-CONTENT.md).
+- Paper titles, abstracts, bibliographic metadata, and other third-party material remain subject to their original providers' terms.
+
+## Feedback and contact
+
+Questions, corrections, and suggestions are welcome through [GitHub Issues](https://github.com/Park-Junjae/papertrail/issues) or at [best916116@gmail.com](mailto:best916116@gmail.com).

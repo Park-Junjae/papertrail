@@ -10,16 +10,20 @@ const state = {
 };
 
 const elements = {};
-const staticDataBase = document.documentElement.dataset.staticDataBase
-  || (window.location.hostname.endsWith(".github.io") ? "./data" : "");
+const hasDom = typeof document !== "undefined" && typeof window !== "undefined";
+const staticDataBase = hasDom
+  ? document.documentElement.dataset.staticDataBase || (window.location.hostname.endsWith(".github.io") ? "./data" : "")
+  : "";
 
-document.addEventListener("DOMContentLoaded", () => {
-  cacheElements();
-  configureHostingMode();
-  bindEvents();
-  updateSavedCount();
-  loadData();
-});
+if (hasDom) {
+  document.addEventListener("DOMContentLoaded", () => {
+    cacheElements();
+    configureHostingMode();
+    bindEvents();
+    updateSavedCount();
+    loadData();
+  });
+}
 
 function cacheElements() {
   const ids = [
@@ -67,7 +71,7 @@ function bindEvents() {
     elements.trackerFilters.querySelectorAll("button").forEach((item) => {
       item.classList.toggle("is-active", item === button);
     });
-    renderLibrary();
+    renderSelectionViews();
   });
 
   elements.priorityFilters.addEventListener("change", (event) => {
@@ -298,14 +302,12 @@ function renderWeekSelect() {
 }
 
 function renderMustRead() {
-  const papers = [...state.data.papers];
-  const preferred = papers.filter((paper) => ["must-read", "high-interest"].includes(paper.priority));
-  const selected = [...preferred, ...papers.filter((paper) => !preferred.includes(paper))].slice(0, 5);
+  const selected = selectTopPapers(state.data.papers, state.tracker, 5);
   elements.mustReadGrid.innerHTML = selected.map((paper) => leadCardMarkup(paper)).join("");
 }
 
 function leadCardMarkup(paper) {
-  const summary = paper.whyCare || paper.blurb || paper.labUse || "Selected as a priority paper this week.";
+  const summary = reasonForTracker(paper, state.tracker) || paper.whyCare || paper.blurb || paper.labUse || "Selected as a priority paper this week.";
   return `
     <article class="lead-paper-card">
       <div class="card-topline">
@@ -318,14 +320,15 @@ function leadCardMarkup(paper) {
       <p class="paper-blurb korean-copy" lang="ko">${escapeHtml(summary)}</p>
       <div class="lead-paper-footer">
         <a class="paper-link" href="#paper-${escapeHtml(paper.id)}">Read analysis</a>
-        <span class="score-mark">relevance ${formatNumber(paper.score)}</span>
+        <span class="score-mark">relevance ${formatNumber(scoreForTracker(paper, state.tracker))}</span>
       </div>
     </article>
   `;
 }
 
 function renderIdeas() {
-  const ideas = state.data.papers.filter((paper) => paper.labUse).slice(0, 4);
+  const ideas = rankPapersForTracker(state.data.papers, state.tracker)
+    .filter((paper) => paper.labUse).slice(0, 4);
   elements.ideasList.innerHTML = ideas.map((paper, index) => `
     <article class="idea-item">
       <span class="idea-number">0${index + 1}</span>
@@ -365,12 +368,12 @@ function filteredPapers() {
       paper.whyCare, paper.labUse, paper.takeaway, ...(paper.keywords || []), ...(paper.authors || []),
     ].filter(Boolean).join(" "));
     return query.split(/\s+/).every((token) => haystack.includes(token));
-  });
+  }).sort((a, b) => compareForTracker(a, b, state.tracker));
 }
 
 function paperCardMarkup(paper, index) {
   const globalIndex = String(index + 1).padStart(2, "0");
-  const summary = paper.whyCare || paper.blurb || paper.labUse || "Selected for this week’s research review.";
+  const summary = reasonForTracker(paper, state.tracker) || paper.whyCare || paper.blurb || paper.labUse || "Selected for this week’s research review.";
   const detailsOpen = state.expanded.has(paper.id);
   const tags = (paper.keywords || []).slice(0, 6).map((keyword) =>
     `<span class="keyword">${escapeHtml(keyword)}</span>`
@@ -391,7 +394,7 @@ function paperCardMarkup(paper, index) {
         ${tags ? `<div class="keyword-list">${tags}</div>` : ""}
       </div>
       <aside class="paper-side">
-        <div class="score-box"><strong>${formatNumber(paper.score)}</strong><span>relevance</span></div>
+        <div class="score-box"><strong>${formatNumber(scoreForTracker(paper, state.tracker))}</strong><span>relevance</span></div>
         ${paper.lane ? `<span class="lane-label">${escapeHtml(paper.lane)}</span>` : ""}
         <button class="detail-toggle" type="button" data-action="details" data-id="${escapeHtml(paper.id)}" aria-expanded="${detailsOpen}">
           ${detailsOpen ? "Close analysis" : "Open analysis"}
@@ -401,6 +404,74 @@ function paperCardMarkup(paper, index) {
       ${detailsOpen ? detailsMarkup(paper) : ""}
     </article>
   `;
+}
+
+function renderSelectionViews() {
+  renderMustRead();
+  renderIdeas();
+  renderLibrary();
+}
+
+function labScore(paper) {
+  const ranked = Number(paper.lensRanks?.lab);
+  return Number.isFinite(ranked) ? ranked : Number(paper.sourceScore ?? paper.score ?? 0) || 0;
+}
+
+function computationalScore(paper) {
+  const ranked = Number(paper.lensRanks?.computational);
+  if (Number.isFinite(ranked)) return ranked;
+  const legacy = Number(paper.sourceScore ?? paper.score ?? 0) || 0;
+  return paper.tracker === "compbio" ? legacy : Math.round(legacy * 0.35);
+}
+
+function scoreForTracker(paper, tracker) {
+  return tracker === "compbio" ? computationalScore(paper) : labScore(paper);
+}
+
+function reasonForTracker(paper, tracker) {
+  const key = tracker === "compbio" ? "computational" : "main";
+  return paper.lensReasons?.[key] || "";
+}
+
+function compareRankTies(a, b) {
+  const evidenceDelta = Number(b.audienceScores?.evidenceStrength || 0) - Number(a.audienceScores?.evidenceStrength || 0);
+  if (evidenceDelta) return evidenceDelta;
+  const venueDelta = Number(b.audienceScores?.venueQuality || 0) - Number(a.audienceScores?.venueQuality || 0);
+  if (venueDelta) return venueDelta;
+  return String(a.title || "").localeCompare(String(b.title || ""), "en");
+}
+
+function libraryGroup(paper) {
+  if (!paper.lensRanks) return paper.tracker === "compbio" ? 2 : 0;
+  if (paper.mainPageEligible === true && paper.computationalOnly !== true) return 0;
+  return paper.computationalOnly === true ? 2 : 1;
+}
+
+function compareForTracker(a, b, tracker = "all") {
+  if (tracker === "all") {
+    const groupDelta = libraryGroup(a) - libraryGroup(b);
+    if (groupDelta) return groupDelta;
+  }
+  const scoreDelta = scoreForTracker(b, tracker) - scoreForTracker(a, tracker);
+  return scoreDelta || compareRankTies(a, b);
+}
+
+function rankPapersForTracker(papers, tracker = "all") {
+  return [...papers]
+    .filter((paper) => tracker === "all" || paper.tracker === tracker)
+    .sort((a, b) => compareForTracker(a, b, tracker));
+}
+
+function isMainTopEligible(paper, tracker = "all") {
+  if (tracker === "compbio") return true;
+  if (!paper.lensRanks) return paper.tracker !== "compbio";
+  return paper.mainPageEligible === true && paper.computationalOnly !== true;
+}
+
+function selectTopPapers(papers, tracker = "all", limit = 5) {
+  return rankPapersForTracker(papers, tracker)
+    .filter((paper) => isMainTopEligible(paper, tracker))
+    .slice(0, limit);
 }
 
 function detailsMarkup(paper) {
@@ -491,11 +562,11 @@ function toggleSaved(id) {
   else state.saved.add(id);
   persistSaved();
   updateSavedCount();
-  renderMustRead();
-  renderLibrary();
+  renderSelectionViews();
 }
 
 function loadSaved() {
+  if (typeof localStorage === "undefined") return new Set();
   try {
     const parsed = JSON.parse(localStorage.getItem("papertrail:saved") || "[]");
     return new Set(Array.isArray(parsed) ? parsed : []);
@@ -505,6 +576,7 @@ function loadSaved() {
 }
 
 function persistSaved() {
+  if (typeof localStorage === "undefined") return;
   try {
     localStorage.setItem("papertrail:saved", JSON.stringify([...state.saved]));
   } catch (_) {
@@ -528,7 +600,7 @@ function resetFilters() {
     button.classList.toggle("is-active", button.dataset.value === "all");
   });
   elements.priorityFilters.querySelectorAll("input").forEach((input) => { input.checked = false; });
-  renderLibrary();
+  renderSelectionViews();
 }
 
 function renderActiveChips() {
@@ -566,7 +638,7 @@ function removeChip(key) {
     if (input) input.checked = false;
   }
   state.limit = 12;
-  renderLibrary();
+  renderSelectionViews();
 }
 
 function focusSearch(instant = false) {
@@ -677,12 +749,25 @@ function formatCompactNumber(value) {
 
 function safeUrl(value) {
   try {
-    const url = new URL(value, window.location.origin);
+    const url = new URL(value, hasDom ? window.location.origin : "https://papertrail.invalid");
     if (!["http:", "https:"].includes(url.protocol)) return "#";
     return escapeHtml(url.href);
   } catch (_) {
     return "#";
   }
+}
+
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = {
+    compareForTracker,
+    computationalScore,
+    isMainTopEligible,
+    labScore,
+    rankPapersForTracker,
+    reasonForTracker,
+    scoreForTracker,
+    selectTopPapers,
+  };
 }
 
 function escapeHtml(value) {

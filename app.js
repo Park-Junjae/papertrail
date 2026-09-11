@@ -48,6 +48,10 @@ function configureHostingMode() {
   document.querySelectorAll('a[href="#feedback"]').forEach((link) => link.remove());
   const feedbackSection = document.getElementById("feedback");
   if (feedbackSection) feedbackSection.hidden = true;
+  document.querySelectorAll('a[href="#lab-ideas"]').forEach((link) => link.remove());
+  const ideasSection = document.getElementById("lab-ideas");
+  if (ideasSection) ideasSection.hidden = true;
+  elements.statLabIdeas?.closest(".stat-block")?.remove();
 }
 
 function toCamel(value) {

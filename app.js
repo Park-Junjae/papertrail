@@ -21,7 +21,7 @@ if (hasDom) {
     configureHostingMode();
     bindEvents();
     updateSavedCount();
-    loadData();
+    loadData(new URLSearchParams(window.location.search).get("week") || "");
   });
 }
 
@@ -59,8 +59,11 @@ function toCamel(value) {
 }
 
 function bindEvents() {
-  elements.retryButton.addEventListener("click", () => loadData());
-  elements.weekSelect.addEventListener("change", (event) => loadData(event.target.value));
+  elements.retryButton.addEventListener("click", () => loadData(new URLSearchParams(window.location.search).get("week") || ""));
+  elements.weekSelect.addEventListener("change", (event) => {
+    setWeekQuery(event.target.value);
+    loadData(event.target.value);
+  });
   elements.paperSearch.addEventListener("input", (event) => {
     state.query = event.target.value.trim();
     state.limit = 12;
@@ -139,8 +142,12 @@ function bindEvents() {
   });
 
   window.addEventListener("hashchange", () => {
-    expandPaperFromHash(true);
-    scrollToCurrentSection();
+    const week = new URLSearchParams(window.location.search).get("week") || "";
+    if (state.data && week && week !== state.data.weekKey) loadData(week);
+    else {
+      expandPaperFromHash(true);
+      scrollToCurrentSection();
+    }
   });
 
   document.addEventListener("keydown", (event) => {
@@ -199,6 +206,15 @@ async function loadData(week = "") {
     const payload = await response.json();
     if (!response.ok) throw new Error(payload.error || `HTTP ${response.status}`);
     state.data = payload;
+    let savedChanged = false;
+    for (const paper of payload.papers || []) {
+      if (paper.paperKey && paper.id !== paper.paperKey && state.saved.has(paper.id)) {
+        state.saved.delete(paper.id);
+        state.saved.add(paper.paperKey);
+        savedChanged = true;
+      }
+    }
+    if (savedChanged) persistSaved();
     state.limit = 12;
     state.expanded.clear();
     renderPage();
@@ -247,10 +263,22 @@ function expandPaperFromHash(scroll = false) {
   const match = window.location.hash.match(/^#paper-([a-z0-9]+)$/i);
   if (!match || !state.data.papers.some((paper) => paper.id === match[1])) return;
   const paperId = match[1];
-  if (!state.expanded.has(paperId)) {
-    state.expanded.add(paperId);
-    renderLibrary();
+  if (!filteredPapers().some((paper) => paper.id === paperId)) {
+    state.query = "";
+    state.tracker = "all";
+    state.priorities.clear();
+    state.savedOnly = false;
+    elements.paperSearch.value = "";
+    elements.savedOnly.checked = false;
+    elements.trackerFilters.querySelectorAll("button").forEach((button) => {
+      button.classList.toggle("is-active", button.dataset.value === "all");
+    });
+    elements.priorityFilters.querySelectorAll("input").forEach((input) => { input.checked = false; });
   }
+  const position = rankPapersForTracker(state.data.papers, state.tracker).findIndex((paper) => paper.id === paperId);
+  if (position >= state.limit) state.limit = position + 1;
+  state.expanded.add(paperId);
+  renderLibrary();
   if (scroll) {
     window.setTimeout(() => {
       document.getElementById(`paper-${paperId}`)?.scrollIntoView({ block: "start" });
@@ -288,11 +316,15 @@ function renderIssue() {
   elements.statMustRead.textContent = formatNumber(data.stats?.mustRead || 0);
   elements.statLabIdeas.textContent = formatNumber(data.stats?.labIdeas || 0);
 
-  elements.trackerStatus.innerHTML = (data.trackers || []).map((tracker) => `
+  const editorial = data.editorialStage || {};
+  const health = editorial.status === "success"
+    ? `Editorial ${escapeHtml(editorial.model || "model")} · ${escapeHtml(editorial.effort || "")}`
+    : `Editorial preview · ${escapeHtml(editorial.errorCategory || editorial.status || "status unavailable")}`;
+  elements.trackerStatus.innerHTML = `<div class="tracker-row tracker-health"><strong>${health}</strong></div>` + (data.trackers || []).map((tracker) => `
     <div class="tracker-row">
       <span class="tracker-dot" aria-hidden="true"></span>
       <strong>${escapeHtml(tracker.shortLabel)}</strong>
-      <span>${formatNumber(tracker.reviewed)} papers</span>
+      <span>${tracker.collected == null ? "Collected ?" : `${formatNumber(tracker.collected)} collected`} · ${tracker.screened == null ? "screened unknown" : `${formatNumber(tracker.screened)} screened`} · ${formatNumber(tracker.reviewed)} reviewed · ${escapeHtml(tracker.screenStatus || "unknown")}</span>
     </div>
   `).join("");
 }
@@ -323,7 +355,7 @@ function leadCardMarkup(paper) {
       <p class="paper-source">${escapeHtml(sourceLine(paper))}</p>
       <p class="paper-blurb korean-copy" lang="ko">${escapeHtml(summary)}</p>
       <div class="lead-paper-footer">
-        <a class="paper-link" href="#paper-${escapeHtml(paper.id)}">Read analysis</a>
+      <a class="paper-link" href="${paperAnalysisHref(paper)}">Read analysis</a>
         <span class="score-mark">relevance ${formatNumber(scoreForTracker(paper, state.tracker))}</span>
       </div>
     </article>
@@ -340,7 +372,7 @@ function renderIdeas() {
         ${journalMarkup(paper, "idea-journal")}
         <h3>${escapeHtml(paper.title)}</h3>
         <p class="korean-copy" lang="ko">${escapeHtml(paper.labUse)}</p>
-        <a href="#paper-${escapeHtml(paper.id)}">Analysis &amp; first action →</a>
+        <a href="${paperAnalysisHref(paper)}">Analysis &amp; first action →</a>
       </div>
     </article>
   `).join("");
@@ -363,9 +395,9 @@ function renderLibrary() {
 function filteredPapers() {
   const query = normalizeSearch(state.query);
   return state.data.papers.filter((paper) => {
-    if (state.tracker !== "all" && paper.tracker !== state.tracker) return false;
+    if (!matchesTracker(paper, state.tracker)) return false;
     if (state.priorities.size && !state.priorities.has(paper.priority)) return false;
-    if (state.savedOnly && !state.saved.has(paper.id)) return false;
+    if (state.savedOnly && !isSaved(paper)) return false;
     if (!query) return true;
     const haystack = normalizeSearch([
       paper.title, paper.journal, paper.source, paper.lane, paper.priorityLabel,
@@ -399,7 +431,9 @@ function paperCardMarkup(paper, index) {
       </div>
       <aside class="paper-side">
         <div class="score-box"><strong>${formatNumber(scoreForTracker(paper, state.tracker))}</strong><span>relevance</span></div>
-        ${paper.lane ? `<span class="lane-label">${escapeHtml(paper.lane)}</span>` : ""}
+        ${paper.compbioMembership === "pending" && state.tracker === "compbio"
+          ? '<span class="lane-label">CompBio membership pending</span>'
+          : paper.lane ? `<span class="lane-label">${escapeHtml(paper.lane)}</span>` : ""}
         <button class="detail-toggle" type="button" data-action="details" data-id="${escapeHtml(paper.id)}" aria-expanded="${detailsOpen}">
           ${detailsOpen ? "Close analysis" : "Open analysis"}
         </button>
@@ -417,14 +451,19 @@ function renderSelectionViews() {
 }
 
 function labScore(paper) {
-  const ranked = Number(paper.lensRanks?.lab);
-  return Number.isFinite(ranked) ? ranked : Number(paper.sourceScore ?? paper.score ?? 0) || 0;
+  const raw = paper.lensRanks?.lab;
+  const ranked = typeof raw === "number" ? raw : Number.NaN;
+  if (Number.isFinite(ranked)) return ranked;
+  const source = paper.sourceScore ?? paper.score;
+  return typeof source === "number" && Number.isFinite(source) ? source : 0;
 }
 
 function computationalScore(paper) {
-  const ranked = Number(paper.lensRanks?.computational);
+  const raw = paper.lensRanks?.computational;
+  const ranked = typeof raw === "number" ? raw : Number.NaN;
   if (Number.isFinite(ranked)) return ranked;
-  const legacy = Number(paper.sourceScore ?? paper.score ?? 0) || 0;
+  const source = paper.sourceScore ?? paper.score;
+  const legacy = typeof source === "number" && Number.isFinite(source) ? source : 0;
   return paper.tracker === "compbio" ? legacy : Math.round(legacy * 0.35);
 }
 
@@ -434,7 +473,7 @@ function scoreForTracker(paper, tracker) {
 
 function reasonForTracker(paper, tracker) {
   const key = tracker === "compbio" ? "computational" : "main";
-  return paper.lensReasons?.[key] || "";
+  return paper.editorialRerankFallback ? "" : paper.lensReasons?.[key] || "";
 }
 
 function compareRankTies(a, b) {
@@ -462,12 +501,12 @@ function compareForTracker(a, b, tracker = "all") {
 
 function rankPapersForTracker(papers, tracker = "all") {
   return [...papers]
-    .filter((paper) => tracker === "all" || paper.tracker === tracker)
+    .filter((paper) => matchesTracker(paper, tracker))
     .sort((a, b) => compareForTracker(a, b, tracker));
 }
 
 function isMainTopEligible(paper, tracker = "all") {
-  if (tracker === "compbio") return true;
+  if (tracker === "compbio") return matchesTracker(paper, tracker);
   if (!paper.lensRanks) return paper.tracker !== "compbio";
   return paper.mainPageEligible === true && paper.computationalOnly !== true;
 }
@@ -525,7 +564,7 @@ function priorityMarkup(paper) {
 }
 
 function saveButtonMarkup(paper) {
-  const saved = state.saved.has(paper.id);
+  const saved = isSaved(paper);
   return `
     <button
       class="save-button ${saved ? "is-saved" : ""}"
@@ -562,8 +601,12 @@ function handleCardAction(event) {
 }
 
 function toggleSaved(id) {
-  if (state.saved.has(id)) state.saved.delete(id);
-  else state.saved.add(id);
+  const paper = state.data?.papers.find((item) => item.id === id);
+  const key = paper ? savedIdentity(paper) : id;
+  if (state.saved.has(key) || state.saved.has(id)) {
+    state.saved.delete(key);
+    state.saved.delete(id);
+  } else state.saved.add(key);
   persistSaved();
   updateSavedCount();
   renderSelectionViews();
@@ -577,6 +620,37 @@ function loadSaved() {
   } catch (_) {
     return new Set();
   }
+}
+
+function isSaved(paper) {
+  return state.saved.has(savedIdentity(paper)) || state.saved.has(paper.id);
+}
+
+function savedIdentity(paper) {
+  return paper.paperKey || paper.id;
+}
+
+function matchesTracker(paper, tracker) {
+  if (tracker === "all") return true;
+  if (tracker === "compbio") {
+    if (paper.compbioMembership === "included") return true;
+    if (paper.compbioMembership === "pending") {
+      return computationalScore(paper) >= (paper.tracker === "compbio" ? 40 : 60);
+    }
+    return paper.compbioMembership == null && paper.tracker === "compbio";
+  }
+  return paper.tracker === tracker;
+}
+
+function paperAnalysisHref(paper, week = state.data?.weekKey || "") {
+  return `?week=${encodeURIComponent(week)}#paper-${encodeURIComponent(paper.id)}`;
+}
+
+function setWeekQuery(week) {
+  const url = new URL(window.location.href);
+  if (week) url.searchParams.set("week", week);
+  else url.searchParams.delete("week");
+  window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
 }
 
 function persistSaved() {
@@ -766,9 +840,12 @@ if (typeof module !== "undefined" && module.exports) {
     compareForTracker,
     computationalScore,
     isMainTopEligible,
+    matchesTracker,
+    paperAnalysisHref,
     labScore,
     rankPapersForTracker,
     reasonForTracker,
+    savedIdentity,
     scoreForTracker,
     selectTopPapers,
   };

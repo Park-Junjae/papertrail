@@ -536,12 +536,7 @@ function detailsMarkup(paper) {
       <summary>Read abstract <span aria-hidden="true">＋</span></summary>
       <p class="abstract-copy" lang="en">${escapeHtml(paper.abstract)}</p>
     </details>
-  ` : paper.abstractStatus === "not_provided"
-    ? `<p class="abstract-copy" lang="ko">출처를 재확인했으나 정식 초록이 제공되지 않습니다. 제목 기반 참고 항목이며 논문 순위에는 포함하지 않습니다.</p>`
-    : "";
-  const publisherSummary = paper.publisherSummary
-    ? `<section class="detail-block"><h4>Publisher summary (not an abstract)</h4><p class="abstract-copy" lang="en">${escapeHtml(paper.publisherSummary)}</p></section>`
-    : "";
+  ` : "";
 
   const source = paper.url ? `
     <a class="detail-link detail-source-link" href="${safeUrl(paper.url)}" target="_blank" rel="noopener noreferrer">Open source paper ↗</a>
@@ -555,7 +550,6 @@ function detailsMarkup(paper) {
       </section>
       ${insights.length ? `<div class="detail-insights">${insights.join("")}</div>` : ""}
       ${nextAction}
-      ${publisherSummary}
       ${(abstract || source) ? `<div class="detail-footer">${abstract}${source}</div>` : ""}
     </div>
   `;

@@ -553,6 +553,11 @@ svg {
   font-weight: 700;
 }
 
+.tracker-health {
+  grid-template-columns: minmax(0, 1fr);
+  overflow-wrap: anywhere;
+}
+
 .tracker-row span:last-child {
   color: var(--mid-gray);
 }

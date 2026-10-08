@@ -332,7 +332,6 @@ function renderIssue() {
   const audit = data.collectionAudit;
   elements.collectionAudit.hidden = !audit;
   if (audit) {
-    const pending = (audit.excluded || []).filter((p) => p.reason === "correspondence_unverified").length;
     elements.collectionAudit.textContent = `${audit.windowStart} – ${audit.windowEnd} · ${audit.reviewedCount} papers`;
   }
   const authorSummaries = digest.perAuthor || [];
@@ -340,7 +339,8 @@ function renderIssue() {
   elements.authorSynthesis.innerHTML = authorSummaries.map((row) => `<section>
     <h3><a href="?week=corresponding-year&amp;authors=${encodeURIComponent(row.authorId)}#papers">${escapeHtml(CORRESPONDING_AUTHORS.find(([id]) => id === row.authorId)?.[1] || row.authorId)}</a></h3>
     <p class="korean-copy" lang="ko">${escapeHtml(row.researchTrend)}</p></section>`).join("");
-  elements.digestTitle.textContent = digestHeadline(digest);
+  document.getElementById("digest-period-label").textContent = data.weekKey === "corresponding-year" ? "The year in science" : "The week in science";
+  elements.digestTitle.textContent = digestHeadline(digest, data.weekKey);
   elements.digestSummary.textContent = digest.summary || data.site?.description || "";
   elements.editorNote.textContent = digest.executiveSummary || digest.summary || "";
   elements.digestExpand.hidden = !digest.executiveSummary || digest.executiveSummary === digest.summary;
@@ -838,7 +838,8 @@ function normalizeSearch(value) {
   return String(value || "").normalize("NFKC").toLocaleLowerCase("ko-KR");
 }
 
-function digestHeadline(digest) {
+function digestHeadline(digest, weekKey) {
+  if (weekKey === "corresponding-year") return "Corresponding authors: past year";
   const theme = String(digest.theme || "research").trim();
   const cleaned = theme
     .replaceAll("/", " & ")
@@ -912,6 +913,7 @@ function safeUrl(value) {
 
 if (typeof module !== "undefined" && module.exports) {
   module.exports = {
+    digestHeadline,
     compareForTracker,
     computationalScore,
     isMainTopEligible,

@@ -582,7 +582,9 @@ function selectTopPapers(papers, tracker = "all", limit = 5) {
 function detailsMarkup(paper) {
   const brief = paper.shortSummary || paper.blurb || paper.whyCare || "A concise review is not available for this paper yet.";
   const insights = [];
-  if (paper.takeaway) insights.push(detailBlock("Key takeaway", paper.takeaway));
+  if (paper.takeaway && paper.takeaway.trim() !== (paper.knowledge || "").trim()) {
+    insights.push(detailBlock("Key takeaway", paper.takeaway));
+  }
   if (paper.labUse) insights.push(detailBlock("For our lab", paper.labUse));
   if (paper.skepticism) insights.push(detailBlock("What to question", paper.skepticism));
   if (paper.knowledge) insights.push(detailBlock("Knowledge to take away", paper.knowledge));
@@ -913,6 +915,7 @@ function safeUrl(value) {
 
 if (typeof module !== "undefined" && module.exports) {
   module.exports = {
+    detailsMarkup,
     digestHeadline,
     compareForTracker,
     computationalScore,

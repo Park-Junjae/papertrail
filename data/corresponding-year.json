@@ -41,7 +41,7 @@
     "20260330",
     "20260327"
   ],
-  "generatedAt": "2026-10-08T13:33:15.067212+00:00",
+  "generatedAt": "2026-10-08T13:55:04.026647+00:00",
   "papers": [
     {
       "id": "7b8d1b97a8d0ca",
@@ -187,9 +187,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -197,10 +197,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -357,9 +357,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -367,10 +367,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -529,9 +529,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -539,10 +539,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -694,9 +694,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -704,10 +704,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -914,9 +914,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -924,10 +924,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -1097,9 +1097,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -1107,10 +1107,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -1268,9 +1268,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -1278,10 +1278,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -1436,9 +1436,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -1446,10 +1446,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -1614,9 +1614,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -1624,10 +1624,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -1778,9 +1778,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -1788,10 +1788,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -1959,9 +1959,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -1969,10 +1969,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -2128,9 +2128,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -2138,10 +2138,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -2309,9 +2309,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -2319,10 +2319,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -2476,9 +2476,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -2486,10 +2486,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -2654,9 +2654,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -2664,10 +2664,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -2826,9 +2826,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -2836,10 +2836,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -2990,9 +2990,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -3000,10 +3000,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -3152,9 +3152,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -3162,10 +3162,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -3324,9 +3324,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -3334,10 +3334,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -3506,9 +3506,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -3516,10 +3516,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -3610,32 +3610,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 89,
+        "labWide": 91,
         "genomeEditing": 94,
-        "inVivo": 89,
+        "inVivo": 91,
         "organoid": 8,
-        "epigenetics": 8,
+        "epigenetics": 5,
         "organelleMitochondria": 5,
-        "structuralBiology": 12,
-        "screening": 35,
-        "syntheticBiology": 67,
-        "proteinEngineering": 66,
-        "computational": 12,
-        "scientificNovelty": 85,
-        "evidenceStrength": 82,
-        "actionability": 88,
+        "structuralBiology": 15,
+        "screening": 38,
+        "syntheticBiology": 55,
+        "proteinEngineering": 72,
+        "computational": 8,
+        "scientificNovelty": 87,
+        "evidenceStrength": 84,
+        "actionability": 89,
         "venueQuality": 55
       },
       "lensRanks": {
-        "lab": 85,
-        "computational": 49
+        "lab": 86,
+        "computational": 48
       },
       "computationalOnly": false,
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "NANITE는 세포 간 편집효소 전달로 배양세포 편집을 4배, 생쥐 간 편집과 혈청 TTR 감소를 약 3배 높여 비바이러스 생체 내 전달의 실질적 진전을 보입니다.",
-        "computational": "주요 기여는 계산 방법이 아니라 생체 내 전달 전략의 실험 검증입니다."
+        "main": "세포 간 편집효소 전달로 배양세포 편집이 4배, 생쥐 간 Ttr 편집이 약 3배 증가했고 혈청 TTR도 감소했다. 비바이러스 생체 내 전달의 유의미한 진전이다.",
+        "computational": "계산 방법론이 주기여가 아니며, 배양세포와 생쥐에서의 전달·편집 실험이 핵심이다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -3674,9 +3674,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -3684,10 +3684,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -3756,8 +3756,8 @@
       "source": "Science (New York, N.Y.)",
       "score": 0,
       "sourceScore": 0,
-      "priority": "high-interest",
-      "priorityLabel": "High interest",
+      "priority": "must-read",
+      "priorityLabel": "Must read",
       "keywords": [],
       "lane": "Corresponding authors",
       "reviewStatus": "completed",
@@ -3782,32 +3782,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 68,
-        "genomeEditing": 38,
+        "labWide": 78,
+        "genomeEditing": 32,
         "inVivo": 5,
-        "organoid": 2,
-        "epigenetics": 2,
-        "organelleMitochondria": 2,
-        "structuralBiology": 15,
-        "screening": 35,
-        "syntheticBiology": 52,
-        "proteinEngineering": 86,
-        "computational": 88,
-        "scientificNovelty": 77,
-        "evidenceStrength": 77,
-        "actionability": 72,
+        "organoid": 5,
+        "epigenetics": 0,
+        "organelleMitochondria": 0,
+        "structuralBiology": 20,
+        "screening": 62,
+        "syntheticBiology": 48,
+        "proteinEngineering": 91,
+        "computational": 86,
+        "scientificNovelty": 79,
+        "evidenceStrength": 80,
+        "actionability": 83,
         "venueQuality": 82
       },
       "lensRanks": {
-        "lab": 75,
-        "computational": 82
+        "lab": 81,
+        "computational": 83
       },
       "computationalOnly": false,
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "단백질 언어모델·에피스타시스 예측과 다중변이 조립을 결합해 세 단백질을 한 차례 진화로 최대 10배 개선한 단백질공학 방법입니다. 편집기 적용은 직접 보이지 않지만 공학 방향과 맞닿습니다.",
-        "computational": "모델이 변이 조합을 제안하고 실험에서 개선을 검증했으나, 초록에는 편집기 등 특정 연구 분야 적용은 제시되지 않습니다."
+        "main": "단백질 언어모델과 상위성 모델로 다중변이체를 설계하고, 세 단백질에서 단 한 차례의 진화로 최대 10배 기능 향상을 보였다. 단백질·편집기 엔지니어링에 전용 가능한 방법이다.",
+        "computational": "모델 예측을 다중킬로베이스 조립과 단백질 실험으로 검증해 기능 향상을 보였으므로 계산 전용 연구가 아니다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -3846,9 +3846,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -3856,10 +3856,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -3963,30 +3963,30 @@
       "audienceScores": {
         "labWide": 98,
         "genomeEditing": 99,
-        "inVivo": 40,
+        "inVivo": 24,
         "organoid": 8,
-        "epigenetics": 5,
+        "epigenetics": 3,
         "organelleMitochondria": 2,
-        "structuralBiology": 77,
-        "screening": 56,
-        "syntheticBiology": 50,
+        "structuralBiology": 75,
+        "screening": 86,
+        "syntheticBiology": 38,
         "proteinEngineering": 96,
-        "computational": 43,
+        "computational": 49,
         "scientificNovelty": 96,
-        "evidenceStrength": 93,
-        "actionability": 96,
+        "evidenceStrength": 94,
+        "actionability": 97,
         "venueQuality": 96
       },
       "lensRanks": {
         "lab": 97,
-        "computational": 72
+        "computational": 75
       },
       "computationalOnly": false,
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "대형 세린 재조합효소의 효율·특이성을 함께 개선해 내인성 인간 좌위에 최대 12 kb 삽입, 53% 효율과 97% 특이성을 달성했습니다. 비분열세포와 일차 T세포에서의 검증도 강점입니다.",
-        "computational": "계산 모델은 공학 과정의 일부이며, 핵심 기여는 재조합효소의 실험적 진화·검증입니다."
+        "main": "대형 serine recombinase를 진화·구조 분석으로 개선해 내인성 인간 좌위에서 최대 53% 삽입과 97% 특이성을 달성했다. 비분열세포·줄기세포·일차 T세포에 12 kb 화물 삽입까지 보여주는 강력한 유전체 삽입 기술이다.",
+        "computational": "계산모델은 변이 조합 발굴을 보조하며, 핵심 근거는 진화·공여 DNA 최적화와 인간 세포의 삽입 실험이다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4025,9 +4025,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -4035,10 +4035,196 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
+          }
+        ],
+        "cached": true
+      }
+    },
+    {
+      "id": "2c66bf23927408",
+      "doi": "10.1016/j.molcel.2026.05.018",
+      "pmid": "42259299",
+      "pmcid": "",
+      "title": "Structure and engineering of the large serine recombinase Bxb1 for gene integration.",
+      "authors": [
+        "Teppei Soma",
+        "Masahiro Hiraizumi",
+        "Christopher W Fell",
+        "Dario Tagliaferri",
+        "Jason Lequyer",
+        "Sae Okazaki",
+        "Yukari Isayama",
+        "Kazuki Kato",
+        "Sworaj Sapkota",
+        "Harsh Ramani",
+        "Benjamin Arya",
+        "Cian Schmitt-Ulms",
+        "Keitaro Yamashita",
+        "Jonathan S Gootenberg",
+        "Omar O Abudayyeh",
+        "Hiroshi Nishimasu"
+      ],
+      "published": "2026-06-08",
+      "journal": "Molecular cell",
+      "abstract": "The large serine recombinase Bxb1 catalyzes recombination between DNA molecules containing compatible attP and attB sequences, offering broad applications in genome engineering and gene therapies. Here, we present cryo-electron microscopy structures of the Bxb1-attP-attB synaptic complex in four distinct functional states during its recombination cycle. Notably, the Bxb1 complex structures in the pre-, mid-, and post-strand-exchange states explain how the attP- and attB-bound Bxb1 dimers are assembled into a tetrameric synaptic complex and how an approximately 180° rotation occurs between the left and right dimers after DNA cleavage, thereby enabling DNA strand exchange and religation. Furthermore, we engineered Bxb1 variants with altered DNA preferences and enhanced recombination activity, which improved programmable gene integration in human cells. Overall, our findings advance the mechanistic understanding of large serine recombinases and provide a structural framework for future engineering of Bxb1-mediated genome integration technologies.",
+      "url": "https://doi.org/10.1016/j.molcel.2026.05.018",
+      "candidateAuthors": [
+        "jonathan-gootenberg",
+        "omar-abudayyeh"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jonathan-gootenberg",
+          "name": "Jonathan S. Gootenberg",
+          "verified": true,
+          "sourceUrl": "https://www.rcast.u-tokyo.ac.jp/ja/news/release/20260609.html",
+          "method": "institution_explicit_author_legend",
+          "excerpt": "Teppei Soma†, Masahiro Hiraizumi†, Christopher W. Fell†, Dario Tagliaferri, Jason Lequyer, Sae Okazaki, Yukari Isayama, Kazuki Kato, Sworaj Sapkota, Harsh Ramani, Benjamin Arya, Cian Schmitt-Ulms, Keitaro Yamashita, Jonathan S. Gootenberg*, Omar O. Abudayyeh*, Hiroshi Nishimasu*（†共同筆頭著者、*責任著者）",
+          "sourceSha256": "ce2bdd54250fa0aac619a3880f3a7656ccde9c551fc6ec5b79b875289d35f999"
+        },
+        {
+          "id": "omar-abudayyeh",
+          "name": "Omar O. Abudayyeh",
+          "verified": true,
+          "sourceUrl": "https://www.rcast.u-tokyo.ac.jp/ja/news/release/20260609.html",
+          "method": "institution_explicit_author_legend",
+          "excerpt": "Teppei Soma†, Masahiro Hiraizumi†, Christopher W. Fell†, Dario Tagliaferri, Jason Lequyer, Sae Okazaki, Yukari Isayama, Kazuki Kato, Sworaj Sapkota, Harsh Ramani, Benjamin Arya, Cian Schmitt-Ulms, Keitaro Yamashita, Jonathan S. Gootenberg*, Omar O. Abudayyeh*, Hiroshi Nishimasu*（†共同筆頭著者、*責任著者）",
+          "sourceSha256": "ce2bdd54250fa0aac619a3880f3a7656ccde9c551fc6ec5b79b875289d35f999"
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.rcast.u-tokyo.ac.jp/ja/news/release/20260609.html",
+          "status": "verified_institution_author_legend",
+          "matches": 2,
+          "retrievedAt": "2026-10-08",
+          "sourceSha256": "ce2bdd54250fa0aac619a3880f3a7656ccde9c551fc6ec5b79b875289d35f999"
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 large serine recombinase Bxb1이 attP와 attB를 어떻게 인식하고 DNA 가닥을 교환하는지 규명하고, 이를 유전자 삽입에 맞게 개선하는 것을 목표로 합니다. 저자들은 재조합 주기의 네 기능 상태에서 Bxb1- DNA 복합체를 cryo-EM으로 분석했습니다. 구조는 두 Bxb1 이합체가 사량체 복합체를 이루는 방식과 DNA 절단 뒤 이합체 사이에 약 180° 회전이 일어나는 기전을 설명합니다. 또한 DNA 선호도와 재조합 활성이 달라진 Bxb1 변이체를 제작해 인간 세포에서 프로그램 가능한 유전자 삽입을 개선했다고 보고합니다.",
+      "whyCare": "구조 기전과 단백질 공학을 결합해 Bxb1의 작동 원리를 설명하고, 그 이해를 인간 세포의 유전자 삽입 성능 개선으로 연결한 점이 중요합니다. 이는 genome editing과 단백질/editor 공학을 함께 다루는 연구자에게 직접적인 관련성이 있으며, 구조생물학적으로도 기능 상태별 자료가 기전 모델을 뒷받침합니다.",
+      "skepticism": "초록만으로는 변이체의 성능 향상 폭, 시험한 표적과 세포 조건의 범위, DNA 선호도 변화가 다른 자리의 삽입에 미치는 영향을 판단할 수 없습니다. 인간 세포에서의 결과가 다양한 세포 유형이나 생체 내 조건에서도 유지되는지, 삽입의 정확성과 원치 않는 재조합을 어떻게 평가했는지도 초록에는 제시되지 않습니다. 구조가 제안한 회전 기전과 각 변이체의 기능 변화가 얼마나 직접적으로 연결되는지 본문에서 확인할 만합니다.",
+      "knowledge": "핵심 개념은 attP-attB 재조합을 수행하는 Bxb1의 사량체 synaptic complex, DNA 절단 뒤 이합체 간 회전에 의한 가닥 교환, 그리고 구조 정보를 이용한 재조합효소 공학입니다. 이 연구는 여러 기능 상태의 cryo-EM 구조를 단백질 변이 설계와 인간 세포의 기능 검증에 연결하는 접근을 보여줍니다.",
+      "takeaway": "기능 상태별 구조로 Bxb1의 가닥 교환 기전을 제시하고, 변이체 공학으로 인간 세포의 프로그램 가능한 유전자 삽입 개선까지 보고한, genome editing과 구조 기반 단백질 공학 분야에서 우선 읽을 가치가 높은 연구입니다.",
+      "paperKey": "2c66bf23927408",
+      "tracker": "flagship",
+      "source": "Molecular cell",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_093de2c7f9588f42016ac79e9d8b6087d08741d4f60733e1dd",
+        "usage": {
+          "input_tokens": 1201,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 1198
+          },
+          "output_tokens": 1961,
+          "output_tokens_details": {
+            "reasoning_tokens": 1171
+          },
+          "total_tokens": 3162
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 88,
+        "genomeEditing": 91,
+        "inVivo": 8,
+        "organoid": 5,
+        "epigenetics": 0,
+        "organelleMitochondria": 0,
+        "structuralBiology": 95,
+        "screening": 42,
+        "syntheticBiology": 25,
+        "proteinEngineering": 82,
+        "computational": 18,
+        "scientificNovelty": 90,
+        "evidenceStrength": 89,
+        "actionability": 84,
+        "venueQuality": 90
+      },
+      "lensRanks": {
+        "lab": 89,
+        "computational": 57
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "Bxb1 재조합의 네 기능 상태를 cryo-EM으로 규명하고, DNA 선호도와 활성을 바꾼 변이체가 인간 세포의 프로그램 가능한 삽입을 개선했다. 구조 기전과 편집기 엔지니어링을 함께 제공한다.",
+        "computational": "구조 규명과 변이체 기능 실험이 중심이며, 계산 방법론이 주기여는 아니다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -4146,32 +4332,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 38,
-        "genomeEditing": 3,
-        "inVivo": 25,
+        "labWide": 39,
+        "genomeEditing": 0,
+        "inVivo": 8,
         "organoid": 3,
-        "epigenetics": 4,
-        "organelleMitochondria": 3,
-        "structuralBiology": 5,
-        "screening": 5,
-        "syntheticBiology": 2,
-        "proteinEngineering": 3,
-        "computational": 87,
+        "epigenetics": 5,
+        "organelleMitochondria": 4,
+        "structuralBiology": 0,
+        "screening": 10,
+        "syntheticBiology": 0,
+        "proteinEngineering": 0,
+        "computational": 86,
         "scientificNovelty": 58,
-        "evidenceStrength": 67,
-        "actionability": 34,
+        "evidenceStrength": 63,
+        "actionability": 42,
         "venueQuality": 55
       },
       "lensRanks": {
-        "lab": 44,
-        "computational": 70
+        "lab": 42,
+        "computational": 69
       },
       "computationalOnly": true,
       "crossOver": false,
       "mainPageEligible": false,
       "lensReasons": {
-        "main": "대규모 인간 코호트에서 웨어러블·단백질체 기반 장기별 노화 지표와 약물 연관성을 제시하지만, 관찰적 연관 분석이라 기전이나 개입 효과는 제한적입니다.",
-        "computational": "주요 기여는 UK Biobank 자료를 통합한 노화 예측 모델과 연관 분석이며, 실험적 생물학 검증은 초록에 제시되지 않습니다."
+        "main": "대규모 코호트의 단백질체·웨어러블 자료로 장기별 노화 예측과 약물 연관성을 제시하지만, 관찰적 연관성이 중심이고 실험적 인과 검증은 보고되지 않았다.",
+        "computational": "다중모달 예측 모델과 코호트 분석이 주기여다. 약물 효과는 연관성으로 제시되어 공유 실험 분야와의 교차 검증은 제한적이다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4210,9 +4396,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -4220,10 +4406,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -4326,32 +4512,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 56,
+        "labWide": 55,
         "genomeEditing": 12,
         "inVivo": 8,
-        "organoid": 8,
-        "epigenetics": 3,
-        "organelleMitochondria": 2,
-        "structuralBiology": 8,
-        "screening": 48,
-        "syntheticBiology": 73,
-        "proteinEngineering": 27,
-        "computational": 8,
-        "scientificNovelty": 48,
-        "evidenceStrength": 59,
-        "actionability": 72,
+        "organoid": 18,
+        "epigenetics": 2,
+        "organelleMitochondria": 0,
+        "structuralBiology": 4,
+        "screening": 58,
+        "syntheticBiology": 68,
+        "proteinEngineering": 29,
+        "computational": 18,
+        "scientificNovelty": 62,
+        "evidenceStrength": 62,
+        "actionability": 78,
         "venueQuality": 82
       },
       "lensRanks": {
-        "lab": 62,
-        "computational": 37
+        "lab": 63,
+        "computational": 46
       },
       "computationalOnly": false,
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "RADARS로 전사체 서명에 맞춰 번역을 감지·조절하는 실험 프로토콜을 제공합니다. 세포 표적화·분류 도구로 유용하지만, 이 논문은 새 기전보다 기존 도구의 실행 절차에 초점이 있습니다.",
-        "computational": "웹 인터페이스를 포함한 가이드 설계 절차가 있지만 계산 방법 자체가 주된 기여는 아닙니다."
+        "main": "전사체 신호로 세포 상태를 감지해 번역을 제어하는 RADARS의 설계·검증 프로토콜이다. 표적 세포 이미징·분류·시퀀싱에 유용하지만, 새 생물학적 발견보다는 실험법 안내에 가깝다.",
+        "computational": "센서 설계와 클로닝·검증 절차가 중심이며, 계산 모델 개발이 주기여는 아니다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4390,9 +4576,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -4400,10 +4586,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -4514,32 +4700,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 84,
-        "genomeEditing": 88,
-        "inVivo": 42,
-        "organoid": 3,
-        "epigenetics": 8,
-        "organelleMitochondria": 2,
-        "structuralBiology": 64,
-        "screening": 20,
-        "syntheticBiology": 12,
-        "proteinEngineering": 65,
-        "computational": 8,
-        "scientificNovelty": 85,
-        "evidenceStrength": 86,
-        "actionability": 80,
+        "labWide": 91,
+        "genomeEditing": 92,
+        "inVivo": 48,
+        "organoid": 8,
+        "epigenetics": 10,
+        "organelleMitochondria": 0,
+        "structuralBiology": 70,
+        "screening": 38,
+        "syntheticBiology": 20,
+        "proteinEngineering": 80,
+        "computational": 10,
+        "scientificNovelty": 88,
+        "evidenceStrength": 87,
+        "actionability": 83,
         "venueQuality": 90
       },
       "lensRanks": {
-        "lab": 85,
-        "computational": 50
+        "lab": 90,
+        "computational": 52
       },
       "computationalOnly": false,
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "생화학·단분자 분석으로 TnpB의 DNA 풀림 중간체와 불안정한 개방 상태를 규명하고, 변이체로 절단 및 식물 유전체 편집을 높인 기전 연구입니다.",
-        "computational": "핵심 근거는 단분자·생화학 실험과 식물 편집 검증입니다."
+        "main": "단분자·생화학 분석으로 TnpB DNA 풀림의 불안정한 중간 상태를 규명하고, 이를 안정화한 변이체가 시험관 내 절단과 식물 유전체 편집을 높였다. 기전과 편집기 개선을 연결한다.",
+        "computational": "기전 분석과 변이체의 생화학·식물 편집 검증이 중심이며 계산이 주기여가 아니다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4578,9 +4764,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -4588,10 +4774,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -4699,31 +4885,31 @@
       "sourcePriority": "watchlist",
       "audienceScores": {
         "labWide": 96,
-        "genomeEditing": 99,
-        "inVivo": 38,
-        "organoid": 4,
-        "epigenetics": 4,
-        "organelleMitochondria": 2,
-        "structuralBiology": 90,
-        "screening": 78,
-        "syntheticBiology": 42,
+        "genomeEditing": 97,
+        "inVivo": 23,
+        "organoid": 8,
+        "epigenetics": 12,
+        "organelleMitochondria": 0,
+        "structuralBiology": 91,
+        "screening": 84,
+        "syntheticBiology": 43,
         "proteinEngineering": 97,
-        "computational": 86,
-        "scientificNovelty": 94,
-        "evidenceStrength": 92,
-        "actionability": 93,
+        "computational": 84,
+        "scientificNovelty": 95,
+        "evidenceStrength": 93,
+        "actionability": 94,
         "venueQuality": 82
       },
       "lensRanks": {
         "lab": 94,
-        "computational": 89
+        "computational": 88
       },
       "computationalOnly": false,
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "진화·구조 조건을 반영한 AI 설계로 비자연형 TnpB 편집기를 만들고, 세포별 기능 스크리닝과 cryo-EM으로 활성을 뒷받침했습니다. 인간세포를 포함한 검증이 직접적인 편집기 공학 성과입니다.",
-        "computational": "AI 설계 산물을 박테리아·식물·인간세포에서 기능 검증하고 cryo-EM으로 구조적 근거를 제시했습니다."
+        "main": "구조·진화 정보를 결합한 설계로 자연계와 다른 TnpB 뉴클레아제를 만들고, 고속 기능 선별에서 세균·식물·인간 세포 활성을 확인했다. 가장 다양한 변이체의 cryo-EM 구조도 제시해 편집기 설계와 기전을 함께 진전시킨다.",
+        "computational": "AI 설계가 핵심 요소지만 여러 생물계의 편집 기능 선별과 cryo-EM으로 강하게 검증되어 계산 전용이 아니다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4762,9 +4948,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -4772,10 +4958,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -4880,32 +5066,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 93,
-        "genomeEditing": 99,
-        "inVivo": 38,
-        "organoid": 4,
-        "epigenetics": 4,
-        "organelleMitochondria": 2,
-        "structuralBiology": 89,
-        "screening": 76,
-        "syntheticBiology": 42,
-        "proteinEngineering": 96,
-        "computational": 85,
-        "scientificNovelty": 93,
-        "evidenceStrength": 87,
-        "actionability": 92,
+        "labWide": 96,
+        "genomeEditing": 97,
+        "inVivo": 23,
+        "organoid": 8,
+        "epigenetics": 12,
+        "organelleMitochondria": 0,
+        "structuralBiology": 91,
+        "screening": 84,
+        "syntheticBiology": 43,
+        "proteinEngineering": 97,
+        "computational": 84,
+        "scientificNovelty": 95,
+        "evidenceStrength": 93,
+        "actionability": 94,
         "venueQuality": 55
       },
       "lensRanks": {
-        "lab": 89,
-        "computational": 85
+        "lab": 91,
+        "computational": 86
       },
       "computationalOnly": false,
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "AI 기반 설계로 다양한 TnpB 변이체를 제작하고 세포 기능 및 cryo-EM 구조로 검증해 비자연형 RNA 유도 편집기의 설계 가능성을 보입니다. peer-reviewed 보고와 같은 핵심 결과를 다룹니다.",
-        "computational": "설계 모델의 예측을 여러 생물종 세포에서 시험하고 구조적으로 검증해 편집기 공학과 직접 연결됩니다."
+        "main": "구조·진화 정보를 결합한 설계로 자연계와 다른 TnpB 뉴클레아제를 만들고, 고속 기능 선별에서 세균·식물·인간 세포 활성을 확인했다. cryo-EM으로 새로운 RNA/DNA 접촉을 보여 편집기 설계에 직접 기여한다.",
+        "computational": "AI 기반 설계가 핵심이지만 세균·식물·인간 세포에서 기능을 검증하고 구조를 규명해 계산 전용이 아니다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4944,9 +5130,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -4954,10 +5140,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -5053,32 +5239,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 61,
-        "genomeEditing": 4,
-        "inVivo": 7,
-        "organoid": 2,
+        "labWide": 62,
+        "genomeEditing": 2,
+        "inVivo": 10,
+        "organoid": 0,
         "epigenetics": 3,
-        "organelleMitochondria": 2,
-        "structuralBiology": 64,
-        "screening": 8,
-        "syntheticBiology": 2,
-        "proteinEngineering": 25,
-        "computational": 34,
-        "scientificNovelty": 76,
-        "evidenceStrength": 74,
+        "organelleMitochondria": 0,
+        "structuralBiology": 48,
+        "screening": 12,
+        "syntheticBiology": 5,
+        "proteinEngineering": 48,
+        "computational": 35,
+        "scientificNovelty": 79,
+        "evidenceStrength": 78,
         "actionability": 42,
         "venueQuality": 82
       },
       "lensRanks": {
-        "lab": 66,
-        "computational": 54
+        "lab": 65,
+        "computational": 56
       },
       "computationalOnly": false,
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "바이러스 2H 포스포디에스터레이스의 다양성과 기질 선택성이 면역 신호 분해에 어떻게 연결되는지 생화학적으로 보입니다. 구조 기반 탐색과 효소 특이성은 면역 신호·단백질 구조 연구에 흥미롭습니다.",
-        "computational": "구조 기반 서열 탐색은 발견을 돕지만, 주요 결론은 효소의 실험적 기질 특이성 분석에서 나옵니다."
+        "main": "바이러스 2H 포스포다이에스터레이스의 다양성을 발굴하고, 보존된 활성 부위와 달리 기질 선택성이 달라 면역 신호성 올리고뉴클레오타이드를 선택적으로 분해함을 생화학적으로 보였다. 면역 회피 기전으로 흥미롭지만 연구실의 주요 분야와는 인접하다.",
+        "computational": "구조 기반 검색으로 후보를 찾았지만, 논문의 중심 근거는 효소의 기질 특이성을 확인한 생화학 실험이다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -5117,9 +5303,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -5127,10 +5313,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -5244,32 +5430,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 97,
-        "genomeEditing": 99,
-        "inVivo": 87,
-        "organoid": 5,
-        "epigenetics": 8,
-        "organelleMitochondria": 2,
-        "structuralBiology": 16,
-        "screening": 34,
-        "syntheticBiology": 8,
-        "proteinEngineering": 53,
-        "computational": 91,
-        "scientificNovelty": 94,
-        "evidenceStrength": 94,
-        "actionability": 96,
+        "labWide": 92,
+        "genomeEditing": 97,
+        "inVivo": 86,
+        "organoid": 10,
+        "epigenetics": 5,
+        "organelleMitochondria": 0,
+        "structuralBiology": 15,
+        "screening": 65,
+        "syntheticBiology": 10,
+        "proteinEngineering": 20,
+        "computational": 95,
+        "scientificNovelty": 88,
+        "evidenceStrength": 91,
+        "actionability": 92,
         "venueQuality": 96
       },
       "lensRanks": {
-        "lab": 96,
+        "lab": 93,
         "computational": 93
       },
       "computationalOnly": false,
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "기전 기반 prime-editing 예측을 일차 세포의 치료 표적에 검증하고, MMR 회피 편집 설계를 제시했습니다. KIF1A 생쥐 뇌에서 병적 변이를 생체 내 교정해 임상·실험 적용성이 뛰어납니다.",
-        "computational": "모델 예측을 일차 인간·생쥐 세포와 생쥐 뇌의 생체 내 교정까지 검증해 유전체 편집 연구와 강하게 교차합니다."
+        "main": "MMR 기전을 반영한 prime-editing 예측을 치료 맥락에서 검증하고, 마우스 뇌의 KIF1A 변이를 생체 내 교정했다.",
+        "computational": "기전 기반 모델이 pegRNA·PE3·twinPE 결과를 예측하며, MMR 회피 편집 설계와 사람·마우스 세포 및 생체 내 검증으로 실험적 관련성이 뚜렷하다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -5308,9 +5494,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -5318,10 +5504,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -5422,32 +5608,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 82,
-        "genomeEditing": 15,
-        "inVivo": 62,
-        "organoid": 5,
-        "epigenetics": 5,
+        "labWide": 83,
+        "genomeEditing": 5,
+        "inVivo": 70,
+        "organoid": 0,
+        "epigenetics": 0,
         "organelleMitochondria": 0,
         "structuralBiology": 10,
-        "screening": 78,
-        "syntheticBiology": 72,
-        "proteinEngineering": 92,
+        "screening": 68,
+        "syntheticBiology": 88,
+        "proteinEngineering": 96,
         "computational": 5,
         "scientificNovelty": 90,
         "evidenceStrength": 84,
-        "actionability": 80,
+        "actionability": 78,
         "venueQuality": 96
       },
       "lensRanks": {
-        "lab": 86,
+        "lab": 87,
         "computational": 50
       },
       "computationalOnly": false,
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "진화시킨 보툴리눔 프로테아제로 염증성 세포사멸을 선택적으로 유도하고, 약물저항성 종양 마우스에서 종양 성장 억제를 보여준 단백질공학·치료 연구다.",
-        "computational": "계산 방법이 중심 기여가 아니며, 프로테아제 진화와 세포·동물 실험이 핵심이다."
+        "main": "진화시킨 보툴리눔 독소 프로테아제가 염증성 세포사멸을 유도하고, 세포 선택성과 약물저항성 종양 마우스에서의 효능을 보였다.",
+        "computational": "핵심 기여는 파지 보조 진화와 프로테아제의 실험적 특성 분석이며, 계산 방법이 연구의 중심은 아니다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -5486,9 +5672,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -5496,10 +5682,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -5598,32 +5784,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 96,
-        "genomeEditing": 100,
-        "inVivo": 82,
+        "labWide": 91,
+        "genomeEditing": 99,
+        "inVivo": 78,
         "organoid": 10,
         "epigenetics": 0,
         "organelleMitochondria": 0,
-        "structuralBiology": 35,
+        "structuralBiology": 45,
         "screening": 95,
-        "syntheticBiology": 75,
-        "proteinEngineering": 30,
-        "computational": 15,
-        "scientificNovelty": 94,
-        "evidenceStrength": 92,
-        "actionability": 96,
+        "syntheticBiology": 30,
+        "proteinEngineering": 15,
+        "computational": 10,
+        "scientificNovelty": 88,
+        "evidenceStrength": 91,
+        "actionability": 93,
         "venueQuality": 96
       },
       "lensRanks": {
-        "lab": 96,
-        "computational": 59
+        "lab": 92,
+        "computational": 55
       },
       "computationalOnly": false,
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "2,858개 pegRNA 3′ 모티프를 선별·개선해 다수의 병원성 변이 교정률을 높였고, 일차 세포와 마우스 뇌·간에서도 효능을 검증한 prime-editing 기술이다.",
-        "computational": "핵심은 대규모 세포 기반 모티프 스크리닝과 편집 검증이며, 계산 방법론이 주된 기여는 아니다."
+        "main": "2,858개 RNA 모티프를 고속 스크리닝해 pegRNA를 개선했으며, 다수의 병원성 변이와 일차 세포 및 마우스에서 효율 향상을 검증했다.",
+        "computational": "주요 기여는 반복적 pooled 스크리닝과 구조 기반 실험 최적화이며, 계산 방법론이 중심인 연구는 아니다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -5662,9 +5848,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -5672,10 +5858,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -5779,32 +5965,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 94,
-        "genomeEditing": 100,
-        "inVivo": 88,
-        "organoid": 15,
+        "labWide": 91,
+        "genomeEditing": 99,
+        "inVivo": 85,
+        "organoid": 10,
         "epigenetics": 0,
         "organelleMitochondria": 0,
-        "structuralBiology": 45,
-        "screening": 45,
-        "syntheticBiology": 70,
+        "structuralBiology": 65,
+        "screening": 30,
+        "syntheticBiology": 25,
         "proteinEngineering": 98,
-        "computational": 88,
-        "scientificNovelty": 92,
+        "computational": 85,
+        "scientificNovelty": 89,
         "evidenceStrength": 91,
-        "actionability": 96,
+        "actionability": 92,
         "venueQuality": 96
       },
       "lensRanks": {
-        "lab": 95,
-        "computational": 91
+        "lab": 93,
+        "computational": 88
       },
       "computationalOnly": false,
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "AI 기반 역접힘 설계로 prime-editor 역전사효소의 안정성과 발현을 개선하고, 여러 일차 세포와 마우스에서 기존 편집기보다 높은 효율을 보인 편집기 공학 연구다.",
-        "computational": "ProteinMPNN 기반 설계가 핵심에 포함되지만, 재설계 효소의 발현·편집 효율을 세포와 마우스에서 실험적으로 검증했다."
+        "main": "AI 기반 역접힘 설계로 역전사효소의 안정성과 발현을 높여 여러 일차 세포 및 마우스에서 prime editing 효율을 개선했다.",
+        "computational": "ProteinMPNN을 이용한 단백질 재설계가 중심이지만, 편집기 발현·효율 개선을 세포와 마우스에서 직접 검증해 실험적 교차 관련성이 강하다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -5843,9 +6029,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -5853,10 +6039,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -5950,32 +6136,32 @@
       },
       "sourcePriority": "watchlist",
       "audienceScores": {
-        "labWide": 97,
+        "labWide": 98,
         "genomeEditing": 100,
         "inVivo": 100,
-        "organoid": 5,
+        "organoid": 0,
         "epigenetics": 0,
         "organelleMitochondria": 0,
-        "structuralBiology": 10,
-        "screening": 25,
-        "syntheticBiology": 35,
-        "proteinEngineering": 35,
-        "computational": 0,
+        "structuralBiology": 0,
+        "screening": 10,
+        "syntheticBiology": 15,
+        "proteinEngineering": 10,
+        "computational": 5,
         "scientificNovelty": 91,
         "evidenceStrength": 96,
-        "actionability": 98,
+        "actionability": 97,
         "venueQuality": 93
       },
       "lensRanks": {
-        "lab": 96,
-        "computational": 52
+        "lab": 97,
+        "computational": 54
       },
       "computationalOnly": false,
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "AAV9 전달 ABE로 Dravet 마우스의 SCN1A 변이를 교정하고 신경세포 기능, 발작 및 생존을 개선해 원인 교정의 강한 전임상 근거를 제시한다.",
-        "computational": "계산 방법론이 아니라 생체 내 염기편집과 질환 표현형 개선이 연구의 중심이다."
+        "main": "ABE로 Dravet 증후군 원인 변이를 마우스 뇌에서 교정해 신경세포 기능과 발작 표현형을 개선하고 생존율을 크게 높였다.",
+        "computational": "계산 방법이 핵심 기여로 보고되지 않았으며, 주된 근거는 생체 내 편집과 기능·질병 표현형의 개선이다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -6014,9 +6200,9 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 5801,
-            "outputTokens": 4444,
-            "totalTokens": 10245,
+            "inputTokens": 5753,
+            "outputTokens": 4071,
+            "totalTokens": 9824,
             "count": 10
           },
           {
@@ -6024,10 +6210,10 @@
             "model": "gpt-6-luna",
             "requestedModel": "gpt-6-luna",
             "effort": "high",
-            "inputTokens": 3260,
-            "outputTokens": 1772,
-            "totalTokens": 5032,
-            "count": 4
+            "inputTokens": 3782,
+            "outputTokens": 2139,
+            "totalTokens": 5921,
+            "count": 5
           }
         ],
         "cached": true
@@ -6036,9 +6222,9 @@
   ],
   "digest": {
     "title": "교신저자 연구 흐름: 최근 1년",
-    "weekOneLineSummary": "이번 주 통합 후보 34편 중 초록 근거를 확인해 우선순위를 정리했습니다. 선정 논문에서 두드러진 주제는 Genome editing & In vivo translation입니다.",
-    "summary": "제공된 논문 기록은 유전체 편집 도구의 기전·설계·전달을 발전시키는 한편, RNA 조절, 단백질 공학, 면역 및 노화 연구로 응용 범위를 넓힌다. 다만 근거의 상당 부분은 세포·동물 전임상 자료나 초록 수준의 요약이므로, 임상적 효능과 범용성은 별도로 판단해야 한다.",
-    "executiveSummary": "기록 전반에서 두드러지는 공통 흐름은 편집기의 성능을 단순히 높이는 데 그치지 않고, 표적 인식과 효소 작동의 기전을 분석하거나 전달·세포 선택성·서열 설계를 함께 다루는 것이다. TnpB와 bridge recombinase 연구는 구조 또는 DNA 풀림 과정에 대한 설명을 편집기 설계와 연결하고, prime editing 및 base editing 연구는 가이드 RNA와 효소 변형, 전달을 최적화해 세포와 생쥐 질환 모델에서 결과를 보고한다. 이들 결과는 전임상 가능성을 뒷받침하지만 사람에서의 안전성이나 치료 효과를 확립하지는 않는다.\n\n유전자 편집 외에도 RNA 기반 세포 감지·조절과 키메라 RNA 생성, 암세포 선택적 제거, 종양 특이 T세포 조작, 노화 면역 개입, 단백질 진화와 유전체 모델링이 나타난다. 일부 연구는 구조·생화학적 기전을 제시하고, 일부는 방법 또는 프로토콜을 제공하며, 일부는 동물 모델의 기능적 결과까지 다룬다. 따라서 증거 수준은 논문별로 다르며, 초록에 정량 결과나 대조군·적용 범위가 충분히 제시되지 않은 경우에는 결론을 제한적으로 해석해야 한다.\n\n저자별 기록은 해당 논문에 명시된 교신저자 기준으로 묶었다. 공동 교신저자에게 논문별 역할을 구분해 귀속할 근거는 제공되지 않았으므로, 공동 기록은 공유된 주제의 증거로만 해석한다. 아래의 연구 경향은 이 논문 묶음에서 확인되는 기여와 한계에 한정되며, 더 넓은 경력이나 연구실 계획을 추론하지 않는다.",
+    "weekOneLineSummary": "이번 주 통합 후보 35편 중 초록 근거를 확인해 우선순위를 정리했습니다. 선정 논문에서 두드러진 주제는 Genome editing & In vivo translation입니다.",
+    "summary": "제공된 초록 기반 연간 자료에서는 유전체 편집기의 작동 원리와 성능을 개선하는 연구, 표적 전달·세포 공학, 계산·단백질 설계를 실험에 연결하는 연구가 두드러진다. 다만 근거 수준은 구조·세포 실험부터 동물 전임상까지 다양하며, 임상 효능이나 장기 안전성을 입증한 결과로 일반화할 수 없다.",
+    "executiveSummary": "자료 전반의 큰 흐름은 편집 도구 자체의 설계와 도달 범위를 함께 넓히려는 시도다. TnpB, prime editor, 재조합효소 등은 구조·생화학적 기전 분석이나 단백질 설계를 바탕으로 기능을 개선하려 했고, 일부 연구는 식물·인간 세포 또는 생쥐 모델에서 편집을 검증했다. 별도로 LNP의 표적화, 세포 간 편집기 전달, 바이러스 유사 입자와 T세포 공학은 편집기를 원하는 세포에 전달하는 문제를 다룬다. RNA 감지·조작, 후성유전 조절, 세균·바이러스 면역 기전 연구는 유전체 편집을 넘어 핵산 인식과 세포 상태 제어의 원리를 넓힌다. AI·기계학습 논문들도 서열 예측에 그치지 않고 일부에서 효소 설계, 편집 결과 예측, 실험 검증과 연결된다. 반면 리뷰·프로토콜·프리프린트·관찰 연구처럼 근거의 성격이 서로 다르고, 생쥐 결과를 사람의 치료 효과로 간주할 수 없다. 아래 저자별 항목은 초록에서 확인되는 논문 주제와 한계만 요약한다. 공동 교신저자 표시는 개인별 기여의 크기나 구체적 역할을 판별해 주지 않는다.",
     "theme": "Genome editing & In vivo translation",
     "keywords": [
       "Genome editing",
@@ -6048,10 +6234,22 @@
     ],
     "windowStart": "2025-10-08",
     "windowEnd": "2026-10-08",
-    "mustDiscussCount": 24,
-    "highInterestCount": 10,
+    "mustDiscussCount": 26,
+    "highInterestCount": 9,
     "sections": {
       "topPapers": [
+        {
+          "id": "4a8b4e5db07540",
+          "title": "In vivo adenine base editing ameliorates Dravet syndrome phenotypes in a mouse model.",
+          "tracker": "flagship",
+          "reason": "ABE로 Dravet 증후군 원인 변이를 마우스 뇌에서 교정해 신경세포 기능과 발작 표현형을 개선하고 생존율을 크게 높였다.",
+          "implication": "제안: 이 연구를 신경계 변이 교정 프로젝트의 전임상 설계 사례로 삼아, 표적 변이와 편집 창, 편집기 구성, AAV 전달 및 세포 기능 평가를 어떻게 연결했는지 검토할 수 있습니다. 후속 연구를 구상한다면 세포 유형별 교정과 장기 안전성·효능을 별도로 측정하는 설계를 검토할 만합니다.",
+          "question": "초록은 대뇌피질 bulk 조직의 편집률과 기능·행동 결과를 보고하지만, 편집이 세포 유형별로 어떻게 분포하는지 또는 관련 신경세포에서 어느 정도의 교정이 필요한지는 보여주지 않습니다. 또한 오프타깃 편집, 장기 지속성, 면역반응 및 다른 장기에서의 전달·안전성은 초록만으로 판단할 수 없습니다. DNA와 mRNA 편집률이 다른 이유도 초록에서 설명되지 않으므로, 그 차이의 측정·해석을 원문에서 확인할 필요가 있습니다.",
+          "whyImportant": "ABE로 Dravet 증후군 원인 변이를 마우스 뇌에서 교정해 신경세포 기능과 발작 표현형을 개선하고 생존율을 크게 높였다.",
+          "labUse": "제안: 이 연구를 신경계 변이 교정 프로젝트의 전임상 설계 사례로 삼아, 표적 변이와 편집 창, 편집기 구성, AAV 전달 및 세포 기능 평가를 어떻게 연결했는지 검토할 수 있습니다. 후속 연구를 구상한다면 세포 유형별 교정과 장기 안전성·효능을 별도로 측정하는 설계를 검토할 만합니다.",
+          "knowledge": "초록에 보고된 결과는 SCN1A R613X의 ABE 교정이 Dravet 증후군 생쥐에서 기능적·질환 수준의 개선으로 이어질 수 있다는 강한 전임상 근거입니다. 다만 사람에서의 효과와 안전성, 세포 유형별 교정 및 장기 지속성까지 입증한 연구로 확대 해석해서는 안 됩니다.",
+          "labRank": 97
+        },
         {
           "id": "3e430b3d741296",
           "title": "Prime editing-installed suppressor tRNAs for disease-agnostic genome editing.",
@@ -6068,49 +6266,37 @@
           "id": "2bd62e82845ed3",
           "title": "Site-specific DNA insertion into the human genome with engineered recombinases.",
           "tracker": "flagship",
-          "reason": "대형 세린 재조합효소의 효율·특이성을 함께 개선해 내인성 인간 좌위에 최대 12 kb 삽입, 53% 효율과 97% 특이성을 달성했습니다. 비분열세포와 일차 T세포에서의 검증도 강점입니다.",
+          "reason": "대형 serine recombinase를 진화·구조 분석으로 개선해 내인성 인간 좌위에서 최대 53% 삽입과 97% 특이성을 달성했다. 비분열세포·줄기세포·일차 T세포에 12 kb 화물 삽입까지 보여주는 강력한 유전체 삽입 기술이다.",
           "implication": "제안: 실험실이 대형 카세트의 정밀 삽입을 필요로 하는 세포 모델을 보유한다면, 해당 LSR 변이체를 기존 삽입 방법과 비교하는 파일럿을 설계할 만합니다. 서로 다른 표적 자리와 세포 유형에서 삽입률, 비표적 삽입, 화물 안정 발현을 함께 평가하면 연구실 조건에서의 적용 범위를 가늠할 수 있습니다.",
           "question": "초록은 97% 특이도의 측정 방식과 검출 한계, 여러 표적 자리에서의 재현성, 삽입 후 장기 안정성에 관한 세부를 제시하지 않습니다. 최대 효율·특이도 수치가 동일한 변이체와 조건에서 동시에 달성됐는지도 초록만으로는 분명하지 않습니다. 또한 여러 세포 유형에서의 삽입은 보고하지만, 생체 내 치료 효과나 장기 안전성을 입증한 결과는 제시하지 않습니다.",
-          "whyImportant": "대형 세린 재조합효소의 효율·특이성을 함께 개선해 내인성 인간 좌위에 최대 12 kb 삽입, 53% 효율과 97% 특이성을 달성했습니다. 비분열세포와 일차 T세포에서의 검증도 강점입니다.",
+          "whyImportant": "대형 serine recombinase를 진화·구조 분석으로 개선해 내인성 인간 좌위에서 최대 53% 삽입과 97% 특이성을 달성했다. 비분열세포·줄기세포·일차 T세포에 12 kb 화물 삽입까지 보여주는 강력한 유전체 삽입 기술이다.",
           "labUse": "제안: 실험실이 대형 카세트의 정밀 삽입을 필요로 하는 세포 모델을 보유한다면, 해당 LSR 변이체를 기존 삽입 방법과 비교하는 파일럿을 설계할 만합니다. 서로 다른 표적 자리와 세포 유형에서 삽입률, 비표적 삽입, 화물 안정 발현을 함께 평가하면 연구실 조건에서의 적용 범위를 가늠할 수 있습니다.",
           "knowledge": "대형 DNA를 사전 설치된 landing pad 없이 삽입하는 LSR을 효율·특이도·세포 유형 범위 측면에서 진전시킨, genome editing 분야의 강한 기술 논문입니다. 다만 초록에 보고된 성능을 생체 내 치료 효능이나 일반화된 안전성으로 확대 해석해서는 안 됩니다.",
           "labRank": 97
         },
         {
-          "id": "4a8b4e5db07540",
-          "title": "In vivo adenine base editing ameliorates Dravet syndrome phenotypes in a mouse model.",
+          "id": "36892c18300e04",
+          "title": "Efficient prime editing in vivo and in vitro using lipid nanoparticles.",
           "tracker": "flagship",
-          "reason": "AAV9 전달 ABE로 Dravet 마우스의 SCN1A 변이를 교정하고 신경세포 기능, 발작 및 생존을 개선해 원인 교정의 강한 전임상 근거를 제시한다.",
-          "implication": "제안: 이 연구를 신경계 변이 교정 프로젝트의 전임상 설계 사례로 삼아, 표적 변이와 편집 창, 편집기 구성, AAV 전달 및 세포 기능 평가를 어떻게 연결했는지 검토할 수 있습니다. 후속 연구를 구상한다면 세포 유형별 교정과 장기 안전성·효능을 별도로 측정하는 설계를 검토할 만합니다.",
-          "question": "초록은 대뇌피질 bulk 조직의 편집률과 기능·행동 결과를 보고하지만, 편집이 세포 유형별로 어떻게 분포하는지 또는 관련 신경세포에서 어느 정도의 교정이 필요한지는 보여주지 않습니다. 또한 오프타깃 편집, 장기 지속성, 면역반응 및 다른 장기에서의 전달·안전성은 초록만으로 판단할 수 없습니다. DNA와 mRNA 편집률이 다른 이유도 초록에서 설명되지 않으므로, 그 차이의 측정·해석을 원문에서 확인할 필요가 있습니다.",
-          "whyImportant": "AAV9 전달 ABE로 Dravet 마우스의 SCN1A 변이를 교정하고 신경세포 기능, 발작 및 생존을 개선해 원인 교정의 강한 전임상 근거를 제시한다.",
-          "labUse": "제안: 이 연구를 신경계 변이 교정 프로젝트의 전임상 설계 사례로 삼아, 표적 변이와 편집 창, 편집기 구성, AAV 전달 및 세포 기능 평가를 어떻게 연결했는지 검토할 수 있습니다. 후속 연구를 구상한다면 세포 유형별 교정과 장기 안전성·효능을 별도로 측정하는 설계를 검토할 만합니다.",
-          "knowledge": "초록에 보고된 결과는 SCN1A R613X의 ABE 교정이 Dravet 증후군 생쥐에서 기능적·질환 수준의 개선으로 이어질 수 있다는 강한 전임상 근거입니다. 다만 사람에서의 효과와 안전성, 세포 유형별 교정 및 장기 지속성까지 입증한 연구로 확대 해석해서는 안 됩니다.",
-          "labRank": 96
+          "reason": "최적화된 LNP로 생쥐 간에서 prime editing 49%를 달성하고, 페닐케톤뇨증 모델의 PAH 변이를 치료 예상 수준으로 교정했다. 반복 투여·오프타깃·간독성 결과까지 제시한 강력한 생체내 편집 연구다.",
+          "implication": "후속 적용 제안으로, 연구실의 간 표적 편집이나 다른 prime-editing 표적에서 이 cargo 최적화 접근을 재현하고, 조직별 편집률·off-target·반복 투여 반응을 비교할 수 있습니다. 특히 치료 표적을 바꿨을 때 최적화 원칙이 얼마나 일반화되는지 시험하는 출발점으로 유용합니다.",
+          "question": "초록은 PAH 변이 교정과 혈청 페닐알라닌 개선을 보고하지만, 이를 실제 장기 질환 교정이나 임상적 효능으로 확정하지는 않습니다. ‘치료적 수준으로 예상’된 수치와 실제 지속성, 조직·세포 유형별 편집 분포, off-target 평가 범위, 반복 투여 후 면역 반응 및 장기 안전성은 초록만으로 판단할 수 없습니다. ‘장기 독성이 관찰되지 않았다’는 주장도 관찰 기간과 평가 항목을 본문에서 확인해야 합니다.",
+          "whyImportant": "최적화된 LNP로 생쥐 간에서 prime editing 49%를 달성하고, 페닐케톤뇨증 모델의 PAH 변이를 치료 예상 수준으로 교정했다. 반복 투여·오프타깃·간독성 결과까지 제시한 강력한 생체내 편집 연구다.",
+          "labUse": "후속 적용 제안으로, 연구실의 간 표적 편집이나 다른 prime-editing 표적에서 이 cargo 최적화 접근을 재현하고, 조직별 편집률·off-target·반복 투여 반응을 비교할 수 있습니다. 특히 치료 표적을 바꿨을 때 최적화 원칙이 얼마나 일반화되는지 시험하는 출발점으로 유용합니다.",
+          "knowledge": "생쥐 간에서 높은 prime-editing 효율과 PAH 모델의 유의미한 치료 지표 개선을 함께 보고한, 전달·편집 분야의 강한 전임상 연구입니다. 다만 초록의 결과만으로 지속성, 완전한 안전성 또는 실제 임상 효능까지 결론 내릴 수는 없습니다.",
+          "labRank": 95
         },
         {
-          "id": "07c1779c17379d",
-          "title": "Mechanistic machine learning for prediction of prime editing outcomes.",
+          "id": "b380a31cfe6b8c",
+          "title": "In vivo base editing rescues liver pathophysiology and peroxisome dysfunction in a mouse model of Zellweger spectrum disorder.",
           "tracker": "flagship",
-          "reason": "기전 기반 prime-editing 예측을 일차 세포의 치료 표적에 검증하고, MMR 회피 편집 설계를 제시했습니다. KIF1A 생쥐 뇌에서 병적 변이를 생체 내 교정해 임상·실험 적용성이 뛰어납니다.",
-          "implication": "후속 연구에서 OptiPrime을 pegRNA 후보 선별과 MMR 회피성 silent edit 설계의 출발점으로 시험해볼 수 있습니다. 특히 뇌 표적 편집을 포함한 in vivo 적용을 검토할 때, 해당 변이·세포 유형에서 예측이 재현되는지 먼저 비교하는 파일럿 분석이 제안됩니다.",
-          "question": "초록은 예측 정확도가 최신 수준이라고 하지만, 데이터 분할 방식·독립 검증 규모·기존 모델 대비 개선 폭은 제시하지 않습니다. MMR 결정 요인을 포착했다는 주장이 어떤 교란 또는 직접적인 기능 검증으로 뒷받침되는지, silent edit 자체의 영향과 편집 효율 개선을 어떻게 분리했는지도 확인이 필요합니다. 뇌 교정의 효율, 세포 유형별 분포, 지속성, 안전성 및 치료적 표현형 개선은 초록만으로 판단할 수 없습니다.",
-          "whyImportant": "기전 기반 prime-editing 예측을 일차 세포의 치료 표적에 검증하고, MMR 회피 편집 설계를 제시했습니다. KIF1A 생쥐 뇌에서 병적 변이를 생체 내 교정해 임상·실험 적용성이 뛰어납니다.",
-          "labUse": "후속 연구에서 OptiPrime을 pegRNA 후보 선별과 MMR 회피성 silent edit 설계의 출발점으로 시험해볼 수 있습니다. 특히 뇌 표적 편집을 포함한 in vivo 적용을 검토할 때, 해당 변이·세포 유형에서 예측이 재현되는지 먼저 비교하는 파일럿 분석이 제안됩니다.",
-          "knowledge": "계산 방법이 주된 요소이지만, 1차 세포의 전향적 활용과 생쥐 뇌의 병원성 변이 교정이 보고되어 공유 실험 분야와의 연계가 강합니다. 따라서 computationalOnly로 보기보다는 genome editing 및 in vivo biology에서 읽을 가치가 높은 교차 분야 연구로 판단합니다.",
-          "labRank": 96
-        },
-        {
-          "id": "ab1f275b750ea5",
-          "title": "Directed evolution of small RNA-stabilizing motifs that improve prime-editing efficiency.",
-          "tracker": "flagship",
-          "reason": "2,858개 pegRNA 3′ 모티프를 선별·개선해 다수의 병원성 변이 교정률을 높였고, 일차 세포와 마우스 뇌·간에서도 효능을 검증한 prime-editing 기술이다.",
-          "implication": "제안: 연구실에서 사용하는 pegRNA 설계에 새 모티프를 적용해 관심 표적 몇 개에서 기존 3′ 모티프와 나란히 비교하고, 세포 유형별로 효율과 재현성을 확인할 수 있다. 오가노이드나 생체 내 교정 연구로 이어갈 경우에는 해당 모델·조직에서의 성능을 별도로 검증하는 후속 단계로 삼을 수 있다.",
-          "question": "초록은 847개 변이 중 90% 이상에서 기존 모티프보다 개선됐다고 보고하지만, 개선 폭의 분포나 표적별 예외, 반복 간 변동은 제시하지 않는다. 일차 세포와 생쥐 뇌·간에서 효율이 증가했다는 결과만으로 각 조직에서의 효과 크기나 다른 표적·전달 조건으로의 일반화를 단정할 수는 없다. 후속 확인에서는 표적별 효과 크기와 편집 부산물, 그리고 모티프별 구조·안정성 변화가 효율 향상과 어떻게 연결되는지 살펴볼 필요가 있다.",
-          "whyImportant": "2,858개 pegRNA 3′ 모티프를 선별·개선해 다수의 병원성 변이 교정률을 높였고, 일차 세포와 마우스 뇌·간에서도 효능을 검증한 prime-editing 기술이다.",
-          "labUse": "제안: 연구실에서 사용하는 pegRNA 설계에 새 모티프를 적용해 관심 표적 몇 개에서 기존 3′ 모티프와 나란히 비교하고, 세포 유형별로 효율과 재현성을 확인할 수 있다. 오가노이드나 생체 내 교정 연구로 이어갈 경우에는 해당 모델·조직에서의 성능을 별도로 검증하는 후속 단계로 삼을 수 있다.",
-          "knowledge": "직접적인 편집 도구 공학에 대규모 변이 평가와 일차 세포·생체 내 검증을 더한 강한 연구다. 초록에 보고된 범위에서 genome-editing 분야의 높은 연구 관심 대상이지만, 실험실의 구체적 표적에서 얻을 개선 폭은 별도 검증이 필요하다.",
-          "labRank": 96
+          "reason": "AAV와 LNP 염기편집으로 ZSD 마우스의 간 병리와 대사 이상을 개선하고, 환자 유래 세포에서도 과산화소체 기능을 회복했다.",
+          "implication": "제안: 간 표적 편집 연구에서 교정률과 대사산물·조직 표현형을 함께 측정하는 설계의 참고 사례로 활용할 수 있습니다. AAV9와 LNP 결과를 바탕으로, 연구실의 관련 모델에서 전달 방식·투여 시점별 교정과 기능 회복의 관계를 비교하는 후속 실험을 구상할 수 있습니다.",
+          "question": "초록은 간 벌크 교정률과 개선된 대사·조직 지표를 보고하지만, 어떤 간 세포에서 교정됐는지와 세포별 교정률이 표현형 회복에 어떻게 기여했는지는 제시하지 않습니다. 효과의 장기 지속성, 안전성, 신경계 기능 개선 여부도 이 초록만으로는 확립되지 않습니다. 오프타깃 분석은 최소 수준을 보고하지만, 분석 범위와 검출 한계는 원문에서 확인할 필요가 있습니다.",
+          "whyImportant": "AAV와 LNP 염기편집으로 ZSD 마우스의 간 병리와 대사 이상을 개선하고, 환자 유래 세포에서도 과산화소체 기능을 회복했다.",
+          "labUse": "제안: 간 표적 편집 연구에서 교정률과 대사산물·조직 표현형을 함께 측정하는 설계의 참고 사례로 활용할 수 있습니다. AAV9와 LNP 결과를 바탕으로, 연구실의 관련 모델에서 전달 방식·투여 시점별 교정과 기능 회복의 관계를 비교하는 후속 실험을 구상할 수 있습니다.",
+          "knowledge": "초록에 제시된 결과는 생체 내 염기교정이 ZSD의 원인 교정과 간·peroxisome 표현형 개선을 연결할 가능성을 뒷받침합니다. 전달 효율뿐 아니라 대사 및 조직 수준의 결과를 함께 보여주는, genome editing과 소기관 생물학 모두에 관련성이 높은 연구입니다.",
+          "labRank": 95
         }
       ],
       "wildcardsFieldShifting": [
@@ -6118,7 +6304,7 @@
           "id": "2bd62e82845ed3",
           "title": "Site-specific DNA insertion into the human genome with engineered recombinases.",
           "tracker": "flagship",
-          "reason": "대형 세린 재조합효소의 효율·특이성을 함께 개선해 내인성 인간 좌위에 최대 12 kb 삽입, 53% 효율과 97% 특이성을 달성했습니다. 비분열세포와 일차 T세포에서의 검증도 강점입니다.",
+          "reason": "대형 serine recombinase를 진화·구조 분석으로 개선해 내인성 인간 좌위에서 최대 53% 삽입과 97% 특이성을 달성했다. 비분열세포·줄기세포·일차 T세포에 12 kb 화물 삽입까지 보여주는 강력한 유전체 삽입 기술이다.",
           "implication": "제안: 실험실이 대형 카세트의 정밀 삽입을 필요로 하는 세포 모델을 보유한다면, 해당 LSR 변이체를 기존 삽입 방법과 비교하는 파일럿을 설계할 만합니다. 서로 다른 표적 자리와 세포 유형에서 삽입률, 비표적 삽입, 화물 안정 발현을 함께 평가하면 연구실 조건에서의 적용 범위를 가늠할 수 있습니다.",
           "question": "초록은 97% 특이도의 측정 방식과 검출 한계, 여러 표적 자리에서의 재현성, 삽입 후 장기 안정성에 관한 세부를 제시하지 않습니다. 최대 효율·특이도 수치가 동일한 변이체와 조건에서 동시에 달성됐는지도 초록만으로는 분명하지 않습니다. 또한 여러 세포 유형에서의 삽입은 보고하지만, 생체 내 치료 효과나 장기 안전성을 입증한 결과는 제시하지 않습니다."
         },
@@ -6131,46 +6317,46 @@
           "question": "초록은 세 질환의 사람 세포 모델과 Hurler 증후군 마우스 모델에서의 회복을 보고하지만, 어떤 종결코돈·서열 맥락·조직에서 효과가 일관적인지, 장기간 치료 후에도 유지되는지는 제시하지 않습니다. 자연 종결코돈의 readthrough와 전사체·단백질체 변화가 검출되지 않았다는 결과는 고무적이지만, 검출 범위와 민감도, 장기적인 번역 정확성 및 생체 내 안전성은 초록만으로 판단할 수 없습니다. 여러 조직에 prime editor를 전달하는 효율과 사람에서의 실현 가능성도 별도 확인이 필요합니다."
         },
         {
-          "id": "e8d1a370431e95",
-          "title": "Genome modelling and design across all domains of life with Evo 2.",
+          "id": "c8f46af94ee1ba",
+          "title": "Structure and evolution-guided design of minimal RNA-guided nucleases.",
           "tracker": "flagship",
-          "reason": "대규모 DNA foundation model의 변이 예측·서열 생성 능력은 유전체 설계에 폭넓게 쓰일 수 있고, 생성된 염색질 접근성 패턴의 실험 검증도 보고한다. 모델 자체가 주된 기여다.",
-          "implication": "제안: 관심 있는 세포 유형의 접근성 예측 모델을 조건으로 조절 서열 후보를 생성하고, 후보를 실험적으로 평가하는 파일럿에 활용할 수 있습니다. 편집 연구에서는 비암호화 변이 후보를 우선순위화하는 보조 도구로 시험할 수도 있습니다. 초록은 이런 활용의 실험적 성공을 직접 입증하지는 않습니다.",
-          "question": "초록만으로는 변이 예측의 기준선 대비 성능, 세포 유형별 일반화, 또는 생성 서열이 목표 기능을 얼마나 일관되게 구현하는지 판단할 수 없습니다. 접근성 패턴의 실험 검증은 보고되지만, 검증 범위와 세포 맥락, 측정된 결과는 제시되지 않습니다. 따라서 ‘게놈 설계’의 폭넓은 가능성과 실제로 검증된 기능을 구분해 읽어야 합니다."
+          "reason": "구조·진화 정보를 결합한 설계로 자연계와 다른 TnpB 뉴클레아제를 만들고, 고속 기능 선별에서 세균·식물·인간 세포 활성을 확인했다. 가장 다양한 변이체의 cryo-EM 구조도 제시해 편집기 설계와 기전을 함께 진전시킨다.",
+          "implication": "제안: 이 설계 전략을 다른 TnpB 변이체나 관련 RNA-guided nuclease에 적용해 활성을 높이거나 성질을 바꿀 후보를 만들고, 세포별 편집 성능과 구조적 안정화 가설을 함께 시험할 수 있습니다. 특히 진화 정보와 구조 모델의 조합이 후보 선별에 어떤 기여를 하는지 분리 비교하는 후속 실험이 유용하겠습니다.",
+          "question": "초록은 여러 세포 유형에서 활성을 보고하지만, 활성의 정량적 크기와 표적별 일관성, 편집 정확도 및 비표적 효과는 제시하지 않습니다. 세포 내 전달, 생체 내 성능, 장기 안정성도 이 초록만으로는 알 수 없습니다. 또한 TnpB에서의 성공이 다른 뉴클레아제 계열에도 일반화되는지, 관찰된 RNA-DNA 접촉이 활성 차이를 실제로 일으키는지는 본문에서 확인해야 합니다."
         }
       ],
       "watchlistArchive": [
         {
-          "id": "36892c18300e04",
-          "title": "Efficient prime editing in vivo and in vitro using lipid nanoparticles.",
+          "id": "c8f46af94ee1ba",
+          "title": "Structure and evolution-guided design of minimal RNA-guided nucleases.",
           "tracker": "flagship",
-          "reason": "최적화된 LNP로 생쥐 간에서 prime editing 49%를 달성하고, 페닐케톤뇨증 모델의 PAH 변이를 치료 예상 수준으로 교정했다. 반복 투여·오프타깃·간독성 결과까지 제시한 강력한 생체내 편집 연구다.",
-          "implication": "후속 적용 제안으로, 연구실의 간 표적 편집이나 다른 prime-editing 표적에서 이 cargo 최적화 접근을 재현하고, 조직별 편집률·off-target·반복 투여 반응을 비교할 수 있습니다. 특히 치료 표적을 바꿨을 때 최적화 원칙이 얼마나 일반화되는지 시험하는 출발점으로 유용합니다.",
-          "question": "초록은 PAH 변이 교정과 혈청 페닐알라닌 개선을 보고하지만, 이를 실제 장기 질환 교정이나 임상적 효능으로 확정하지는 않습니다. ‘치료적 수준으로 예상’된 수치와 실제 지속성, 조직·세포 유형별 편집 분포, off-target 평가 범위, 반복 투여 후 면역 반응 및 장기 안전성은 초록만으로 판단할 수 없습니다. ‘장기 독성이 관찰되지 않았다’는 주장도 관찰 기간과 평가 항목을 본문에서 확인해야 합니다."
-        },
-        {
-          "id": "b380a31cfe6b8c",
-          "title": "In vivo base editing rescues liver pathophysiology and peroxisome dysfunction in a mouse model of Zellweger spectrum disorder.",
-          "tracker": "flagship",
-          "reason": "AAV와 LNP 염기편집으로 ZSD 마우스의 간 병리와 대사 이상을 개선하고, 환자 유래 세포에서도 과산화소체 기능을 회복했다.",
-          "implication": "제안: 간 표적 편집 연구에서 교정률과 대사산물·조직 표현형을 함께 측정하는 설계의 참고 사례로 활용할 수 있습니다. AAV9와 LNP 결과를 바탕으로, 연구실의 관련 모델에서 전달 방식·투여 시점별 교정과 기능 회복의 관계를 비교하는 후속 실험을 구상할 수 있습니다.",
-          "question": "초록은 간 벌크 교정률과 개선된 대사·조직 지표를 보고하지만, 어떤 간 세포에서 교정됐는지와 세포별 교정률이 표현형 회복에 어떻게 기여했는지는 제시하지 않습니다. 효과의 장기 지속성, 안전성, 신경계 기능 개선 여부도 이 초록만으로는 확립되지 않습니다. 오프타깃 분석은 최소 수준을 보고하지만, 분석 범위와 검출 한계는 원문에서 확인할 필요가 있습니다."
+          "reason": "구조·진화 정보를 결합한 설계로 자연계와 다른 TnpB 뉴클레아제를 만들고, 고속 기능 선별에서 세균·식물·인간 세포 활성을 확인했다. 가장 다양한 변이체의 cryo-EM 구조도 제시해 편집기 설계와 기전을 함께 진전시킨다.",
+          "implication": "제안: 이 설계 전략을 다른 TnpB 변이체나 관련 RNA-guided nuclease에 적용해 활성을 높이거나 성질을 바꿀 후보를 만들고, 세포별 편집 성능과 구조적 안정화 가설을 함께 시험할 수 있습니다. 특히 진화 정보와 구조 모델의 조합이 후보 선별에 어떤 기여를 하는지 분리 비교하는 후속 실험이 유용하겠습니다.",
+          "question": "초록은 여러 세포 유형에서 활성을 보고하지만, 활성의 정량적 크기와 표적별 일관성, 편집 정확도 및 비표적 효과는 제시하지 않습니다. 세포 내 전달, 생체 내 성능, 장기 안정성도 이 초록만으로는 알 수 없습니다. 또한 TnpB에서의 성공이 다른 뉴클레아제 계열에도 일반화되는지, 관찰된 RNA-DNA 접촉이 활성 차이를 실제로 일으키는지는 본문에서 확인해야 합니다."
         },
         {
           "id": "5596db6af48846",
           "title": "AI-guided redesign of laboratory-evolved reverse transcriptases enhances prime editing.",
           "tracker": "flagship",
-          "reason": "AI 기반 역접힘 설계로 prime-editor 역전사효소의 안정성과 발현을 개선하고, 여러 일차 세포와 마우스에서 기존 편집기보다 높은 효율을 보인 편집기 공학 연구다.",
+          "reason": "AI 기반 역접힘 설계로 역전사효소의 안정성과 발현을 높여 여러 일차 세포 및 마우스에서 prime editing 효율을 개선했다.",
           "implication": "제안: 연구실의 prime editor 변이체나 다른 진화 기반 편집기를 개선할 때, 촉매 기능을 보존하는 RT 재설계 접근을 후보 생성·검증의 출발점으로 살펴볼 수 있습니다. 특히 발현량과 편집 효율을 함께 비교하는 후속 실험에 참고가 될 수 있습니다.",
           "question": "초록은 여러 세포·전달 조건과 생쥐에서 향상을 보고하지만, 어떤 세포 유형·표적·전달 방식에서 개선이 일관적인지, 효율 증가가 편집의 정확성이나 부산물에 어떤 영향을 주는지는 제시하지 않습니다. 또한 최대 2.9배라는 결과만으로 다른 표적이나 생체 내 조건 전반에서의 일반성을 판단할 수 없습니다. 후속 검토에서는 비교 조건과 편집 정확도·안전성 평가를 확인할 필요가 있습니다."
         },
         {
-          "id": "c8f46af94ee1ba",
-          "title": "Structure and evolution-guided design of minimal RNA-guided nucleases.",
+          "id": "07c1779c17379d",
+          "title": "Mechanistic machine learning for prediction of prime editing outcomes.",
           "tracker": "flagship",
-          "reason": "진화·구조 조건을 반영한 AI 설계로 비자연형 TnpB 편집기를 만들고, 세포별 기능 스크리닝과 cryo-EM으로 활성을 뒷받침했습니다. 인간세포를 포함한 검증이 직접적인 편집기 공학 성과입니다.",
-          "implication": "제안: 이 설계 전략을 다른 TnpB 변이체나 관련 RNA-guided nuclease에 적용해 활성을 높이거나 성질을 바꿀 후보를 만들고, 세포별 편집 성능과 구조적 안정화 가설을 함께 시험할 수 있습니다. 특히 진화 정보와 구조 모델의 조합이 후보 선별에 어떤 기여를 하는지 분리 비교하는 후속 실험이 유용하겠습니다.",
-          "question": "초록은 여러 세포 유형에서 활성을 보고하지만, 활성의 정량적 크기와 표적별 일관성, 편집 정확도 및 비표적 효과는 제시하지 않습니다. 세포 내 전달, 생체 내 성능, 장기 안정성도 이 초록만으로는 알 수 없습니다. 또한 TnpB에서의 성공이 다른 뉴클레아제 계열에도 일반화되는지, 관찰된 RNA-DNA 접촉이 활성 차이를 실제로 일으키는지는 본문에서 확인해야 합니다."
+          "reason": "MMR 기전을 반영한 prime-editing 예측을 치료 맥락에서 검증하고, 마우스 뇌의 KIF1A 변이를 생체 내 교정했다.",
+          "implication": "후속 연구에서 OptiPrime을 pegRNA 후보 선별과 MMR 회피성 silent edit 설계의 출발점으로 시험해볼 수 있습니다. 특히 뇌 표적 편집을 포함한 in vivo 적용을 검토할 때, 해당 변이·세포 유형에서 예측이 재현되는지 먼저 비교하는 파일럿 분석이 제안됩니다.",
+          "question": "초록은 예측 정확도가 최신 수준이라고 하지만, 데이터 분할 방식·독립 검증 규모·기존 모델 대비 개선 폭은 제시하지 않습니다. MMR 결정 요인을 포착했다는 주장이 어떤 교란 또는 직접적인 기능 검증으로 뒷받침되는지, silent edit 자체의 영향과 편집 효율 개선을 어떻게 분리했는지도 확인이 필요합니다. 뇌 교정의 효율, 세포 유형별 분포, 지속성, 안전성 및 치료적 표현형 개선은 초록만으로 판단할 수 없습니다."
+        },
+        {
+          "id": "ab1f275b750ea5",
+          "title": "Directed evolution of small RNA-stabilizing motifs that improve prime-editing efficiency.",
+          "tracker": "flagship",
+          "reason": "2,858개 RNA 모티프를 고속 스크리닝해 pegRNA를 개선했으며, 다수의 병원성 변이와 일차 세포 및 마우스에서 효율 향상을 검증했다.",
+          "implication": "제안: 연구실에서 사용하는 pegRNA 설계에 새 모티프를 적용해 관심 표적 몇 개에서 기존 3′ 모티프와 나란히 비교하고, 세포 유형별로 효율과 재현성을 확인할 수 있다. 오가노이드나 생체 내 교정 연구로 이어갈 경우에는 해당 모델·조직에서의 성능을 별도로 검증하는 후속 단계로 삼을 수 있다.",
+          "question": "초록은 847개 변이 중 90% 이상에서 기존 모티프보다 개선됐다고 보고하지만, 개선 폭의 분포나 표적별 예외, 반복 간 변동은 제시하지 않는다. 일차 세포와 생쥐 뇌·간에서 효율이 증가했다는 결과만으로 각 조직에서의 효과 크기나 다른 표적·전달 조건으로의 일반화를 단정할 수는 없다. 후속 확인에서는 표적별 효과 크기와 편집 부산물, 그리고 모티프별 구조·안정성 변화가 효율 향상과 어떻게 연결되는지 살펴볼 필요가 있다."
         },
         {
           "id": "2c2f1a15f6d285",
@@ -6186,7 +6372,7 @@
     "perAuthor": [
       {
         "authorId": "patrick-hsu",
-        "researchTrend": "기록에서는 구조·계산·실험을 결합한 유전체 도구와 단백질 공학이 함께 보인다. IS621 bridge recombinase의 구조 연구는 삽입 편향에 대한 기전적 설명을 제시하고, LSR 연구는 인간 유전체의 지정 위치에 큰 DNA를 삽입하는 접근을 보고한다. 후성유전 도메인 스크리닝과 Evo 2는 각각 조절 도메인 조합 및 유전체 서열 모델링의 범위를 넓히며, MULTI-evolve는 단백질 언어 모델과 에피스타시스를 결합한 진화를 다룬다. 다만 구조·모델 결과의 계열 전반 일반성, 생체 내 적용성, 각 방법의 다른 맥락에서의 성능은 초록만으로 확정할 수 없다.",
+        "researchTrend": "해당 저자로 명시된 논문들은 bridge recombinase의 구조와 반응 방향성, 대형 DNA 삽입용 serine recombinase의 공학, 후성유전 도메인 조합 스크리닝, 전 생물권 유전체 모델, 단백질 언어모델과 에피스타시스를 이용한 진화를 다룬다. 공통적으로 분자·서열 수준의 설계 원리를 도구 개발과 연결하지만, 근거는 구조·세포 실험에서 계산 모델 및 제한된 실험 검증까지 다양하다. 특히 Evo 2의 일부 접근성 패턴 실험 검증이나 재조합효소의 세포 내 결과를 다른 응용 전반의 성능으로 확대할 수는 없으며, 생체 내 치료 효능은 이 자료에서 입증되지 않는다.",
         "paperIds": [
           "bb56f10b350645",
           "2c2f1a15f6d285",
@@ -6197,25 +6383,27 @@
       },
       {
         "authorId": "jonathan-gootenberg",
-        "researchTrend": "공동 교신저자로 명시된 세 논문은 전달, RNA 기반 세포 상태 감지, 노화 측정을 다룬다. Corona engineering은 LNP의 간 편향을 줄이고 항체 표적화를 결합하는 전달 전략을 제시하며, RADARS는 표적 RNA 감지를 번역 조절 및 세포 분석 응용과 연결한다. mAge 연구는 여러 자료원을 통합해 장기·세포 하위체계별 노화 지표를 구성한다. 다만 기록만으로는 공동저자 사이의 개별 기여를 나눌 수 없고, mAge의 약물 관련 결과는 관찰적 연관성이며 인과적 노화 지연이나 수명 연장을 입증하지 않는다. RADARS의 적용 성능과 전달 전략의 일반적 안전성도 초록만으로 판단하기 어렵다.",
+        "researchTrend": "해당 저자로 명시된 네 논문은 LNP의 코로나 공학을 통한 조직·세포 표적화, Bxb1 재조합효소의 구조 및 공학, 멀티모달 노화 지표, RNA 표적 ADAR 센서 프로토콜을 다룬다. 전달과 세포 상태 측정·제어를 포함해 주제가 넓으며, LNP와 Bxb1 연구는 세포 공학 및 유전자 삽입에 연결된다. RADARS는 방법·프로토콜 중심이고, 노화 약물 결과는 관찰 자료의 연관성으로 인과적 수명 연장 근거가 아니다. 공동 교신저자 표기만으로 각 논문에서 개인의 구체적 역할이나 기여도를 나누어 추론할 수 없다.",
         "paperIds": [
           "76a901f8379019",
+          "2c66bf23927408",
           "7712a0e3b8c9e4",
           "6212a8ff7d5d77"
         ]
       },
       {
         "authorId": "omar-abudayyeh",
-        "researchTrend": "공동 교신저자로 명시된 기록은 LNP 표적 전달, ADAR 기반 RNA 센서, 멀티모달 노화 지표에 걸쳐 있다. 이들 논문은 세포 전달과 세포 상태의 감지·조절, 생물학적 노화의 측정이라는 서로 다른 응용을 보여준다. 다만 제공된 기록은 공동저자별 역할을 구분하지 않으며, 노화 약물 분석은 관찰자료의 연관성에 머물고 RADARS 프로토콜의 정량적 성능이나 전달 플랫폼의 폭넓은 적용성도 여기서 확정할 수 없다.",
+        "researchTrend": "해당 저자로 명시된 네 논문은 Jonathan Gootenberg과 공동 교신저자로 표기되어 있으며, LNP 표적화와 Bxb1 기반 유전자 삽입, 멀티모달 노화 분석, RADARS 프로토콜을 포함한다. 이 기록에서 확인되는 기여 범위는 전달·유전체 공학부터 세포 감지와 노화 지표까지 이어지지만, 이를 하나의 개인 연구 궤적으로 단정할 근거는 없다. 노화 약물 분석은 관찰적 연관성이며, RADARS의 프로토콜 기술만으로 모든 세포 맥락에서의 성능이 확립되었다고 볼 수 없다.",
         "paperIds": [
           "76a901f8379019",
+          "2c66bf23927408",
           "7712a0e3b8c9e4",
           "6212a8ff7d5d77"
         ]
       },
       {
         "authorId": "jennifer-doudna",
-        "researchTrend": "이 기록은 항바이러스 면역과 RNA 인식의 기초 기전부터 편집기 공학과 전달까지 폭넓다. VIPR의 비연속적 RNA-guided DNA 인식, 바이러스 phosphodiesterase의 기질 선택성, 뉴클레아제-프로테아제 면역 조합은 핵산·효소 작동 원리를 다룬다. TnpB의 단계적 DNA 풀림 및 최소 RNA-guided nuclease 설계 관련 기록은 기전 이해와 편집기 개선을 잇고, NANITE와 바이러스 전달 TnpB 연구는 편집 전달·증폭을 다룬다. Cas12a2 기반 암세포 제거, T세포를 통한 세포 간 편집기 전달, CRISPR-Csm 기반 RNA 재조합과 후성유전 조절도 포함된다. 일부 기록은 프리프린트이거나 초록에서 성능·선택성의 세부 근거가 제한적이며, 제시된 구조적·기전적 설명을 생체 내 효능이나 범용성으로 확대할 수 없다.",
+        "researchTrend": "해당 저자로 명시된 논문들은 RNA 유도 DNA 인식(VIPR)과 그 구조적 기반, TnpB의 표적 DNA 풀림 및 공학, bridge recombination, RNA 조작, 전달·세포 간 편집, 암 특이 RNA 반응성 Cas12a2, 식물 편집 등을 다룬다. 세균·바이러스 면역 기전과 편집기·핵산 도구 개발이 함께 나타나며, 여러 연구에서 구조나 생화학적 기전을 세포 기반 기능과 연결한다. 다만 관련 연구마다 검증 단계와 범위가 다르다. 일부는 프리프린트 또는 초록상 구체적 성능이 부족하고, 구조·시험관 내 결과만으로 범용 편집 성능이나 생체 내 치료 가능성을 확정할 수 없다.",
         "paperIds": [
           "7b8d1b97a8d0ca",
           "32fca23e220075",
@@ -6236,14 +6424,14 @@
       },
       {
         "authorId": "feng-zhang",
-        "researchTrend": "확인된 교신저자 논문은 한 편으로, 노화 생쥐의 면역 기능 저하를 간의 일시적 영양인자 공급으로 보완하는 접근을 다룬다. 다중오믹스 비교에서 찾은 신호를 mRNA 전달로 개입하고, 림프구 전구세포·흉선 생성과 면역 기능 및 생쥐의 백신·항종양 반응에서 개선을 보고했다. 이는 유전체 편집보다는 생체 내 전달과 면역생물학의 결합에 해당한다. 근거는 생쥐 모델에 한정되며 사람에서의 효능과 안전성을 확립하지 않는다.",
+        "researchTrend": "제공된 기록에서 이 저자가 교신저자로 명시된 논문은 노화 생쥐의 면역 기능을 일시적으로 보완하기 위해 간에 면역인자 mRNA를 전달한 한 편이다. 다중오믹스 비교 뒤 생쥐에서 면역 전구세포, 새 흉선생성, 백신 반응 및 항종양 면역의 변화를 보고하며, 효과가 가역적이었다고 제시한다. 이는 전달과 면역생물학을 결합한 전임상 연구지만, 단일 논문만으로 더 넓은 연구 추세를 설정할 수 없고 사람에서의 효과나 안전성을 확립하지 않는다.",
         "paperIds": [
           "bd474ddc4723b5"
         ]
       },
       {
         "authorId": "david-liu",
-        "researchTrend": "기록의 중심에는 prime editing과 base editing의 성능·전달 최적화, 그리고 단백질 진화가 있다. RNA 안정화 모티프 및 AI로 재설계한 역전사효소 연구는 prime editing을 개선하고, OptiPrime은 편집 결과 예측을 세포와 생쥐 뇌의 교정에 활용한다. LNP prime editing, PERT 억제 tRNA 설치, PEX1 및 SCN1A 변이의 base editing은 질환 관련 세포·동물 모델에서 기능적 또는 병리 개선을 보고한다. 여기에 T세포 표적 eVLP, 보툴리눔 독소 단백질분해효소의 AI 재설계와 진화, 암세포 사멸을 위한 효소 진화가 더해져 전달·편집·단백질 공학의 접점을 이룬다. 대부분 전임상 근거이므로 사람에서의 치료 효과와 장기 안전성은 확정되지 않으며, 효소·세포 사멸 연구의 생체 내 전달 범위도 초록만으로 일반화하기 어렵다.",
+        "researchTrend": "해당 저자로 명시된 논문들은 prime editing과 염기편집의 성능 개선, RNA 안정화 모티프와 역전사효소의 설계, 편집 결과 예측, 단백질 진화, 표적 T세포 공학을 포함한다. 세포 및 생쥐 모델에서 편집 효율이나 질환 관련 지표를 평가한 연구가 다수이고, AI 기반 설계·예측을 실험에 연결한 사례도 있다. 그러나 개별 결과의 조직·질환·전달 조건은 서로 다르며, 전임상 개선을 임상 효과로 일반화할 수 없다. 선택적 세포사멸이나 치료적 적용을 제시한 연구 역시 장기 안전성과 사람에서의 효능을 이 초록 자료만으로 확정하지 않는다.",
         "paperIds": [
           "1f17218915d10f",
           "36892c18300e04",
@@ -6261,18 +6449,18 @@
     "summaryProvenance": {
       "model": "gpt-6-luna",
       "effort": "high",
-      "responseId": "resp_0e8bb623105f6959016ac7979d9be887d0a62c00863098820b",
+      "responseId": "resp_0222b16d110c1adc016ac79ef8633487d0867e709c16758827",
       "usage": {
-        "input_tokens": 11339,
+        "input_tokens": 11642,
         "input_tokens_details": {
-          "cache_write_tokens": 11336,
+          "cache_write_tokens": 11639,
           "cached_tokens": 0
         },
-        "output_tokens": 4452,
+        "output_tokens": 3408,
         "output_tokens_details": {
-          "reasoning_tokens": 2127
+          "reasoning_tokens": 1290
         },
-        "total_tokens": 15791
+        "total_tokens": 15050
       }
     }
   },
@@ -6310,9 +6498,9 @@
         "model": "gpt-6-luna",
         "requestedModel": "gpt-6-luna",
         "effort": "high",
-        "inputTokens": 5801,
-        "outputTokens": 4444,
-        "totalTokens": 10245,
+        "inputTokens": 5753,
+        "outputTokens": 4071,
+        "totalTokens": 9824,
         "count": 10
       },
       {
@@ -6320,24 +6508,24 @@
         "model": "gpt-6-luna",
         "requestedModel": "gpt-6-luna",
         "effort": "high",
-        "inputTokens": 3260,
-        "outputTokens": 1772,
-        "totalTokens": 5032,
-        "count": 4
+        "inputTokens": 3782,
+        "outputTokens": 2139,
+        "totalTokens": 5921,
+        "count": 5
       }
     ],
     "cached": true
   },
   "stats": {
-    "papers": 34,
+    "papers": 35,
     "collected": 87,
-    "mustRead": 24
+    "mustRead": 26
   },
   "collectionAudit": {
     "windowStart": "2025-10-08",
     "windowEnd": "2026-10-08",
     "candidateCount": 87,
-    "reviewedCount": 34,
+    "reviewedCount": 35,
     "excluded": [
       {
         "id": "5334765a00714b",
@@ -6379,7 +6567,7 @@
         "id": "6c98f63d75135f",
         "doi": "10.1126/science.adz0276",
         "title": "Megabase-scale human genome rearrangement with programmable bridge recombinases.",
-        "reason": "correspondence_unverified"
+        "reason": "outside_first_publication_window"
       },
       {
         "id": "8e757fd2c5ef87",
@@ -6422,12 +6610,6 @@
         "doi": "10.1038/s41591-026-04493-5",
         "title": "Immune aging biomarkers for clinical trials.",
         "reason": "not_marked_in_source"
-      },
-      {
-        "id": "2c66bf23927408",
-        "doi": "10.1016/j.molcel.2026.05.018",
-        "title": "Structure and engineering of the large serine recombinase Bxb1 for gene integration.",
-        "reason": "correspondence_unverified"
       },
       {
         "id": "123362c5dcef14",

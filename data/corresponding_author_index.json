@@ -248,6 +248,18 @@
         "excerpt": "Patrick D. Hsu; corresp=; *Corresponding author: patrick@arcinstitute.org (P.D.H.)"
       }
     ],
+    "10.1126/science.adz0276": [
+      {
+        "id": "patrick-hsu",
+        "name": "Patrick D. Hsu",
+        "verified": true,
+        "sourceUrl": "https://mattdurrant.me/docs/papers/2025_HumanBridge.pdf",
+        "method": "science_pdf_corresp_footnote",
+        "excerpt": "Patrick D. \nHsu1,2,9*; *Corresponding author. Email: patrick@arcinstitute.org (P.D.H.); silvana@arcinstitute.org (S.K.) \nBridge recombinases are naturally occurring RNA-guided DNA recombinases that we previously demonstrated can ",
+        "sourceSha256": "ab1256765c635214a42eef4a7677d6c438744091d205683cb6bf3d79d9c7041a",
+        "sourcePage": 1
+      }
+    ],
     "10.1038/s41587-025-02895-3": [
       {
         "id": "patrick-hsu",
@@ -256,6 +268,26 @@
         "sourceUrl": "https://www.nature.com/articles/s41587-025-02895-3",
         "method": "publisher_correspondence_to",
         "excerpt": "Correspondence to Patrick D. Hsu (patrick@arcinstitute.org)."
+      }
+    ],
+    "10.1016/j.molcel.2026.05.018": [
+      {
+        "id": "jonathan-gootenberg",
+        "name": "Jonathan S. Gootenberg",
+        "verified": true,
+        "sourceUrl": "https://www.rcast.u-tokyo.ac.jp/ja/news/release/20260609.html",
+        "method": "institution_explicit_author_legend",
+        "excerpt": "Teppei Soma†, Masahiro Hiraizumi†, Christopher W. Fell†, Dario Tagliaferri, Jason Lequyer, Sae Okazaki, Yukari Isayama, Kazuki Kato, Sworaj Sapkota, Harsh Ramani, Benjamin Arya, Cian Schmitt-Ulms, Keitaro Yamashita, Jonathan S. Gootenberg*, Omar O. Abudayyeh*, Hiroshi Nishimasu*（†共同筆頭著者、*責任著者）",
+        "sourceSha256": "ce2bdd54250fa0aac619a3880f3a7656ccde9c551fc6ec5b79b875289d35f999"
+      },
+      {
+        "id": "omar-abudayyeh",
+        "name": "Omar O. Abudayyeh",
+        "verified": true,
+        "sourceUrl": "https://www.rcast.u-tokyo.ac.jp/ja/news/release/20260609.html",
+        "method": "institution_explicit_author_legend",
+        "excerpt": "Teppei Soma†, Masahiro Hiraizumi†, Christopher W. Fell†, Dario Tagliaferri, Jason Lequyer, Sae Okazaki, Yukari Isayama, Kazuki Kato, Sworaj Sapkota, Harsh Ramani, Benjamin Arya, Cian Schmitt-Ulms, Keitaro Yamashita, Jonathan S. Gootenberg*, Omar O. Abudayyeh*, Hiroshi Nishimasu*（†共同筆頭著者、*責任著者）",
+        "sourceSha256": "ce2bdd54250fa0aac619a3880f3a7656ccde9c551fc6ec5b79b875289d35f999"
       }
     ],
     "10.64898/2026.05.08.26352759": [

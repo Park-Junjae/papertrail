@@ -1,0 +1,4210 @@
+{
+  "site": {
+    "name": "papertrail",
+    "eyebrow": "CORRESPONDING AUTHORS · PAST YEAR"
+  },
+  "weekKey": "corresponding-year",
+  "availableWeeks": [
+    "20261002",
+    "20260930",
+    "20260918",
+    "20260911",
+    "20260904",
+    "20260828",
+    "20260821",
+    "20260814",
+    "20260807",
+    "20260731",
+    "20260724",
+    "20260717",
+    "20260714",
+    "20260711",
+    "20260710",
+    "20260703",
+    "20260626",
+    "20260619",
+    "20260612",
+    "20260605",
+    "20260601",
+    "20260527",
+    "20260522",
+    "20260515",
+    "20260511",
+    "20260506",
+    "20260504",
+    "20260429",
+    "20260427",
+    "20260421",
+    "20260414",
+    "20260413",
+    "20260406",
+    "20260330",
+    "20260327"
+  ],
+  "generatedAt": "2026-10-08T11:12:55.199686+00:00",
+  "papers": [
+    {
+      "id": "7b8d1b97a8d0ca",
+      "doi": "10.1038/s41587-025-02945-w",
+      "pmid": "41526513",
+      "pmcid": "PMC12875382",
+      "title": "Targeted delivery of genome editors in vivo.",
+      "authors": [
+        "Wayne Ngo",
+        "Jamie L Y Wu",
+        "Kevin M Wasko",
+        "Jennifer A Doudna"
+      ],
+      "published": "2026-01-12",
+      "journal": "Nature biotechnology",
+      "abstract": "Genome editing has revolutionized the treatment of genetic diseases, yet the difficulty of tissue-specific delivery currently limits applications of editing technology. In this Review, we discuss preclinical and clinical advances in delivering genome editors with both established and emerging delivery mechanisms. Targeted delivery promises to considerably expand the therapeutic applicability of genome editing, moving closer to the ideal of a precise 'magic bullet' that safely and effectively treats diverse genetic disorders.",
+      "url": "https://doi.org/10.1038/s41587-025-02945-w",
+      "candidateAuthors": [
+        "jennifer-doudna"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jennifer-doudna",
+          "name": "Jennifer A. Doudna",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12875382/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "Jennifer A. Doudna; corresp=; ‡Corresponding author: doudna@berkeley.edu"
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Review",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12875382/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 리뷰는 조직 특이적 전달의 어려움이 생체 내 유전자 편집 치료의 적용을 제한한다는 문제를 다룹니다. 저자들은 기존 및 새롭게 등장한 전달 방식에 관한 전임상·임상 진전을 검토합니다. 초록에 따르면 표적 전달은 유전자 편집 치료의 적용 범위를 넓힐 가능성이 있지만, 구체적인 전달체별 결과나 비교는 제시되지 않습니다.",
+      "whyCare": "편집기 자체의 성능뿐 아니라 어떤 조직에 안전하고 효과적으로 도달시키는지가 치료 가능성을 좌우하므로, 전달은 유전자 편집의 핵심 연구 방향입니다. 전임상과 임상 진전을 함께 다루는 리뷰라는 점에서 연구 동향을 파악할 가치가 있습니다.",
+      "skepticism": "초록은 안전하고 효과적인 ‘magic bullet’에 가까워질 수 있다는 전망을 제시하지만, 전달 효율·조직 선택성·지속성·면역 반응·부작용을 어떤 근거로 비교하는지는 밝히지 않습니다. 임상 진전이 실제 치료 성과를 뜻하는지, 전달 방식 간 비교가 공정한지 본문에서 확인할 필요가 있습니다.",
+      "knowledge": "이 리뷰의 핵심 관점은 생체 내 유전자 편집의 치료 적용을 제한하는 중요한 병목이 조직 특이적 전달이라는 점입니다. 전달 방식의 발전이 편집 기술의 적용 범위를 넓힐 수 있다는 틀을 전임상 및 임상 진전과 연결합니다.",
+      "takeaway": "연구실의 전달 및 생체 내 유전자 편집 관심사에 직접 맞닿은 주제별 리뷰라 읽을 가치가 있습니다. 다만 초록은 리뷰의 구체적 비교와 근거 수준을 보여주지 않으므로, 특정 전달 기술의 우수성을 입증한 연구로 간주해서는 안 됩니다.",
+      "paperKey": "7b8d1b97a8d0ca",
+      "tracker": "flagship",
+      "source": "Nature biotechnology",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "high-interest",
+      "priorityLabel": "High interest",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_08b100faec1e58f4016ac777e6ef6487d081126cfbc0fae5ba",
+        "usage": {
+          "input_tokens": 1071,
+          "input_tokens_details": {
+            "cache_write_tokens": 1068,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1011,
+          "output_tokens_details": {
+            "reasoning_tokens": 452
+          },
+          "total_tokens": 2082
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 75,
+        "genomeEditing": 92,
+        "inVivo": 82,
+        "organoid": 5,
+        "epigenetics": 10,
+        "organelleMitochondria": 0,
+        "structuralBiology": 10,
+        "screening": 20,
+        "syntheticBiology": 20,
+        "proteinEngineering": 25,
+        "computational": 5,
+        "scientificNovelty": 55,
+        "evidenceStrength": 50,
+        "actionability": 75,
+        "venueQuality": 96
+      },
+      "lensRanks": {
+        "lab": 74,
+        "computational": 38
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "전임상·임상 편집기 전달 전략을 종합해 표적 전달과 생체내 편집 연구에 직접 유용하지만, 새 실험 결과를 보고하는 논문은 아니다.",
+        "computational": "계산 방법론이 아닌 유전자 편집 전달 분야 리뷰다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "32fca23e220075",
+      "doi": "10.1126/science.aea8769",
+      "pmid": "41231971",
+      "pmcid": "PMC12799240",
+      "title": "Recurrent acquisition of nuclease-protease pairs in antiviral immunity.",
+      "authors": [
+        "Owen T Tuck",
+        "Jason J Hu",
+        "Santiago C Lopez",
+        "Benjamin A Adler",
+        "Claire E O'Brien",
+        "Kendall Hsieh",
+        "Charlotte Meredith",
+        "Kenneth J Loi",
+        "Peter H Yoon",
+        "Erin E Doherty",
+        "Arushi Lahiri",
+        "Jennifer A Doudna"
+      ],
+      "published": "2025-11-13",
+      "journal": "Science (New York, N.Y.)",
+      "abstract": "Antiviral immune systems diversify by integrating new genes into existing pathways, creating new mechanisms of viral resistance. We identified genes encoding a predicted nuclease paired with a trypsin-like protease repeatedly acquired by multiple, otherwise unrelated antiviral immune systems in bacteria. Cell-based and biochemical assays revealed that the nuclease is a proenzyme that cleaves DNA only after activation by its partner protease. Two distinct immune systems, Hachiman and AVAST (antiviral adenosine triphosphatase/nucleoside triphosphatase of the STAND superfamily, Avs), use the same mechanism of proteolytic activation despite their independent evolutionary origins. Examination of nuclease-protease inheritance patterns identified caspase-nuclease ( canu ) genomic loci that confer antiviral defense in a pathway reminiscent of eukaryotic caspase activation. These results uncover the coordinated activities of pronucleases and their activating proteases within different immune systems and show how coevolution enables defense system innovation.",
+      "url": "https://doi.org/10.1126/science.aea8769",
+      "candidateAuthors": [
+        "jennifer-doudna"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jennifer-doudna",
+          "name": "Jennifer A. Doudna",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12799240/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "Jennifer A. Doudna; corresp=; *Corresponding author. doudna@berkeley.edu"
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12799240/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 서로 진화적으로 독립된 세균 항바이러스 면역계에서 뉴클레아제와 트립신 유사 프로테아제가 반복적으로 함께 나타나는 이유를 조사했습니다. 세포 기반 및 생화학적 실험에서 뉴클레아제가 비활성 전구체로 존재하다가 짝을 이루는 프로테아제에 의해 활성화된 뒤 DNA를 절단함을 보였습니다. Hachiman과 AVAST에서 이 활성화 방식이 확인됐고, 관련 유전자 상속 양상 분석을 통해 항바이러스 방어를 부여하는 canu 유전자좌도 밝혔습니다. 결과는 서로 다른 면역계가 프로테아제-뉴클레아제 조합을 통해 유사한 방어 원리를 진화시킬 수 있음을 제시합니다.",
+      "whyCare": "면역계의 진화적 혁신을 유전자 조합의 반복적 획득뿐 아니라, 프로테아제가 뉴클레아제의 활성을 제어하는 분자 기전으로 설명한 점이 중요합니다. 진핵세포의 caspase 활성화와 닮은 경로가 세균 방어에서도 확인되어, 제한된 단백질 조절 원리가 서로 다른 생물학적 맥락에서 재사용될 수 있음을 보여줍니다. 이는 항바이러스 생물학과 단백질 기능 제어에 관심 있는 연구자에게 읽을 만한 기전 연구입니다.",
+      "skepticism": "초록은 세포 기반 및 생화학적 실험과 두 면역계에서의 공통 기전을 보고하지만, 각 조합에서 활성화의 세부 분자 단계와 DNA 절단 특이성은 밝히지 않습니다. canu 유전자좌의 항바이러스 방어 기능은 보고됐으나, 이 기전이 자연 숙주에서 어느 범위까지 보존되는지, 또는 각 시스템에서 프로테아제 활성화가 방어에 필수적인지는 초록만으로 판단하기 어렵습니다. 서로 다른 계통에서의 반복 획득이 어떤 선택압과 경로로 일어났는지도 추가로 살펴볼 질문입니다.",
+      "knowledge": "핵심 개념은 비활성 전구체(pronuclease)가 짝을 이루는 프로테아제의 작용으로 활성화되는 조절 방식입니다. 이를 Hachiman과 AVAST라는 독립적으로 진화한 세균 면역계에서 비교하고, 유전자 상속 양상 분석으로 canu 방어 유전자좌를 찾아 기전과 진화적 분포를 연결했습니다. 항바이러스 방어 단백질의 기능은 단백질 간 활성화 관계를 통해 새롭게 구성될 수 있다는 점을 얻어갈 수 있습니다.",
+      "takeaway": "세균 항바이러스 면역에서 프로테아제에 의한 뉴클레아제 활성화가 독립적으로 진화한 시스템들을 잇는 반복적 기전이라는 점을 세포 및 생화학 실험으로 뒷받침한 연구입니다. genome editing의 직접적 진전은 아니지만, 단백질 활성 제어와 면역계 진화에 대한 기전적 가치가 있습니다.",
+      "paperKey": "32fca23e220075",
+      "tracker": "flagship",
+      "source": "Science (New York, N.Y.)",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "high-interest",
+      "priorityLabel": "High interest",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_09db1004153af6a3016ac777f3048087d08a0a2891ddfd0f84",
+        "usage": {
+          "input_tokens": 1196,
+          "input_tokens_details": {
+            "cache_write_tokens": 1193,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1694,
+          "output_tokens_details": {
+            "reasoning_tokens": 752
+          },
+          "total_tokens": 2890
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 70,
+        "genomeEditing": 38,
+        "inVivo": 0,
+        "organoid": 0,
+        "epigenetics": 0,
+        "organelleMitochondria": 0,
+        "structuralBiology": 20,
+        "screening": 15,
+        "syntheticBiology": 35,
+        "proteinEngineering": 55,
+        "computational": 5,
+        "scientificNovelty": 85,
+        "evidenceStrength": 85,
+        "actionability": 52,
+        "venueQuality": 82
+      },
+      "lensRanks": {
+        "lab": 72,
+        "computational": 45
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "세균 항바이러스 면역에서 protease가 nuclease 전구체를 활성화하는 기전을 세포·생화학 실험으로 밝혀, 방어계의 진화와 nuclease 작동 원리에 중요한 통찰을 준다.",
+        "computational": "계산 분석이 주된 기여가 아니라 실험적 면역기전 연구다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "bb56f10b350645",
+      "doi": "10.1038/s41586-026-10903-y",
+      "pmid": "42587149",
+      "pmcid": "PMC13626964",
+      "title": "Structural mechanism governing the directionality of bridge recombination.",
+      "authors": [
+        "Masahiro Hiraizumi",
+        "Januka S Athukoralage",
+        "Nicholas T Perry",
+        "Eisuke Tsujimoto",
+        "Nami Shiojiri",
+        "Naoto Nagahata",
+        "Lauren Lee",
+        "Gwanggyu Sun",
+        "Matthew G Durrant",
+        "Sita S Chandrasekaran",
+        "Silvana Konermann",
+        "Keitaro Yamashita",
+        "Patrick D Hsu",
+        "Hiroshi Nishimasu"
+      ],
+      "published": "2026-08-12",
+      "journal": "Nature",
+      "abstract": "Bridge recombinases from the IS110 family of transposons, such as IS621, associate with a bridge RNA (bRNA) to mediate programmable recombination between donor DNA and target DNA 1,2 . Although insertion is mediated by the recombinase-bRNA complex, it remains unknown how IS621 elements are excised from host genomes to form the circular DNA intermediates required for transposition. Here we show that bRNA is weakly expressed from IS621 loci in the Escherichia coli genome and that the IS621 recombinase-bRNA complex mediates excision less efficiently than insertion. Furthermore, we present the cryo-electron microscopy structures of the IS621 recombinase-bRNA complex bound to excision DNA substrates, providing mechanistic insights into the excision reaction. Similar to the previously reported donor- and target-bound insertion complex 2 , the excision complex comprises two recombinase dimers, each accommodating the target- and donor-binding loops of the bRNA. However, DNA recognition differs notably between the two complexes. Although the donor and target DNAs form a bent U-shape during insertion 2 , the excision substrates adopt linear conformations and bind across both bRNA loops, forming an X-shaped structure. This geometry reduces the efficiency of top-strand exchange and contributes to the naturally observed bias favouring insertion over excision. Despite these differences, the efficiencies of both reactions are similarly modulated by base pairing between specific dinucleotides in the bRNA, termed handshake guides, and the top strands of the DNA substrates. Overall, this study provides mechanistic insights into the complete IS110 transposition cycle and facilitates the optimal design of programmable bridge-editing applications.",
+      "url": "https://doi.org/10.1038/s41586-026-10903-y",
+      "candidateAuthors": [
+        "patrick-hsu"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "patrick-hsu",
+          "name": "Patrick D. Hsu",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13626964/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "Patrick D. Hsu; corresp=yes; "
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13626964/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 IS110 계열 recombinase인 IS621이 삽입 반응과 달리 어떻게 절제되는지를 묻는다. 저자들은 IS621의 bRNA 발현과 반응 효율을 조사하고, 절제 DNA 기질에 결합한 recombinase–bRNA 복합체의 cryo-EM 구조를 제시한다. 보고된 구조에서 절제 기질은 삽입 때의 U자형과 달리 선형으로 결합해 X자형 배치를 이루며, 저자들은 이 기하학이 가닥 교환 효율을 낮춰 삽입 편향에 기여한다고 해석한다. bRNA의 handshake guide와 DNA 가닥 간 염기쌍은 삽입과 절제 효율을 모두 조절한다.",
+      "whyCare": "구조와 반응 특성을 연결해 bridge recombination의 방향성, 특히 삽입이 절제보다 유리한 이유를 설명하려는 연구다. 구조생물학과 genome editor engineering 양쪽에 의미가 있고, IS621 전위 주기의 절제 단계를 이해하는 데 구체적인 기전을 제시한다.",
+      "skepticism": "초록은 구조적 배치와 낮은 절제 효율의 연관성을 보고하고 이를 가닥 교환 저하의 원인으로 제시하지만, 그 기하학의 인과적 기여를 분리해 검증한 실험의 범위는 요약만으로 알 수 없다. 구조·효율 관계가 IS621의 다른 기질이나 조건에서도 유지되는지, 다른 IS110 계열에도 적용되는지는 확인할 질문이다. 또한 초록은 세포 내에서 절제 조절을 바꾸었을 때 전위나 편집 결과가 어떻게 달라지는지 확립하지 않는다.",
+      "knowledge": "핵심 개념은 bRNA의 서로 다른 두 결합 루프가 donor·target DNA를 배치하고, DNA 구조가 가닥 교환 효율과 반응 방향성에 연결될 수 있다는 점이다. 삽입 복합체의 U자형 DNA 배치와 절제 복합체의 X자형 배치, 그리고 handshake guide의 염기쌍 조절이 주요 기전적 단서다.",
+      "takeaway": "IS621의 절제 복합체 구조는 삽입 편향을 설명하는 구체적인 기전을 제안하며, bridge recombinase의 구조 기반 설계에 유용한 출발점을 제공한다. 다만 초록만으로는 이 원리의 계열 전반 적용성이나 편집 성능 개선까지 결론낼 수 없다.",
+      "paperKey": "bb56f10b350645",
+      "tracker": "flagship",
+      "source": "Nature",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_0342a744468bb3c8016ac77808163c87d0ad2cf8861c6a3fc3",
+        "usage": {
+          "input_tokens": 1331,
+          "input_tokens_details": {
+            "cache_write_tokens": 1328,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1555,
+          "output_tokens_details": {
+            "reasoning_tokens": 776
+          },
+          "total_tokens": 2886
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 88,
+        "genomeEditing": 95,
+        "inVivo": 5,
+        "organoid": 0,
+        "epigenetics": 0,
+        "organelleMitochondria": 0,
+        "structuralBiology": 93,
+        "screening": 20,
+        "syntheticBiology": 55,
+        "proteinEngineering": 70,
+        "computational": 10,
+        "scientificNovelty": 90,
+        "evidenceStrength": 90,
+        "actionability": 82,
+        "venueQuality": 100
+      },
+      "lensRanks": {
+        "lab": 90,
+        "computational": 54
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "IS621 bridge recombinase의 excision 복합체 구조와 삽입·절제 방향성의 기전을 제시해 bridge editing 설계에 직접 도움이 되는 구조·기능 연구다.",
+        "computational": "cryo-EM 구조와 기능 분석이 핵심인 실험 연구다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "2c2f1a15f6d285",
+      "doi": "10.1038/s41467-026-72227-9",
+      "pmid": "42031729",
+      "pmcid": "PMC13319239",
+      "title": "A combinatorial domain screening platform reveals epigenetic effector interactions for transcriptional perturbation.",
+      "authors": [
+        "Hyungseok C Moon",
+        "Michael H Herschl",
+        "Alessandra Sclip",
+        "Vincent Q Tran",
+        "April Pawluk",
+        "Silvana Konermann",
+        "Patrick D Hsu"
+      ],
+      "published": "2026-04-24",
+      "journal": "Nature communications",
+      "abstract": "Epigenetic regulation involves the coordinated interplay of diverse proteins. To systematically explore these combinations, we present COMBINE (combinatorial interaction exploration), a high-throughput platform that tests over 50,000 pairs of epigenetic effector domains up to 2,094 amino acids in length for their ability to modulate endogenous human gene transcription. COMBINE reveals diverse synergistic interactions between epigenetic protein domains, including a potent KRAB-L3MBTL3 fusion that increases the effective targeting window, enhances gene silencing in dose-limited conditions, and enables robust dual-directional CRISPR perturbation. Inducible screening shows DNA methylation modifiers are essential for epigenetic memory, with distinct combinations driving long-term repression and activation. This systematic analysis of pairwise domain interactions advances our understanding of epigenetic crosstalks and the development of next-generation epigenome editing tools. More broadly, COMBINE offers a generalizable platform to functionally characterize combinatorial biological processes at scale.",
+      "url": "https://doi.org/10.1038/s41467-026-72227-9",
+      "candidateAuthors": [
+        "patrick-hsu"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "patrick-hsu",
+          "name": "Patrick D. Hsu",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13319239/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "Patrick D Hsu; corresp=; ✉Corresponding author."
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13319239/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 서로 다른 후성유전 조절 단백질 도메인의 조합이 내인성 유전자 발현을 어떻게 바꾸는지 체계적으로 조사하기 위해 COMBINE을 제시합니다. 이 플랫폼은 50,000개가 넘는 도메인 쌍을 시험했고, 그중 KRAB-L3MBTL3 조합은 표적 억제를 강화하고 유효 표적화 범위를 넓히며 용량이 제한된 조건에서도 억제를 높였다고 보고합니다. 또한 이 조합은 CRISPR 기반 억제와 활성의 양방향 조절을 가능하게 했습니다. 유도성 스크리닝에서는 DNA 메틸화 조절 인자가 후성유전 기억에 필요하며, 서로 다른 조합이 장기 억제 또는 활성 상태를 유도한다고 보고합니다.",
+      "whyCare": "대규모 조합 스크리닝으로 후성유전 인자 사이의 상호작용을 기능적으로 비교하고, 이를 유전자 발현 조절 도구와 연결했다는 점에서 후성유전 기전 연구와 후성유전체 편집 양쪽에 중요합니다. 특히 조합에 따라 장기적인 억제와 활성 결과가 달라진다는 관찰은 후성유전 기억을 단일 인자의 효과가 아니라 조합의 문제로 살펴볼 근거를 제공합니다.",
+      "skepticism": "초록은 대규모 스크리닝과 특정 조합의 기능을 보고하지만, 시험한 세포 유형과 표적 유전자 범위, 개별 조합의 재현성, 장기 효과의 구체적 정의는 밝히지 않습니다. DNA 메틸화 조절 인자가 기억에 필수라는 결론을 어떤 조건에서 확인했는지, KRAB-L3MBTL3의 이점이 다양한 표적과 세포 맥락에서도 유지되는지는 본문에서 확인해야 합니다. 초록만으로는 생체 내 효능이나 오가노이드 적용성이 입증됐다고 볼 수 없습니다.",
+      "knowledge": "후성유전 조절 도메인은 단독 효과뿐 아니라 조합에 따라 상승작용을 낼 수 있습니다. 이 연구는 내인성 유전자 발현을 결과값으로 삼는 대규모 쌍별 기능 스크리닝과, 유도성 스크리닝을 이용해 후성유전 상태의 지속성을 조사하는 접근을 보여줍니다. CRISPR 표적화와 후성유전 효과기를 조합해 억제와 활성 방향을 모두 다루려는 설계도 핵심입니다.",
+      "takeaway": "후성유전 인자 간 상호작용을 체계적으로 탐색하고, 이를 기억성 조절 및 CRISPR 기반 도구 개발과 연결한 연구로서 이 랩의 후성유전학·유전체 편집 관심사에 높은 가치가 있습니다. 다만 일반화 가능성과 생체 내 적용은 초록에서 확인되지 않습니다.",
+      "paperKey": "2c2f1a15f6d285",
+      "tracker": "flagship",
+      "source": "Nature communications",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_0844b6df23333b57016ac77818fd1487d0b3ebe741b1248f78",
+        "usage": {
+          "input_tokens": 1205,
+          "input_tokens_details": {
+            "cache_write_tokens": 1202,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1760,
+          "output_tokens_details": {
+            "reasoning_tokens": 947
+          },
+          "total_tokens": 2965
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 91,
+        "genomeEditing": 85,
+        "inVivo": 5,
+        "organoid": 10,
+        "epigenetics": 98,
+        "organelleMitochondria": 0,
+        "structuralBiology": 5,
+        "screening": 98,
+        "syntheticBiology": 55,
+        "proteinEngineering": 75,
+        "computational": 15,
+        "scientificNovelty": 91,
+        "evidenceStrength": 90,
+        "actionability": 94,
+        "venueQuality": 88
+      },
+      "lensRanks": {
+        "lab": 92,
+        "computational": 57
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "5만 쌍이 넘는 후성유전 effector 조합을 선별하고, 침묵화·활성화의 장기 기억과 CRISPR 양방향 조절을 뒷받침하는 조합을 찾아낸 강력한 스크리닝·epigenome editing 연구다.",
+        "computational": "대규모 실험 스크리닝과 유전자 발현 검증이 중심이다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "e8d1a370431e95",
+      "doi": "10.1038/s41586-026-10176-5",
+      "pmid": "41781614",
+      "pmcid": "PMC13128491",
+      "title": "Genome modelling and design across all domains of life with Evo 2.",
+      "authors": [
+        "Garyk Brixi",
+        "Matthew G Durrant",
+        "Jerome Ku",
+        "Mohsen Naghipourfar",
+        "Michael Poli",
+        "Gwanggyu Sun",
+        "Greg Brockman",
+        "Daniel Chang",
+        "Alison Fanton",
+        "Gabriel A Gonzalez",
+        "Samuel H King",
+        "David B Li",
+        "Aditi T Merchant",
+        "Eric Nguyen",
+        "Chiara Ricci-Tam",
+        "David W Romero",
+        "Jonathan C Schmok",
+        "Ali Taghibakhshi",
+        "Anton Vorontsov",
+        "Brandon Yang",
+        "Myra Deng",
+        "Liv Gorton",
+        "Nam Nguyen",
+        "Nicholas K Wang",
+        "Michael T Pearce",
+        "Elana Simon",
+        "Etowah Adams",
+        "Zachary J Amador",
+        "Euan A Ashley",
+        "Stephen A Baccus",
+        "Haoyu Dai",
+        "Steven Dillmann",
+        "Stefano Ermon",
+        "Daniel Guo",
+        "Michael H Herschl",
+        "Rajesh Ilango",
+        "Ken Janik",
+        "Amy X Lu",
+        "Reshma Mehta",
+        "Mohammad R K Mofrad",
+        "Madelena Y Ng",
+        "Jaspreet Pannu",
+        "Christopher Ré",
+        "John St John",
+        "Jeremy Sullivan",
+        "Joseph Tey",
+        "Ben Viggiano",
+        "Kevin Zhu",
+        "Greg Zynda",
+        "Daniel Balsam",
+        "Patrick Collison",
+        "Anthony B Costa",
+        "Tina Hernandez-Boussard",
+        "Eric Ho",
+        "Ming-Yu Liu",
+        "Thomas McGrath",
+        "Kimberly Powell",
+        "Sudarshan Pinglay",
+        "Dave P Burke",
+        "Hani Goodarzi",
+        "Patrick D Hsu",
+        "Brian L Hie"
+      ],
+      "published": "2026-03-04",
+      "journal": "Nature",
+      "abstract": "All of life encodes information with DNA. Although tools for genome sequencing, synthesis and editing have transformed biological research, we still lack sufficient understanding of the immense complexity encoded by genomes to predict the effects of many classes of genomic changes or to intelligently compose new biological systems. Artificial intelligence models that learn information from genomic sequences across diverse organisms have increasingly advanced prediction and design capabilities 1,2 . Here we introduce Evo 2, a biological foundation model trained on 9 trillion DNA base pairs from a highly curated genomic atlas spanning all domains of life to have a 1 million token context window with single-nucleotide resolution. Evo 2 learns to accurately predict the functional impacts of genetic variation-from noncoding pathogenic mutations to clinically significant BRCA1 variants-without task-specific fine-tuning. Mechanistic interpretability analyses reveal that Evo 2 learns representations associated with biological features, including exon-intron boundaries, transcription factor binding sites, protein structural elements and prophage genomic regions. The generative abilities of Evo 2 produce mitochondrial, prokaryotic and eukaryotic sequences at genome scale with greater naturalness and coherence than previous methods. Evo 2 also generates experimentally validated chromatin accessibility patterns when guided by predictive models 3,4 and inference-time search. We have made Evo 2 fully open, including model parameters, training code 5 , inference code and the OpenGenome2 dataset, to accelerate the exploration and design of biological complexity.",
+      "url": "https://doi.org/10.1038/s41586-026-10176-5",
+      "candidateAuthors": [
+        "patrick-hsu"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "patrick-hsu",
+          "name": "Patrick D. Hsu",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13128491/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "Patrick D. Hsu; corresp=yes; "
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13128491/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 다양한 생물의 DNA에서 학습한 모델이 유전적 변이의 기능을 예측하고 새 서열을 설계할 수 있는지 다룹니다. 저자들은 모든 생물 영역을 아우르는 유전체 자료 9조 염기쌍으로 Evo 2를 학습시키고, 단일 염기 해상도와 100만 토큰 문맥 길이를 갖도록 했습니다. 초록에 따르면 모델은 비암호화 변이와 BRCA1 변이의 영향을 예측하고, 미토콘드리아·원핵생물·진핵생물 서열을 생성했습니다. 예측 모델과 탐색을 이용해 만든 염색질 접근성 패턴은 실험적으로 검증됐다고 보고합니다.",
+      "whyCare": "폭넓은 유전체 문맥을 다루며 변이 예측부터 서열 생성까지 연결하고, 염색질 접근성 패턴에 실험 검증을 제시했다는 점에서 합성생물학·후성유전학·유전체 설계와 맞닿습니다. 모델뿐 아니라 학습 코드와 자료도 공개해 후속 검증과 응용의 기반을 제공합니다.",
+      "skepticism": "초록만으로는 변이 예측의 기준선 대비 성능, 세포 유형별 일반화, 또는 생성 서열이 목표 기능을 얼마나 일관되게 구현하는지 판단할 수 없습니다. 접근성 패턴의 실험 검증은 보고되지만, 검증 범위와 세포 맥락, 측정된 결과는 제시되지 않습니다. 따라서 ‘게놈 설계’의 폭넓은 가능성과 실제로 검증된 기능을 구분해 읽어야 합니다.",
+      "knowledge": "핵심 개념은 긴 DNA 문맥을 학습하는 기반 모델, 학습된 표현에서 생물학적 특징을 해석하는 방법, 그리고 예측 모델과 추론 시점 탐색을 결합한 서열 생성입니다. 초록은 엑손-인트론 경계, 전사인자 결합 부위 등과 연관된 표현도 보고합니다.",
+      "takeaway": "넓은 유전체 모델링과 서열 생성에 더해 접근성 패턴의 실험 검증을 보고한, 여러 연구 방향에 걸친 중요한 방법론 논문입니다. 계산 모델이 중심이지만 실험적으로 검증된 후성유전학적 응용이 있어 computationalOnly=false, crossOver=true로 봅니다.",
+      "paperKey": "e8d1a370431e95",
+      "tracker": "flagship",
+      "source": "Nature",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_07d6fb8a415cdd28016ac7782cc49087d08bc3c047ca7af2c1",
+        "usage": {
+          "input_tokens": 1278,
+          "input_tokens_details": {
+            "cache_write_tokens": 1275,
+            "cached_tokens": 0
+          },
+          "output_tokens": 2166,
+          "output_tokens_details": {
+            "reasoning_tokens": 1444
+          },
+          "total_tokens": 3444
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 78,
+        "genomeEditing": 53,
+        "inVivo": 5,
+        "organoid": 0,
+        "epigenetics": 60,
+        "organelleMitochondria": 40,
+        "structuralBiology": 20,
+        "screening": 25,
+        "syntheticBiology": 82,
+        "proteinEngineering": 35,
+        "computational": 100,
+        "scientificNovelty": 95,
+        "evidenceStrength": 78,
+        "actionability": 65,
+        "venueQuality": 100
+      },
+      "lensRanks": {
+        "lab": 82,
+        "computational": 92
+      },
+      "computationalOnly": false,
+      "crossOver": true,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "대규모 DNA foundation model의 변이 예측·서열 생성 능력은 유전체 설계에 폭넓게 쓰일 수 있고, 생성된 염색질 접근성 패턴의 실험 검증도 보고한다. 모델 자체가 주된 기여다.",
+        "computational": "AI 모델이 핵심이지만 염색질 접근성 패턴의 실험 검증이 있어 후성유전 분야와 의미 있는 접점이 있다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "included",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "dc1ab2b4b2222c",
+      "doi": "10.1038/s41586-026-10738-7",
+      "pmid": "42259916",
+      "pmcid": "PMC13533554",
+      "title": "Targeting cancer-specific mutations with RNA-triggered chromatin shredding.",
+      "authors": [
+        "Jingkun Zeng",
+        "Zhiyuan Cheng",
+        "Huadong Chen",
+        "Zhaojun Wang",
+        "Jared Thompson",
+        "Kadin T Crosby",
+        "Hesong Han",
+        "Arushi Singhal",
+        "Wayne Ngo",
+        "Chenglong Xia",
+        "Daniel Rosas-Rivera",
+        "Zeyuan Zhang",
+        "Min Hyung Kang",
+        "Ying Mao",
+        "Morgan E Diolaiti",
+        "Giselle C Lee",
+        "John F X Diffley",
+        "Yixuan Song",
+        "Longhui Qiu",
+        "Nathan M Krah",
+        "Niren Murthy",
+        "Ryan N Jackson",
+        "Yang Liu",
+        "Alan Ashworth",
+        "Jennifer A Doudna"
+      ],
+      "published": "2026-06-08",
+      "journal": "Nature",
+      "abstract": "Genetic mutations that drive cancer often occur in tumour-suppressor proteins such as the p53 transcription factor, which is altered in 40-50% of cases 1,2 . However, current therapies often fail to target these mutations because the mutant proteins typically lack defined drug-binding pockets and restoring their endogenous function has proven challenging. Here we program Cas12a2, an RNA-guided CRISPR nuclease with trans-nucleolytic cleavage activity 3,4 , to kill cancer cells selectively by targeting cancer-specific transcripts. This approach limited cell growth by inducing trans shredding of chromatin and triggering DNA-damage responses and cell death. In contrast to existing methods, RNA-guided Cas12a2 senses cellular RNA signatures, enabling precise targeting of undruggable mutations. Transcript-activated chromatin shredding provides an innovative approach to precision disease treatments for undruggable targets.",
+      "url": "https://doi.org/10.1038/s41586-026-10738-7",
+      "candidateAuthors": [
+        "jennifer-doudna"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jennifer-doudna",
+          "name": "Jennifer A. Doudna",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13533554/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "Jennifer A Doudna; corresp=; *Correspondence: doudna@berkeley.edu"
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13533554/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 암 특이적 RNA를 인식해 암세포를 선택적으로 제거할 수 있는지 시험합니다. 저자들은 RNA 유도 CRISPR 뉴클레아제 Cas12a2를 암 특이적 전사체에 반응하도록 설계했습니다. 초록에 따르면 표적 RNA 인식 뒤 Cas12a2의 trans-nucleolytic 활성이 염색질을 광범위하게 절단하고, DNA 손상 반응과 세포사를 유발해 세포 증식을 억제합니다. 다만 초록은 구체적인 암 표적, 모델, 선택성의 정량 결과를 제시하지 않습니다.",
+      "whyCare": "약물 결합 부위가 뚜렷하지 않은 암 변이를 단백질 수준에서 억제하는 대신, 변이와 연관된 RNA를 감지해 세포 안의 절단 활성을 켠다는 발상이 중요합니다. 특히 RNA 인식과 염색질 파괴를 연결하는 작동 원리가 충분히 선택적이고 재현 가능하다면, 암 선택적 제거 전략이자 RNA 반응성 유전자 편집 도구의 확장으로 관심을 끌 만합니다.",
+      "skepticism": "초록은 암 특이적 표적화와 세포사 유도를 주장하지만, 어떤 변이·세포 모델에서 검증했는지, 정상 세포와 얼마나 구별됐는지, 효과가 표적 RNA 의존적인지를 설명하지 않습니다. 염색질 절단이 직접적인 Cas12a2 trans 활성의 결과인지와 비표적 전사체에 따른 손상 범위도 확인이 필요합니다. p53는 배경 사례로 언급될 뿐, 초록만으로 p53 변이를 직접 표적해 검증했다고 볼 수 없습니다.",
+      "knowledge": "핵심 개념은 표적 RNA 인식에 의해 활성화되는 Cas12a2의 trans 절단 활성을 염색질 손상과 세포사로 연결한 ‘전사체 활성화 염색질 파괴’입니다. 이는 변이 단백질 기능을 복구하거나 결합 포켓을 억제하는 접근과 달리, 암 특이적 RNA 신호를 세포 제거의 트리거로 활용하려는 전략입니다.",
+      "takeaway": "암 특이적 RNA 감지와 Cas12a2의 염색질 파괴를 결합한 흥미로운 유전자 편집·세포살상 개념입니다. 초록의 주장만으로 치료 선택성이나 생체 내 적용성을 확정할 수는 없으므로, 표적 의존성과 정상 세포 안전성에 관한 실험을 확인할 가치가 있습니다.",
+      "paperKey": "dc1ab2b4b2222c",
+      "tracker": "flagship",
+      "source": "Nature",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_0e1ab76098a7bbde016ac77843e84487d0a8ae6c6fcbcfd408",
+        "usage": {
+          "input_tokens": 1172,
+          "input_tokens_details": {
+            "cache_write_tokens": 1169,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1423,
+          "output_tokens_details": {
+            "reasoning_tokens": 601
+          },
+          "total_tokens": 2595
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 88,
+        "genomeEditing": 86,
+        "inVivo": 10,
+        "organoid": 0,
+        "epigenetics": 20,
+        "organelleMitochondria": 0,
+        "structuralBiology": 10,
+        "screening": 25,
+        "syntheticBiology": 25,
+        "proteinEngineering": 35,
+        "computational": 5,
+        "scientificNovelty": 88,
+        "evidenceStrength": 72,
+        "actionability": 80,
+        "venueQuality": 100
+      },
+      "lensRanks": {
+        "lab": 86,
+        "computational": 49
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "Cas12a2를 암 특이 전사체에 반응하도록 프로그램해 염색질 절단과 세포사를 유도한다. 표적 RNA 감지와 암세포 선택성이라는 새 CRISPR 치료 개념을 제시하지만 초록에는 생체내 검증이 없다.",
+        "computational": "RNA 유도 nuclease의 실험적 재프로그래밍과 세포 검증이 중심이다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "bd474ddc4723b5",
+      "doi": "10.1038/s41586-025-09873-4",
+      "pmid": "41407851",
+      "pmcid": "PMC12893904",
+      "title": "Transient hepatic reconstitution of trophic factors enhances aged immunity.",
+      "authors": [
+        "Mirco J Friedrich",
+        "Julie Pham",
+        "Jiakun Tian",
+        "Hongyu Chen",
+        "Jiahao Huang",
+        "Niklas Kehl",
+        "Sophia Liu",
+        "Blake Lash",
+        "Fei Chen",
+        "Xiao Wang",
+        "Rhiannon K Macrae",
+        "Feng Zhang"
+      ],
+      "published": "2025-12-17",
+      "journal": "Nature",
+      "abstract": "Ageing erodes human immunity, in part by reshaping the T cell repertoire, leading to increased vulnerability to infection, malignancy and vaccine failure 1-3 . Attempts to rejuvenate immune function have yielded only modest results and are limited by toxicity or lack of clinical feasibility 1,3-5 . Here we show that the liver can be transiently repurposed to restore age-diminished immune cues and improve T cell function in aged mice. These immune cues were found by performing multi-omic mapping across central and peripheral niches in young and aged animals, leading to the identification of Notch and Fms-like tyrosine kinase 3 ligand (FLT3L) pathways, together with interleukin-7 (IL-7) signalling, as declining with age. Delivery of mRNAs encoding Delta-like ligand 1 (DLL1), FLT3L and IL-7 to hepatocytes expanded common lymphoid progenitors, boosted de novo thymopoiesis without affecting haematopoietic stem cell (HSC) composition, and replenished T cells while enhancing dendritic cell abundance and function. Treatment with these mRNAs improved peptide vaccine responses and restored antitumour immunity in aged mice by increasing tumour-specific CD8 + infiltration and clonal diversity and synergizing with immune checkpoint blockade. These effects were reversible after dosing ceased and did not breach self-tolerance, in contrast to the inflammatory and autoimmune liabilities of recombinant cytokine treatments 6,7 . These findings underscore the promise of mRNA-based strategies for systemic immune modulation and highlight the potential of interventions aimed at preserving immune resilience in ageing populations.",
+      "url": "https://doi.org/10.1038/s41586-025-09873-4",
+      "candidateAuthors": [
+        "feng-zhang"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "feng-zhang",
+          "name": "Feng Zhang",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12893904/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "Feng Zhang; corresp=; ✉Corresponding author."
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12893904/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 노화로 약해진 면역을 회복하기 위해 간을 일시적인 면역인자 공급원으로 활용할 수 있는지 시험했습니다. 젊고 늙은 생쥐의 면역 미세환경을 다중오믹스로 비교해 감소한 Notch, FLT3L, IL-7 신호를 찾고, 이 인자들을 암호화한 mRNA를 간세포에 전달했습니다. 초록에 따르면 처치는 림프구 전구세포와 새 흉선생성을 늘리고 T세포 및 수지상세포 기능을 개선했으며, 늙은 생쥐의 백신 반응과 항종양 면역도 높였습니다. 효과는 투여 중단 뒤 가역적이었고, 초록은 자가면역을 유발하지 않았다고 보고합니다.",
+      "whyCare": "노화 면역저하를 단일 세포군 조작이 아니라 간에서 여러 생리적 면역 신호를 일시적으로 보충해 다루는 인과적 개입 연구입니다. 면역 회복, mRNA 기반 전신 조절, 종양면역의 접점이 있어 in vivo 생물학과 전달 연구를 하는 연구자에게 폭넓게 읽을 가치가 있습니다.",
+      "skepticism": "초록은 여러 면역·치료 결과의 개선을 보고하지만, 각 인자가 기여한 정도와 Notch·FLT3L·IL-7의 상대적 필요성은 여기서 분명하지 않습니다. 효과의 지속 기간, 반복 투여의 안전성, 사람에서의 적용 가능성도 초록만으로 확립되지 않습니다. 후속 확인에서는 개별 인자 제거·비교와 장기 안전성 및 기능 유지 여부가 핵심 질문입니다.",
+      "knowledge": "핵심 개념은 노화에 따라 감소한 면역 니치를 간에서 분비성 신호를 일시적으로 보충해 복구한다는 접근입니다. 이 연구는 노화 전후 다중오믹스 비교를 후보 인자 선정에 연결하고, mRNA 전달을 통한 체내 인자 발현을 백신 및 항종양 기능 평가와 이어 붙였습니다.",
+      "takeaway": "초록에 제시된 생쥐 자료는 간 표적 mRNA로 노화 면역의 여러 축을 함께 개선할 가능성을 뒷받침합니다. 유전체 편집 논문은 아니지만, 인과적 생체 내 개입과 전달·면역생물학의 결합 때문에 연구실 전반에서 우선 읽을 만한 후보입니다.",
+      "paperKey": "bd474ddc4723b5",
+      "tracker": "flagship",
+      "source": "Nature",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_047d2f8dcc5504a0016ac77854165487d08b9a1d524ef0d49d",
+        "usage": {
+          "input_tokens": 1313,
+          "input_tokens_details": {
+            "cache_write_tokens": 1310,
+            "cached_tokens": 0
+          },
+          "output_tokens": 2430,
+          "output_tokens_details": {
+            "reasoning_tokens": 1671
+          },
+          "total_tokens": 3743
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 88,
+        "genomeEditing": 15,
+        "inVivo": 96,
+        "organoid": 0,
+        "epigenetics": 10,
+        "organelleMitochondria": 0,
+        "structuralBiology": 0,
+        "screening": 35,
+        "syntheticBiology": 40,
+        "proteinEngineering": 20,
+        "computational": 10,
+        "scientificNovelty": 86,
+        "evidenceStrength": 91,
+        "actionability": 88,
+        "venueQuality": 100
+      },
+      "lensRanks": {
+        "lab": 91,
+        "computational": 54
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "간세포에 DLL1·FLT3L·IL-7 mRNA를 전달해 노령 생쥐의 T세포 재생과 백신·항암 면역을 개선했고, 투여 중단 후 가역성과 자가면역 위험도 평가했다.",
+        "computational": "다중오믹스 분석 뒤 생체내 mRNA 개입을 검증한 실험 연구다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "1f17218915d10f",
+      "doi": "10.1038/s41586-026-10820-0",
+      "pmid": "42486980",
+      "pmcid": "PMC13477572",
+      "title": "AI-redesigned starting points and outcomes enhance protein evolution.",
+      "authors": [
+        "Nicholas A Krasnow",
+        "Joy A Xu",
+        "Emily Zhang",
+        "Gandhar K Mahadeshwar",
+        "Y Allen Tao",
+        "Julia McCreary",
+        "Colin F Hemez",
+        "Logan E Brown",
+        "Wei Jiang",
+        "David R Liu"
+      ],
+      "published": "2026-07-22",
+      "journal": "Nature",
+      "abstract": "Engineered or laboratory-evolved proteins often have suboptimal stability, activity or specificity. Here we applied artificial intelligence (AI)-based protein sequence design to address challenges in experimental enzyme evolution. Using the model ProteinMPNN, we redesigned three distinct botulinum neurotoxin (BoNT) proteases, generating variants with improved stability and full catalytic efficiency 1 . We hypothesized that redesigned enzymes may be more mutationally robust than their wild-type (WT) counterparts, and therefore may serve as better starting points to evolve new function. We performed side-by-side phage-assisted continuous evolution campaigns initiated with AI-redesigned proteases or with the corresponding WT proteases 2 . Evolving three distinct redesigned enzymes as starting points consistently yielded proteases with higher activity than evolving WT proteases in the same selection. Across four evolution campaigns, redesign conferred robustness that unlocked access to otherwise inaccessible highly functional sequences, confirmed by the inability of redesign-evolved mutations to function in WT enzyme backgrounds. When redesign raises fitness in sequence space local to the starting point, redesigned starting points adapt at a faster rate. Finally, we evolved both WT and AI-redesigned BoNT/E protease to selectively cleave the therapeutically relevant protein ataxin-2. Proteases evolved from the redesigned starting point reached higher catalytic efficiency and stability while minimizing native substrate cleavage, achieving more than 79-fold greater selected specificity for ataxin-2 than the best-performing variant evolved from WT BoNT/E. This study establishes a practical workflow using AI-redesigned starting points to evolve enzymes with improved properties compared with those evolved from natural proteins, with broad implications for protein science.",
+      "url": "https://doi.org/10.1038/s41586-026-10820-0",
+      "candidateAuthors": [
+        "david-liu"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "david-liu",
+          "name": "David R. Liu",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13477572/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "David R. Liu; corresp=yes; "
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13477572/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 AI 기반 ProteinMPNN으로 세 종류의 보툴리눔 신경독소(BoNT) 단백질분해효소를 재설계한 뒤, 이들을 실험적 진화의 출발점으로 사용하면 야생형 효소보다 유리한지 시험했습니다. 초록에 따르면 재설계 효소는 안정성과 촉매 효율이 개선됐고, 이를 시작점으로 한 연속 진화에서 야생형 시작점보다 더 높은 활성을 가진 효소가 일관되게 얻어졌습니다. 특히 재설계된 BoNT/E에서 시작해 치료적으로 관심 있는 ataxin-2를 선택적으로 절단하는 효소를 진화시켰으며, 야생형에서 진화시킨 최선 변이보다 선택성이 79배 이상 높았다고 보고합니다.",
+      "whyCare": "AI 서열 설계가 단순히 출발 효소의 성능을 높이는 데 그치지 않고, 야생형 효소에서는 기능하지 않는 변이 조합에 접근하게 해 진화 가능한 서열 공간을 바꿀 수 있음을 실험적으로 뒷받침합니다. 이는 단백질·효소 공학과 선택 기반 진화에 직접 관련되며, 새로운 기질 특이성을 가진 효소를 만드는 연구에도 의미가 있습니다.",
+      "skepticism": "초록은 병렬 진화 비교와 재설계 배경에 의존하는 변이의 기능을 보고하지만, 각 진화 캠페인의 세부 규모와 재현성은 여기서 확인할 수 없습니다. ataxin-2에 대한 높은 선택성이 세포 환경에서도 유지되는지, 다른 단백질 기질에 대한 절단이나 세포 독성은 어떤지, 치료적 사용에 필요한 전달·안전성이 가능한지는 초록만으로 확립되지 않습니다. 후속 검토에서는 선택성 측정 기준과 세포 기반 검증 여부를 확인할 필요가 있습니다.",
+      "knowledge": "핵심 개념은 ProteinMPNN을 이용한 서열 재설계, 재설계 효소를 출발점으로 삼는 phage-assisted continuous evolution(PACE), 그리고 출발 배경에 따라 유익한 변이 조합의 접근성이 달라질 수 있다는 점입니다. 이 연구는 AI 설계와 실험적 진화를 경쟁 접근법이 아니라 순차적으로 결합하는 사례를 제시합니다.",
+      "takeaway": "AI 재설계가 효소의 초기 성능뿐 아니라 이후 진화의 결과와 도달 가능한 기능에도 영향을 줄 수 있다는, 단백질 공학 분야의 강한 실험적 사례입니다. 편집기·단백질 공학과 선택 기반 진화에 관심 있는 연구자에게 읽을 가치가 높지만, 치료 적용 가능성은 세포·생체 내 검증과 전달 근거를 확인한 뒤 평가해야 합니다.",
+      "paperKey": "1f17218915d10f",
+      "tracker": "flagship",
+      "source": "Nature",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_0b82b27c0e727b2e016ac7786cbe2487d0b8ce655247f4deb8",
+        "usage": {
+          "input_tokens": 1319,
+          "input_tokens_details": {
+            "cache_write_tokens": 1316,
+            "cached_tokens": 0
+          },
+          "output_tokens": 2288,
+          "output_tokens_details": {
+            "reasoning_tokens": 1412
+          },
+          "total_tokens": 3607
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 80,
+        "genomeEditing": 20,
+        "inVivo": 0,
+        "organoid": 0,
+        "epigenetics": 0,
+        "organelleMitochondria": 0,
+        "structuralBiology": 25,
+        "screening": 55,
+        "syntheticBiology": 45,
+        "proteinEngineering": 96,
+        "computational": 65,
+        "scientificNovelty": 88,
+        "evidenceStrength": 90,
+        "actionability": 82,
+        "venueQuality": 100
+      },
+      "lensRanks": {
+        "lab": 87,
+        "computational": 79
+      },
+      "computationalOnly": false,
+      "crossOver": true,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "AI 재설계한 protease를 진화의 출발점으로 써서 활성·안정성을 높이고, ataxin-2 절단 특이성을 야생형 출발점보다 79배 이상 높였다. 단백질 공학과 실험적 진화를 연결한 연구다.",
+        "computational": "AI 설계가 출발점을 개선하지만, 연속 진화와 효소 기능 측정이 핵심 검증이다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "included",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "36892c18300e04",
+      "doi": "10.1038/s41565-026-02200-6",
+      "pmid": "42298102",
+      "pmcid": "PMC13379318",
+      "title": "Efficient prime editing in vivo and in vitro using lipid nanoparticles.",
+      "authors": [
+        "Allen Y Jiang",
+        "Ana Cristian",
+        "Dominique L Brooks",
+        "Emily R Feierman",
+        "Paul Z Chen",
+        "Madelynn N Whittaker",
+        "Sarah E Pierce",
+        "Holt A Sakai",
+        "Hongyu Chen",
+        "Dangliang Liu",
+        "Peyton B Randolph",
+        "Angus H Li",
+        "Alvin Hsu",
+        "Serena O Omo-Lamai",
+        "Y Allen Tao",
+        "Benista Owusu-Amo",
+        "Xiao Wang",
+        "Xiao Wang",
+        "Kiran Musunuru",
+        "David R Liu"
+      ],
+      "published": "2026-06-15",
+      "journal": "Nature nanotechnology",
+      "abstract": "Prime editing is a versatile clinical genome editing method that enables precise substitutions, small insertions and deletions at specified locations in the genomes of living systems including human cells. Although non-viral lipid nanoparticle (LNP) delivery of RNA in vivo has become a preferred method for gene editing in animals and patients, its application to complex, three-component prime editing systems has yielded low editing efficiencies. Here we developed a systematic prime editing LNP (PE-LNP) optimization platform that addresses key bottlenecks in cargo design that limit editing efficiency. This generalizable workflow yielded PE-LNPs that can achieve 49% average in vivo prime editing in the bulk mouse liver with a single dose of 2 mg kg -1 . We applied our workflow to the correction of PAH R408W, a cause of phenylketonuria, in a mouse model and achieved prime editing efficiencies and serum phenylalanine levels anticipated to be curative. We also show that PE-LNPs minimize off-target editing compared with DNA delivery methods, induce only transient elevation of liver enzymes and can be dosed repeatedly to improve editing efficiencies. These PE-LNP systems provide an attractive alternative to viral delivery by offering transient expression that minimizes off-target editing, no observed long-term toxicity and high levels of non-viral in vivo liver prime editing.",
+      "url": "https://doi.org/10.1038/s41565-026-02200-6",
+      "candidateAuthors": [
+        "david-liu"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "david-liu",
+          "name": "David R. Liu",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13379318/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "David R Liu; corresp=; ✉Corresponding author."
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13379318/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 비바이러스성 LNP로 전달하는 3요소 prime editing의 낮은 생체 내 효율을 개선하기 위해 cargo 설계를 체계적으로 최적화했습니다. 저자들은 단회 2 mg/kg 투여 후 생쥐 간에서 평균 49%의 prime editing을 보고했습니다. PAH R408W 생쥐 모델에서는 변이를 교정했고, 혈청 페닐알라닌 수치가 치료적 수준으로 예상되는 범위에 도달했다고 보고합니다. DNA 전달 방식보다 off-target editing이 적고, 간 효소 상승은 일시적이었으며 반복 투여로 편집 효율을 높일 수 있었다고 합니다.",
+      "whyCare": "복잡한 prime editing 시스템을 LNP로 전달하는 효율 병목을 cargo 최적화로 해결하고, 간 표적 생쥐에서 높은 편집과 질환 관련 생화학 지표 개선을 함께 제시했다는 점이 중요합니다. 전달, genome editing, 전임상 치료 연구가 맞닿아 있어 여러 연구 방향에 직접 관련됩니다.",
+      "skepticism": "초록은 PAH 변이 교정과 혈청 페닐알라닌 개선을 보고하지만, 이를 실제 장기 질환 교정이나 임상적 효능으로 확정하지는 않습니다. ‘치료적 수준으로 예상’된 수치와 실제 지속성, 조직·세포 유형별 편집 분포, off-target 평가 범위, 반복 투여 후 면역 반응 및 장기 안전성은 초록만으로 판단할 수 없습니다. ‘장기 독성이 관찰되지 않았다’는 주장도 관찰 기간과 평가 항목을 본문에서 확인해야 합니다.",
+      "knowledge": "핵심은 세 요소로 구성된 prime editing의 성능을 편집기 단백질만이 아니라 LNP cargo 설계의 병목을 체계적으로 최적화해 높일 수 있다는 점입니다. 비바이러스 전달의 일시적 발현, 반복 투여 가능성, 생체 내 편집과 질환 관련 지표를 함께 평가한 전임상 접근도 참고할 만합니다.",
+      "takeaway": "생쥐 간에서 높은 prime-editing 효율과 PAH 모델의 유의미한 치료 지표 개선을 함께 보고한, 전달·편집 분야의 강한 전임상 연구입니다. 다만 초록의 결과만으로 지속성, 완전한 안전성 또는 실제 임상 효능까지 결론 내릴 수는 없습니다.",
+      "paperKey": "36892c18300e04",
+      "tracker": "flagship",
+      "source": "Nature nanotechnology",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_05097dd17a93121d016ac77885249087d0a2054feaf2b2cfa9",
+        "usage": {
+          "input_tokens": 1255,
+          "input_tokens_details": {
+            "cache_write_tokens": 1252,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1772,
+          "output_tokens_details": {
+            "reasoning_tokens": 1027
+          },
+          "total_tokens": 3027
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 97,
+        "genomeEditing": 100,
+        "inVivo": 98,
+        "organoid": 0,
+        "epigenetics": 5,
+        "organelleMitochondria": 0,
+        "structuralBiology": 5,
+        "screening": 50,
+        "syntheticBiology": 25,
+        "proteinEngineering": 45,
+        "computational": 10,
+        "scientificNovelty": 91,
+        "evidenceStrength": 95,
+        "actionability": 96,
+        "venueQuality": 82
+      },
+      "lensRanks": {
+        "lab": 95,
+        "computational": 55
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "최적화된 LNP로 생쥐 간에서 prime editing 49%를 달성하고, 페닐케톤뇨증 모델의 PAH 변이를 치료 예상 수준으로 교정했다. 반복 투여·오프타깃·간독성 결과까지 제시한 강력한 생체내 편집 연구다.",
+        "computational": "LNP 화물 설계 최적화와 생체내 편집 실험이 중심이다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "44419612c4e702",
+      "doi": "10.1016/j.celrep.2026.117510",
+      "pmid": "42268711",
+      "pmcid": "PMC13426065",
+      "title": "Peptide-MHC-targeted engineered virus-like particles enable selective priming and gene editing of tumor-specific T cells.",
+      "authors": [
+        "Brian H Shim",
+        "Q Henry Zhao",
+        "Jack A Queenan",
+        "Blake E Smith",
+        "Michael E Birnbaum",
+        "David R Liu"
+      ],
+      "published": "2026-06-09",
+      "journal": "Cell reports",
+      "abstract": "Tumor-infiltrating lymphocyte (TIL) therapies harness tumor-specific T cells endogenous to a patient's repertoire but their efficacy is limited by challenges such as low frequencies of tumor-specific clonotypes and dysfunctional T cell phenotypes. These challenges necessitate technologies to engineer and reprogram endogenous tumor-specific TILs ex vivo. Here, we present a strategy using engineered virus-like particles (eVLPs) pseudotyped with peptide-major histocompatibility complexes (pMHCs) as a programmable, single-effector platform for selective and coordinated priming, expansion, and genome editing of rare antigen-specific CD8 + T cells among their endogenous polyclonal repertoires. We demonstrate that pMHC-pseudotyped eVLPs (pMHC-eVLPs) deliver T cell function-enhancing base editors to arm polyclonal lymphocytes with enhanced anti-tumor cytotoxicity by selectively expanding and engineering the tumor-specific T cell compartment. Our work establishes pMHC-eVLPs as a platform for enhancing TIL therapy with precision gene edits without the risks of bystander T cell engineering associated with polyclonal TIL engineering approaches.",
+      "url": "https://doi.org/10.1016/j.celrep.2026.117510",
+      "candidateAuthors": [
+        "david-liu"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "david-liu",
+          "name": "David R. Liu",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13426065/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "David R. Liu; corresp=; *Correspondence: mbirnb@mit.edu (M.E.B.), drliu@fas.harvard.edu (D.R.L.)"
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13426065/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 환자 유래 종양침윤 림프구(TIL)에서 드문 종양항원 특이 CD8+ T세포를 선택적으로 확장하고 기능을 높일 방법을 제시합니다. 연구진은 특정 peptide-MHC(pMHC)를 표면에 제시하는 engineered virus-like particles(eVLPs)를 이용해 T세포를 표적화하고, 기능 향상 목적의 염기편집기를 전달했습니다. 초록에 따르면 이 입자는 다클론성 T세포 집단 안에서 종양 특이 T세포를 선택적으로 확장·편집해 항종양 세포독성을 높였습니다. 저자들은 이를 비표적 주변 T세포 편집 위험을 줄이려는 TIL 치료 접근으로 제안합니다.",
+      "whyCare": "표적 항원 인식과 유전자 편집기 전달을 하나의 입자에 결합해, 희귀한 항원 특이 T세포를 다클론성 집단에서 선택적으로 조작하려는 점이 핵심입니다. 이는 정밀한 면역세포 공학과 표적 전달이라는 두 연구 방향에 직접 닿는 실험적 기술 진전입니다. 유전자 편집과 면역치료에 강한 교차 관련성이 있어 computationalOnly는 false, crossOver는 true로 평가할 만합니다.",
+      "skepticism": "초록은 선택적 확장·편집과 항종양 세포독성 향상을 보고하지만, 해당 결과의 정량적 크기와 실험 모델, pMHC 표적성의 범위는 여기 제시되어 있지 않습니다. 항원 발현이 다른 세포에서의 비표적 전달, 편집 특이성, 효과의 지속성, 그리고 생체 내 치료 효능과 안전성이 확립됐는지도 초록만으로는 판단할 수 없습니다. 특히 ‘주변 T세포 편집 위험 감소’가 직접 비교로 확인됐는지 본문에서 확인할 필요가 있습니다.",
+      "knowledge": "핵심 개념은 표면 pMHC를 이용해 항원 특이 T세포를 인식하는 표적 eVLP, 그리고 그 입자를 이용한 표적화된 염기편집기 전달입니다. 이 논문은 세포 선택, 확장, 기능 개선을 편집기 전달과 조합하는 접근을 제시하며, 표적 전달의 선택성과 편집 결과를 별도로 검증하는 것이 중요함을 보여줍니다.",
+      "takeaway": "표적 pMHC와 편집기 전달을 결합해 다클론성 T세포 집단의 희귀 종양 특이 세포를 조작하려는, 면역세포 공학과 genome editing을 잇는 가치 있는 기술 논문입니다. 초록은 유망한 기능 결과를 제시하지만, 생체 내 치료 효과와 안전성까지 입증했다고 해석해서는 안 됩니다.",
+      "paperKey": "44419612c4e702",
+      "tracker": "flagship",
+      "source": "Cell reports",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_028ccbb2aba27ab1016ac7789c23a487d0994f46bd2d483351",
+        "usage": {
+          "input_tokens": 1236,
+          "input_tokens_details": {
+            "cache_write_tokens": 1233,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1581,
+          "output_tokens_details": {
+            "reasoning_tokens": 749
+          },
+          "total_tokens": 2817
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 85,
+        "genomeEditing": 88,
+        "inVivo": 25,
+        "organoid": 0,
+        "epigenetics": 0,
+        "organelleMitochondria": 0,
+        "structuralBiology": 5,
+        "screening": 35,
+        "syntheticBiology": 45,
+        "proteinEngineering": 55,
+        "computational": 5,
+        "scientificNovelty": 85,
+        "evidenceStrength": 75,
+        "actionability": 82,
+        "venueQuality": 83
+      },
+      "lensRanks": {
+        "lab": 84,
+        "computational": 47
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "pMHC 표면화 eVLP로 다클론 T세포 중 종양항원 특이 세포를 선택적으로 확장하고 base editor를 전달해 항암 기능을 강화한다. TIL 치료의 정밀 편집·전달을 결합한 플랫폼이다.",
+        "computational": "선택적 eVLP 전달과 T세포 편집의 실험적 플랫폼 연구다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "b380a31cfe6b8c",
+      "doi": "10.1038/s41551-026-01651-5",
+      "pmid": "41981313",
+      "pmcid": "PMC13262281",
+      "title": "In vivo base editing rescues liver pathophysiology and peroxisome dysfunction in a mouse model of Zellweger spectrum disorder.",
+      "authors": [
+        "Xin D Gao",
+        "Maximiliano Presa",
+        "Jordyn E Duby",
+        "Jennifer Ryan",
+        "Pierre-Alexandre Piec",
+        "Alvin Hsu",
+        "Samagya Banskota",
+        "Allen Yujie Jiang",
+        "Lingxiao Chen",
+        "Gregory A Newby",
+        "Erminia Di Pietro",
+        "Jonathan M Levy",
+        "Bradford H Steele",
+        "Sarah Lecordier",
+        "Fangfei Qin",
+        "Ann B Moser",
+        "Jun Xie",
+        "Guangping Gao",
+        "Nancy E Braverman",
+        "Aamir R Zuberi",
+        "Joseph G Hacia",
+        "Cathleen M Lutz",
+        "David R Liu"
+      ],
+      "published": "2026-04-14",
+      "journal": "Nature biomedical engineering",
+      "abstract": "Zellweger spectrum disorder (ZSD) is caused by biallelic loss-of-function variants in PEX genes required for peroxisome biogenesis, which is critical for normal cellular metabolism and signalling. The PEX1-p.G843D (c.2528G>A) allele, present in approximately 30% of individuals with ZSD, frequently results in chronic liver disease that can progress to cirrhosis, hepatocellular carcinoma and degraded neurological health. Here we report the development and application of an adenine base editing strategy to correct an established homozygous Pex1-p.G844D ZSD mouse model that manifests liver pathologies and metabolic dysfunction found in patients. Through intravenous delivery of AAV9 encoding ABE8e-V106W into both neonatal and 4-week-old mice, we achieved up to 60% pathogenic allele correction in the bulk liver. By restoring peroxisome function, base editing eliminated bulk accumulation of very long-chain and branched-chain fatty acids, and toxic C27-bile acid intermediates. Increased levels of phytanic acid, a branched-chain fatty acid that becomes harmful when accumulated, were normalized in blood, liver and brain tissue. Treatment of homozygous Pex1-p.G844D mice resulted in the progressive, dose-dependent normalization of liver transcriptomes and histopathology, accompanied by gains in body weight. Non-viral lipid nanoparticle delivery of ABE8e-V106W mRNA to 4-week-old mice also yielded correction of the Pex1-p.G844D allele in 27% of bulk liver cells. In patient-derived fibroblasts, base editing corrected >80% of PEX1-p.G843D alleles and restored peroxisome homeostasis. Genome-wide experimental and computational off-target analyses found minimal off-target editing in the mouse or human genome. Collectively, these findings suggest that liver base editing over a range of ages may benefit individuals with ZSD and provides a foundation for developing precision gene correction treatments that address the root cause of a wide range of peroxisomal disorders.",
+      "url": "https://doi.org/10.1038/s41551-026-01651-5",
+      "candidateAuthors": [
+        "david-liu"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "david-liu",
+          "name": "David R. Liu",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13262281/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "David R. Liu; corresp=; ✉ Correspondence and requests for materials should be addressed to Cathleen M. Lutz or David R. Liu. Cat.Lutz@jax.org; drliu@fas.harvard.edu"
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13262281/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 Zellweger spectrum disorder(ZSD)의 원인인 PEX1 변이를 생체 내에서 교정해 간 병리와 peroxisome 기능장애를 개선할 수 있는지 시험했습니다. 연구진은 ABE8e-V106W를 AAV9로 신생아 및 4주령 생쥐에 전달했고, 간에서 병적 대립유전자 교정률이 최대 60%에 이르렀다고 보고했습니다. 지방산과 담즙산 중간체의 축적이 줄고, 간 전사체와 조직병리, 체중이 점진적·용량 의존적으로 정상화됐습니다. LNP 기반 mRNA 전달도 4주령 생쥐의 간에서 27% 교정을 보였으며, 환자 유래 섬유아세포에서는 80% 초과 교정과 peroxisome 항상성 회복이 보고됐습니다.",
+      "whyCare": "병적 유전자 교정이 단순한 분자 표지 변화에 그치지 않고, peroxisome 대사 이상과 간 조직 수준의 표현형 개선에 연결됐다는 점이 중요합니다. 생체 내 염기교정, 장기 생물학, 소기관 기능, 전달을 한 연구에서 연결해 해당 분야의 연구자에게 폭넓게 읽을 가치가 있습니다.",
+      "skepticism": "초록은 간 벌크 교정률과 개선된 대사·조직 지표를 보고하지만, 어떤 간 세포에서 교정됐는지와 세포별 교정률이 표현형 회복에 어떻게 기여했는지는 제시하지 않습니다. 효과의 장기 지속성, 안전성, 신경계 기능 개선 여부도 이 초록만으로는 확립되지 않습니다. 오프타깃 분석은 최소 수준을 보고하지만, 분석 범위와 검출 한계는 원문에서 확인할 필요가 있습니다.",
+      "knowledge": "핵심은 PEX1 병적 대립유전자를 ABE8e-V106W로 교정해 peroxisome 기능을 회복시키고, 그 결과 여러 대사 이상과 간 표현형을 함께 개선하려 했다는 점입니다. 생쥐 간에서 AAV9와 LNP-mRNA 전달 결과가 각각 보고됐고, 환자 유래 섬유아세포에서도 교정과 기능 회복이 관찰됐습니다.",
+      "takeaway": "초록에 제시된 결과는 생체 내 염기교정이 ZSD의 원인 교정과 간·peroxisome 표현형 개선을 연결할 가능성을 뒷받침합니다. 전달 효율뿐 아니라 대사 및 조직 수준의 결과를 함께 보여주는, genome editing과 소기관 생물학 모두에 관련성이 높은 연구입니다.",
+      "paperKey": "b380a31cfe6b8c",
+      "tracker": "flagship",
+      "source": "Nature biomedical engineering",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_06a8b8226aa94451016ac778af06c487d0bde8a728477b8fb2",
+        "usage": {
+          "input_tokens": 1433,
+          "input_tokens_details": {
+            "cache_write_tokens": 1430,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1474,
+          "output_tokens_details": {
+            "reasoning_tokens": 686
+          },
+          "total_tokens": 2907
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 98,
+        "genomeEditing": 100,
+        "inVivo": 95,
+        "organoid": 5,
+        "epigenetics": 5,
+        "organelleMitochondria": 95,
+        "structuralBiology": 5,
+        "screening": 25,
+        "syntheticBiology": 15,
+        "proteinEngineering": 40,
+        "computational": 20,
+        "scientificNovelty": 90,
+        "evidenceStrength": 95,
+        "actionability": 90,
+        "venueQuality": 82
+      },
+      "lensRanks": {
+        "lab": 95,
+        "computational": 58
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "AAV와 LNP 염기편집으로 ZSD 마우스의 간 병리와 대사 이상을 개선하고, 환자 유래 세포에서도 과산화소체 기능을 회복했다.",
+        "computational": "계산 중심 연구가 아니며 생체 내 유전자 교정과 질환 구제 실험이 핵심이다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "3e430b3d741296",
+      "doi": "10.1038/s41586-025-09732-2",
+      "pmid": "41261131",
+      "pmcid": "PMC12675287",
+      "title": "Prime editing-installed suppressor tRNAs for disease-agnostic genome editing.",
+      "authors": [
+        "Sarah E Pierce",
+        "Steven Erwood",
+        "Keyede Oye",
+        "Meirui An",
+        "Nicholas Krasnow",
+        "Emily Zhang",
+        "Aditya Raguram",
+        "Davis Seelig",
+        "Mark J Osborn",
+        "David R Liu"
+      ],
+      "published": "2025-11-19",
+      "journal": "Nature",
+      "abstract": "Precise genome-editing technologies such as base editing 1,2 and prime editing 3 can correct most pathogenic gene variants, but their widespread clinical application is impeded by the need to develop new therapeutic agents for each mutation. For diseases that are caused by premature stop codons, suppressor tRNAs (sup-tRNAs) offer a more general strategy. Existing approaches to use sup-tRNAs therapeutically, however, require lifelong administration 4,5 or show modest potency, necessitating potentially toxic overexpression. Here we present prime editing-mediated readthrough of premature termination codons (PERT), a strategy to rescue nonsense mutations in a disease-agnostic manner by using prime editing to permanently convert a dispensable endogenous tRNA into an optimized sup-tRNA. Iterative screening of thousands of variants of all 418 human tRNAs identified tRNAs with the strongest sup-tRNA potential. We optimized prime editing agents to install an engineered sup-tRNA at a single genomic locus without overexpression and observed efficient readthrough of premature termination codons and protein rescue in human cell models of Batten disease, Tay-Sachs disease and cystic fibrosis. In vivo delivery of a single prime editor that converts an endogenous mouse tRNA into a sup-tRNA extensively rescued disease pathology in a model of Hurler syndrome. PERT did not induce detected readthrough of natural stop codons or cause significant transcriptomic or proteomic changes. Our findings suggest the potential of disease-agnostic therapeutic genome-editing approaches that require only a single composition of matter to treat diverse genetic diseases.",
+      "url": "https://doi.org/10.1038/s41586-025-09732-2",
+      "candidateAuthors": [
+        "david-liu"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "david-liu",
+          "name": "David R. Liu",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12675287/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "David R Liu; corresp=; ✉Corresponding author."
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12675287/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 조기종결코돈(nonsense mutation)을 가진 여러 질환에 공통으로 적용할 수 있는 치료 전략을 제시합니다. 연구진은 수천 개의 변이를 비교해 억제 tRNA(sup-tRNA) 후보를 찾고, prime editing으로 이를 단일 내인성 tRNA 유전자좌에 설치하는 PERT를 개발했습니다. 사람 세포의 Batten병, Tay-Sachs병, 낭성섬유증 모델에서 단백질 회복을 관찰했고, Hurler 증후군 마우스 모델에서는 한 차례의 prime editor 전달로 병리 개선을 보고했습니다. 초록에 따르면 자연 종결코돈의 검출된 readthrough나 유의한 전사체·단백질체 변화는 나타나지 않았습니다.",
+      "whyCare": "질환마다 별도 교정 편집기를 설계하는 대신, 조기종결코돈을 우회하도록 내인성 tRNA를 영구적으로 바꾸는 발상은 유전성 질환 편집의 적용 범위를 넓힐 수 있습니다. 특히 여러 세포 질환 모델과 마우스 질환 모델에서 기능적 회복을 제시해, 개념적 가능성에 그치지 않고 세포 및 생체 내 효능을 보였다는 점이 중요합니다. 억제 tRNA의 최적화와 prime editing을 결합한 점은 편집기·번역 조절·치료 전달 연구와도 직접 맞닿습니다.",
+      "skepticism": "초록은 세 질환의 사람 세포 모델과 Hurler 증후군 마우스 모델에서의 회복을 보고하지만, 어떤 종결코돈·서열 맥락·조직에서 효과가 일관적인지, 장기간 치료 후에도 유지되는지는 제시하지 않습니다. 자연 종결코돈의 readthrough와 전사체·단백질체 변화가 검출되지 않았다는 결과는 고무적이지만, 검출 범위와 민감도, 장기적인 번역 정확성 및 생체 내 안전성은 초록만으로 판단할 수 없습니다. 여러 조직에 prime editor를 전달하는 효율과 사람에서의 실현 가능성도 별도 확인이 필요합니다.",
+      "knowledge": "핵심 개념은 조기종결코돈에서 번역을 재개하도록 sup-tRNA를 최적화하고, 이를 반복 투여나 과발현 대신 prime editing으로 내인성 tRNA 좌위에 설치한다는 것입니다. 연구는 사람 tRNA 후보군의 대규모 변이 선별, prime editor 최적화, 세포 모델의 단백질 회복 평가, 마우스 생체 내 검증을 연결합니다. 따라서 tRNA 기반 번역 억제와 영구적 게놈 편집을 결합한 치료 설계의 사례로 읽을 가치가 있습니다.",
+      "takeaway": "PERT는 조기종결 변이를 여러 질환에 걸쳐 다룰 수 있다는 강한 치료 개념을 세포와 마우스 모델에서 뒷받침합니다. 특히 내인성 tRNA의 단일 좌위 편집과 생체 내 병리 개선이 돋보입니다. 다만 질환·조직·변이 맥락 전반의 효능과 장기 안전성은 초록이 확립하지 않으므로, 광범위한 임상 적용 가능성은 후속 근거를 기다려야 합니다.",
+      "paperKey": "3e430b3d741296",
+      "tracker": "flagship",
+      "source": "Nature",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_02aee6b74b557098016ac778bf1fc487d08a3ce1e830c2a342",
+        "usage": {
+          "input_tokens": 1302,
+          "input_tokens_details": {
+            "cache_write_tokens": 1299,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1664,
+          "output_tokens_details": {
+            "reasoning_tokens": 648
+          },
+          "total_tokens": 2966
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 97,
+        "genomeEditing": 100,
+        "inVivo": 85,
+        "organoid": 5,
+        "epigenetics": 5,
+        "organelleMitochondria": 5,
+        "structuralBiology": 5,
+        "screening": 90,
+        "syntheticBiology": 40,
+        "proteinEngineering": 35,
+        "computational": 10,
+        "scientificNovelty": 95,
+        "evidenceStrength": 95,
+        "actionability": 90,
+        "venueQuality": 100
+      },
+      "lensRanks": {
+        "lab": 97,
+        "computational": 57
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "수천 종의 tRNA를 선별해 내인성 억제 tRNA를 프라임 편집으로 설치하고, 여러 질환 세포와 Hurler 증후군 마우스에서 병리 구제를 보였다.",
+        "computational": "실험적 tRNA 선별, 프라임 편집 및 생체 내 질환 구제가 주된 기여다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "76a901f8379019",
+      "doi": "10.64898/2026.02.27.708523",
+      "pmid": "",
+      "pmcid": "",
+      "title": "Programmable Lipid Nanoparticle Targeting via Corona Engineering",
+      "authors": [
+        "Alisan Kayabolen",
+        "Cian Schmitt-Ulms",
+        "Alexander Elsener",
+        "Francesca Ferraresso",
+        "Keira Donnelly",
+        "Angela Xinyi Nan",
+        "Ian Harris",
+        "Samantha Sgrizzi",
+        "Aroosa Anwer",
+        "Sabrina Pia Nuccio",
+        "Patrick Paine",
+        "Sanah Langer",
+        "Christopher Fell",
+        "Jonathan Gootenberg",
+        "Omar Abudayyeh"
+      ],
+      "published": "2026-03-01",
+      "journal": "",
+      "abstract": "Lipid nanoparticles (LNPs) are a versatile platform for in vivo delivery of biomolecules, yet systemically administered LNPs predominantly accumulate in the liver, limiting extrahepatic applications. This tropism arises from LNP adsorption of serum proteins, particularly apolipoprotein E (ApoE), which binds to LDL receptors (LDLR) on hepatocytes. Here, we overcome this tropism with two compatible strategies. First, we engineer dead ApoE mutants (dApoE) with five receptor-binding domain substitutions that selectively disrupt the ApoE-LDLR interaction but retain lipid binding. In cultured cells, pre-coating with these dApoE markedly inhibited LDLR-mediated uptake. Second, we pretreat cells with hyperactive PCSK9 (haPCSK9) to internalize surface LDLR, similarly reducing the LDLR-mediate uptake of LNPs. In vivo, both strategies substantially reduced liver LNP transduction without inducing redistribution to other major organs. To retarget LNP to new cell types we combined antibody conjugation with dApoE or haPCSK9, effectively engineering tropism to T cells, brain and lung tissues in vivo with substantially reduced hepatic background. In pilot studies, this strategy enabled specific delivery of reporter mRNAs to additional tissues, including megakaryocytes, hematopoietic progenitor cells, and cardiac tissue, and in aged T cells, to deliver miRNA cargos that produced a sustained reduction in DNA damage markers following a single systemic dose. dApoE coated CD5-targeted LNPs generated CAR+ T cells that retained cytotoxicity against CD19+ targets, while simultaneously reducing hepatocyte transduction by 90%. These findings establish a modular framework that integrates dApoE and haPCSK9-mediated detargeting with antibody-based retargeting, allowing for improvements in LNP specificity and broadening the therapeutic scope of LNPs.",
+      "url": "https://doi.org/10.64898/2026.02.27.708523",
+      "candidateAuthors": [
+        "jonathan-gootenberg",
+        "omar-abudayyeh"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jonathan-gootenberg",
+          "name": "Jonathan S. Gootenberg",
+          "verified": true,
+          "sourceUrl": "https://www.biorxiv.org/content/early/2026/03/01/2026.02.27.708523.source.xml",
+          "method": "jats_corresp",
+          "excerpt": "Jonathan S. Gootenberg; corresp=yes; †Correspondence: omar@abudayyeh.science (O.O.A.) jgoot@mit.edu (J.S.G.)"
+        },
+        {
+          "id": "omar-abudayyeh",
+          "name": "Omar O. Abudayyeh",
+          "verified": true,
+          "sourceUrl": "https://www.biorxiv.org/content/early/2026/03/01/2026.02.27.708523.source.xml",
+          "method": "jats_corresp",
+          "excerpt": "Omar O. Abudayyeh; corresp=yes; †Correspondence: omar@abudayyeh.science (O.O.A.) jgoot@mit.edu (J.S.G.)"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.02.27.708523",
+          "status": "retrieved",
+          "matches": 2
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 혈청 단백질 코로나, 특히 ApoE–LDLR 상호작용 때문에 전신 투여한 lipid nanoparticle(LNP)이 간에 치우치는 문제를 다룹니다. 저자들은 LDLR 결합은 약화하면서 지질 결합은 유지하도록 설계한 dApoE와 세포 표면 LDLR을 내재화하는 haPCSK9를 이용해 간 유입을 줄이고, 항체 결합으로 원하는 세포나 조직을 표적화했습니다. 초록에 따르면 이 조합은 T세포, 뇌, 폐 등을 표적화했으며, CD5 표적 LNP는 간세포 전달을 90% 줄이면서 세포독성을 유지하는 CAR+ T세포를 만들었습니다. 또 aged T세포에 miRNA를 전달한 파일럿 결과로 DNA 손상 표지의 지속적 감소를 보고합니다.",
+      "whyCare": "이 논문은 특정 편집기보다 in vivo 전달의 주요 병목인 간 편향을 겨냥한 모듈형 접근을 제시합니다. 간 전달을 줄이는 데 그치지 않고 항체 기반 표적화와 결합해 여러 세포·조직으로 전달을 확장하고, CAR T세포 기능과 miRNA의 생물학적 효과도 제시했다는 점에서 전달·세포공학·치료 연구에 폭넓게 관련됩니다. 다만 초록에서 일부 응용은 파일럿으로 제시되므로, 모든 표적에서 같은 수준의 검증이 이뤄졌다고 보기는 어렵습니다.",
+      "skepticism": "초록은 표적 조직·세포별 전달의 정량적 크기, 세포 수준의 선택성, 대조군 구성 및 반복투여 안전성을 구체적으로 밝히지 않습니다. 간 detargeting만으로 다른 장기로 전달이 재분배되지 않는다는 결과와, 항체를 더해 특정 조직을 표적화했다는 결과를 구분해 확인할 필요가 있습니다. haPCSK9 접근이 전신 LDLR 생리나 반복 투여에 미치는 영향, 그리고 aged T세포에서 DNA 손상 표지 감소가 기능적·지속적 이점으로 이어지는지도 초록만으로는 판단할 수 없습니다.",
+      "knowledge": "혈청 단백질 코로나가 LNP의 세포 유입을 좌우할 수 있고, ApoE–LDLR 결합이 간 친화성에 기여한다는 전달 원리를 보여줍니다. dApoE 또는 haPCSK9로 기존 간 유입 경로를 약화한 뒤 항체 결합으로 표적화를 더하는, detargeting과 retargeting의 결합이 핵심 개념입니다. 초록에서 보고한 기능 결과는 표적화된 전달을 단순한 장기 축적 변화와 구별해 해석하는 데 유용합니다.",
+      "takeaway": "초록에 제시된 결과만 보면, 이 연구는 LNP의 간 편향을 줄이면서 항체 기반 표적화를 결합하는 설득력 있는 전달 전략이며, CAR T세포 생성 결과가 특히 응용 가능성을 뒷받침합니다. 여러 응용의 일반성·안전성은 초록만으로 확정할 수 없지만, 전달 및 in vivo 세포공학을 다루는 연구자에게 읽을 가치가 높은 논문입니다.",
+      "paperKey": "76a901f8379019",
+      "tracker": "preprints",
+      "source": "bioRxiv",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_0d0a4df6504b34e5016ac778d0e9ac87d0b03fbbe721eb4080",
+        "usage": {
+          "input_tokens": 1378,
+          "input_tokens_details": {
+            "cache_write_tokens": 1375,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1953,
+          "output_tokens_details": {
+            "reasoning_tokens": 991
+          },
+          "total_tokens": 3331
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 92,
+        "genomeEditing": 50,
+        "inVivo": 95,
+        "organoid": 5,
+        "epigenetics": 10,
+        "organelleMitochondria": 5,
+        "structuralBiology": 10,
+        "screening": 20,
+        "syntheticBiology": 35,
+        "proteinEngineering": 45,
+        "computational": 10,
+        "scientificNovelty": 90,
+        "evidenceStrength": 78,
+        "actionability": 90,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 86,
+        "computational": 49
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "ApoE-LDLR 간 유입을 낮추고 항체 표적으로 T세포·뇌·폐 등으로 LNP를 재지향했으며, 표적 전달과 CAR T 기능을 생체 내에서 시연했다.",
+        "computational": "LNP 표적화 설계와 동물 전달 실험이 핵심이며 계산 방법론이 주된 기여가 아니다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "8a5db495cb3d53",
+      "doi": "10.64898/2026.06.21.729417",
+      "pmid": "",
+      "pmcid": "",
+      "title": "Programming T cells for intercellular genome editing",
+      "authors": [
+        "Kevin Wasko",
+        "Madeleine Maker",
+        "Wayne Ngo",
+        "Kai Chen",
+        "Enbo Ma",
+        "Rithu Pattali",
+        "Enzo Chen",
+        "Trevor Leung",
+        "Jonathan Braverman",
+        "Jennifer Doudna"
+      ],
+      "published": "2026-06-23",
+      "journal": "",
+      "abstract": "Therapeutic genome editing requires delivery of editing molecules to defined cell types, but targeting specificity and efficiency are currently limited. We hypothesized that properties inherent to immune cells, including tissue infiltration and programmed cell recognition, could be harnessed to engineer a cell-based delivery system. We show here that T cells can both produce and transfer editing machinery to target cells. In response to a programmable ligand, engineered T-lymphoid cells can transfer enzymes using complex spatiotemporal logic and deliver cargo in a cell contact-dependent or -independent manner. We demonstrate feasibility of this approach in primary human T cells, establishing a customizable genetic circuit for macromolecular delivery controlled by intercellular interactions.",
+      "url": "https://doi.org/10.64898/2026.06.21.729417",
+      "candidateAuthors": [
+        "jennifer-doudna"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jennifer-doudna",
+          "name": "Jennifer A. Doudna",
+          "verified": true,
+          "sourceUrl": "https://www.biorxiv.org/content/early/2026/06/23/2026.06.21.729417.source.xml",
+          "method": "jats_corresp",
+          "excerpt": "Jennifer A. Doudna; corresp=yes; ‡Corresponding author: doudna@berkeley.edu"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.06.21.729417",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 T세포의 조직 침투와 표적 인식 특성을 이용해 유전자 편집 도구를 다른 세포로 전달할 수 있는지 시험했습니다. 연구진은 T세포가 편집 장치를 만들고 표적 세포로 전달할 수 있으며, 프로그래밍 가능한 리간드에 반응해 시간·공간적 논리에 따라 전달을 제어한다고 보고합니다. 전달은 세포 접촉 의존적 방식과 비의존적 방식 모두에서 가능했고, 일차 인간 T세포에서도 맞춤형 유전 회로의 구현 가능성을 보였습니다. 초록은 표적 세포에서 실제 편집이 일어나는 정도나 생체 내 치료 효과를 구체적으로 제시하지 않습니다.",
+      "whyCare": "세포 자체를 표적 인식과 전달을 겸하는 편집 도구로 활용하려는 접근으로, 전달이라는 유전자 편집의 주요 병목을 다룹니다. 특히 세포 간 상호작용을 이용해 거대분자 전달을 조절한다는 점은 편집 기술과 합성생물학 양쪽에서 관심을 가질 만합니다.",
+      "skepticism": "초록은 편집 장치의 전달과 일차 인간 T세포에서의 회로 구현 가능성을 보고하지만, 표적 세포에서 실제로 확인된 편집 결과와 그 효율·특이성은 밝히지 않습니다. 어떤 편집 효소와 표적 세포를 사용했는지, 접촉 의존·비의존 전달을 어떻게 구분했는지, 비표적 세포에도 장치가 전달되는지 확인할 필요가 있습니다. 또한 초록만으로는 생체 내 전달이나 치료 효과가 입증되었다고 볼 수 없습니다.",
+      "knowledge": "핵심 개념은 면역세포를 단순한 운반체가 아니라 표적 인식과 유전자 회로를 갖춘 세포 간 전달 시스템으로 설계하는 것입니다. 프로그래밍 가능한 리간드에 반응해 전달을 제어하고, 접촉 여부에 따른 전달 방식을 다룬다는 점이 이 연구의 기술적 초점입니다.",
+      "takeaway": "전달 제어를 위한 세포 기반의 유망한 합성생물학 접근이지만, 초록만으로는 표적 세포의 기능적 편집 성능이나 생체 내 유용성까지 판단할 수 없습니다. 전달 메커니즘의 가능성과 치료적 검증은 구분해서 읽어야 합니다.",
+      "paperKey": "8a5db495cb3d53",
+      "tracker": "preprints",
+      "source": "bioRxiv",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "high-interest",
+      "priorityLabel": "High interest",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_08a046582d7f6994016ac778e6da3c87d0822a9179be92cf0e",
+        "usage": {
+          "input_tokens": 1123,
+          "input_tokens_details": {
+            "cache_write_tokens": 1120,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1927,
+          "output_tokens_details": {
+            "reasoning_tokens": 1182
+          },
+          "total_tokens": 3050
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 82,
+        "genomeEditing": 85,
+        "inVivo": 20,
+        "organoid": 10,
+        "epigenetics": 5,
+        "organelleMitochondria": 0,
+        "structuralBiology": 0,
+        "screening": 15,
+        "syntheticBiology": 85,
+        "proteinEngineering": 15,
+        "computational": 0,
+        "scientificNovelty": 85,
+        "evidenceStrength": 65,
+        "actionability": 70,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 77,
+        "computational": 39
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "프로그래밍 가능한 T세포가 세포 간 상호작용에 따라 편집 효소를 생산·전달하는 회로를 만들고, 일차 인간 T세포에서 가능성을 보였다.",
+        "computational": "세포 회로와 편집 기계 전달을 실험적으로 구현한 연구다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "f7259906a949f0",
+      "doi": "10.64898/2026.05.08.723607",
+      "pmid": "",
+      "pmcid": "",
+      "title": "Selective Elimination of TP53 Mutant Cells by Transcript-Activated Chromatin Shredding",
+      "authors": [
+        "Jingkun Zeng",
+        "Zhiyuan Cheng",
+        "Huadong Chen",
+        "Jared Thompson",
+        "Kadin Crosby",
+        "Hesong Han",
+        "Wayne Ngo",
+        "Chenglong Xia",
+        "Daniel Rosas-Rivera",
+        "Min Hyung Kang",
+        "Ying Mao",
+        "Giselle Lee",
+        "John Diffley",
+        "Yixuan Song",
+        "Longhui Qiu",
+        "Nathan Krah",
+        "Niren Murthy",
+        "Ryan Jackson",
+        "Yang Liu",
+        "Alan Ashworth",
+        "Jennifer Doudna"
+      ],
+      "published": "2026-05-09",
+      "journal": "",
+      "abstract": "Genetic mutations that drive cancer often occur in tumor suppressor proteins, including the p53 transcription factor which is altered in ∼40-50% of cases 1,2 . However, current therapies fail to target most such mutations because the mutant proteins typically lack defined drug-binding pockets, and restoring the endogenous function has proven challenging. Here, we programmed CRISPR-Cas12a2, an RNA-guided nuclease with trans -nucleolytic cleavage activities 3,4 , to selectively kill cancer cells by targeting cancer-specific transcripts. This approach eliminates cells by inducing trans chromatin cleavage, triggering DNA damage and cell death. Unlike existing methods, RNA-guided Cas12a2 senses cellular RNA signatures to shred chromatin, enabling precise targeting of undruggable mutations. Transcript-activated chromatin shredding provides an innovative paradigm to develop precision disease treatments for undruggable targets.",
+      "url": "https://doi.org/10.64898/2026.05.08.723607",
+      "candidateAuthors": [
+        "jennifer-doudna"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jennifer-doudna",
+          "name": "Jennifer A. Doudna",
+          "verified": true,
+          "sourceUrl": "https://www.biorxiv.org/content/early/2026/05/09/2026.05.08.723607.source.xml",
+          "method": "jats_corresp",
+          "excerpt": "Jennifer A. Doudna; corresp=yes; *Correspondence: doudna@berkeley.edu"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.05.08.723607",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 논문은 암 억제인자 TP53의 변이처럼 기존 약물로 직접 겨냥하기 어려운 표적을, 암세포 특이적 RNA 신호로 인식해 제거할 수 있는지 다룹니다. 저자들은 RNA 유도 nuclease인 CRISPR-Cas12a2가 표적 전사체를 감지하면 trans 절단 활성을 통해 염색질을 절단하고 DNA 손상과 세포사를 유도하도록 설계했다고 보고합니다. 초록은 이 방식이 TP53 변이 세포를 선택적으로 제거하는 접근이라고 제시하지만, 실험계와 성능을 뒷받침하는 구체적 결과는 요약하지 않습니다.",
+      "whyCare": "전사체 인식과 염색질 파괴를 결합해 약물 결합 부위가 없는 변이 단백질을 겨냥한다는 발상은 genome editing과 단백질·효소 공학에 직접 관련됩니다. 선택성과 안전성이 실제로 입증된다면, 기존 표적치료가 어려운 변이에 대한 새로운 세포 제거 원리가 될 수 있습니다.",
+      "skepticism": "초록은 선택적 제거를 주장하지만, 어떤 세포 모델에서 확인했는지, TP53 변이 전사체와 야생형 전사체를 얼마나 구별하는지, 정상세포에서 비표적 염색질 손상이 있는지는 밝히지 않습니다. 세포사멸이 표적 RNA 인식에 의존하는지와 전달·체내 조건에서도 선택성이 유지되는지도 초록만으로는 판단할 수 없습니다.",
+      "knowledge": "핵심 개념은 표적 RNA를 인식 신호로 삼고 Cas12a2의 trans 절단 활성을 이용해 염색질 손상과 세포 제거를 연결하는 것입니다. 이는 변이 단백질 기능을 복구하거나 단백질 자체를 억제하는 대신, 변이 발현 세포를 선택적으로 제거하려는 전략입니다.",
+      "takeaway": "개념적으로는 genome editing 및 암세포 선택적 제거 분야에서 주목할 만한 접근입니다. 다만 현재 제공된 초록만으로는 선택성, 안전성, 치료 가능성을 평가할 근거가 부족하므로, 강한 결론보다 핵심 대조군과 실험 결과를 확인할 가치가 있는 논문으로 보는 것이 타당합니다.",
+      "paperKey": "f7259906a949f0",
+      "tracker": "preprints",
+      "source": "bioRxiv",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "high-interest",
+      "priorityLabel": "High interest",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_0f574a55217054a9016ac778fb91f887d08b5d101190e981b6",
+        "usage": {
+          "input_tokens": 1175,
+          "input_tokens_details": {
+            "cache_write_tokens": 1172,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1708,
+          "output_tokens_details": {
+            "reasoning_tokens": 992
+          },
+          "total_tokens": 2883
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 74,
+        "genomeEditing": 80,
+        "inVivo": 5,
+        "organoid": 5,
+        "epigenetics": 30,
+        "organelleMitochondria": 0,
+        "structuralBiology": 0,
+        "screening": 10,
+        "syntheticBiology": 30,
+        "proteinEngineering": 25,
+        "computational": 0,
+        "scientificNovelty": 85,
+        "evidenceStrength": 40,
+        "actionability": 55,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 68,
+        "computational": 34
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "암세포 전사체를 감지해 Cas12a2의 염색질 절단과 세포사를 유도한다는 새로운 치료 개념이나, 초록에는 실험 범위와 검증 세부사항이 제한적이다.",
+        "computational": "CRISPR-Cas12a2 기반 세포 실험이 중심이며 계산 방법론 연구가 아니다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "ac5082b7003c7b",
+      "doi": "10.64898/2026.04.26.720920",
+      "pmid": "",
+      "pmcid": "",
+      "title": "A Noncontiguous Code for RNA-Guided DNA Recognition Preceded CRISPR",
+      "authors": [
+        "Peter Yoon",
+        "Kenneth Loi",
+        "Zeyuan Zhang",
+        "Trevor Docter",
+        "Santiago Lopez",
+        "Conner Langeberg",
+        "Muhammad Moez ur-Rehman",
+        "Kamakshi Vohra",
+        "Zehan Zhou",
+        "Honglue Shi",
+        "Ron Boger",
+        "Peter Wang",
+        "Benjamin Adler",
+        "Stephen Brohawn",
+        "Jennifer Doudna"
+      ],
+      "published": "2026-04-27",
+      "journal": "",
+      "abstract": "CRISPR-Cas systems use RNA-guided proteins for adaptive immunity through a mechanism whose origin is unknown. Here we report the discovery of Viral Interference Programmable Repeat (VIPR) systems consisting of a Vipr protein more ancient than CRISPR-Cas and vrRNAs comprising alternating GGY/NN motifs. Unlike canonical guide RNAs that base pair with nucleic acid targets using an uninterrupted sequence, vrRNAs recognize double-stranded DNA through a noncontiguous code in which the variable NNs of each repeat collectively specify a target that itself contains a gapped recognition sequence. Analysis of natural vrRNA targets suggests VIPR acts against competing phages. We demonstrate programmable phage defense by redirecting the complex for transcriptional repression. These results suggest that the roots of adaptive immunity lie in ancient warfare between viruses, and reveal a new logic for programmable genetic control.",
+      "url": "https://doi.org/10.64898/2026.04.26.720920",
+      "candidateAuthors": [
+        "jennifer-doudna"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jennifer-doudna",
+          "name": "Jennifer A. Doudna",
+          "verified": true,
+          "sourceUrl": "https://www.biorxiv.org/content/early/2026/06/25/2026.04.26.720920.source.xml",
+          "method": "jats_corresp",
+          "excerpt": "Jennifer A. Doudna; corresp=yes; *Corresponding author. Email: doudna@berkeley.edu"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.04.26.720920",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 CRISPR-Cas RNA 유도 인식의 진화적 기원과 다른 표적 인식 방식이 있는지를 조사합니다. 저자들은 Vipr 단백질과 GGY/NN 반복 모티프로 이루어진 vrRNA를 포함하는 VIPR 시스템을 보고하며, vrRNA의 비연속적인 가변 서열들이 함께 이중가닥 DNA의 간격이 있는 표적 서열을 인식한다고 설명합니다. 자연 표적 분석은 경쟁 파지를 겨냥할 가능성을 시사하고, 저자들은 파지 방어를 프로그램하고 복합체를 전사 억제로 전환할 수 있음을 보였습니다.",
+      "whyCare": "연속적인 가이드-표적 염기쌍 형성과 다른 DNA 인식 논리를 제시해 RNA 유도 유전 제어의 작동 원리를 넓힙니다. 파지 방어와 전사 억제의 프로그램 가능성까지 보고해, 진화적 면역 기전뿐 아니라 합성생물학 및 유전자 조절 도구 연구에도 의미가 있습니다.",
+      "skepticism": "초록은 VIPR의 발견, 자연 표적 분석, 프로그램 가능한 파지 방어와 전사 억제를 보고하지만, 비연속 인식 규칙의 적용 범위와 표적 특이성·비표적 인식 정도는 제시하지 않습니다. 또한 ‘CRISPR-Cas보다 더 오래된’ 계통이라는 진화적 주장의 근거와, 이 시스템이 다양한 세포 환경에서 작동하는지는 초록만으로 평가할 수 없습니다.",
+      "knowledge": "핵심 개념은 vrRNA의 반복부에 있는 가변 NN 서열들이 표적의 연속 구간 하나가 아니라 간격이 있는 DNA 인식 서열을 함께 지정한다는 것입니다. 이 연구는 이런 인식 방식이 파지 방어에 쓰일 수 있고, 복합체를 전사 억제에 재지정할 수 있다는 가능성도 제시합니다.",
+      "takeaway": "새로운 RNA 유도 DNA 인식 기전과 그 프로그램 가능성을 함께 제시한, 유전체 조절·합성생물학·진화생물학 분야에 폭넓게 관련된 연구입니다. 다만 초록에서 확인되는 것은 전사 억제의 시연까지이며, 범용 유전자 조절 또는 편집 플랫폼으로서의 성능은 별도 검증이 필요합니다.",
+      "paperKey": "ac5082b7003c7b",
+      "tracker": "preprints",
+      "source": "bioRxiv",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_0d2cc4b9a5e914ee016ac7790f4fa487d0bf7c75fe85238b91",
+        "usage": {
+          "input_tokens": 1168,
+          "input_tokens_details": {
+            "cache_write_tokens": 1165,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1659,
+          "output_tokens_details": {
+            "reasoning_tokens": 897
+          },
+          "total_tokens": 2827
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 88,
+        "genomeEditing": 90,
+        "inVivo": 0,
+        "organoid": 0,
+        "epigenetics": 10,
+        "organelleMitochondria": 0,
+        "structuralBiology": 25,
+        "screening": 20,
+        "syntheticBiology": 75,
+        "proteinEngineering": 45,
+        "computational": 15,
+        "scientificNovelty": 94,
+        "evidenceStrength": 75,
+        "actionability": 75,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 83,
+        "computational": 50
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "CRISPR보다 오래된 VIPR의 비연속 RNA 코드 인식을 발견하고, 파지 방어 및 표적 전사 억제로 새로운 programmable 유전자 조절 원리를 제시했다.",
+        "computational": "서열 분석을 포함하지만 핵심은 새 RNA 유도 DNA 인식 시스템의 실험적 발견과 재프로그래밍이다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "305260f9b3eb14",
+      "doi": "10.64898/2026.04.26.720927",
+      "pmid": "",
+      "pmcid": "",
+      "title": "Triplex formation drives noncontiguous VIPR RNA-guided DNA recognition",
+      "authors": [
+        "Peter Yoon",
+        "Trevor Docter",
+        "Zeyuan Zhang",
+        "Kenneth Loi",
+        "Luis Valentin-Alvarado",
+        "Stephen Brohawn",
+        "Jennifer Doudna"
+      ],
+      "published": "2026-04-27",
+      "journal": "",
+      "abstract": "Viral Interference Programmable Repeat (VIPR) systems use a noncontiguous code for RNA-guided transcriptional silencing. How the Vipr protein and a vrRNA comprising alternating GGY and NN segments achieve precise DNA targeting is unknown. Here we present 21 cryo-electron microscopy structures that span the VIPR assembly pathway. Vipr protomers oligomerize along the vrRNA to form a right-handed helical filament, sequestering each GGY motif and positioning the adjacent NN bases for target base pairing. DNA binding, in which every third nucleotide is skipped, results in target strand rotation to form a gapped vrRNA-DNA hybrid helix that wraps around the non-target DNA strand to form a structural triplex. These findings provide the structural basis of noncontiguous RNA-guided DNA binding in VIPR, establishing triplex-driven target-strand handoff as an elegant mechanism of programmable nucleic acid recognition.",
+      "url": "https://doi.org/10.64898/2026.04.26.720927",
+      "candidateAuthors": [
+        "jennifer-doudna"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jennifer-doudna",
+          "name": "Jennifer A. Doudna",
+          "verified": true,
+          "sourceUrl": "https://www.biorxiv.org/content/early/2026/04/27/2026.04.26.720927.source.xml",
+          "method": "jats_corresp",
+          "excerpt": "Jennifer A. Doudna; corresp=yes; *Corresponding author. Email: doudna@berkeley.edu"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.04.26.720927",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 VIPR의 RNA-guided DNA 인식에서 vrRNA의 교차 배열 GGY·NN 서열이 표적을 어떻게 지정하는지 묻습니다. 저자들은 조립 경로를 아우르는 21개의 cryo-EM 구조를 제시하고, Vipr 단백질이 vrRNA를 따라 오른손 나선 필라멘트를 형성한다고 보고합니다. 표적 결합 때는 세 번째 염기마다 건너뛰는 방식으로 vrRNA-DNA 혼성 나선이 만들어지고, 이것이 비표적 DNA 가닥을 감싸 구조적 삼중나선을 이룬다는 모델을 제안합니다. 이에 따라 삼중나선 형성이 비연속적 RNA-guided DNA 인식의 구조적 기반이라는 결론입니다.",
+      "whyCare": "연속적인 염기쌍 형성과 다른 표적 인식 원리를 구조적으로 설명해, 프로그래머블 핵산 인식의 작동 원리를 넓혀 줍니다. 구조생물학과 RNA-guided DNA 조작 시스템에 관심 있는 연구자에게 특히 읽을 가치가 있습니다. 다만 초록만으로는 VIPR이 유전체 편집 도구로 검증됐다고 볼 수 없습니다.",
+      "skepticism": "초록은 구조 기반의 기전을 제시하지만, 각 구조적 특징이 표적 결합이나 침묵화에 필수적인지를 보여 주는 변이·기능 실험은 기술하지 않습니다. GGY 또는 NN 구간의 교란, 건너뛰는 염기의 변경이 결합과 침묵화에 각각 어떤 영향을 주는지, 인식 가능한 표적 서열 범위가 어느 정도인지가 판별력 있는 질문입니다. 따라서 구조적 설명의 강도와 기능적 인과성은 구분해 평가해야 합니다.",
+      "knowledge": "핵심 개념은 비연속적 RNA-DNA 염기쌍 형성, 표적 가닥의 회전, 그리고 RNA-DNA 혼성체가 비표적 DNA 가닥을 감싸는 삼중나선 구조입니다. 여러 cryo-EM 구조를 조립 경로에 걸쳐 비교해 분자 조립과 표적 인식의 순서를 연결하는 접근도 주목할 만합니다.",
+      "takeaway": "VIPR의 비연속적 RNA-guided DNA 인식을 설명하는 독창적인 구조적 기전 연구입니다. 구조생물학 및 프로그래머블 핵산 인식에는 높은 관련성이 있지만, 편집 성능이나 생체 내 활용 가능성까지 입증한 연구로 확대 해석해서는 안 됩니다.",
+      "paperKey": "305260f9b3eb14",
+      "tracker": "preprints",
+      "source": "bioRxiv",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_0eb6bf91762bfa59016ac7792096b087d089f6ff3b91284734",
+        "usage": {
+          "input_tokens": 1178,
+          "input_tokens_details": {
+            "cache_write_tokens": 1175,
+            "cached_tokens": 0
+          },
+          "output_tokens": 2295,
+          "output_tokens_details": {
+            "reasoning_tokens": 1520
+          },
+          "total_tokens": 3473
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 82,
+        "genomeEditing": 70,
+        "inVivo": 0,
+        "organoid": 0,
+        "epigenetics": 5,
+        "organelleMitochondria": 0,
+        "structuralBiology": 95,
+        "screening": 10,
+        "syntheticBiology": 55,
+        "proteinEngineering": 30,
+        "computational": 0,
+        "scientificNovelty": 90,
+        "evidenceStrength": 92,
+        "actionability": 65,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 83,
+        "computational": 44
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "21개 cryo-EM 구조로 VIPR 조립과 비연속 RNA-DNA 혼성체 및 삼중나선 형성 기전을 밝혀 새로운 핵산 인식 원리를 설명한다.",
+        "computational": "주요 기여는 cryo-EM 구조와 기능적 DNA 결합 기전의 규명이다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "d2837f3446ae6d",
+      "doi": "10.64898/2026.03.06.709984",
+      "pmid": "",
+      "pmcid": "",
+      "title": "Spligation enables programmable chimeric RNA generation in living cells",
+      "authors": [
+        "David Colognori",
+        "Kevin Wasko",
+        "Marena Trinidad",
+        "Zehan Zhou",
+        "Jennifer Doudna"
+      ],
+      "published": "2026-03-06",
+      "journal": "",
+      "abstract": "The ability to precisely modify RNA offers opportunities to manipulate the flow of genetic information and influence transcript stability, localization and translation. RNA-targeting technologies enable RNA knockdown, base editing and trans -splicing, but more extensive transcript changes typically require genome editing or rely on the endogenous splicing machinery. Based on the ability of type III-A CRISPR-Csm complexes to catalyze programmable RNA cleavage in human cells, we investigated their potential to induce site-specific deletions while leaving the remainder of the transcript intact. Our data show that CRISPR-Csm complexes can generate short and long RNA excisions within a target transcript, and that the efficiency of this process is enhanced by fusion of Csm to the RNA ligase RtcB. Furthermore, cleavage of two different transcripts can trigger subsequent trans -ligation of the cleaved products into a chimeric transcript (“spligation”). Finally, we apply spligation to endogenous transcripts, using Csm to generate recombinant mRNA in cells independent of canonical splice sites. Collectively, this approach enables new forms of precise RNA manipulation in cells with potential applications in human disease.",
+      "url": "https://doi.org/10.64898/2026.03.06.709984",
+      "candidateAuthors": [
+        "jennifer-doudna"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jennifer-doudna",
+          "name": "Jennifer A. Doudna",
+          "verified": true,
+          "sourceUrl": "https://www.biorxiv.org/content/early/2026/03/06/2026.03.06.709984.source.xml",
+          "method": "jats_corresp",
+          "excerpt": "Jennifer A. Doudna; corresp=yes; ‡Corresponding author: doudna@berkeley.edu"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.03.06.709984",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 CRISPR-Csm으로 세포 안의 RNA를 표적 절단해 전사체 일부를 제거하거나 서로 다른 RNA 조각을 이어 붙일 수 있는지 조사했습니다. 저자들은 인간 세포에서 표적 RNA의 짧거나 긴 구간을 제거할 수 있었고, Csm에 RNA ligase RtcB를 융합하면 절단 산물의 연결 효율이 높아졌다고 보고합니다. 두 전사체를 절단해 키메라 RNA를 만드는 ‘spligation’을 제시했으며, 내인성 전사체에서도 canonical splice site에 의존하지 않는 재조합 mRNA 생성을 보였습니다. 논문은 아직 프리프린트입니다.",
+      "whyCare": "DNA를 바꾸지 않고도 RNA 서열을 제거하거나 서로 다른 전사체의 조각을 연결하는 새로운 조작 방식이라는 점에서 가치가 있습니다. RNA 편집·조절을 넘어서는 프로그래밍 가능한 전사체 설계의 가능성을 열어, RNA 공학과 세포 내 유전자 발현 조절에 관심 있는 연구자에게 읽을 만한 방법론적 진전입니다.",
+      "skepticism": "초록은 절단과 연결이 가능하다고 보고하지만, 생성 효율과 표적 특이성, 원치 않는 절단·연결의 범위, 키메라 RNA의 안정성 및 기능은 제시하지 않습니다. 내인성 전사체에서 관찰된 생성물이 세포 표현형에 어떤 영향을 주는지, 다양한 세포 유형이나 생체 내에서도 작동하는지도 초록만으로는 판단할 수 없습니다. 다음 확인 사항은 접합부의 정확성·비표적 결과를 어떻게 측정했는지와 생성된 RNA의 기능 검증 여부입니다.",
+      "knowledge": "핵심 개념은 CRISPR-Csm의 RNA 절단을 RNA ligase RtcB와 결합해 절단 후 연결로 확장하는 것입니다. 서로 다른 전사체에서 나온 조각을 연결하는 trans-ligation을 ‘spligation’이라 부르며, canonical splice site에 의존하지 않는 RNA 재조합을 목표로 합니다. 이는 DNA 편집과 구별되는 RNA 수준의 전사체 공학 접근입니다.",
+      "takeaway": "Csm 매개 절단과 RtcB 매개 연결을 결합해 세포 내 키메라 RNA를 만들 수 있다는, RNA 조작 분야의 유망한 방법론적 결과입니다. 다만 초록만으로는 효율·특이성·생물학적 효과의 범위를 판단할 수 없어, 현재로서는 범용 도구의 확립보다 새로운 가능성의 제시로 보는 것이 타당합니다.",
+      "paperKey": "d2837f3446ae6d",
+      "tracker": "preprints",
+      "source": "bioRxiv",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "high-interest",
+      "priorityLabel": "High interest",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_09593544b395f3d1016ac779507c6887d0867ab37b24d1d31e",
+        "usage": {
+          "input_tokens": 1212,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 1209
+          },
+          "output_tokens": 1537,
+          "output_tokens_details": {
+            "reasoning_tokens": 751
+          },
+          "total_tokens": 2749
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 76,
+        "genomeEditing": 40,
+        "inVivo": 0,
+        "organoid": 5,
+        "epigenetics": 5,
+        "organelleMitochondria": 0,
+        "structuralBiology": 0,
+        "screening": 15,
+        "syntheticBiology": 75,
+        "proteinEngineering": 35,
+        "computational": 0,
+        "scientificNovelty": 85,
+        "evidenceStrength": 75,
+        "actionability": 70,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 74,
+        "computational": 41
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "CRISPR-Csm 절단과 RtcB 연결을 이용해 세포 내 RNA 일부를 제거하거나 서로 다른 전사체를 연결한 키메라 RNA를 만든다.",
+        "computational": "RNA 조작 도구를 세포에서 구현하고 내인성 전사체에 적용한 실험 연구다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "cefa1017f31d0f",
+      "doi": "10.64898/2026.01.23.700382",
+      "pmid": "",
+      "pmcid": "",
+      "title": "Efficient transgene-free multiplexed germline editing via viral delivery of an engineered TnpB",
+      "authors": [
+        "Trevor Weiss",
+        "Maris Kamalu",
+        "Honglue Shi",
+        "Gabriel Wirnowski",
+        "Alice Ingelsson",
+        "Jasmine Amerasekera",
+        "Kamakshi Vohra",
+        "Marena Trinidad",
+        "Zheng Li",
+        "Emily Freitas",
+        "Noah Steinmetz",
+        "Charlie Ambrose",
+        "Kerry Chen",
+        "Jennifer Doudna",
+        "Steven Jacobsen"
+      ],
+      "published": "2026-01-23",
+      "journal": "",
+      "abstract": "Virus-induced genome editing (VIGE) using compact RNA-guided endonucleases is a transformational new approach in plant biotechnology, enabling tissue-culture-independent and transgene-free genome editing (Hu et al. 2025; Liu et al. 2025; Weiss et al. 2025). We recently established a VIGE approach for heritable editing at single loci in Arabidopsis by delivering the compact genome editor ISYmu1 TnpB (Ymu1) and its guide RNA (gRNA) via Tobacco Rattle Virus (TRV) (Weiss et al. 2025). Here, we greatly improved this approach by devising a multiple gRNA expression system and by utilizing an engineered high-activity Ymu1 variant (Ymu1-WFR) (Zhou et al. 2026) to develop an efficient multiplexed genome editing platform.",
+      "url": "https://doi.org/10.64898/2026.01.23.700382",
+      "candidateAuthors": [
+        "jennifer-doudna"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jennifer-doudna",
+          "name": "Jennifer A. Doudna",
+          "verified": true,
+          "sourceUrl": "https://www.biorxiv.org/content/early/2026/02/25/2026.01.23.700382.source.xml",
+          "method": "jats_corresp",
+          "excerpt": "Jennifer A. Doudna; corresp=yes; *Correspondence: doudna@berkeley.edu and jacobsen@ucla.edu"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.01.23.700382",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 논문은 식물에서 바이러스로 편집기를 전달해 조직배양 없이 유전 가능한 편집을 얻는 VIGE를 다룹니다. 기존 Arabidopsis 단일 표적 접근을 개선하기 위해 다중 gRNA 발현 체계와 고활성으로 설계된 Ymu1-WFR TnpB 변이를 결합했다고 보고합니다. 저자들은 이를 효율적인 다중 표적 편집 플랫폼으로 제시합니다. 다만 제공된 초록에는 편집 효율이나 검증 결과의 구체적 수치가 제시되어 있지 않습니다.",
+      "whyCare": "유전 가능한 다중 표적 편집과 바이러스 전달을 결합한 점에서 genome editing, delivery, editor engineering에 직접 관련됩니다. 식물 생식계열 편집을 조직배양 의존성 및 외래 유전자 잔류 문제를 줄이는 방향으로 확장할 가능성이 있어, 편집 플랫폼 연구자에게 읽을 가치가 있습니다. 다른 생물종이나 전달 체계로의 확장 가능성은 초록만으로는 판단할 수 없습니다.",
+      "skepticism": "초록은 새 gRNA 체계와 Ymu1-WFR 사용을 설명하지만, 편집 효율의 크기, 동시 편집된 표적 수, 생식계열 전달 빈도, 대조군 대비 개선 정도를 밝히지 않습니다. transgene-free 주장과 표적 외 편집의 평가 범위, 그리고 결과가 Arabidopsis를 넘어서는지도 본문에서 확인해야 합니다. 따라서 플랫폼의 효율성과 일반성을 초록만으로 확정할 수는 없습니다.",
+      "knowledge": "핵심 개념은 compact RNA-guided nuclease인 TnpB를 TRV 기반 바이러스 유도 유전체 편집에 활용하고, 다중 gRNA 발현 및 고활성 편집기 변이를 함께 적용하는 전략입니다. 이 초록은 접근법의 개발을 보고하지만, 각 구성요소가 성능 향상에 기여한 정도를 정량적으로 보여주지는 않습니다.",
+      "takeaway": "식물 유전 가능 편집을 위한 바이러스 전달·다중화·편집기 공학의 유망한 조합으로, lab-wide 관심에서는 genome editing과 delivery 분야에 해당합니다. 다만 제공된 초록만으로는 성능 개선의 규모와 견고성을 평가하기 어려워, 강한 실증 논문인지 판단하려면 결과를 확인해야 합니다.",
+      "paperKey": "cefa1017f31d0f",
+      "tracker": "preprints",
+      "source": "bioRxiv",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "high-interest",
+      "priorityLabel": "High interest",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_04dd71ec58500aa5016ac779dff16487d0b30cd25ceab2f97e",
+        "usage": {
+          "input_tokens": 1175,
+          "input_tokens_details": {
+            "cache_write_tokens": 1172,
+            "cached_tokens": 0
+          },
+          "output_tokens": 2358,
+          "output_tokens_details": {
+            "reasoning_tokens": 1622
+          },
+          "total_tokens": 3533
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 78,
+        "genomeEditing": 90,
+        "inVivo": 60,
+        "organoid": 0,
+        "epigenetics": 5,
+        "organelleMitochondria": 0,
+        "structuralBiology": 5,
+        "screening": 20,
+        "syntheticBiology": 40,
+        "proteinEngineering": 55,
+        "computational": 0,
+        "scientificNovelty": 75,
+        "evidenceStrength": 60,
+        "actionability": 75,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 74,
+        "computational": 37
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "개량 TnpB와 다중 gRNA를 TRV로 전달해 Arabidopsis에서 조직배양·외래유전자 없이 다중 생식계열 편집을 구현하는 식물 유전자편집 기술이다.",
+        "computational": "바이러스 전달과 식물 유전자편집 실험이 핵심이다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "4c2fb25b90807c",
+      "doi": "10.64898/2026.01.09.698545",
+      "pmid": "",
+      "pmcid": "",
+      "title": "Stepwise DNA unwinding gates TnpB genome-editing activity",
+      "authors": [
+        "Zehan Zhou",
+        "Iren Saffarian-Deemyad",
+        "Honglue Shi",
+        "Trevor Weiss",
+        "Muhammad Moez Ur-Rehman",
+        "Kamakshi Vohra",
+        "Petr Skopintsev",
+        "Peter Yoon",
+        "Marena Trinidad",
+        "Conner Langeberg",
+        "Maris Kamalu",
+        "Jasmine Amerasekera",
+        "Yuxing Zhou",
+        "Erin Doherty",
+        "Kevin D.P. Aris",
+        "Noor Al-Sayyad",
+        "Brittney Thornton",
+        "Rachel Weissman",
+        "Kevin Wasko",
+        "Isabel Esain-Garcia",
+        "Evan DeTurk",
+        "David Savage",
+        "Steven Jacobsen",
+        "Zev Bryant",
+        "Jennifer Doudna"
+      ],
+      "published": "2026-01-09",
+      "journal": "",
+      "abstract": "SUMMARY TnpB is a compact RNA-guided endonuclease and evolutionary ancestor of CRISPR-Cas12 that offers a promising platform for genome engineering. However, the genome-editing activity of TnpBs remains limited and its underlying determinants are poorly understood. Here, we used biochemical and single-molecule assays to examine the DNA-unwinding mechanism of Youngiibacter multivorans TnpB (Ymu1 TnpB). DNA unwinding proceeds through a discrete, long-lived partially unwound intermediate state before reaching a fully unwound open state. The open state forms inefficiently and collapses readily in the absence of negative supercoiling. An optimized variant, Ymu1-WFR, stabilizes formation of both the intermediate and open states, resulting in enhanced DNA cleavage in vitro and increased genome editing in plants. These findings identify the physical basis for the observed minimal activities of natural TnpBs, revealing how stabilizing specific unwinding states enables efficient DNA targeting.",
+      "url": "https://doi.org/10.64898/2026.01.09.698545",
+      "candidateAuthors": [
+        "jennifer-doudna"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jennifer-doudna",
+          "name": "Jennifer A. Doudna",
+          "verified": true,
+          "sourceUrl": "https://www.biorxiv.org/content/early/2026/07/18/2026.01.09.698545.source.xml",
+          "method": "jats_corresp",
+          "excerpt": "Jennifer A. Doudna; corresp=yes; *Correspondence: doudna@berkeley.edu, zevry@stanford.edu, jacobsen@ucla.edu"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.01.09.698545",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 Ymu1 TnpB가 표적 DNA를 어떻게 풀어야 절단에 이르는지를 생화학적·단분자 분석으로 조사했습니다. DNA 풀림 과정에서 오래 지속되는 부분 풀림 중간 상태를 거쳐 완전히 열린 상태에 이르며, 완전 개방은 효율이 낮고 음의 초나선이 없으면 쉽게 되돌아간다고 보고합니다. 연구진은 두 풀림 상태를 안정화하는 Ymu1-WFR 변이를 만들었고, 이 변이는 시험관 내 절단과 식물의 유전체 편집을 향상시켰습니다. 결과는 자연형 TnpB의 낮은 활성이 DNA 풀림 상태의 불안정성과 관련되며, 이를 조절해 표적화를 개선할 수 있음을 제시합니다.",
+      "whyCare": "TnpB는 작고 CRISPR-Cas12와 진화적으로 연관된 편집기로 관심을 받지만, 낮은 활성이 활용의 걸림돌입니다. 이 연구는 활성을 단순히 서열 인식이나 절단 촉매가 아니라 표적 DNA의 단계적 풀림과 연결하고, 그 상태를 안정화한 변이가 식물 편집까지 개선됐다고 보고합니다. 기전과 편집 성능 개선을 잇는 점에서 genome editing 및 단백질/편집기 공학 연구자가 읽을 가치가 있습니다.",
+      "skepticism": "초록은 생화학·단분자 분석, 시험관 내 절단, 식물 편집 개선을 보고하지만, 효과의 크기나 식물·표적별 범위, 비표적 편집, 다른 TnpB 계열로의 일반화는 확립하지 않습니다. WFR 변이가 풀림 상태 안정화 외의 특성을 통해 성능을 높였을 가능성도 초록만으로는 배제할 수 없습니다. 프리프린트이므로 변이 설계와 비교 실험의 범위를 원문에서 확인할 필요가 있습니다.",
+      "knowledge": "핵심 개념은 RNA 유도 DNA 절단 전에 표적 이중가닥의 풀림이 단계적으로 진행될 수 있고, 각 풀림 상태의 안정성이 최종 절단을 제한할 수 있다는 것입니다. 이 연구는 단분자 측정으로 중간 상태와 열린 상태를 구분하고, 변이 공학으로 상태 안정화와 편집 성능 향상을 연결한 사례를 제시합니다.",
+      "takeaway": "TnpB의 낮은 활성을 설명하는 물리적 기전을 제시하고, DNA 풀림 상태를 안정화해 시험관 내 절단 및 식물 편집을 개선했다는 점에서 강한 편집기 기전 연구입니다. 다만 효과의 범위와 일반성은 초록만으로 판단할 수 없습니다.",
+      "paperKey": "4c2fb25b90807c",
+      "tracker": "preprints",
+      "source": "bioRxiv",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_0f0fc1baea966dad016ac779fa158487d094e49365335f4908",
+        "usage": {
+          "input_tokens": 1189,
+          "input_tokens_details": {
+            "cache_write_tokens": 1186,
+            "cached_tokens": 0
+          },
+          "output_tokens": 2115,
+          "output_tokens_details": {
+            "reasoning_tokens": 1304
+          },
+          "total_tokens": 3304
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 88,
+        "genomeEditing": 90,
+        "inVivo": 45,
+        "organoid": 0,
+        "epigenetics": 5,
+        "organelleMitochondria": 0,
+        "structuralBiology": 35,
+        "screening": 20,
+        "syntheticBiology": 35,
+        "proteinEngineering": 90,
+        "computational": 0,
+        "scientificNovelty": 90,
+        "evidenceStrength": 90,
+        "actionability": 85,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 85,
+        "computational": 46
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "생화학·단분자 분석으로 TnpB의 단계적 DNA 풀림을 규명하고, 상태를 안정화한 Ymu1-WFR이 시험관 내 절단과 식물 유전체 편집을 높임을 보였다.",
+        "computational": "TnpB의 분자 기전과 개량 변이체를 생화학·단분자 및 식물 편집 실험으로 검증했다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    },
+    {
+      "id": "77ecf50bd6901d",
+      "doi": "10.64898/2026.01.13.699115",
+      "pmid": "",
+      "pmcid": "",
+      "title": "Amplified genome editing by in vivo editor production",
+      "authors": [
+        "Wayne Ngo",
+        "Daniel Rosas-Rivera",
+        "Kevin Wasko",
+        "Longhui Qiu",
+        "Min Hyung Kang",
+        "Shaan Gogna",
+        "Jingkun Zeng",
+        "Mason Hooks",
+        "Jamie L.Y. Wu",
+        "Zhongmei Li",
+        "Jennifer Doudna"
+      ],
+      "published": "2026-01-13",
+      "journal": "",
+      "abstract": "Genome editing enzymes have vast therapeutic potential. However, achieving sufficient delivery in vivo remains a major challenge, because editing machinery is confined to the subset of transfectable cells in a tissue. Here, we tested the possibility that genome editing could be amplified in vivo by enabling transfected cells to transfer editing enzymes to neighboring cells. Our data show that this NANoparticle-Induced Transfer of Enzyme (NANITE) strategy quadrupled editing efficiency in cultured cells relative to non-spreading controls. A single intravenous injection of the NANITE plasmid into mice induced ∼3-fold higher levels of liver editing at the transthyretin ( Ttr ) locus relative to non-spreading controls, with corresponding reductions in serum TTR levels. Spreading therapeutic enzymes offers a nonviral and non-infectious strategy to boost therapeutic effects after delivery.",
+      "url": "https://doi.org/10.64898/2026.01.13.699115",
+      "candidateAuthors": [
+        "jennifer-doudna"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "jennifer-doudna",
+          "name": "Jennifer A. Doudna",
+          "verified": true,
+          "sourceUrl": "https://www.biorxiv.org/content/early/2026/09/07/2026.01.13.699115.source.xml",
+          "method": "jats_corresp",
+          "excerpt": "Jennifer A. Doudna; corresp=yes; *Corresponding author. Email: doudna@berkeley.edu"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.01.13.699115",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "shortSummary": "이 연구는 조직에서 편집 효소를 전달받는 세포가 제한된다는 문제를, 편집 효소가 주변 세포로 옮겨가도록 하는 NANITE 전략으로 해결할 수 있는지 시험했습니다. 초록에 따르면 이 전략은 배양 세포에서 비확산 대조군보다 편집 효율을 약 4배 높였습니다. 생쥐에 NANITE 플라스미드를 정맥 주사했을 때 간의 Ttr 편집은 약 3배 증가했고, 혈청 TTR도 감소했습니다. 저자들은 이를 비바이러스·비감염성 편집 증폭 전략으로 제시합니다.",
+      "whyCare": "전달된 세포의 수가 조직 내 편집 범위를 제한한다는 문제를 세포 간 효소 전달로 우회하려는 접근입니다. 배양계 결과뿐 아니라 생쥐 간에서 편집 증가와 표적 단백질 감소가 함께 보고되어, in vivo 유전자 편집 전달과 치료 효과를 연결하는 연구 방향에 직접 관련됩니다.",
+      "skepticism": "초록은 편집 증가와 혈청 TTR 감소를 보고하지만, 효소가 세포 사이로 이동하는 경로와 편집 증가에 대한 기여도는 설명하지 않습니다. 편집의 세포별·조직별 분포, 지속성, 비표적 편집 및 안전성도 초록에서 확인되지 않습니다. 정맥 투여 뒤의 결과가 다른 조직이나 치료 표적에서도 재현되는지 살펴볼 필요가 있습니다.",
+      "knowledge": "핵심 개념은 편집기를 직접 운반하는 세포 수를 늘리는 대신, 이미 형질도입된 세포가 이웃 세포에 편집 효소를 전달하도록 해 편집을 증폭한다는 것입니다. 초록에서 제시된 기능적 지표는 간 Ttr 유전자 편집과 혈청 TTR 감소입니다.",
+      "takeaway": "NANITE는 배양 세포와 생쥐 간에서 편집을 높였다는 초기 in vivo 근거를 제시하는 전달·편집 증폭 연구입니다. 치료 표적 단백질 감소까지 함께 보고되어 실험실의 전달 및 in vivo 편집 관심사에 읽을 가치가 있지만, 작동 원리와 적용 범위는 추가 검토가 필요합니다.",
+      "paperKey": "77ecf50bd6901d",
+      "tracker": "preprints",
+      "source": "bioRxiv",
+      "score": 0,
+      "sourceScore": 0,
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "keywords": [],
+      "lane": "Corresponding authors",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "reviewProvenance": {
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "basis": "formal_abstract",
+        "responseId": "resp_0d2bc5e998927be0016ac77a9e846087d091f45c4f9832ca69",
+        "usage": {
+          "input_tokens": 1152,
+          "input_tokens_details": {
+            "cache_write_tokens": 1149,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1433,
+          "output_tokens_details": {
+            "reasoning_tokens": 775
+          },
+          "total_tokens": 2585
+        }
+      },
+      "sourcePriority": "watchlist",
+      "audienceScores": {
+        "labWide": 84,
+        "genomeEditing": 90,
+        "inVivo": 86,
+        "organoid": 0,
+        "epigenetics": 5,
+        "organelleMitochondria": 0,
+        "structuralBiology": 5,
+        "screening": 15,
+        "syntheticBiology": 45,
+        "proteinEngineering": 30,
+        "computational": 0,
+        "scientificNovelty": 80,
+        "evidenceStrength": 76,
+        "actionability": 78,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 80,
+        "computational": 41
+      },
+      "computationalOnly": false,
+      "crossOver": false,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "세포 간 편집 효소 전달로 배양 세포 편집을 4배, 생쥐 정맥 투여 후 간 Ttr 편집을 약 3배 높였고 혈중 TTR도 감소시켰다. 비바이러스성 생체 내 편집 증폭 전략을 직접 검증해 전달·유전자 편집 연구에 유용하다.",
+        "computational": "계산 방법론이 아니라 NANITE의 세포 간 효소 전달과 배양 세포·생쥐 검증이 핵심이다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "compbioMembership": "excluded",
+      "editorialStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 1613,
+            "outputTokens": 500,
+            "totalTokens": 2113,
+            "count": 1
+          }
+        ],
+        "cached": false
+      }
+    }
+  ],
+  "digest": {
+    "title": "교신저자 연구 흐름: 최근 1년",
+    "weekOneLineSummary": "이번 주 통합 후보 21편 중 초록 근거를 확인해 우선순위를 정리했습니다. 선정 논문에서 두드러진 주제는 Genome editing & In vivo translation입니다.",
+    "summary": "제공된 논문군은 유전체 편집기의 기전·설계, 생체 내 전달, RNA 및 후성유전 조절, 단백질 공학을 아우릅니다. 저자별 근거의 폭은 다르며, 초록만으로는 여러 접근의 일반성이나 임상 적용성을 판단할 수 없습니다.",
+    "executiveSummary": "논문군에서 두드러지는 흐름은 편집·인식 도구의 작동 원리를 규명하고 이를 전달 및 기능 조절 전략과 연결하는 것입니다. IS621 bridge recombination, VIPR의 RNA 유도 DNA 인식, TnpB의 DNA 풀림은 구조·기전 연구의 사례이고, Cas12a2 기반 RNA 감응 염색질 절단, T세포를 통한 편집 장치 전달, spligation은 표적 인식이나 세포 기능을 확장하려는 접근입니다. 한편 prime editing, base editing, LNP 및 기타 전달 방식은 생쥐 모델이나 세포에서 치료 관련 지표를 제시하고, COMBINE과 Evo 2는 후성유전 조절 및 유전체 모델링의 범위를 넓힙니다.\n\n근거의 성격은 서로 다릅니다. 구조·생화학 연구는 특정 분자 기전을 설명하지만 계열 전반의 적용성을 자동으로 입증하지 않으며, 동물 연구의 결과도 임상 효능이나 장기 안전성과 같지 않습니다. 일부 초록은 정량 성능, 실험계 또는 선택성에 관한 세부사항을 제공하지 않고, spligation은 프리프린트로 표시되어 있습니다. 따라서 제공된 기록이 뒷받침하는 기여와 함께, 각 접근의 범위와 검증 한계를 구분해 해석해야 합니다.",
+    "theme": "Genome editing & In vivo translation",
+    "keywords": [
+      "Genome editing",
+      "In vivo translation",
+      "Screening / Perturb-seq",
+      "Protein engineering"
+    ],
+    "windowStart": "2025-10-08",
+    "windowEnd": "2026-10-08",
+    "mustDiscussCount": 15,
+    "highInterestCount": 6,
+    "sections": {
+      "topPapers": [
+        {
+          "id": "3e430b3d741296",
+          "title": "Prime editing-installed suppressor tRNAs for disease-agnostic genome editing.",
+          "tracker": "flagship",
+          "reason": "수천 종의 tRNA를 선별해 내인성 억제 tRNA를 프라임 편집으로 설치하고, 여러 질환 세포와 Hurler 증후군 마우스에서 병리 구제를 보였다.",
+          "implication": "제안 가능한 후속 연구로는 연구실이 관심을 가진 질환의 조기종결 변이 또는 환자 유래 오가노이드에서 PERT가 단백질 기능과 질환 표현형을 회복하는지 시험할 수 있습니다. 변이의 종결코돈 종류와 서열 맥락별 반응을 비교하고, 편집된 tRNA의 지속성 및 세포 유형별 효과를 측정하면 적용 가능한 범위를 구체화할 수 있습니다. 이는 초록에 보고된 결과가 아니라 제안된 검증 방향입니다.",
+          "question": "초록은 세 질환의 사람 세포 모델과 Hurler 증후군 마우스 모델에서의 회복을 보고하지만, 어떤 종결코돈·서열 맥락·조직에서 효과가 일관적인지, 장기간 치료 후에도 유지되는지는 제시하지 않습니다. 자연 종결코돈의 readthrough와 전사체·단백질체 변화가 검출되지 않았다는 결과는 고무적이지만, 검출 범위와 민감도, 장기적인 번역 정확성 및 생체 내 안전성은 초록만으로 판단할 수 없습니다. 여러 조직에 prime editor를 전달하는 효율과 사람에서의 실현 가능성도 별도 확인이 필요합니다.",
+          "whyImportant": "수천 종의 tRNA를 선별해 내인성 억제 tRNA를 프라임 편집으로 설치하고, 여러 질환 세포와 Hurler 증후군 마우스에서 병리 구제를 보였다.",
+          "labUse": "제안 가능한 후속 연구로는 연구실이 관심을 가진 질환의 조기종결 변이 또는 환자 유래 오가노이드에서 PERT가 단백질 기능과 질환 표현형을 회복하는지 시험할 수 있습니다. 변이의 종결코돈 종류와 서열 맥락별 반응을 비교하고, 편집된 tRNA의 지속성 및 세포 유형별 효과를 측정하면 적용 가능한 범위를 구체화할 수 있습니다. 이는 초록에 보고된 결과가 아니라 제안된 검증 방향입니다.",
+          "knowledge": "PERT는 조기종결 변이를 여러 질환에 걸쳐 다룰 수 있다는 강한 치료 개념을 세포와 마우스 모델에서 뒷받침합니다. 특히 내인성 tRNA의 단일 좌위 편집과 생체 내 병리 개선이 돋보입니다. 다만 질환·조직·변이 맥락 전반의 효능과 장기 안전성은 초록이 확립하지 않으므로, 광범위한 임상 적용 가능성은 후속 근거를 기다려야 합니다.",
+          "labRank": 97
+        },
+        {
+          "id": "36892c18300e04",
+          "title": "Efficient prime editing in vivo and in vitro using lipid nanoparticles.",
+          "tracker": "flagship",
+          "reason": "최적화된 LNP로 생쥐 간에서 prime editing 49%를 달성하고, 페닐케톤뇨증 모델의 PAH 변이를 치료 예상 수준으로 교정했다. 반복 투여·오프타깃·간독성 결과까지 제시한 강력한 생체내 편집 연구다.",
+          "implication": "후속 적용 제안으로, 연구실의 간 표적 편집이나 다른 prime-editing 표적에서 이 cargo 최적화 접근을 재현하고, 조직별 편집률·off-target·반복 투여 반응을 비교할 수 있습니다. 특히 치료 표적을 바꿨을 때 최적화 원칙이 얼마나 일반화되는지 시험하는 출발점으로 유용합니다.",
+          "question": "초록은 PAH 변이 교정과 혈청 페닐알라닌 개선을 보고하지만, 이를 실제 장기 질환 교정이나 임상적 효능으로 확정하지는 않습니다. ‘치료적 수준으로 예상’된 수치와 실제 지속성, 조직·세포 유형별 편집 분포, off-target 평가 범위, 반복 투여 후 면역 반응 및 장기 안전성은 초록만으로 판단할 수 없습니다. ‘장기 독성이 관찰되지 않았다’는 주장도 관찰 기간과 평가 항목을 본문에서 확인해야 합니다.",
+          "whyImportant": "최적화된 LNP로 생쥐 간에서 prime editing 49%를 달성하고, 페닐케톤뇨증 모델의 PAH 변이를 치료 예상 수준으로 교정했다. 반복 투여·오프타깃·간독성 결과까지 제시한 강력한 생체내 편집 연구다.",
+          "labUse": "후속 적용 제안으로, 연구실의 간 표적 편집이나 다른 prime-editing 표적에서 이 cargo 최적화 접근을 재현하고, 조직별 편집률·off-target·반복 투여 반응을 비교할 수 있습니다. 특히 치료 표적을 바꿨을 때 최적화 원칙이 얼마나 일반화되는지 시험하는 출발점으로 유용합니다.",
+          "knowledge": "생쥐 간에서 높은 prime-editing 효율과 PAH 모델의 유의미한 치료 지표 개선을 함께 보고한, 전달·편집 분야의 강한 전임상 연구입니다. 다만 초록의 결과만으로 지속성, 완전한 안전성 또는 실제 임상 효능까지 결론 내릴 수는 없습니다.",
+          "labRank": 95
+        },
+        {
+          "id": "b380a31cfe6b8c",
+          "title": "In vivo base editing rescues liver pathophysiology and peroxisome dysfunction in a mouse model of Zellweger spectrum disorder.",
+          "tracker": "flagship",
+          "reason": "AAV와 LNP 염기편집으로 ZSD 마우스의 간 병리와 대사 이상을 개선하고, 환자 유래 세포에서도 과산화소체 기능을 회복했다.",
+          "implication": "제안: 간 표적 편집 연구에서 교정률과 대사산물·조직 표현형을 함께 측정하는 설계의 참고 사례로 활용할 수 있습니다. AAV9와 LNP 결과를 바탕으로, 연구실의 관련 모델에서 전달 방식·투여 시점별 교정과 기능 회복의 관계를 비교하는 후속 실험을 구상할 수 있습니다.",
+          "question": "초록은 간 벌크 교정률과 개선된 대사·조직 지표를 보고하지만, 어떤 간 세포에서 교정됐는지와 세포별 교정률이 표현형 회복에 어떻게 기여했는지는 제시하지 않습니다. 효과의 장기 지속성, 안전성, 신경계 기능 개선 여부도 이 초록만으로는 확립되지 않습니다. 오프타깃 분석은 최소 수준을 보고하지만, 분석 범위와 검출 한계는 원문에서 확인할 필요가 있습니다.",
+          "whyImportant": "AAV와 LNP 염기편집으로 ZSD 마우스의 간 병리와 대사 이상을 개선하고, 환자 유래 세포에서도 과산화소체 기능을 회복했다.",
+          "labUse": "제안: 간 표적 편집 연구에서 교정률과 대사산물·조직 표현형을 함께 측정하는 설계의 참고 사례로 활용할 수 있습니다. AAV9와 LNP 결과를 바탕으로, 연구실의 관련 모델에서 전달 방식·투여 시점별 교정과 기능 회복의 관계를 비교하는 후속 실험을 구상할 수 있습니다.",
+          "knowledge": "초록에 제시된 결과는 생체 내 염기교정이 ZSD의 원인 교정과 간·peroxisome 표현형 개선을 연결할 가능성을 뒷받침합니다. 전달 효율뿐 아니라 대사 및 조직 수준의 결과를 함께 보여주는, genome editing과 소기관 생물학 모두에 관련성이 높은 연구입니다.",
+          "labRank": 95
+        },
+        {
+          "id": "2c2f1a15f6d285",
+          "title": "A combinatorial domain screening platform reveals epigenetic effector interactions for transcriptional perturbation.",
+          "tracker": "flagship",
+          "reason": "5만 쌍이 넘는 후성유전 effector 조합을 선별하고, 침묵화·활성화의 장기 기억과 CRISPR 양방향 조절을 뒷받침하는 조합을 찾아낸 강력한 스크리닝·epigenome editing 연구다.",
+          "implication": "제안: 관심 유전자에서 억제와 활성의 지속성이 중요한 경우, COMBINE의 조합 선별 원리를 적용해 도메인 조합별 발현 변화와 유도 중단 후 지속성을 비교할 수 있습니다. 오가노이드에서 사용하려면 해당 세포 유형에서의 성능과 전달·발현 조건을 먼저 확인하는 것이 적절합니다.",
+          "question": "초록은 대규모 스크리닝과 특정 조합의 기능을 보고하지만, 시험한 세포 유형과 표적 유전자 범위, 개별 조합의 재현성, 장기 효과의 구체적 정의는 밝히지 않습니다. DNA 메틸화 조절 인자가 기억에 필수라는 결론을 어떤 조건에서 확인했는지, KRAB-L3MBTL3의 이점이 다양한 표적과 세포 맥락에서도 유지되는지는 본문에서 확인해야 합니다. 초록만으로는 생체 내 효능이나 오가노이드 적용성이 입증됐다고 볼 수 없습니다.",
+          "whyImportant": "5만 쌍이 넘는 후성유전 effector 조합을 선별하고, 침묵화·활성화의 장기 기억과 CRISPR 양방향 조절을 뒷받침하는 조합을 찾아낸 강력한 스크리닝·epigenome editing 연구다.",
+          "labUse": "제안: 관심 유전자에서 억제와 활성의 지속성이 중요한 경우, COMBINE의 조합 선별 원리를 적용해 도메인 조합별 발현 변화와 유도 중단 후 지속성을 비교할 수 있습니다. 오가노이드에서 사용하려면 해당 세포 유형에서의 성능과 전달·발현 조건을 먼저 확인하는 것이 적절합니다.",
+          "knowledge": "후성유전 인자 간 상호작용을 체계적으로 탐색하고, 이를 기억성 조절 및 CRISPR 기반 도구 개발과 연결한 연구로서 이 랩의 후성유전학·유전체 편집 관심사에 높은 가치가 있습니다. 다만 일반화 가능성과 생체 내 적용은 초록에서 확인되지 않습니다.",
+          "labRank": 92
+        },
+        {
+          "id": "bd474ddc4723b5",
+          "title": "Transient hepatic reconstitution of trophic factors enhances aged immunity.",
+          "tracker": "flagship",
+          "reason": "간세포에 DLL1·FLT3L·IL-7 mRNA를 전달해 노령 생쥐의 T세포 재생과 백신·항암 면역을 개선했고, 투여 중단 후 가역성과 자가면역 위험도 평가했다.",
+          "implication": "제안: 간세포 mRNA 전달의 조직·세포 특이성과 발현 시간 경과를 확인하고, 각 인자 단독 및 조합 처치를 비교하는 후속 연구의 근거로 삼을 수 있습니다. 또한 노화 면역 회복이 다른 생체 내 전달 또는 치료 모델에서 재현되는지 검토하는 출발점이 될 수 있습니다.",
+          "question": "초록은 여러 면역·치료 결과의 개선을 보고하지만, 각 인자가 기여한 정도와 Notch·FLT3L·IL-7의 상대적 필요성은 여기서 분명하지 않습니다. 효과의 지속 기간, 반복 투여의 안전성, 사람에서의 적용 가능성도 초록만으로 확립되지 않습니다. 후속 확인에서는 개별 인자 제거·비교와 장기 안전성 및 기능 유지 여부가 핵심 질문입니다.",
+          "whyImportant": "간세포에 DLL1·FLT3L·IL-7 mRNA를 전달해 노령 생쥐의 T세포 재생과 백신·항암 면역을 개선했고, 투여 중단 후 가역성과 자가면역 위험도 평가했다.",
+          "labUse": "제안: 간세포 mRNA 전달의 조직·세포 특이성과 발현 시간 경과를 확인하고, 각 인자 단독 및 조합 처치를 비교하는 후속 연구의 근거로 삼을 수 있습니다. 또한 노화 면역 회복이 다른 생체 내 전달 또는 치료 모델에서 재현되는지 검토하는 출발점이 될 수 있습니다.",
+          "knowledge": "초록에 제시된 생쥐 자료는 간 표적 mRNA로 노화 면역의 여러 축을 함께 개선할 가능성을 뒷받침합니다. 유전체 편집 논문은 아니지만, 인과적 생체 내 개입과 전달·면역생물학의 결합 때문에 연구실 전반에서 우선 읽을 만한 후보입니다.",
+          "labRank": 91
+        }
+      ],
+      "wildcardsFieldShifting": [
+        {
+          "id": "3e430b3d741296",
+          "title": "Prime editing-installed suppressor tRNAs for disease-agnostic genome editing.",
+          "tracker": "flagship",
+          "reason": "수천 종의 tRNA를 선별해 내인성 억제 tRNA를 프라임 편집으로 설치하고, 여러 질환 세포와 Hurler 증후군 마우스에서 병리 구제를 보였다.",
+          "implication": "제안 가능한 후속 연구로는 연구실이 관심을 가진 질환의 조기종결 변이 또는 환자 유래 오가노이드에서 PERT가 단백질 기능과 질환 표현형을 회복하는지 시험할 수 있습니다. 변이의 종결코돈 종류와 서열 맥락별 반응을 비교하고, 편집된 tRNA의 지속성 및 세포 유형별 효과를 측정하면 적용 가능한 범위를 구체화할 수 있습니다. 이는 초록에 보고된 결과가 아니라 제안된 검증 방향입니다.",
+          "question": "초록은 세 질환의 사람 세포 모델과 Hurler 증후군 마우스 모델에서의 회복을 보고하지만, 어떤 종결코돈·서열 맥락·조직에서 효과가 일관적인지, 장기간 치료 후에도 유지되는지는 제시하지 않습니다. 자연 종결코돈의 readthrough와 전사체·단백질체 변화가 검출되지 않았다는 결과는 고무적이지만, 검출 범위와 민감도, 장기적인 번역 정확성 및 생체 내 안전성은 초록만으로 판단할 수 없습니다. 여러 조직에 prime editor를 전달하는 효율과 사람에서의 실현 가능성도 별도 확인이 필요합니다."
+        },
+        {
+          "id": "e8d1a370431e95",
+          "title": "Genome modelling and design across all domains of life with Evo 2.",
+          "tracker": "flagship",
+          "reason": "대규모 DNA foundation model의 변이 예측·서열 생성 능력은 유전체 설계에 폭넓게 쓰일 수 있고, 생성된 염색질 접근성 패턴의 실험 검증도 보고한다. 모델 자체가 주된 기여다.",
+          "implication": "제안: 관심 있는 세포 유형의 접근성 예측 모델을 조건으로 조절 서열 후보를 생성하고, 후보를 실험적으로 평가하는 파일럿에 활용할 수 있습니다. 편집 연구에서는 비암호화 변이 후보를 우선순위화하는 보조 도구로 시험할 수도 있습니다. 초록은 이런 활용의 실험적 성공을 직접 입증하지는 않습니다.",
+          "question": "초록만으로는 변이 예측의 기준선 대비 성능, 세포 유형별 일반화, 또는 생성 서열이 목표 기능을 얼마나 일관되게 구현하는지 판단할 수 없습니다. 접근성 패턴의 실험 검증은 보고되지만, 검증 범위와 세포 맥락, 측정된 결과는 제시되지 않습니다. 따라서 ‘게놈 설계’의 폭넓은 가능성과 실제로 검증된 기능을 구분해 읽어야 합니다."
+        },
+        {
+          "id": "ac5082b7003c7b",
+          "title": "A Noncontiguous Code for RNA-Guided DNA Recognition Preceded CRISPR",
+          "tracker": "preprints",
+          "reason": "CRISPR보다 오래된 VIPR의 비연속 RNA 코드 인식을 발견하고, 파지 방어 및 표적 전사 억제로 새로운 programmable 유전자 조절 원리를 제시했다.",
+          "implication": "제안으로, VIPR의 표적 인식 규칙과 전사 억제 성능을 기존 RNA 유도 조절 시스템과 비교해 볼 수 있습니다. 특히 표적 서열 간격·가변부 조합에 따른 인식 범위와 세포 내 작동성을 검증하면, 서로 다른 표적 논리를 가진 조절 도구로 활용할 여지가 있는지 판단할 수 있습니다. 초록만으로는 유전자 편집 도구로서의 활용성이 입증되지는 않았습니다.",
+          "question": "초록은 VIPR의 발견, 자연 표적 분석, 프로그램 가능한 파지 방어와 전사 억제를 보고하지만, 비연속 인식 규칙의 적용 범위와 표적 특이성·비표적 인식 정도는 제시하지 않습니다. 또한 ‘CRISPR-Cas보다 더 오래된’ 계통이라는 진화적 주장의 근거와, 이 시스템이 다양한 세포 환경에서 작동하는지는 초록만으로 평가할 수 없습니다."
+        }
+      ],
+      "watchlistArchive": [
+        {
+          "id": "bb56f10b350645",
+          "title": "Structural mechanism governing the directionality of bridge recombination.",
+          "tracker": "flagship",
+          "reason": "IS621 bridge recombinase의 excision 복합체 구조와 삽입·절제 방향성의 기전을 제시해 bridge editing 설계에 직접 도움이 되는 구조·기능 연구다.",
+          "implication": "제안: bridge-editing 시스템에서 삽입·절제 방향성이나 반응 효율을 조절할 필요가 있다면, 논문이 제시한 handshake guide–DNA 짝짓기 원리와 절제 복합체의 배치를 바탕으로 bRNA 설계 변이를 시험할 수 있다. 이는 후속 설계 가설이지, 이 연구가 편집 성능 향상을 입증했다는 뜻은 아니다.",
+          "question": "초록은 구조적 배치와 낮은 절제 효율의 연관성을 보고하고 이를 가닥 교환 저하의 원인으로 제시하지만, 그 기하학의 인과적 기여를 분리해 검증한 실험의 범위는 요약만으로 알 수 없다. 구조·효율 관계가 IS621의 다른 기질이나 조건에서도 유지되는지, 다른 IS110 계열에도 적용되는지는 확인할 질문이다. 또한 초록은 세포 내에서 절제 조절을 바꾸었을 때 전위나 편집 결과가 어떻게 달라지는지 확립하지 않는다."
+        },
+        {
+          "id": "1f17218915d10f",
+          "title": "AI-redesigned starting points and outcomes enhance protein evolution.",
+          "tracker": "flagship",
+          "reason": "AI 재설계한 protease를 진화의 출발점으로 써서 활성·안정성을 높이고, ataxin-2 절단 특이성을 야생형 출발점보다 79배 이상 높였다. 단백질 공학과 실험적 진화를 연결한 연구다.",
+          "implication": "제안: 실험실의 효소 또는 단백질 편집기 공학에서 AI 재설계와 선택 기반 진화를 결합하는 출발점으로 참고할 수 있습니다. 특히 야생형 배경에서 불리하거나 기능을 잃는 변이가 재설계 배경에서는 유효해지는지 비교하는 실험 설계가 유용한 응용 후보입니다. 다만 이 초록은 세포 내 전달이나 치료 효능을 입증하지 않습니다.",
+          "question": "초록은 병렬 진화 비교와 재설계 배경에 의존하는 변이의 기능을 보고하지만, 각 진화 캠페인의 세부 규모와 재현성은 여기서 확인할 수 없습니다. ataxin-2에 대한 높은 선택성이 세포 환경에서도 유지되는지, 다른 단백질 기질에 대한 절단이나 세포 독성은 어떤지, 치료적 사용에 필요한 전달·안전성이 가능한지는 초록만으로 확립되지 않습니다. 후속 검토에서는 선택성 측정 기준과 세포 기반 검증 여부를 확인할 필요가 있습니다."
+        },
+        {
+          "id": "76a901f8379019",
+          "title": "Programmable Lipid Nanoparticle Targeting via Corona Engineering",
+          "tracker": "preprints",
+          "reason": "ApoE-LDLR 간 유입을 낮추고 항체 표적으로 T세포·뇌·폐 등으로 LNP를 재지향했으며, 표적 전달과 CAR T 기능을 생체 내에서 시연했다.",
+          "implication": "제안으로, 이 dApoE 기반 간 detargeting과 항체 표적화를 T세포 또는 조혈계 세포에 편집기 mRNA를 전달하는 설계에 적용해 볼 수 있습니다. 표적 세포의 편집 효율과 기능 변화뿐 아니라 간세포의 편집·전달 감소도 함께 측정하면, 이 플랫폼이 해당 cargo와 세포 유형에서 유효한지 직접 평가할 수 있습니다.",
+          "question": "초록은 표적 조직·세포별 전달의 정량적 크기, 세포 수준의 선택성, 대조군 구성 및 반복투여 안전성을 구체적으로 밝히지 않습니다. 간 detargeting만으로 다른 장기로 전달이 재분배되지 않는다는 결과와, 항체를 더해 특정 조직을 표적화했다는 결과를 구분해 확인할 필요가 있습니다. haPCSK9 접근이 전신 LDLR 생리나 반복 투여에 미치는 영향, 그리고 aged T세포에서 DNA 손상 표지 감소가 기능적·지속적 이점으로 이어지는지도 초록만으로는 판단할 수 없습니다."
+        },
+        {
+          "id": "dc1ab2b4b2222c",
+          "title": "Targeting cancer-specific mutations with RNA-triggered chromatin shredding.",
+          "tracker": "flagship",
+          "reason": "Cas12a2를 암 특이 전사체에 반응하도록 프로그램해 염색질 절단과 세포사를 유도한다. 표적 RNA 감지와 암세포 선택성이라는 새 CRISPR 치료 개념을 제시하지만 초록에는 생체내 검증이 없다.",
+          "implication": "제안으로, 연구실의 암세포·오가노이드 모델에서 변이 전사체와 정상 대립유전자 전사체를 구별하는 가이드 설계 및 세포 선택성 평가에 참고할 수 있습니다. 후속 검토에서는 Cas12a2 발현·전달 조건, 비표적 RNA에 대한 반응, 정상 세포에서의 염색질 손상 여부를 우선 확인할 만합니다. 초록만으로는 이 접근의 생체 내 전달 가능성이나 치료 효능을 판단할 수 없습니다.",
+          "question": "초록은 암 특이적 표적화와 세포사 유도를 주장하지만, 어떤 변이·세포 모델에서 검증했는지, 정상 세포와 얼마나 구별됐는지, 효과가 표적 RNA 의존적인지를 설명하지 않습니다. 염색질 절단이 직접적인 Cas12a2 trans 활성의 결과인지와 비표적 전사체에 따른 손상 범위도 확인이 필요합니다. p53는 배경 사례로 언급될 뿐, 초록만으로 p53 변이를 직접 표적해 검증했다고 볼 수 없습니다."
+        },
+        {
+          "id": "4c2fb25b90807c",
+          "title": "Stepwise DNA unwinding gates TnpB genome-editing activity",
+          "tracker": "preprints",
+          "reason": "생화학·단분자 분석으로 TnpB의 단계적 DNA 풀림을 규명하고, 상태를 안정화한 Ymu1-WFR이 시험관 내 절단과 식물 유전체 편집을 높임을 보였다.",
+          "implication": "제안: 연구실에서 TnpB 또는 다른 RNA 유도 편집기의 활성 차이를 조사한다면, DNA 풀림 중간체와 열린 상태의 안정성이 편집 효율을 설명하는지 시험할 수 있습니다. Ymu1-WFR을 비교 기준으로 삼고, 시험관 내 DNA 절단과 식물 편집 결과가 함께 변하는지 확인하는 후속 연구가 구체적인 활용 방향입니다.",
+          "question": "초록은 생화학·단분자 분석, 시험관 내 절단, 식물 편집 개선을 보고하지만, 효과의 크기나 식물·표적별 범위, 비표적 편집, 다른 TnpB 계열로의 일반화는 확립하지 않습니다. WFR 변이가 풀림 상태 안정화 외의 특성을 통해 성능을 높였을 가능성도 초록만으로는 배제할 수 없습니다. 프리프린트이므로 변이 설계와 비교 실험의 범위를 원문에서 확인할 필요가 있습니다."
+        }
+      ]
+    },
+    "editorialStatus": "success",
+    "perAuthor": [
+      {
+        "authorId": "patrick-hsu",
+        "researchTrend": "해당 논문들은 bridge recombinase의 반응 방향성을 구조적으로 설명하고, 후성유전 도메인 조합을 대규모로 탐색하며, 광범위한 유전체 자료를 활용한 모델링·서열 설계를 다룹니다. 각각 구조 기반 기전, 실험적 스크리닝, 계산 모델과 접근성 패턴의 실험 검증을 제시하지만, 초록만으로는 IS621 원리의 계열 전반 적용성, COMBINE 결과의 생체 내 일반성, 모델의 모든 예측에 대한 실험적 검증을 결론낼 수 없습니다.",
+        "paperIds": [
+          "bb56f10b350645",
+          "2c2f1a15f6d285",
+          "e8d1a370431e95"
+        ]
+      },
+      {
+        "authorId": "jonathan-gootenberg",
+        "researchTrend": "확인된 논문은 Omar Abudayyeh와 공동 교신저자로 기재된 LNP 코로나 공학 연구 한 편입니다. 이 연구는 간 유입을 줄이는 설계와 항체 기반 표적화를 결합해 T세포·뇌·폐 등으로의 전달을 다루고, CD5 표적 입자를 이용한 CAR T세포 생성 및 aged T세포의 miRNA 전달 결과를 보고합니다. 단일 논문에 근거한 관찰이므로 별도의 연구 궤적이나 각 조직에서의 일반적 효능·안전성을 추론할 수 없습니다.",
+        "paperIds": [
+          "76a901f8379019"
+        ]
+      },
+      {
+        "authorId": "omar-abudayyeh",
+        "researchTrend": "확인된 논문은 Jonathan Gootenberg와 공동 교신저자로 기재된 LNP 코로나 공학 연구 한 편입니다. 간 편향을 낮추고 항체로 표적 세포를 지정하는 전달 전략을 제시하며, T세포 표적화와 CAR T세포 생성 등의 결과를 보고합니다. 제공된 기록은 하나의 공동 논문뿐이므로 이를 넘어 독립적인 연구 방향이나 다른 응용의 재현성과 안전성을 일반화할 근거는 없습니다.",
+        "paperIds": [
+          "76a901f8379019"
+        ]
+      },
+      {
+        "authorId": "jennifer-doudna",
+        "researchTrend": "논문군은 표적 전달 리뷰, 세균 항바이러스 면역의 프로테아제-뉴클레아제 기전, VIPR의 RNA 유도 DNA 인식과 구조, TnpB의 DNA 풀림, CRISPR-Csm 기반 RNA 절단·연결 등 기초 기전과 도구 개발을 폭넓게 포함합니다. 더불어 Cas12a2를 이용한 RNA 감응 염색질 절단, T세포 기반 편집 장치 전달, 식물의 바이러스 전달 편집, NANITE의 편집 증폭도 다룹니다. 초록에 근거하면 일부 연구는 구조 또는 세포·생쥐 수준의 가능성을 제시하지만, Cas12a2 접근의 선택성·안전성, T세포 전달의 표적 세포 편집 및 생체 내 효과, 여러 도구의 적용 범위는 요약 자료만으로 확정할 수 없습니다. 식물 TnpB 연구와 spligation 프리프린트 역시 성능의 규모나 일반성을 평가하기에 정보가 제한적입니다.",
+        "paperIds": [
+          "7b8d1b97a8d0ca",
+          "32fca23e220075",
+          "dc1ab2b4b2222c",
+          "8a5db495cb3d53",
+          "f7259906a949f0",
+          "ac5082b7003c7b",
+          "305260f9b3eb14",
+          "d2837f3446ae6d",
+          "cefa1017f31d0f",
+          "4c2fb25b90807c",
+          "77ecf50bd6901d"
+        ]
+      },
+      {
+        "authorId": "feng-zhang",
+        "researchTrend": "확인된 논문 한 편은 mRNA를 간세포에 전달해 Notch, FLT3L, IL-7 관련 면역 인자를 일시적으로 재구성하고 노화 생쥐의 면역 지표를 개선하는 접근을 보고합니다. 면역 미세환경 비교와 생체 내 개입을 연결한 결과지만, 제공된 근거는 생쥐 연구이며 이 한 편만으로 다른 질환이나 사람에서의 효과를 포함한 더 넓은 연구 추세를 추론할 수 없습니다.",
+        "paperIds": [
+          "bd474ddc4723b5"
+        ]
+      },
+      {
+        "authorId": "david-liu",
+        "researchTrend": "확인된 논문들은 AI 재설계 단백질을 효소 진화의 출발점으로 활용하는 연구, LNP prime editing, 생체 내 base editing, 내인성 tRNA를 설치하는 prime editing, pMHC 표적 eVLP를 통한 종양 특이 T세포 조작을 다룹니다. 단백질 공학부터 생체 내 유전자 교정과 면역세포 공학까지 서로 다른 전략에서 세포 또는 생쥐 모델의 기능적 결과를 보고합니다. 다만 각 접근은 모델과 전달 방식이 다르며, 전임상 결과만으로 장기 안전성·임상 효과를 확정할 수 없고 질환·조직·변이 전반의 일반성도 추가 근거가 필요합니다.",
+        "paperIds": [
+          "1f17218915d10f",
+          "36892c18300e04",
+          "44419612c4e702",
+          "b380a31cfe6b8c",
+          "3e430b3d741296"
+        ]
+      }
+    ],
+    "summaryProvenance": {
+      "model": "gpt-6-luna",
+      "effort": "high",
+      "responseId": "resp_006963e5423c19f4016ac77ab5279087d0bad10da15d7dc6f0",
+      "usage": {
+        "input_tokens": 7218,
+        "input_tokens_details": {
+          "cache_write_tokens": 7215,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2588,
+        "output_tokens_details": {
+          "reasoning_tokens": 835
+        },
+        "total_tokens": 9806
+      }
+    }
+  },
+  "trackers": [],
+  "editorialStage": {
+    "status": "success",
+    "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+    "scoreScale": "0-100",
+    "model": "gpt-6-luna",
+    "effort": "high",
+    "errorCategory": null,
+    "calls": [
+      {
+        "status": "completed",
+        "model": "gpt-6-luna",
+        "requestedModel": "gpt-6-luna",
+        "effort": "high",
+        "inputTokens": 6239,
+        "outputTokens": 4733,
+        "totalTokens": 10972,
+        "count": 10
+      },
+      {
+        "status": "completed",
+        "model": "gpt-6-luna",
+        "requestedModel": "gpt-6-luna",
+        "effort": "high",
+        "inputTokens": 5996,
+        "outputTokens": 3724,
+        "totalTokens": 9720,
+        "count": 10
+      },
+      {
+        "status": "completed",
+        "model": "gpt-6-luna",
+        "requestedModel": "gpt-6-luna",
+        "effort": "high",
+        "inputTokens": 1613,
+        "outputTokens": 500,
+        "totalTokens": 2113,
+        "count": 1
+      }
+    ],
+    "cached": false
+  },
+  "stats": {
+    "papers": 21,
+    "collected": 87,
+    "mustRead": 15
+  },
+  "collectionAudit": {
+    "windowStart": "2025-10-08",
+    "windowEnd": "2026-10-08",
+    "candidateCount": 87,
+    "reviewedCount": 21,
+    "excluded": [
+      {
+        "id": "5334765a00714b",
+        "doi": "10.1038/s41587-026-03221-1",
+        "title": "Publisher Correction: Lung and liver editing by lipid nanoparticle delivery of a stable CRISPR-Cas9 ribonucleoprotein.",
+        "reason": "withdrawn_or_correction"
+      },
+      {
+        "id": "a2ec047d14e913",
+        "doi": "10.1016/j.cell.2026.07.052",
+        "title": "Predicting cellular responses to perturbation across diverse contexts with State.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "4f507c24b1fce7",
+        "doi": "10.1016/j.cell.2026.08.025",
+        "title": "scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "ec430554d448a9",
+        "doi": "10.1126/science.aea1820",
+        "title": "Rapid directed evolution guided by protein language models and epistatic interactions.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "4141a9d6943a50",
+        "doi": "10.1038/s41587-026-03064-w",
+        "title": "Generalist biological artificial intelligence in modeling the language of life.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "5bfb68e6f89b4c",
+        "doi": "10.64898/2026.03.19.712954",
+        "title": "BioReason-Pro: Advancing Protein Function Prediction with Multimodal Biological Reasoning",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "6c98f63d75135f",
+        "doi": "10.1126/science.adz0276",
+        "title": "Megabase-scale human genome rearrangement with programmable bridge recombinases.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "8e757fd2c5ef87",
+        "doi": "10.1016/j.cels.2025.101487",
+        "title": "Rewriting endogenous human transcripts with dual CRISPR-guided 3' trans-splicing.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "07c961f178d509",
+        "doi": "10.64898/2026.02.04.703058",
+        "title": "Scalable probe-based single-cell transcriptional profiling for virtual cell perturbation mapping and synthetic biology phenotyping",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "2bd62e82845ed3",
+        "doi": "10.1038/s41587-025-02895-3",
+        "title": "Site-specific DNA insertion into the human genome with engineered recombinases.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "eec812c042c888",
+        "doi": "10.1038/s41591-026-04621-1",
+        "title": "A global digital navigator of human health for precision medicine.",
+        "reason": "no_formal_abstract"
+      },
+      {
+        "id": "4524c27e9624f8",
+        "doi": "10.1038/s43588-026-01026-5",
+        "title": "Longitudinal alignments and syntheses of multimodal clinical data for personalized medicine with the PULSE framework.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "847199d2ca21aa",
+        "doi": "10.1016/j.cell.2026.07.009",
+        "title": "Advancing cancer detection and treatment using longitudinal routine clinical data.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "1bb97bee605ba2",
+        "doi": "10.1038/s41467-026-74422-0",
+        "title": "Structural mechanism of SAM-AMP and SAM-AMP<sub>2</sub> synthesis by the type III-D2 CRISPR effector complex.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "1374bd63bb1bb9",
+        "doi": "10.1038/s41591-026-04493-5",
+        "title": "Immune aging biomarkers for clinical trials.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "2c66bf23927408",
+        "doi": "10.1016/j.molcel.2026.05.018",
+        "title": "Structure and engineering of the large serine recombinase Bxb1 for gene integration.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "7712a0e3b8c9e4",
+        "doi": "10.64898/2026.05.08.26352759",
+        "title": "A Multimodal Framework for Organ- and Cell-Resolved Biological Aging and Longevity Intervention Discovery",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "6212a8ff7d5d77",
+        "doi": "10.1038/s41596-025-01305-x",
+        "title": "Sensing and perturbing mammalian cell states with reprogrammable ADAR sensors (RADARS).",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "123362c5dcef14",
+        "doi": "10.21203/rs.3.rs-8426467/v2",
+        "title": "WITHDRAWN: The Physics of Thought: Reasoning as Thermodynamic Relaxation in Generative Models",
+        "reason": "withdrawn_or_correction"
+      },
+      {
+        "id": "4960de589d5005",
+        "doi": "10.21203/rs.3.rs-8413099/v2",
+        "title": "WITHDRAWN: Causal Workflow AI: Learning Clinical Care Pathways for Safe and Trustworthy Decision Support",
+        "reason": "withdrawn_or_correction"
+      },
+      {
+        "id": "f8961bf81f6fed",
+        "doi": "10.21203/rs.3.rs-8426467/v1",
+        "title": "WITHDRAWN: The Physics of Thought: Reasoning as Thermodynamic Relaxation in Generative Models",
+        "reason": "withdrawn_or_correction"
+      },
+      {
+        "id": "0b5e07fb62da2b",
+        "doi": "10.21203/rs.3.rs-8413099/v1",
+        "title": "WITHDRAWN: Causal Workflow AI: Learning Clinical Care Pathways for Safe and Trustworthy Decision Support",
+        "reason": "withdrawn_or_correction"
+      },
+      {
+        "id": "146ea506877993",
+        "doi": "10.1038/s44319-026-00907-0",
+        "title": "Circulating cholesterol fuels SARS-CoV-2 replication via ORF3a.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "38919a3038833d",
+        "doi": "10.1126/science.aei0498",
+        "title": "A noncontiguous code for RNA-guided DNA recognition at the origin of CRISPR-Cas.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "67f8f37206ca6a",
+        "doi": "10.1126/science.aei3472",
+        "title": "VIPR RNA-guided DNA recognition by noncontiguous geometric triplex formation.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "d514e5adf3a81d",
+        "doi": "10.1038/s41586-026-11022-4",
+        "title": "Publisher Correction: Targeting cancer-specific mutations with RNA-triggered chromatin shredding.",
+        "reason": "withdrawn_or_correction"
+      },
+      {
+        "id": "eb68bc81e13a37",
+        "doi": "10.1261/rna.081259.126",
+        "title": "Improving RNA Secondary Structure Prediction Through Expanded Training Data.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "8c284b961ac1a6",
+        "doi": "10.1038/s41587-026-03258-2",
+        "title": "Virus-like particles enable targeted gene engineering and pooled CRISPR screening in primary human myeloid cells.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "4ac94374c8073d",
+        "doi": "10.64898/2026.08.10.744034",
+        "title": "Reprogramming Cas9 PAM Recognition for Allele-Specific Editing",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "cb575f7e5b770b",
+        "doi": "10.1016/j.molcel.2026.07.015",
+        "title": "Stepwise DNA-unwinding gates TnpB genome-editing activity.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "edb7a74ae69f10",
+        "doi": "10.1038/s41586-026-10621-5",
+        "title": "Harmonizing standards and resources for the medical genome.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "c8f46af94ee1ba",
+        "doi": "10.1126/science.aed6123",
+        "title": "Structure and evolution-guided design of minimal RNA-guided nucleases.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "f9df1639382401",
+        "doi": "10.64898/2026.06.18.733228",
+        "title": "Pandemic Coronavirus Genome Packaging Relies on Multiple Dispersed Packaging Signals",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "677b03476068d3",
+        "doi": "10.1038/s41551-026-01642-6",
+        "title": "Programmable kinetic barcoding for multiplexed RNA detection with Cas13a.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "80d6f542d18763",
+        "doi": "10.1016/j.celrep.2026.117219",
+        "title": "The phage nucleus synergizes with an anti-defense protein to resist bacterial immunity.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "2769d30e96f026",
+        "doi": "10.1038/s41586-026-10235-x",
+        "title": "In vivo site-specific engineering to reprogram T cells.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "2dc74092583a83",
+        "doi": "10.1111/pbi.70644",
+        "title": "Efficient Transgene-Free Multiplexed Germline Editing via Viral Delivery of an Engineered TnpB.",
+        "reason": "no_formal_abstract"
+      },
+      {
+        "id": "16ca8a76efa2f5",
+        "doi": "10.1038/s41587-026-03059-7",
+        "title": "Engineered TnpB genome editors for plants and human cells identified by ribonucleoprotein mutational scanning.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "d12b37e6a6c49d",
+        "doi": "10.1126/sciadv.aea1429",
+        "title": "Identification of proteins influencing CRISPR-associated transposases for enhanced genome editing.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "0020a0565c1234",
+        "doi": "10.64898/2025.12.08.692503",
+        "title": "Structure and evolution-guided design of minimal RNA-guided nucleases",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "9d78925277caf6",
+        "doi": "10.64898/2025.12.14.692434",
+        "title": "Virus-like particles enable targeted gene engineering and pooled CRISPR screening in primary human myeloid cells",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "40d59326e5a363",
+        "doi": "10.1016/j.chom.2025.10.018",
+        "title": "Divergent viral phosphodiesterases for immune signaling evasion.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "4de21aecca1d74",
+        "doi": "10.1038/s41589-025-02076-y",
+        "title": "Temporal photoproximity labeling of ligand-activated EGFR neighborhoods using MultiMap.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "122339f980b0b8",
+        "doi": "10.1038/s41467-025-66058-3",
+        "title": "Characterizing and controlling CRISPR repair outcomes in nondividing human cells.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "a1685b8906a4d0",
+        "doi": "10.1038/s41564-025-02180-8",
+        "title": "An updated evolutionary classification of CRISPR-Cas systems including rare variants.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "c36a62e6135672",
+        "doi": "10.1016/j.cels.2026.101644",
+        "title": "Pooled combinatorial screening identifies transcription factor sets that drive hematopoietic progenitor-like cell fate.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "424d07dca92856",
+        "doi": "10.1038/s41467-026-76315-8",
+        "title": "Phage terminase recognition by the bacterial immune sensors Avs2 and Upx.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "09cc0c9fc17c74",
+        "doi": "10.1038/s41594-025-01743-x",
+        "title": "Structural visualization of the molecular evolution of CRISPR-Cas9.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "bf580407778c49",
+        "doi": "10.1177/15473287251399623",
+        "title": "The Specification and Functional Maturation of Sub-Cerebral Projection Neurons Derived from Human Induced Pluripotent Stem Cells.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "abd996c92977e0",
+        "doi": "10.1016/j.cell.2025.11.031",
+        "title": "Hepatic adaptation to chronic metabolic stress primes tumorigenesis.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "c5a6edf2941ee1",
+        "doi": "10.1111/acel.70700",
+        "title": "In Vivo Base Editing Partially Rescues Bone Dysplasia in a Mouse Model of Hutchinson-Gilford Progeria Syndrome.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "07c1779c17379d",
+        "doi": "10.1038/s41587-026-03261-7",
+        "title": "Mechanistic machine learning for prediction of prime editing outcomes.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "aa3fe3d32bffa0",
+        "doi": "10.1038/s41587-026-03243-9",
+        "title": "Evolution of botulinum neurotoxin serotype X proteases to induce inflammatory cell death in cancer cells.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "cbd2434b09ec4b",
+        "doi": "10.1038/s41586-026-10792-1",
+        "title": "Base editing reveals an essential role for NANOG in human embryogenesis.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "ab1f275b750ea5",
+        "doi": "10.1038/s41587-026-03123-2",
+        "title": "Directed evolution of small RNA-stabilizing motifs that improve prime-editing efficiency.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "5596db6af48846",
+        "doi": "10.1038/s41587-026-03149-6",
+        "title": "AI-guided redesign of laboratory-evolved reverse transcriptases enhances prime editing.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "4a8b4e5db07540",
+        "doi": "10.1126/scitranslmed.adx5999",
+        "title": "In vivo adenine base editing ameliorates Dravet syndrome phenotypes in a mouse model.",
+        "reason": "correspondence_unverified"
+      },
+      {
+        "id": "ddac45f59bdbe6",
+        "doi": "10.7150/ijbs.132743",
+        "title": "Synonymous editing alters ion channel function, favoring prime editing for retinal disease correction.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "7d7c8d37b651fb",
+        "doi": "10.1016/j.ymthe.2026.04.010",
+        "title": "Restoration of the immune system with base editing and non-genotoxic conditioning in a Rag2 point-mutant mouse model.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "cecf331ff00c58",
+        "doi": "10.1038/s41467-026-70953-8",
+        "title": "Small-molecule binding and sensing with a designed protein family.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "ca5b42982f2c8d",
+        "doi": "10.1016/j.ajhg.2026.03.018",
+        "title": "Implications of the FDA's new plausible mechanism framework for the development of a personalized in vivo prime editing platform.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "c0c741d876e113",
+        "doi": "10.1038/s41467-026-69077-w",
+        "title": "A combinatorial synthetic strategy for developing genome-editing protein-delivery agents targeting mouse retina.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "73b8829206644f",
+        "doi": "10.1182/bloodadvances.2025017321",
+        "title": "Comparative analysis of CRISPR-Cas9, lentiviral transduction, and base editing for sickle cell disease in a murine model.",
+        "reason": "not_marked_in_source"
+      },
+      {
+        "id": "3be515a132ae38",
+        "doi": "10.1016/j.ymthe.2025.12.032",
+        "title": "Response to the FDA's proposed pathway for individualized genetic therapies.",
+        "reason": "no_formal_abstract"
+      },
+      {
+        "id": "f2d8e0e64d9c45",
+        "doi": "10.1038/s41589-025-02050-8",
+        "title": "Publisher Correction: Discovery and biological characterization of geranylated RNA in bacteria.",
+        "reason": "withdrawn_or_correction"
+      },
+      {
+        "id": "e9eb91e2c9bfa8",
+        "doi": "10.1016/j.jbc.2025.110946",
+        "title": "Scalable purification enables high-quality virus-like particles for therapeutic translation.",
+        "reason": "not_marked_in_source"
+      }
+    ],
+    "coverage": [
+      {
+        "author": "patrick-hsu",
+        "query": "AUTH:\"Hsu PD\" AND FIRST_PDATE:[2025-10-08 TO 2026-10-08]",
+        "hitCount": 12,
+        "fetchedCount": 12,
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=AUTH%3A%22Hsu+PD%22+AND+FIRST_PDATE%3A%5B2025-10-08+TO+2026-10-08%5D&format=json&resultType=core&pageSize=1000&cursorMark=%2A"
+      },
+      {
+        "author": "jonathan-gootenberg",
+        "query": "AUTH:Gootenberg AND FIRST_PDATE:[2025-10-08 TO 2026-10-08]",
+        "hitCount": 11,
+        "fetchedCount": 11,
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=AUTH%3AGootenberg+AND+FIRST_PDATE%3A%5B2025-10-08+TO+2026-10-08%5D&format=json&resultType=core&pageSize=1000&cursorMark=%2A"
+      },
+      {
+        "author": "omar-abudayyeh",
+        "query": "AUTH:Abudayyeh AND FIRST_PDATE:[2025-10-08 TO 2026-10-08]",
+        "hitCount": 31,
+        "fetchedCount": 31,
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=AUTH%3AAbudayyeh+AND+FIRST_PDATE%3A%5B2025-10-08+TO+2026-10-08%5D&format=json&resultType=core&pageSize=1000&cursorMark=%2A"
+      },
+      {
+        "author": "jennifer-doudna",
+        "query": "AUTH:Doudna AND FIRST_PDATE:[2025-10-08 TO 2026-10-08]",
+        "hitCount": 35,
+        "fetchedCount": 35,
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=AUTH%3ADoudna+AND+FIRST_PDATE%3A%5B2025-10-08+TO+2026-10-08%5D&format=json&resultType=core&pageSize=1000&cursorMark=%2A"
+      },
+      {
+        "author": "feng-zhang",
+        "query": "(AUTH:\"Zhang F\" AND (AFF:Broad OR AFF:McGovern OR AFF:\"Massachusetts Institute of Technology\")) AND FIRST_PDATE:[2025-10-08 TO 2026-10-08]",
+        "hitCount": 31,
+        "fetchedCount": 31,
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AUTH%3A%22Zhang+F%22+AND+%28AFF%3ABroad+OR+AFF%3AMcGovern+OR+AFF%3A%22Massachusetts+Institute+of+Technology%22%29%29+AND+FIRST_PDATE%3A%5B2025-10-08+TO+2026-10-08%5D&format=json&resultType=core&pageSize=1000&cursorMark=%2A"
+      },
+      {
+        "author": "david-liu",
+        "query": "AUTH:\"Liu DR\" AND FIRST_PDATE:[2025-10-08 TO 2026-10-08]",
+        "hitCount": 38,
+        "fetchedCount": 38,
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=AUTH%3A%22Liu+DR%22+AND+FIRST_PDATE%3A%5B2025-10-08+TO+2026-10-08%5D&format=json&resultType=core&pageSize=1000&cursorMark=%2A"
+      }
+    ],
+    "coverageStatus": "indexed_search_complete_correspondence_pending"
+  }
+}

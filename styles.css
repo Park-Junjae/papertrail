@@ -947,7 +947,7 @@ svg {
 
 .filter-panel {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.4fr) auto auto;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr) auto auto;
   align-items: end;
   gap: 30px;
   padding: 20px 0 24px;
@@ -967,6 +967,62 @@ svg {
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.author-year-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.85rem;
+  text-underline-offset: 3px;
+}
+
+.author-count {
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+.collection-audit, .review-basis {
+  display: block;
+  margin: 16px 0;
+  color: #555;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+.collection-audit[hidden], .author-synthesis[hidden] {
+  display: none;
+}
+
+.author-synthesis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 20px 32px;
+  margin: 24px 0;
+}
+
+.author-synthesis section {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+
+.author-synthesis h3 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  letter-spacing: 0;
+}
+
+.author-synthesis p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.75;
+  letter-spacing: 0;
+}
+
+#corresponding-author-filters {
+  max-width: 360px;
+  gap: 10px 16px;
+  letter-spacing: 0;
 }
 
 .segmented-control {

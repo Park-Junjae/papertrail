@@ -10,8 +10,8 @@
     <meta name="theme-color" content="#ffffff" />
     <title>papertrail — Lab weekly research review</title>
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="./styles.css?v=5b34cee63261" />
-    <script src="./app.js?v=2bf597402198" defer></script>
+    <link rel="stylesheet" href="./styles.css?v=891637c24821" />
+    <script src="./app.js?v=1eb07f2d7fa2" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -159,6 +159,8 @@
             <p id="result-summary" aria-live="polite"></p>
           </div>
 
+          <p class="collection-audit" id="collection-audit" hidden></p>
+          <div class="author-synthesis" id="author-synthesis" hidden></div>
           <div class="library-toolbar" id="library-toolbar">
             <div class="search-box">
               <svg aria-hidden="true" viewBox="0 0 24 24">
@@ -180,6 +182,11 @@
           </div>
 
           <div class="filter-panel" id="filter-panel">
+            <fieldset>
+              <legend>Corresponding author</legend>
+              <div class="check-row" id="corresponding-author-filters"></div>
+              <a class="author-year-link" href="?week=corresponding-year#papers">Past year: corresponding authors</a>
+            </fieldset>
             <fieldset>
               <legend>Tracker</legend>
               <div class="segmented-control" id="tracker-filters">

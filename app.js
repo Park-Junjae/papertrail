@@ -2,6 +2,7 @@ const state = {
   data: null,
   query: "",
   tracker: "all",
+  correspondingAuthors: new Set(),
   priorities: new Set(),
   savedOnly: false,
   saved: loadSaved(),
@@ -10,6 +11,11 @@ const state = {
 };
 
 const elements = {};
+const CORRESPONDING_AUTHORS = [
+  ["patrick-hsu", "Patrick Hsu"], ["jonathan-gootenberg", "Gootenberg"],
+  ["omar-abudayyeh", "Abudayyeh"], ["jennifer-doudna", "Doudna"],
+  ["feng-zhang", "Feng Zhang"], ["david-liu", "David R. Liu"],
+];
 const hasDom = typeof document !== "undefined" && typeof window !== "undefined";
 const staticDataBase = hasDom
   ? document.documentElement.dataset.staticDataBase || (window.location.hostname.endsWith(".github.io") ? "./data" : "")
@@ -20,6 +26,8 @@ if (hasDom) {
     cacheElements();
     configureHostingMode();
     bindEvents();
+    state.correspondingAuthors = new Set((new URLSearchParams(window.location.search).get("authors") || "").split(",")
+      .filter((id) => CORRESPONDING_AUTHORS.some(([known]) => known === id)));
     updateSavedCount();
     loadData(new URLSearchParams(window.location.search).get("week") || "");
   });
@@ -39,6 +47,7 @@ function cacheElements() {
     "feedback-form", "feedback-name", "feedback-category", "feedback-message",
     "feedback-website", "feedback-status", "feedback-submit",
     "breadcrumb-current",
+    "corresponding-author-filters", "library-title", "collection-audit", "author-synthesis",
   ];
   ids.forEach((id) => { elements[toCamel(id)] = document.getElementById(id); });
 }
@@ -94,6 +103,15 @@ function bindEvents() {
     state.savedOnly = event.target.checked;
     state.limit = 12;
     renderLibrary();
+  });
+  elements.correspondingAuthorFilters.addEventListener("change", (event) => {
+    const input = event.target.closest("input[type='checkbox']");
+    if (!input) return;
+    if (input.checked) state.correspondingAuthors.add(input.value);
+    else state.correspondingAuthors.delete(input.value);
+    state.limit = 12;
+    setWeekQuery(state.data?.weekKey || "");
+    renderSelectionViews();
   });
 
   elements.clearFilters.addEventListener("click", resetFilters);
@@ -206,6 +224,16 @@ async function loadData(week = "") {
     const payload = await response.json();
     if (!response.ok) throw new Error(payload.error || `HTTP ${response.status}`);
     state.data = payload;
+    // Shared evidence overlays archived data without rewriting its scores/reviews.
+    const evidenceEndpoint = staticDataBase ? `${staticDataBase}/corresponding_author_index.json` : "/api/corresponding-author-index";
+    const evidenceResponse = await fetch(evidenceEndpoint, { cache: "no-store" });
+    if (evidenceResponse.ok) {
+      const index = await evidenceResponse.json();
+      for (const paper of payload.papers || []) {
+        const doi = String(paper.doi || "").replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "").toLowerCase();
+        if (index.byDoi?.[doi]) paper.correspondingAuthors = index.byDoi[doi];
+      }
+    }
     let savedChanged = false;
     for (const paper of payload.papers || []) {
       if (paper.paperKey && paper.id !== paper.paperKey && state.saved.has(paper.id)) {
@@ -238,6 +266,7 @@ function showLoading() {
 function renderPage() {
   renderIssue();
   renderWeekSelect();
+  renderCorrespondingAuthors();
   renderMustRead();
   renderIdeas();
   renderLibrary();
@@ -268,6 +297,9 @@ function expandPaperFromHash(scroll = false) {
     state.tracker = "all";
     state.priorities.clear();
     state.savedOnly = false;
+    state.correspondingAuthors.clear();
+    renderCorrespondingAuthors();
+    setWeekQuery(state.data.weekKey);
     elements.paperSearch.value = "";
     elements.savedOnly.checked = false;
     elements.trackerFilters.querySelectorAll("button").forEach((button) => {
@@ -296,6 +328,18 @@ function renderIssue() {
   elements.breadcrumbCurrent.textContent = dateLabel || "this week";
   elements.issueDate.textContent = dateLabel;
   elements.heroEyebrow.textContent = data.site?.eyebrow || "LAB WEEKLY RESEARCH REVIEW";
+  elements.libraryTitle.textContent = data.weekKey === "corresponding-year" ? "Corresponding authors: past year" : "All papers this week";
+  const audit = data.collectionAudit;
+  elements.collectionAudit.hidden = !audit;
+  if (audit) {
+    const pending = (audit.excluded || []).filter((p) => p.reason === "correspondence_unverified").length;
+    elements.collectionAudit.textContent = `${audit.windowStart} – ${audit.windowEnd} · ${audit.reviewedCount} abstract-based reviews · ${pending} candidates with correspondence unverified. Indexed-source coverage; not a complete author bibliography.`;
+  }
+  const authorSummaries = digest.perAuthor || [];
+  elements.authorSynthesis.hidden = !authorSummaries.length;
+  elements.authorSynthesis.innerHTML = authorSummaries.map((row) => `<section>
+    <h3><a href="?week=corresponding-year&amp;authors=${encodeURIComponent(row.authorId)}#papers">${escapeHtml(CORRESPONDING_AUTHORS.find(([id]) => id === row.authorId)?.[1] || row.authorId)}</a></h3>
+    <p class="korean-copy" lang="ko">${escapeHtml(row.researchTrend)}</p></section>`).join("");
   elements.digestTitle.textContent = digestHeadline(digest);
   elements.digestSummary.textContent = digest.summary || data.site?.description || "";
   elements.editorNote.textContent = digest.executiveSummary || digest.summary || "";
@@ -330,15 +374,32 @@ function renderIssue() {
 }
 
 function renderWeekSelect() {
-  elements.weekSelect.innerHTML = (state.data.availableWeeks || []).map((week) => `
+  elements.weekSelect.innerHTML = `<option value="corresponding-year" ${state.data.weekKey === "corresponding-year" ? "selected" : ""}>Corresponding authors · past year</option>` + (state.data.availableWeeks || []).map((week) => `
     <option value="${escapeHtml(week)}" ${week === state.data.weekKey ? "selected" : ""}>
       ${formatWeekOption(week)}
     </option>
   `).join("");
 }
 
+function verifiedCorrespondingAuthors(paper) {
+  return (paper.correspondingAuthors || []).filter((item) => item?.verified === true
+    && CORRESPONDING_AUTHORS.some(([id]) => id === item.id)
+    && /^https:\/\//.test(item.sourceUrl || "") && item.method && item.excerpt);
+}
+
+function matchesCorrespondingAuthors(paper, selected) {
+  return !selected.size || verifiedCorrespondingAuthors(paper).some((item) => selected.has(item.id));
+}
+
+function renderCorrespondingAuthors() {
+  elements.correspondingAuthorFilters.innerHTML = CORRESPONDING_AUTHORS.map(([id, name]) => {
+    const count = state.data.papers.filter((paper) => verifiedCorrespondingAuthors(paper).some((a) => a.id === id)).length;
+    return `<label><input type="checkbox" value="${id}" ${state.correspondingAuthors.has(id) ? "checked" : ""} /> ${name} <span class="author-count">${count}</span></label>`;
+  }).join("");
+}
+
 function renderMustRead() {
-  const selected = selectTopPapers(state.data.papers, state.tracker, 5);
+  const selected = selectTopPapers(state.data.papers.filter((paper) => matchesCorrespondingAuthors(paper, state.correspondingAuthors)), state.tracker, 5);
   elements.mustReadGrid.innerHTML = selected.map((paper) => leadCardMarkup(paper)).join("");
 }
 
@@ -363,7 +424,7 @@ function leadCardMarkup(paper) {
 }
 
 function renderIdeas() {
-  const ideas = rankPapersForTracker(state.data.papers, state.tracker)
+  const ideas = rankPapersForTracker(state.data.papers.filter((paper) => matchesCorrespondingAuthors(paper, state.correspondingAuthors)), state.tracker)
     .filter((paper) => paper.labUse).slice(0, 4);
   elements.ideasList.innerHTML = ideas.map((paper, index) => `
     <article class="idea-item">
@@ -395,6 +456,7 @@ function renderLibrary() {
 function filteredPapers() {
   const query = normalizeSearch(state.query);
   return state.data.papers.filter((paper) => {
+    if (!matchesCorrespondingAuthors(paper, state.correspondingAuthors)) return false;
     if (!matchesTracker(paper, state.tracker)) return false;
     if (state.priorities.size && !state.priorities.has(paper.priority)) return false;
     if (state.savedOnly && !isSaved(paper)) return false;
@@ -523,6 +585,9 @@ function detailsMarkup(paper) {
   if (paper.takeaway) insights.push(detailBlock("Key takeaway", paper.takeaway));
   if (paper.labUse) insights.push(detailBlock("For our lab", paper.labUse));
   if (paper.skepticism) insights.push(detailBlock("What to question", paper.skepticism));
+  if (paper.knowledge) insights.push(detailBlock("Knowledge to take away", paper.knowledge));
+  const correspondence = verifiedCorrespondingAuthors(paper).map((author) =>
+    `<a class="detail-link" href="${safeUrl(author.sourceUrl)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(author.excerpt)}">Corresponding author: ${escapeHtml(author.name)} ↗</a>`).join(" ");
 
   const nextAction = paper.nextAction ? `
     <section class="detail-next-action">
@@ -546,11 +611,11 @@ function detailsMarkup(paper) {
     <div class="paper-details">
       <section class="detail-brief">
         <h4>In brief</h4>
-        <p class="korean-copy" lang="ko">${escapeHtml(brief)}</p>
+        <p class="korean-copy" lang="ko">${paper.reviewBasis === "formal_abstract" ? '<span class="review-basis">Review basis: formal abstract</span>' : ""}${escapeHtml(brief)}</p>
       </section>
       ${insights.length ? `<div class="detail-insights">${insights.join("")}</div>` : ""}
       ${nextAction}
-      ${(abstract || source) ? `<div class="detail-footer">${abstract}${source}</div>` : ""}
+      ${(abstract || source || correspondence) ? `<div class="detail-footer">${correspondence}${abstract}${source}</div>` : ""}
     </div>
   `;
 }
@@ -650,6 +715,8 @@ function setWeekQuery(week) {
   const url = new URL(window.location.href);
   if (week) url.searchParams.set("week", week);
   else url.searchParams.delete("week");
+  if (state.correspondingAuthors.size) url.searchParams.set("authors", [...state.correspondingAuthors].join(","));
+  else url.searchParams.delete("authors");
   window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
 }
 
@@ -671,6 +738,9 @@ function resetFilters() {
   state.tracker = "all";
   state.priorities.clear();
   state.savedOnly = false;
+  state.correspondingAuthors.clear();
+  renderCorrespondingAuthors();
+  setWeekQuery(state.data?.weekKey || "");
   state.limit = 12;
   elements.paperSearch.value = "";
   elements.savedOnly.checked = false;
@@ -687,6 +757,7 @@ function renderActiveChips() {
   if (state.tracker !== "all") chips.push({ key: "tracker", label: shortTracker(state.tracker) });
   state.priorities.forEach((priority) => chips.push({ key: `priority:${priority}`, label: priorityLabel(priority) }));
   if (state.savedOnly) chips.push({ key: "saved", label: "Saved papers" });
+  state.correspondingAuthors.forEach((id) => chips.push({ key: `author:${id}`, label: CORRESPONDING_AUTHORS.find(([key]) => key === id)?.[1] || id }));
 
   elements.activeChips.innerHTML = chips.map((chip) => `
     <button class="active-chip" type="button" data-chip="${escapeHtml(chip.key)}">${escapeHtml(chip.label)} ×</button>
@@ -714,6 +785,10 @@ function removeChip(key) {
     state.priorities.delete(value);
     const input = elements.priorityFilters.querySelector(`input[value="${CSS.escape(value)}"]`);
     if (input) input.checked = false;
+  } else if (key.startsWith("author:")) {
+    state.correspondingAuthors.delete(key.slice(7));
+    renderCorrespondingAuthors();
+    setWeekQuery(state.data?.weekKey || "");
   }
   state.limit = 12;
   renderSelectionViews();
@@ -841,6 +916,8 @@ if (typeof module !== "undefined" && module.exports) {
     computationalScore,
     isMainTopEligible,
     matchesTracker,
+    matchesCorrespondingAuthors,
+    verifiedCorrespondingAuthors,
     paperAnalysisHref,
     labScore,
     rankPapersForTracker,

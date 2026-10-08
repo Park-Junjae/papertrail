@@ -1,0 +1,242 @@
+{
+  "byDoi": {
+    "10.1038/s41587-025-02945-w": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12875382/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=; ‡Corresponding author: doudna@berkeley.edu"
+      }
+    ],
+    "10.1126/science.aea8769": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12799240/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=; *Corresponding author. doudna@berkeley.edu"
+      }
+    ],
+    "10.1038/s41586-026-10903-y": [
+      {
+        "id": "patrick-hsu",
+        "name": "Patrick D. Hsu",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13626964/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Patrick D. Hsu; corresp=yes; "
+      }
+    ],
+    "10.1038/s41467-026-72227-9": [
+      {
+        "id": "patrick-hsu",
+        "name": "Patrick D. Hsu",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13319239/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Patrick D Hsu; corresp=; ✉Corresponding author."
+      }
+    ],
+    "10.1038/s41586-026-10176-5": [
+      {
+        "id": "patrick-hsu",
+        "name": "Patrick D. Hsu",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13128491/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Patrick D. Hsu; corresp=yes; "
+      }
+    ],
+    "10.1038/s41587-026-03221-1": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13368578/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A Doudna; corresp=; ✉Corresponding author."
+      }
+    ],
+    "10.1038/s41586-026-10738-7": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13533554/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A Doudna; corresp=; *Correspondence: doudna@berkeley.edu"
+      }
+    ],
+    "10.1038/s41586-025-09873-4": [
+      {
+        "id": "feng-zhang",
+        "name": "Feng Zhang",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12893904/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Feng Zhang; corresp=; ✉Corresponding author."
+      }
+    ],
+    "10.1038/s41586-026-10820-0": [
+      {
+        "id": "david-liu",
+        "name": "David R. Liu",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13477572/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "David R. Liu; corresp=yes; "
+      }
+    ],
+    "10.1038/s41565-026-02200-6": [
+      {
+        "id": "david-liu",
+        "name": "David R. Liu",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13379318/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "David R Liu; corresp=; ✉Corresponding author."
+      }
+    ],
+    "10.1016/j.celrep.2026.117510": [
+      {
+        "id": "david-liu",
+        "name": "David R. Liu",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13426065/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "David R. Liu; corresp=; *Correspondence: mbirnb@mit.edu (M.E.B.), drliu@fas.harvard.edu (D.R.L.)"
+      }
+    ],
+    "10.1038/s41551-026-01651-5": [
+      {
+        "id": "david-liu",
+        "name": "David R. Liu",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13262281/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "David R. Liu; corresp=; ✉ Correspondence and requests for materials should be addressed to Cathleen M. Lutz or David R. Liu. Cat.Lutz@jax.org; drliu@fas.harvard.edu"
+      }
+    ],
+    "10.1038/s41586-025-09732-2": [
+      {
+        "id": "david-liu",
+        "name": "David R. Liu",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12675287/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "David R Liu; corresp=; ✉Corresponding author."
+      }
+    ],
+    "10.64898/2026.02.27.708523": [
+      {
+        "id": "jonathan-gootenberg",
+        "name": "Jonathan S. Gootenberg",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/03/01/2026.02.27.708523.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Jonathan S. Gootenberg; corresp=yes; †Correspondence: omar@abudayyeh.science (O.O.A.) jgoot@mit.edu (J.S.G.)"
+      },
+      {
+        "id": "omar-abudayyeh",
+        "name": "Omar O. Abudayyeh",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/03/01/2026.02.27.708523.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Omar O. Abudayyeh; corresp=yes; †Correspondence: omar@abudayyeh.science (O.O.A.) jgoot@mit.edu (J.S.G.)"
+      }
+    ],
+    "10.64898/2026.06.21.729417": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/06/23/2026.06.21.729417.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=yes; ‡Corresponding author: doudna@berkeley.edu"
+      }
+    ],
+    "10.64898/2026.05.08.723607": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/05/09/2026.05.08.723607.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=yes; *Correspondence: doudna@berkeley.edu"
+      }
+    ],
+    "10.64898/2026.04.26.720920": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/06/25/2026.04.26.720920.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=yes; *Corresponding author. Email: doudna@berkeley.edu"
+      }
+    ],
+    "10.64898/2026.04.26.720927": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/04/27/2026.04.26.720927.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=yes; *Corresponding author. Email: doudna@berkeley.edu"
+      }
+    ],
+    "10.64898/2026.03.06.709984": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/03/06/2026.03.06.709984.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=yes; ‡Corresponding author: doudna@berkeley.edu"
+      }
+    ],
+    "10.1111/pbi.70644": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13205730/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=yes; "
+      }
+    ],
+    "10.64898/2026.01.23.700382": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/02/25/2026.01.23.700382.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=yes; *Correspondence: doudna@berkeley.edu and jacobsen@ucla.edu"
+      }
+    ],
+    "10.64898/2026.01.09.698545": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/07/18/2026.01.09.698545.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=yes; *Correspondence: doudna@berkeley.edu, zevry@stanford.edu, jacobsen@ucla.edu"
+      }
+    ],
+    "10.64898/2026.01.13.699115": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/09/07/2026.01.13.699115.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=yes; *Corresponding author. Email: doudna@berkeley.edu"
+      }
+    ]
+  }
+}

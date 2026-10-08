@@ -333,7 +333,7 @@ function renderIssue() {
   elements.collectionAudit.hidden = !audit;
   if (audit) {
     const pending = (audit.excluded || []).filter((p) => p.reason === "correspondence_unverified").length;
-    elements.collectionAudit.textContent = `${audit.windowStart} – ${audit.windowEnd} · ${audit.reviewedCount} abstract-based reviews · ${pending} candidates with correspondence unverified. Indexed-source coverage; not a complete author bibliography.`;
+    elements.collectionAudit.textContent = `${audit.windowStart} – ${audit.windowEnd} · ${audit.reviewedCount} papers`;
   }
   const authorSummaries = digest.perAuthor || [];
   elements.authorSynthesis.hidden = !authorSummaries.length;

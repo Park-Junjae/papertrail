@@ -41,7 +41,7 @@
     "20260330",
     "20260327"
   ],
-  "generatedAt": "2026-10-08T15:47:38.724363+00:00",
+  "generatedAt": "2026-10-08T16:14:51.239498+00:00",
   "papers": [
     {
       "id": "7b8d1b97a8d0ca",
@@ -87,11 +87,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 리뷰는 조직 특이적 전달의 어려움이 생체 내 유전자 편집 치료의 적용을 제한한다는 문제를 다룹니다. 저자들은 기존 및 새롭게 등장한 전달 방식에 관한 전임상·임상 진전을 검토합니다. 초록에 따르면 표적 전달은 유전자 편집 치료의 적용 범위를 넓힐 가능성이 있지만, 구체적인 전달체별 결과나 비교는 제시되지 않습니다.",
-      "whyCare": "편집기 자체의 성능뿐 아니라 어떤 조직에 안전하고 효과적으로 도달시키는지가 치료 가능성을 좌우하므로, 전달은 유전자 편집의 핵심 연구 방향입니다. 전임상과 임상 진전을 함께 다루는 리뷰라는 점에서 연구 동향을 파악할 가치가 있습니다.",
-      "skepticism": "초록은 안전하고 효과적인 ‘magic bullet’에 가까워질 수 있다는 전망을 제시하지만, 전달 효율·조직 선택성·지속성·면역 반응·부작용을 어떤 근거로 비교하는지는 밝히지 않습니다. 임상 진전이 실제 치료 성과를 뜻하는지, 전달 방식 간 비교가 공정한지 본문에서 확인할 필요가 있습니다.",
-      "knowledge": "이 리뷰의 핵심 관점은 생체 내 유전자 편집의 치료 적용을 제한하는 중요한 병목이 조직 특이적 전달이라는 점입니다. 전달 방식의 발전이 편집 기술의 적용 범위를 넓힐 수 있다는 틀을 전임상 및 임상 진전과 연결합니다.",
-      "takeaway": "연구실의 전달 및 생체 내 유전자 편집 관심사에 직접 맞닿은 주제별 리뷰라 읽을 가치가 있습니다. 다만 초록은 리뷰의 구체적 비교와 근거 수준을 보여주지 않으므로, 특정 전달 기술의 우수성을 입증한 연구로 간주해서는 안 됩니다.",
+      "shortSummary": "이 리뷰는 유전자 편집기를 원하는 조직에 보내는 전달 전략을 정리한다. 기존 전달체와 새로운 접근의 전임상·임상 발전을 함께 다루며, 조직 선택적 전달을 정밀 편집의 주요 설계 축으로 제시한다.",
+      "whyCare": "편집기 자체의 성능과 특정 조직에서의 실제 작동을 분리해 생각하게 해주는 전달 분야의 지형도다.",
+      "skepticism": "조직 선택성을 결정하는 것은 전달체 표면, cargo 구성, 세포 수용체 중 무엇인가? 같은 편집기를 유지한 채 전달 전략을 바꾸면 어떤 조직부터 공략할 수 있을까?",
+      "knowledge": "편집 효율과 조직 표적화는 별도의 최적화 문제이며, 전달 방식의 선택이 적용 가능한 생물학을 바꾼다.",
+      "takeaway": "편집 효율과 조직 표적화는 별도의 최적화 문제이며, 전달 방식의 선택이 적용 가능한 생물학을 바꾼다.",
       "paperKey": "7b8d1b97a8d0ca",
       "tracker": "flagship",
       "source": "Nature biotechnology",
@@ -147,8 +147,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "전임상·임상 편집기 전달 전략을 종합해 표적 전달과 생체내 편집 연구에 직접 유용하지만, 새 실험 결과를 보고하는 논문은 아니다.",
-        "computational": "계산 방법론이 아닌 유전자 편집 전달 분야 리뷰다."
+        "main": "편집기 자체의 성능과 특정 조직에서의 실제 작동을 분리해 생각하게 해주는 전달 분야의 지형도다.",
+        "computational": "편집 효율과 조직 표적화는 별도의 최적화 문제이며, 전달 방식의 선택이 적용 가능한 생물학을 바꾼다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -204,6 +204,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "526470e31f335a161cd294b21eb6157f752b63bbe4636afbd827975a09e8bfe8",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -257,11 +265,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 서로 진화적으로 독립된 세균 항바이러스 면역계에서 뉴클레아제와 트립신 유사 프로테아제가 반복적으로 함께 나타나는 이유를 조사했습니다. 세포 기반 및 생화학적 실험에서 뉴클레아제가 비활성 전구체로 존재하다가 짝을 이루는 프로테아제에 의해 활성화된 뒤 DNA를 절단함을 보였습니다. Hachiman과 AVAST에서 이 활성화 방식이 확인됐고, 관련 유전자 상속 양상 분석을 통해 항바이러스 방어를 부여하는 canu 유전자좌도 밝혔습니다. 결과는 서로 다른 면역계가 프로테아제-뉴클레아제 조합을 통해 유사한 방어 원리를 진화시킬 수 있음을 제시합니다.",
-      "whyCare": "면역계의 진화적 혁신을 유전자 조합의 반복적 획득뿐 아니라, 프로테아제가 뉴클레아제의 활성을 제어하는 분자 기전으로 설명한 점이 중요합니다. 진핵세포의 caspase 활성화와 닮은 경로가 세균 방어에서도 확인되어, 제한된 단백질 조절 원리가 서로 다른 생물학적 맥락에서 재사용될 수 있음을 보여줍니다. 이는 항바이러스 생물학과 단백질 기능 제어에 관심 있는 연구자에게 읽을 만한 기전 연구입니다.",
-      "skepticism": "초록은 세포 기반 및 생화학적 실험과 두 면역계에서의 공통 기전을 보고하지만, 각 조합에서 활성화의 세부 분자 단계와 DNA 절단 특이성은 밝히지 않습니다. canu 유전자좌의 항바이러스 방어 기능은 보고됐으나, 이 기전이 자연 숙주에서 어느 범위까지 보존되는지, 또는 각 시스템에서 프로테아제 활성화가 방어에 필수적인지는 초록만으로 판단하기 어렵습니다. 서로 다른 계통에서의 반복 획득이 어떤 선택압과 경로로 일어났는지도 추가로 살펴볼 질문입니다.",
-      "knowledge": "핵심 개념은 비활성 전구체(pronuclease)가 짝을 이루는 프로테아제의 작용으로 활성화되는 조절 방식입니다. 이를 Hachiman과 AVAST라는 독립적으로 진화한 세균 면역계에서 비교하고, 유전자 상속 양상 분석으로 canu 방어 유전자좌를 찾아 기전과 진화적 분포를 연결했습니다. 항바이러스 방어 단백질의 기능은 단백질 간 활성화 관계를 통해 새롭게 구성될 수 있다는 점을 얻어갈 수 있습니다.",
-      "takeaway": "세균 항바이러스 면역에서 프로테아제에 의한 뉴클레아제 활성화가 독립적으로 진화한 시스템들을 잇는 반복적 기전이라는 점을 세포 및 생화학 실험으로 뒷받침한 연구입니다. genome editing의 직접적 진전은 아니지만, 단백질 활성 제어와 면역계 진화에 대한 기전적 가치가 있습니다.",
+      "shortSummary": "여러 세균 항바이러스 시스템에서 nuclease와 trypsin-like protease의 쌍이 반복적으로 도입되는 현상을 발견했다. Nuclease는 proenzyme 상태로 존재하다 partner protease에 의해 활성화돼 DNA를 절단한다. 서로 다른 계통의 Hachiman과 AVAST가 이 작동 원리를 공유하며, canu 유전자좌도 항바이러스 방어를 수행한다.",
+      "whyCare": "DNA 절단의 조건을 효소 발현이 아니라 proteolytic activation으로 조절하는 자연계의 모듈형 설계를 보여준다.",
+      "skepticism": "활성화 절단 부위를 바꾸면 서로 다른 protease 입력을 읽도록 만들 수 있을까? Nuclease-protease 쌍의 재조합에서 어느 interface가 함께 보존돼야 할까?",
+      "knowledge": "Proenzyme과 활성화 protease의 공동 진화는 절단 기능과 작동 조건을 분리하는 설계 원리다.",
+      "takeaway": "Proenzyme과 활성화 protease의 공동 진화는 절단 기능과 작동 조건을 분리하는 설계 원리다.",
       "paperKey": "32fca23e220075",
       "tracker": "flagship",
       "source": "Science (New York, N.Y.)",
@@ -317,8 +325,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "세균 항바이러스 면역에서 protease가 nuclease 전구체를 활성화하는 기전을 세포·생화학 실험으로 밝혀, 방어계의 진화와 nuclease 작동 원리에 중요한 통찰을 준다.",
-        "computational": "계산 분석이 주된 기여가 아니라 실험적 면역기전 연구다."
+        "main": "DNA 절단의 조건을 효소 발현이 아니라 proteolytic activation으로 조절하는 자연계의 모듈형 설계를 보여준다.",
+        "computational": "Proenzyme과 활성화 protease의 공동 진화는 절단 기능과 작동 조건을 분리하는 설계 원리다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -374,6 +382,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "fce77c432900ce02aae44d427a7fc57d2f8be3603af8bb17d766292bfe931b9c",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -429,11 +445,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 IS110 계열 recombinase인 IS621이 삽입 반응과 달리 어떻게 절제되는지를 묻는다. 저자들은 IS621의 bRNA 발현과 반응 효율을 조사하고, 절제 DNA 기질에 결합한 recombinase–bRNA 복합체의 cryo-EM 구조를 제시한다. 보고된 구조에서 절제 기질은 삽입 때의 U자형과 달리 선형으로 결합해 X자형 배치를 이루며, 저자들은 이 기하학이 가닥 교환 효율을 낮춰 삽입 편향에 기여한다고 해석한다. bRNA의 handshake guide와 DNA 가닥 간 염기쌍은 삽입과 절제 효율을 모두 조절한다.",
-      "whyCare": "구조와 반응 특성을 연결해 bridge recombination의 방향성, 특히 삽입이 절제보다 유리한 이유를 설명하려는 연구다. 구조생물학과 genome editor engineering 양쪽에 의미가 있고, IS621 전위 주기의 절제 단계를 이해하는 데 구체적인 기전을 제시한다.",
-      "skepticism": "초록은 구조적 배치와 낮은 절제 효율의 연관성을 보고하고 이를 가닥 교환 저하의 원인으로 제시하지만, 그 기하학의 인과적 기여를 분리해 검증한 실험의 범위는 요약만으로 알 수 없다. 구조·효율 관계가 IS621의 다른 기질이나 조건에서도 유지되는지, 다른 IS110 계열에도 적용되는지는 확인할 질문이다. 또한 초록은 세포 내에서 절제 조절을 바꾸었을 때 전위나 편집 결과가 어떻게 달라지는지 확립하지 않는다.",
-      "knowledge": "핵심 개념은 bRNA의 서로 다른 두 결합 루프가 donor·target DNA를 배치하고, DNA 구조가 가닥 교환 효율과 반응 방향성에 연결될 수 있다는 점이다. 삽입 복합체의 U자형 DNA 배치와 절제 복합체의 X자형 배치, 그리고 handshake guide의 염기쌍 조절이 주요 기전적 단서다.",
-      "takeaway": "IS621의 절제 복합체 구조는 삽입 편향을 설명하는 구체적인 기전을 제안하며, bridge recombinase의 구조 기반 설계에 유용한 출발점을 제공한다. 다만 초록만으로는 이 원리의 계열 전반 적용성이나 편집 성능 개선까지 결론낼 수 없다.",
+      "shortSummary": "IS621 bridge recombinase의 절제 반응을 cryo-EM으로 해석해 삽입·절제의 방향성 차이를 설명했다. 삽입에서는 DNA가 U자 형태지만 절제 기질은 X자 배치를 만들고, 이 배치가 top-strand exchange 효율을 낮춘다. bRNA의 handshake guide와 DNA dinucleotide의 pairing은 두 반응 모두를 조절한다.",
+      "whyCare": "인식 서열만 맞추는 접근을 넘어 RNA-DNA 기하학을 편집 반응의 설계 변수로 만든다.",
+      "skepticism": "Handshake guide와 DNA 배치를 각각 바꿔 삽입·절제 비율을 조절할 수 있을까? 효율 예측 모델에 서열 외의 구조 상태를 어떻게 표현할까?",
+      "knowledge": "같은 촉매 복합체도 기질의 공간 배치와 strand exchange 단계에 따라 반응 방향성이 달라진다.",
+      "takeaway": "같은 촉매 복합체도 기질의 공간 배치와 strand exchange 단계에 따라 반응 방향성이 달라진다.",
       "paperKey": "bb56f10b350645",
       "tracker": "flagship",
       "source": "Nature",
@@ -489,8 +505,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "IS621 bridge recombinase의 excision 복합체 구조와 삽입·절제 방향성의 기전을 제시해 bridge editing 설계에 직접 도움이 되는 구조·기능 연구다.",
-        "computational": "cryo-EM 구조와 기능 분석이 핵심인 실험 연구다."
+        "main": "인식 서열만 맞추는 접근을 넘어 RNA-DNA 기하학을 편집 반응의 설계 변수로 만든다.",
+        "computational": "같은 촉매 복합체도 기질의 공간 배치와 strand exchange 단계에 따라 반응 방향성이 달라진다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -546,6 +562,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "5051990e16715b1db844be1b723a8c871b379cda4db53b7d9c6e1557c2c32b25",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -594,11 +618,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 서로 다른 후성유전 조절 단백질 도메인의 조합이 내인성 유전자 발현을 어떻게 바꾸는지 체계적으로 조사하기 위해 COMBINE을 제시합니다. 이 플랫폼은 50,000개가 넘는 도메인 쌍을 시험했고, 그중 KRAB-L3MBTL3 조합은 표적 억제를 강화하고 유효 표적화 범위를 넓히며 용량이 제한된 조건에서도 억제를 높였다고 보고합니다. 또한 이 조합은 CRISPR 기반 억제와 활성의 양방향 조절을 가능하게 했습니다. 유도성 스크리닝에서는 DNA 메틸화 조절 인자가 후성유전 기억에 필요하며, 서로 다른 조합이 장기 억제 또는 활성 상태를 유도한다고 보고합니다.",
-      "whyCare": "대규모 조합 스크리닝으로 후성유전 인자 사이의 상호작용을 기능적으로 비교하고, 이를 유전자 발현 조절 도구와 연결했다는 점에서 후성유전 기전 연구와 후성유전체 편집 양쪽에 중요합니다. 특히 조합에 따라 장기적인 억제와 활성 결과가 달라진다는 관찰은 후성유전 기억을 단일 인자의 효과가 아니라 조합의 문제로 살펴볼 근거를 제공합니다.",
-      "skepticism": "초록은 대규모 스크리닝과 특정 조합의 기능을 보고하지만, 시험한 세포 유형과 표적 유전자 범위, 개별 조합의 재현성, 장기 효과의 구체적 정의는 밝히지 않습니다. DNA 메틸화 조절 인자가 기억에 필수라는 결론을 어떤 조건에서 확인했는지, KRAB-L3MBTL3의 이점이 다양한 표적과 세포 맥락에서도 유지되는지는 본문에서 확인해야 합니다. 초록만으로는 생체 내 효능이나 오가노이드 적용성이 입증됐다고 볼 수 없습니다.",
-      "knowledge": "후성유전 조절 도메인은 단독 효과뿐 아니라 조합에 따라 상승작용을 낼 수 있습니다. 이 연구는 내인성 유전자 발현을 결과값으로 삼는 대규모 쌍별 기능 스크리닝과, 유도성 스크리닝을 이용해 후성유전 상태의 지속성을 조사하는 접근을 보여줍니다. CRISPR 표적화와 후성유전 효과기를 조합해 억제와 활성 방향을 모두 다루려는 설계도 핵심입니다.",
-      "takeaway": "후성유전 인자 간 상호작용을 체계적으로 탐색하고, 이를 기억성 조절 및 CRISPR 기반 도구 개발과 연결한 연구로서 이 랩의 후성유전학·유전체 편집 관심사에 높은 가치가 있습니다. 다만 일반화 가능성과 생체 내 적용은 초록에서 확인되지 않습니다.",
+      "shortSummary": "COMBINE은 5만 개가 넘는 epigenetic effector 도메인 쌍을 시험하는 조합 스크리닝 플랫폼이다. KRAB-L3MBTL3는 유전자 억제와 유효 표적화 범위를 개선하고 양방향 CRISPR perturbation을 구현한다. 유도성 스크리닝에서는 DNA methylation modifier가 후성유전 기억에 중요하며 조합별로 장기 억제·활성 결과가 달라졌다.",
+      "whyCare": "단일 도메인 성능으로는 보이지 않는 시너지와 장기 상태 기억을 대규모 조합 데이터로 연결한다.",
+      "skepticism": "조합의 효과를 additive 성분과 interaction 성분으로 분리하면 새 도메인 쌍을 예측할 수 있을까? 단기 발현 변화와 장기 기억을 함께 최적화하는 목적함수는 어떻게 만들까?",
+      "knowledge": "Effector의 조합과 투여량, 시간에 따른 상태 기억을 함께 측정해야 조절 도구의 설계 규칙이 드러난다.",
+      "takeaway": "Effector의 조합과 투여량, 시간에 따른 상태 기억을 함께 측정해야 조절 도구의 설계 규칙이 드러난다.",
       "paperKey": "2c2f1a15f6d285",
       "tracker": "flagship",
       "source": "Nature communications",
@@ -654,8 +678,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "5만 쌍이 넘는 후성유전 effector 조합을 선별하고, 침묵화·활성화의 장기 기억과 CRISPR 양방향 조절을 뒷받침하는 조합을 찾아낸 강력한 스크리닝·epigenome editing 연구다.",
-        "computational": "대규모 실험 스크리닝과 유전자 발현 검증이 중심이다."
+        "main": "단일 도메인 성능으로는 보이지 않는 시너지와 장기 상태 기억을 대규모 조합 데이터로 연결한다.",
+        "computational": "Effector의 조합과 투여량, 시간에 따른 상태 기억을 함께 측정해야 조절 도구의 설계 규칙이 드러난다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -711,6 +735,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "2052d2e26e2b9ff3acafaa612bfb4059462942a7358326790f552540b1d0d379",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -814,11 +846,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 다양한 생물의 DNA에서 학습한 모델이 유전적 변이의 기능을 예측하고 새 서열을 설계할 수 있는지 다룹니다. 저자들은 모든 생물 영역을 아우르는 유전체 자료 9조 염기쌍으로 Evo 2를 학습시키고, 단일 염기 해상도와 100만 토큰 문맥 길이를 갖도록 했습니다. 초록에 따르면 모델은 비암호화 변이와 BRCA1 변이의 영향을 예측하고, 미토콘드리아·원핵생물·진핵생물 서열을 생성했습니다. 예측 모델과 탐색을 이용해 만든 염색질 접근성 패턴은 실험적으로 검증됐다고 보고합니다.",
-      "whyCare": "폭넓은 유전체 문맥을 다루며 변이 예측부터 서열 생성까지 연결하고, 염색질 접근성 패턴에 실험 검증을 제시했다는 점에서 합성생물학·후성유전학·유전체 설계와 맞닿습니다. 모델뿐 아니라 학습 코드와 자료도 공개해 후속 검증과 응용의 기반을 제공합니다.",
-      "skepticism": "초록만으로는 변이 예측의 기준선 대비 성능, 세포 유형별 일반화, 또는 생성 서열이 목표 기능을 얼마나 일관되게 구현하는지 판단할 수 없습니다. 접근성 패턴의 실험 검증은 보고되지만, 검증 범위와 세포 맥락, 측정된 결과는 제시되지 않습니다. 따라서 ‘게놈 설계’의 폭넓은 가능성과 실제로 검증된 기능을 구분해 읽어야 합니다.",
-      "knowledge": "핵심 개념은 긴 DNA 문맥을 학습하는 기반 모델, 학습된 표현에서 생물학적 특징을 해석하는 방법, 그리고 예측 모델과 추론 시점 탐색을 결합한 서열 생성입니다. 초록은 엑손-인트론 경계, 전사인자 결합 부위 등과 연관된 표현도 보고합니다.",
-      "takeaway": "넓은 유전체 모델링과 서열 생성에 더해 접근성 패턴의 실험 검증을 보고한, 여러 연구 방향에 걸친 중요한 방법론 논문입니다. 계산 모델이 중심이지만 실험적으로 검증된 후성유전학적 응용이 있어 computationalOnly=false, crossOver=true로 봅니다.",
+      "shortSummary": "Evo 2는 9조 개 DNA 염기와 100만 token 문맥을 학습한 생물학 foundation model이다. 변이 효과 예측과 genome-scale 서열 생성을 수행하며, 모델 표현에서 exon-intron 경계·TF 결합·단백질 구조 등의 특징을 찾는다. Predictive model과 inference-time search를 결합해 생성한 chromatin accessibility pattern을 실험으로 검증했다.",
+      "whyCare": "유전자 단위의 예측에서 긴 조절 문맥과 소기관·게놈 규모 설계로 computational biology의 범위를 넓힌다.",
+      "skepticism": "미토콘드리아 서열 설계에서 보존해야 할 코딩·전사·복제 제약을 어떻게 함께 넣을까? 모델 점수와 기능적 readout을 연결하는 search objective는 무엇이 될까?",
+      "knowledge": "긴 문맥의 sequence prior와 별도의 기능 예측기, inference-time search는 서로 다른 역할을 맡는다.",
+      "takeaway": "긴 문맥의 sequence prior와 별도의 기능 예측기, inference-time search는 서로 다른 역할을 맡는다.",
       "paperKey": "e8d1a370431e95",
       "tracker": "flagship",
       "source": "Nature",
@@ -874,8 +906,8 @@
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "대규모 DNA foundation model의 변이 예측·서열 생성 능력은 유전체 설계에 폭넓게 쓰일 수 있고, 생성된 염색질 접근성 패턴의 실험 검증도 보고한다. 모델 자체가 주된 기여다.",
-        "computational": "AI 모델이 핵심이지만 염색질 접근성 패턴의 실험 검증이 있어 후성유전 분야와 의미 있는 접점이 있다."
+        "main": "유전자 단위의 예측에서 긴 조절 문맥과 소기관·게놈 규모 설계로 computational biology의 범위를 넓힌다.",
+        "computational": "긴 문맥의 sequence prior와 별도의 기능 예측기, inference-time search는 서로 다른 역할을 맡는다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -931,6 +963,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "f668a4e90667d75001e1256b7b78e9bd26e8a628aa778173cf3bd20b4f6462f5",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -997,11 +1037,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 암 특이적 RNA를 인식해 암세포를 선택적으로 제거할 수 있는지 시험합니다. 저자들은 RNA 유도 CRISPR 뉴클레아제 Cas12a2를 암 특이적 전사체에 반응하도록 설계했습니다. 초록에 따르면 표적 RNA 인식 뒤 Cas12a2의 trans-nucleolytic 활성이 염색질을 광범위하게 절단하고, DNA 손상 반응과 세포사를 유발해 세포 증식을 억제합니다. 다만 초록은 구체적인 암 표적, 모델, 선택성의 정량 결과를 제시하지 않습니다.",
-      "whyCare": "약물 결합 부위가 뚜렷하지 않은 암 변이를 단백질 수준에서 억제하는 대신, 변이와 연관된 RNA를 감지해 세포 안의 절단 활성을 켠다는 발상이 중요합니다. 특히 RNA 인식과 염색질 파괴를 연결하는 작동 원리가 충분히 선택적이고 재현 가능하다면, 암 선택적 제거 전략이자 RNA 반응성 유전자 편집 도구의 확장으로 관심을 끌 만합니다.",
-      "skepticism": "초록은 암 특이적 표적화와 세포사 유도를 주장하지만, 어떤 변이·세포 모델에서 검증했는지, 정상 세포와 얼마나 구별됐는지, 효과가 표적 RNA 의존적인지를 설명하지 않습니다. 염색질 절단이 직접적인 Cas12a2 trans 활성의 결과인지와 비표적 전사체에 따른 손상 범위도 확인이 필요합니다. p53는 배경 사례로 언급될 뿐, 초록만으로 p53 변이를 직접 표적해 검증했다고 볼 수 없습니다.",
-      "knowledge": "핵심 개념은 표적 RNA 인식에 의해 활성화되는 Cas12a2의 trans 절단 활성을 염색질 손상과 세포사로 연결한 ‘전사체 활성화 염색질 파괴’입니다. 이는 변이 단백질 기능을 복구하거나 결합 포켓을 억제하는 접근과 달리, 암 특이적 RNA 신호를 세포 제거의 트리거로 활용하려는 전략입니다.",
-      "takeaway": "암 특이적 RNA 감지와 Cas12a2의 염색질 파괴를 결합한 흥미로운 유전자 편집·세포살상 개념입니다. 초록의 주장만으로 치료 선택성이나 생체 내 적용성을 확정할 수는 없으므로, 표적 의존성과 정상 세포 안전성에 관한 실험을 확인할 가치가 있습니다.",
+      "shortSummary": "Cas12a2가 암 특이 전사체를 인식하면 trans-nucleolytic 활성이 chromatin을 절단하고 DNA 손상 반응과 세포사를 유발한다. 단백질의 약물 결합 부위를 찾는 대신 RNA signature를 입력으로 사용해 암세포 증식을 억제하는 접근이다.",
+      "whyCare": "RNA 인식과 DNA 파괴를 연결해 질환 변이의 감지와 실행 기능을 서로 다른 분자 층으로 나눈다.",
+      "skepticism": "Guide와 표적 RNA의 조합은 활성화 임계값을 어떻게 바꿀까? 표적 전사체의 양과 세포의 스트레스 상태를 함께 읽는 조건부 회로를 만들 수 있을까?",
+      "knowledge": "표적 RNA를 절단하는 기능과 표적 인식 후 다른 분자를 절단하는 trans 활성은 별도의 설계 축이다.",
+      "takeaway": "표적 RNA를 절단하는 기능과 표적 인식 후 다른 분자를 절단하는 trans 활성은 별도의 설계 축이다.",
       "paperKey": "dc1ab2b4b2222c",
       "tracker": "flagship",
       "source": "Nature",
@@ -1057,8 +1097,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "Cas12a2를 암 특이 전사체에 반응하도록 프로그램해 염색질 절단과 세포사를 유도한다. 표적 RNA 감지와 암세포 선택성이라는 새 CRISPR 치료 개념을 제시하지만 초록에는 생체내 검증이 없다.",
-        "computational": "RNA 유도 nuclease의 실험적 재프로그래밍과 세포 검증이 중심이다."
+        "main": "RNA 인식과 DNA 파괴를 연결해 질환 변이의 감지와 실행 기능을 서로 다른 분자 층으로 나눈다.",
+        "computational": "표적 RNA를 절단하는 기능과 표적 인식 후 다른 분자를 절단하는 trans 활성은 별도의 설계 축이다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -1114,6 +1154,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "9cf20b5c3cfd6544d306d80e2b4ae34fc8f83879936076c7579bceb80da686da",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -1168,11 +1216,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 노화로 약해진 면역을 회복하기 위해 간을 일시적인 면역인자 공급원으로 활용할 수 있는지 시험했습니다. 젊고 늙은 생쥐의 면역 미세환경을 다중오믹스로 비교해 감소한 Notch, FLT3L, IL-7 신호를 찾고, 이 인자들을 암호화한 mRNA를 간세포에 전달했습니다. 초록에 따르면 처치는 림프구 전구세포와 새 흉선생성을 늘리고 T세포 및 수지상세포 기능을 개선했으며, 늙은 생쥐의 백신 반응과 항종양 면역도 높였습니다. 효과는 투여 중단 뒤 가역적이었고, 초록은 자가면역을 유발하지 않았다고 보고합니다.",
-      "whyCare": "노화 면역저하를 단일 세포군 조작이 아니라 간에서 여러 생리적 면역 신호를 일시적으로 보충해 다루는 인과적 개입 연구입니다. 면역 회복, mRNA 기반 전신 조절, 종양면역의 접점이 있어 in vivo 생물학과 전달 연구를 하는 연구자에게 폭넓게 읽을 가치가 있습니다.",
-      "skepticism": "초록은 여러 면역·치료 결과의 개선을 보고하지만, 각 인자가 기여한 정도와 Notch·FLT3L·IL-7의 상대적 필요성은 여기서 분명하지 않습니다. 효과의 지속 기간, 반복 투여의 안전성, 사람에서의 적용 가능성도 초록만으로 확립되지 않습니다. 후속 확인에서는 개별 인자 제거·비교와 장기 안전성 및 기능 유지 여부가 핵심 질문입니다.",
-      "knowledge": "핵심 개념은 노화에 따라 감소한 면역 니치를 간에서 분비성 신호를 일시적으로 보충해 복구한다는 접근입니다. 이 연구는 노화 전후 다중오믹스 비교를 후보 인자 선정에 연결하고, mRNA 전달을 통한 체내 인자 발현을 백신 및 항종양 기능 평가와 이어 붙였습니다.",
-      "takeaway": "초록에 제시된 생쥐 자료는 간 표적 mRNA로 노화 면역의 여러 축을 함께 개선할 가능성을 뒷받침합니다. 유전체 편집 논문은 아니지만, 인과적 생체 내 개입과 전달·면역생물학의 결합 때문에 연구실 전반에서 우선 읽을 만한 후보입니다.",
+      "shortSummary": "젊은 동물과 노령 동물의 면역 niche를 multi-omics로 비교해 감소하는 DLL1·FLT3L·IL-7 신호를 찾았다. 이 인자들을 encoding하는 mRNA를 간세포에 전달해 lymphoid progenitor와 thymopoiesis, T세포 및 dendritic cell 기능을 높였다. 노령 생쥐에서 백신 반응과 항종양 면역이 개선됐으며 투여 중단 후 효과는 가역적으로 변했다.",
+      "whyCare": "간을 일시적인 신호 생산 장소로 사용해 다른 조직의 면역 상태를 조절하는 시스템 수준의 생체 공학이다.",
+      "skepticism": "세 인자의 비율과 발현 기간 중 무엇이 면역 회복의 양상을 결정할까? 목표 조직을 직접 편집하는 대신 원격 신호 생산을 설계하는 전략은 어디에 적용할 수 있을까?",
+      "knowledge": "일시적 mRNA 발현과 조직 간 trophic signal은 세포 상태를 가역적으로 조절하는 수단이다.",
+      "takeaway": "일시적 mRNA 발현과 조직 간 trophic signal은 세포 상태를 가역적으로 조절하는 수단이다.",
       "paperKey": "bd474ddc4723b5",
       "tracker": "flagship",
       "source": "Nature",
@@ -1228,8 +1276,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "간세포에 DLL1·FLT3L·IL-7 mRNA를 전달해 노령 생쥐의 T세포 재생과 백신·항암 면역을 개선했고, 투여 중단 후 가역성과 자가면역 위험도 평가했다.",
-        "computational": "다중오믹스 분석 뒤 생체내 mRNA 개입을 검증한 실험 연구다."
+        "main": "간을 일시적인 신호 생산 장소로 사용해 다른 조직의 면역 상태를 조절하는 시스템 수준의 생체 공학이다.",
+        "computational": "일시적 mRNA 발현과 조직 간 trophic signal은 세포 상태를 가역적으로 조절하는 수단이다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -1285,6 +1333,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "a23962313e32dbdf192ff0cd7b1ace0be188d219f2afbb6be38c349cf3fbf122",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -1336,11 +1392,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 AI 기반 ProteinMPNN으로 세 종류의 보툴리눔 신경독소(BoNT) 단백질분해효소를 재설계한 뒤, 이들을 실험적 진화의 출발점으로 사용하면 야생형 효소보다 유리한지 시험했습니다. 초록에 따르면 재설계 효소는 안정성과 촉매 효율이 개선됐고, 이를 시작점으로 한 연속 진화에서 야생형 시작점보다 더 높은 활성을 가진 효소가 일관되게 얻어졌습니다. 특히 재설계된 BoNT/E에서 시작해 치료적으로 관심 있는 ataxin-2를 선택적으로 절단하는 효소를 진화시켰으며, 야생형에서 진화시킨 최선 변이보다 선택성이 79배 이상 높았다고 보고합니다.",
-      "whyCare": "AI 서열 설계가 단순히 출발 효소의 성능을 높이는 데 그치지 않고, 야생형 효소에서는 기능하지 않는 변이 조합에 접근하게 해 진화 가능한 서열 공간을 바꿀 수 있음을 실험적으로 뒷받침합니다. 이는 단백질·효소 공학과 선택 기반 진화에 직접 관련되며, 새로운 기질 특이성을 가진 효소를 만드는 연구에도 의미가 있습니다.",
-      "skepticism": "초록은 병렬 진화 비교와 재설계 배경에 의존하는 변이의 기능을 보고하지만, 각 진화 캠페인의 세부 규모와 재현성은 여기서 확인할 수 없습니다. ataxin-2에 대한 높은 선택성이 세포 환경에서도 유지되는지, 다른 단백질 기질에 대한 절단이나 세포 독성은 어떤지, 치료적 사용에 필요한 전달·안전성이 가능한지는 초록만으로 확립되지 않습니다. 후속 검토에서는 선택성 측정 기준과 세포 기반 검증 여부를 확인할 필요가 있습니다.",
-      "knowledge": "핵심 개념은 ProteinMPNN을 이용한 서열 재설계, 재설계 효소를 출발점으로 삼는 phage-assisted continuous evolution(PACE), 그리고 출발 배경에 따라 유익한 변이 조합의 접근성이 달라질 수 있다는 점입니다. 이 연구는 AI 설계와 실험적 진화를 경쟁 접근법이 아니라 순차적으로 결합하는 사례를 제시합니다.",
-      "takeaway": "AI 재설계가 효소의 초기 성능뿐 아니라 이후 진화의 결과와 도달 가능한 기능에도 영향을 줄 수 있다는, 단백질 공학 분야의 강한 실험적 사례입니다. 편집기·단백질 공학과 선택 기반 진화에 관심 있는 연구자에게 읽을 가치가 높지만, 치료 적용 가능성은 세포·생체 내 검증과 전달 근거를 확인한 뒤 평가해야 합니다.",
+      "shortSummary": "ProteinMPNN으로 BoNT protease의 안정성을 개선한 뒤 자연 단백질과 나란히 PACE를 진행했다. 재설계한 출발점에서는 자연 배경에서 작동하지 않는 기능적 변이 조합으로 진화할 수 있었고 활성과 안정성이 높아졌다. Ataxin-2 선택성은 자연 단백질에서 출발한 최상위 variant 대비 79배 넘게 개선됐다.",
+      "whyCare": "Directed evolution에서 다음 변이의 선택뿐 아니라 출발 단백질의 mutational robustness 자체가 탐색 결과를 바꾼다.",
+      "skepticism": "TadA나 DddA의 출발점을 여러 안정성 배경으로 재설계하면 같은 변이 조합의 epistasis가 어떻게 달라질까? 즉시 활성보다 미래 변이 수용성을 예측하는 모델을 만들 수 있을까?",
+      "knowledge": "출발점의 안정성은 진화 가능한 sequence neighborhood와 도달 가능한 기능을 바꾸는 자원이다.",
+      "takeaway": "출발점의 안정성은 진화 가능한 sequence neighborhood와 도달 가능한 기능을 바꾸는 자원이다.",
       "paperKey": "1f17218915d10f",
       "tracker": "flagship",
       "source": "Nature",
@@ -1396,8 +1452,8 @@
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "AI 재설계한 protease를 진화의 출발점으로 써서 활성·안정성을 높이고, ataxin-2 절단 특이성을 야생형 출발점보다 79배 이상 높였다. 단백질 공학과 실험적 진화를 연결한 연구다.",
-        "computational": "AI 설계가 출발점을 개선하지만, 연속 진화와 효소 기능 측정이 핵심 검증이다."
+        "main": "Directed evolution에서 다음 변이의 선택뿐 아니라 출발 단백질의 mutational robustness 자체가 탐색 결과를 바꾼다.",
+        "computational": "출발점의 안정성은 진화 가능한 sequence neighborhood와 도달 가능한 기능을 바꾸는 자원이다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -1453,6 +1509,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "170cf1a139ebf1b07de544859ebcaaf59c0923c36fab9d4061af4049e99b1034",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -1514,11 +1578,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 비바이러스성 LNP로 전달하는 3요소 prime editing의 낮은 생체 내 효율을 개선하기 위해 cargo 설계를 체계적으로 최적화했습니다. 저자들은 단회 2 mg/kg 투여 후 생쥐 간에서 평균 49%의 prime editing을 보고했습니다. PAH R408W 생쥐 모델에서는 변이를 교정했고, 혈청 페닐알라닌 수치가 치료적 수준으로 예상되는 범위에 도달했다고 보고합니다. DNA 전달 방식보다 off-target editing이 적고, 간 효소 상승은 일시적이었으며 반복 투여로 편집 효율을 높일 수 있었다고 합니다.",
-      "whyCare": "복잡한 prime editing 시스템을 LNP로 전달하는 효율 병목을 cargo 최적화로 해결하고, 간 표적 생쥐에서 높은 편집과 질환 관련 생화학 지표 개선을 함께 제시했다는 점이 중요합니다. 전달, genome editing, 전임상 치료 연구가 맞닿아 있어 여러 연구 방향에 직접 관련됩니다.",
-      "skepticism": "초록은 PAH 변이 교정과 혈청 페닐알라닌 개선을 보고하지만, 이를 실제 장기 질환 교정이나 임상적 효능으로 확정하지는 않습니다. ‘치료적 수준으로 예상’된 수치와 실제 지속성, 조직·세포 유형별 편집 분포, off-target 평가 범위, 반복 투여 후 면역 반응 및 장기 안전성은 초록만으로 판단할 수 없습니다. ‘장기 독성이 관찰되지 않았다’는 주장도 관찰 기간과 평가 항목을 본문에서 확인해야 합니다.",
-      "knowledge": "핵심은 세 요소로 구성된 prime editing의 성능을 편집기 단백질만이 아니라 LNP cargo 설계의 병목을 체계적으로 최적화해 높일 수 있다는 점입니다. 비바이러스 전달의 일시적 발현, 반복 투여 가능성, 생체 내 편집과 질환 관련 지표를 함께 평가한 전임상 접근도 참고할 만합니다.",
-      "takeaway": "생쥐 간에서 높은 prime-editing 효율과 PAH 모델의 유의미한 치료 지표 개선을 함께 보고한, 전달·편집 분야의 강한 전임상 연구입니다. 다만 초록의 결과만으로 지속성, 완전한 안전성 또는 실제 임상 효능까지 결론 내릴 수는 없습니다.",
+      "shortSummary": "PE-LNP 최적화 플랫폼은 세 요소로 구성된 prime editing RNA cargo의 병목을 체계적으로 다룬다. 단회 2 mg/kg 투여 후 생쥐 간에서 평균 49% 편집을 달성했고 PAH R408W 모델에서 변이와 혈청 phenylalanine을 개선했다. 반복 투여로 효율을 높이고 DNA 전달 대비 off-target editing을 줄였다.",
+      "whyCare": "복잡한 편집 시스템을 RNA cargo 설계와 전달 조건의 공동 최적화 문제로 다루는 실용적인 프레임워크다.",
+      "skepticism": "편집기 mRNA와 각 guide의 비율, 안정성, 발현 시간이 결과에 어떻게 기여할까? 다른 조직으로 옮길 때 cargo 최적화와 LNP 표적화를 어떤 순서로 조절할까?",
+      "knowledge": "다중 구성요소 편집기는 각 분자의 전달량뿐 아니라 세포 안에서 함께 존재하는 시간도 중요하다.",
+      "takeaway": "다중 구성요소 편집기는 각 분자의 전달량뿐 아니라 세포 안에서 함께 존재하는 시간도 중요하다.",
       "paperKey": "36892c18300e04",
       "tracker": "flagship",
       "source": "Nature nanotechnology",
@@ -1574,8 +1638,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "최적화된 LNP로 생쥐 간에서 prime editing 49%를 달성하고, 페닐케톤뇨증 모델의 PAH 변이를 치료 예상 수준으로 교정했다. 반복 투여·오프타깃·간독성 결과까지 제시한 강력한 생체내 편집 연구다.",
-        "computational": "LNP 화물 설계 최적화와 생체내 편집 실험이 중심이다."
+        "main": "복잡한 편집 시스템을 RNA cargo 설계와 전달 조건의 공동 최적화 문제로 다루는 실용적인 프레임워크다.",
+        "computational": "다중 구성요소 편집기는 각 분자의 전달량뿐 아니라 세포 안에서 함께 존재하는 시간도 중요하다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -1631,6 +1695,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "5b8a3f02141edef24b74acc7c87423110ac41a58575c9bd1dd64ccc5b3b09b47",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -1678,11 +1750,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 환자 유래 종양침윤 림프구(TIL)에서 드문 종양항원 특이 CD8+ T세포를 선택적으로 확장하고 기능을 높일 방법을 제시합니다. 연구진은 특정 peptide-MHC(pMHC)를 표면에 제시하는 engineered virus-like particles(eVLPs)를 이용해 T세포를 표적화하고, 기능 향상 목적의 염기편집기를 전달했습니다. 초록에 따르면 이 입자는 다클론성 T세포 집단 안에서 종양 특이 T세포를 선택적으로 확장·편집해 항종양 세포독성을 높였습니다. 저자들은 이를 비표적 주변 T세포 편집 위험을 줄이려는 TIL 치료 접근으로 제안합니다.",
-      "whyCare": "표적 항원 인식과 유전자 편집기 전달을 하나의 입자에 결합해, 희귀한 항원 특이 T세포를 다클론성 집단에서 선택적으로 조작하려는 점이 핵심입니다. 이는 정밀한 면역세포 공학과 표적 전달이라는 두 연구 방향에 직접 닿는 실험적 기술 진전입니다. 유전자 편집과 면역치료에 강한 교차 관련성이 있어 computationalOnly는 false, crossOver는 true로 평가할 만합니다.",
-      "skepticism": "초록은 선택적 확장·편집과 항종양 세포독성 향상을 보고하지만, 해당 결과의 정량적 크기와 실험 모델, pMHC 표적성의 범위는 여기 제시되어 있지 않습니다. 항원 발현이 다른 세포에서의 비표적 전달, 편집 특이성, 효과의 지속성, 그리고 생체 내 치료 효능과 안전성이 확립됐는지도 초록만으로는 판단할 수 없습니다. 특히 ‘주변 T세포 편집 위험 감소’가 직접 비교로 확인됐는지 본문에서 확인할 필요가 있습니다.",
-      "knowledge": "핵심 개념은 표면 pMHC를 이용해 항원 특이 T세포를 인식하는 표적 eVLP, 그리고 그 입자를 이용한 표적화된 염기편집기 전달입니다. 이 논문은 세포 선택, 확장, 기능 개선을 편집기 전달과 조합하는 접근을 제시하며, 표적 전달의 선택성과 편집 결과를 별도로 검증하는 것이 중요함을 보여줍니다.",
-      "takeaway": "표적 pMHC와 편집기 전달을 결합해 다클론성 T세포 집단의 희귀 종양 특이 세포를 조작하려는, 면역세포 공학과 genome editing을 잇는 가치 있는 기술 논문입니다. 초록은 유망한 기능 결과를 제시하지만, 생체 내 치료 효과와 안전성까지 입증했다고 해석해서는 안 됩니다.",
+      "shortSummary": "pMHC로 pseudotyping한 eVLP가 항원 특이 CD8+ T세포를 선택적으로 priming·확장하고 base editor를 전달한다. Polyclonal lymphocyte 집단 안의 tumor-specific T세포를 확장하면서 기능을 강화해 항종양 세포독성을 높인다.",
+      "whyCare": "전달체가 단순 cargo 운반을 넘어 원하는 세포의 인식·확장·편집을 하나의 플랫폼에서 수행한다.",
+      "skepticism": "pMHC의 종류와 밀도가 세포 선택성 및 확장·편집의 균형을 어떻게 바꿀까? 희귀 표적 세포를 먼저 증폭한 뒤 편집하는 설계는 다른 세포 집단에도 적용할 수 있을까?",
+      "knowledge": "표적 세포를 구별하는 ligand와 그 세포의 기능을 바꾸는 editor는 함께 설계할 수 있다.",
+      "takeaway": "표적 세포를 구별하는 ligand와 그 세포의 기능을 바꾸는 editor는 함께 설계할 수 있다.",
       "paperKey": "44419612c4e702",
       "tracker": "flagship",
       "source": "Cell reports",
@@ -1738,8 +1810,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "pMHC 표면화 eVLP로 다클론 T세포 중 종양항원 특이 세포를 선택적으로 확장하고 base editor를 전달해 항암 기능을 강화한다. TIL 치료의 정밀 편집·전달을 결합한 플랫폼이다.",
-        "computational": "선택적 eVLP 전달과 T세포 편집의 실험적 플랫폼 연구다."
+        "main": "전달체가 단순 cargo 운반을 넘어 원하는 세포의 인식·확장·편집을 하나의 플랫폼에서 수행한다.",
+        "computational": "표적 세포를 구별하는 ligand와 그 세포의 기능을 바꾸는 editor는 함께 설계할 수 있다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -1795,6 +1867,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "cbeef2172d9330b0289840fb0fbc8f94632334bafb249bfc399134170409d468",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -1859,11 +1939,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 Zellweger spectrum disorder(ZSD)의 원인인 PEX1 변이를 생체 내에서 교정해 간 병리와 peroxisome 기능장애를 개선할 수 있는지 시험했습니다. 연구진은 ABE8e-V106W를 AAV9로 신생아 및 4주령 생쥐에 전달했고, 간에서 병적 대립유전자 교정률이 최대 60%에 이르렀다고 보고했습니다. 지방산과 담즙산 중간체의 축적이 줄고, 간 전사체와 조직병리, 체중이 점진적·용량 의존적으로 정상화됐습니다. LNP 기반 mRNA 전달도 4주령 생쥐의 간에서 27% 교정을 보였으며, 환자 유래 섬유아세포에서는 80% 초과 교정과 peroxisome 항상성 회복이 보고됐습니다.",
-      "whyCare": "병적 유전자 교정이 단순한 분자 표지 변화에 그치지 않고, peroxisome 대사 이상과 간 조직 수준의 표현형 개선에 연결됐다는 점이 중요합니다. 생체 내 염기교정, 장기 생물학, 소기관 기능, 전달을 한 연구에서 연결해 해당 분야의 연구자에게 폭넓게 읽을 가치가 있습니다.",
-      "skepticism": "초록은 간 벌크 교정률과 개선된 대사·조직 지표를 보고하지만, 어떤 간 세포에서 교정됐는지와 세포별 교정률이 표현형 회복에 어떻게 기여했는지는 제시하지 않습니다. 효과의 장기 지속성, 안전성, 신경계 기능 개선 여부도 이 초록만으로는 확립되지 않습니다. 오프타깃 분석은 최소 수준을 보고하지만, 분석 범위와 검출 한계는 원문에서 확인할 필요가 있습니다.",
-      "knowledge": "핵심은 PEX1 병적 대립유전자를 ABE8e-V106W로 교정해 peroxisome 기능을 회복시키고, 그 결과 여러 대사 이상과 간 표현형을 함께 개선하려 했다는 점입니다. 생쥐 간에서 AAV9와 LNP-mRNA 전달 결과가 각각 보고됐고, 환자 유래 섬유아세포에서도 교정과 기능 회복이 관찰됐습니다.",
-      "takeaway": "초록에 제시된 결과는 생체 내 염기교정이 ZSD의 원인 교정과 간·peroxisome 표현형 개선을 연결할 가능성을 뒷받침합니다. 전달 효율뿐 아니라 대사 및 조직 수준의 결과를 함께 보여주는, genome editing과 소기관 생물학 모두에 관련성이 높은 연구입니다.",
+      "shortSummary": "PEX1 변이를 adenine base editing으로 교정해 Zellweger 모델 생쥐의 peroxisome 기능을 회복시켰다. AAV9 전달로 간의 변이를 최대 60%, LNP로 27% 교정했으며 지방산·담즙산 축적과 간 transcriptome·조직 병리가 개선됐다. 환자 유래 fibroblast에서도 80% 넘는 allele 교정과 peroxisome 항상성 회복을 보였다.",
+      "whyCare": "소기관 기능을 DNA 교정률뿐 아니라 대사물, 조직 상태와 transcriptome 변화로 연결하는 평가 사례다.",
+      "skepticism": "어느 세포의 교정이 전체 대사물 정상화에 가장 크게 기여할까? 소기관 engineering의 성공 지표를 여러 기능 readout의 공통 축으로 정의할 수 있을까?",
+      "knowledge": "소기관 기능 회복은 유전자형에서 대사·조직 phenotype으로 이어지는 다층 평가 문제다.",
+      "takeaway": "소기관 기능 회복은 유전자형에서 대사·조직 phenotype으로 이어지는 다층 평가 문제다.",
       "paperKey": "b380a31cfe6b8c",
       "tracker": "flagship",
       "source": "Nature biomedical engineering",
@@ -1919,8 +1999,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "AAV와 LNP 염기편집으로 ZSD 마우스의 간 병리와 대사 이상을 개선하고, 환자 유래 세포에서도 과산화소체 기능을 회복했다.",
-        "computational": "계산 중심 연구가 아니며 생체 내 유전자 교정과 질환 구제 실험이 핵심이다."
+        "main": "소기관 기능을 DNA 교정률뿐 아니라 대사물, 조직 상태와 transcriptome 변화로 연결하는 평가 사례다.",
+        "computational": "소기관 기능 회복은 유전자형에서 대사·조직 phenotype으로 이어지는 다층 평가 문제다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -1976,6 +2056,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "9069b926001556460edb64b0291f9d3b05f46d09dcd78a3feba91243ee283565",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -2028,11 +2116,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 조기종결코돈(nonsense mutation)을 가진 여러 질환에 공통으로 적용할 수 있는 치료 전략을 제시합니다. 연구진은 수천 개의 변이를 비교해 억제 tRNA(sup-tRNA) 후보를 찾고, prime editing으로 이를 단일 내인성 tRNA 유전자좌에 설치하는 PERT를 개발했습니다. 사람 세포의 Batten병, Tay-Sachs병, 낭성섬유증 모델에서 단백질 회복을 관찰했고, Hurler 증후군 마우스 모델에서는 한 차례의 prime editor 전달로 병리 개선을 보고했습니다. 초록에 따르면 자연 종결코돈의 검출된 readthrough나 유의한 전사체·단백질체 변화는 나타나지 않았습니다.",
-      "whyCare": "질환마다 별도 교정 편집기를 설계하는 대신, 조기종결코돈을 우회하도록 내인성 tRNA를 영구적으로 바꾸는 발상은 유전성 질환 편집의 적용 범위를 넓힐 수 있습니다. 특히 여러 세포 질환 모델과 마우스 질환 모델에서 기능적 회복을 제시해, 개념적 가능성에 그치지 않고 세포 및 생체 내 효능을 보였다는 점이 중요합니다. 억제 tRNA의 최적화와 prime editing을 결합한 점은 편집기·번역 조절·치료 전달 연구와도 직접 맞닿습니다.",
-      "skepticism": "초록은 세 질환의 사람 세포 모델과 Hurler 증후군 마우스 모델에서의 회복을 보고하지만, 어떤 종결코돈·서열 맥락·조직에서 효과가 일관적인지, 장기간 치료 후에도 유지되는지는 제시하지 않습니다. 자연 종결코돈의 readthrough와 전사체·단백질체 변화가 검출되지 않았다는 결과는 고무적이지만, 검출 범위와 민감도, 장기적인 번역 정확성 및 생체 내 안전성은 초록만으로 판단할 수 없습니다. 여러 조직에 prime editor를 전달하는 효율과 사람에서의 실현 가능성도 별도 확인이 필요합니다.",
-      "knowledge": "핵심 개념은 조기종결코돈에서 번역을 재개하도록 sup-tRNA를 최적화하고, 이를 반복 투여나 과발현 대신 prime editing으로 내인성 tRNA 좌위에 설치한다는 것입니다. 연구는 사람 tRNA 후보군의 대규모 변이 선별, prime editor 최적화, 세포 모델의 단백질 회복 평가, 마우스 생체 내 검증을 연결합니다. 따라서 tRNA 기반 번역 억제와 영구적 게놈 편집을 결합한 치료 설계의 사례로 읽을 가치가 있습니다.",
-      "takeaway": "PERT는 조기종결 변이를 여러 질환에 걸쳐 다룰 수 있다는 강한 치료 개념을 세포와 마우스 모델에서 뒷받침합니다. 특히 내인성 tRNA의 단일 좌위 편집과 생체 내 병리 개선이 돋보입니다. 다만 질환·조직·변이 맥락 전반의 효능과 장기 안전성은 초록이 확립하지 않으므로, 광범위한 임상 적용 가능성은 후속 근거를 기다려야 합니다.",
+      "shortSummary": "PERT는 prime editing으로 dispensable endogenous tRNA를 optimized suppressor tRNA로 바꿔 premature stop codon의 readthrough를 유도한다. 인간 tRNA 418종의 수천 variant를 탐색해 세포 질환 모델과 Hurler 생쥐 모델에서 단백질 및 질환 phenotype을 회복했다. Natural stop codon의 readthrough와 큰 transcriptome·proteome 변화는 검출되지 않았다.",
+      "whyCare": "개별 병원성 변이의 직접 교정 대신 번역 시스템의 공통 요소를 바꾸는 질환 범용 설계다.",
+      "skepticism": "tRNA의 구조, 발현 locus와 codon context는 readthrough의 선택성을 어떻게 결정할까? 여러 질환에 공통으로 적용할 편집 전략을 어떤 기능 층에서 찾을 수 있을까?",
+      "knowledge": "DNA 편집의 표적을 질환 유전자에서 endogenous 번역 구성요소로 옮길 수 있다.",
+      "takeaway": "DNA 편집의 표적을 질환 유전자에서 endogenous 번역 구성요소로 옮길 수 있다.",
       "paperKey": "3e430b3d741296",
       "tracker": "flagship",
       "source": "Nature",
@@ -2088,8 +2176,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "수천 종의 tRNA를 선별해 내인성 억제 tRNA를 프라임 편집으로 설치하고, 여러 질환 세포와 Hurler 증후군 마우스에서 병리 구제를 보였다.",
-        "computational": "실험적 tRNA 선별, 프라임 편집 및 생체 내 질환 구제가 주된 기여다."
+        "main": "개별 병원성 변이의 직접 교정 대신 번역 시스템의 공통 요소를 바꾸는 질환 범용 설계다.",
+        "computational": "DNA 편집의 표적을 질환 유전자에서 endogenous 번역 구성요소로 옮길 수 있다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -2145,6 +2233,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "d6a63f6c15dd9ed1527479c56d886c74acd093c6c7dd4d65d9ebcbfb3ad66317",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -2209,11 +2305,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 혈청 단백질 코로나, 특히 ApoE–LDLR 상호작용 때문에 전신 투여한 lipid nanoparticle(LNP)이 간에 치우치는 문제를 다룹니다. 저자들은 LDLR 결합은 약화하면서 지질 결합은 유지하도록 설계한 dApoE와 세포 표면 LDLR을 내재화하는 haPCSK9를 이용해 간 유입을 줄이고, 항체 결합으로 원하는 세포나 조직을 표적화했습니다. 초록에 따르면 이 조합은 T세포, 뇌, 폐 등을 표적화했으며, CD5 표적 LNP는 간세포 전달을 90% 줄이면서 세포독성을 유지하는 CAR+ T세포를 만들었습니다. 또 aged T세포에 miRNA를 전달한 파일럿 결과로 DNA 손상 표지의 지속적 감소를 보고합니다.",
-      "whyCare": "이 논문은 특정 편집기보다 in vivo 전달의 주요 병목인 간 편향을 겨냥한 모듈형 접근을 제시합니다. 간 전달을 줄이는 데 그치지 않고 항체 기반 표적화와 결합해 여러 세포·조직으로 전달을 확장하고, CAR T세포 기능과 miRNA의 생물학적 효과도 제시했다는 점에서 전달·세포공학·치료 연구에 폭넓게 관련됩니다. 다만 초록에서 일부 응용은 파일럿으로 제시되므로, 모든 표적에서 같은 수준의 검증이 이뤄졌다고 보기는 어렵습니다.",
-      "skepticism": "초록은 표적 조직·세포별 전달의 정량적 크기, 세포 수준의 선택성, 대조군 구성 및 반복투여 안전성을 구체적으로 밝히지 않습니다. 간 detargeting만으로 다른 장기로 전달이 재분배되지 않는다는 결과와, 항체를 더해 특정 조직을 표적화했다는 결과를 구분해 확인할 필요가 있습니다. haPCSK9 접근이 전신 LDLR 생리나 반복 투여에 미치는 영향, 그리고 aged T세포에서 DNA 손상 표지 감소가 기능적·지속적 이점으로 이어지는지도 초록만으로는 판단할 수 없습니다.",
-      "knowledge": "혈청 단백질 코로나가 LNP의 세포 유입을 좌우할 수 있고, ApoE–LDLR 결합이 간 친화성에 기여한다는 전달 원리를 보여줍니다. dApoE 또는 haPCSK9로 기존 간 유입 경로를 약화한 뒤 항체 결합으로 표적화를 더하는, detargeting과 retargeting의 결합이 핵심 개념입니다. 초록에서 보고한 기능 결과는 표적화된 전달을 단순한 장기 축적 변화와 구별해 해석하는 데 유용합니다.",
-      "takeaway": "초록에 제시된 결과만 보면, 이 연구는 LNP의 간 편향을 줄이면서 항체 기반 표적화를 결합하는 설득력 있는 전달 전략이며, CAR T세포 생성 결과가 특히 응용 가능성을 뒷받침합니다. 여러 응용의 일반성·안전성은 초록만으로 확정할 수 없지만, 전달 및 in vivo 세포공학을 다루는 연구자에게 읽을 가치가 높은 논문입니다.",
+      "shortSummary": "dApoE는 lipid binding을 유지하면서 LDLR 결합을 약화시키고, haPCSK9은 surface LDLR을 줄여 LNP의 간 유입을 낮춘다. 이 detargeting만으로 다른 장기로 재분배되지는 않았으며 항체 retargeting을 결합해 T세포·뇌·폐 전달을 유도했다. CD5-targeted dApoE-LNP는 CAR+ T세포를 만들면서 hepatocyte transduction을 90% 줄였다.",
+      "whyCare": "원하지 않는 표적을 피하는 기능과 원하는 표적을 얻는 기능을 별도 모듈로 설계한다.",
+      "skepticism": "Detargeting과 retargeting의 효과는 언제 additive하고 언제 서로 간섭할까? Serum corona 변화와 항체 표면 배열을 함께 최적화할 수 있을까?",
+      "knowledge": "기본 tropism을 없애는 것만으로 새 tropism이 생기지는 않으며 두 기능을 각각 설계해야 한다.",
+      "takeaway": "기본 tropism을 없애는 것만으로 새 tropism이 생기지는 않으며 두 기능을 각각 설계해야 한다.",
       "paperKey": "76a901f8379019",
       "tracker": "preprints",
       "source": "bioRxiv",
@@ -2269,8 +2365,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "ApoE-LDLR 간 유입을 낮추고 항체 표적으로 T세포·뇌·폐 등으로 LNP를 재지향했으며, 표적 전달과 CAR T 기능을 생체 내에서 시연했다.",
-        "computational": "LNP 표적화 설계와 동물 전달 실험이 핵심이며 계산 방법론이 주된 기여가 아니다."
+        "main": "원하지 않는 표적을 피하는 기능과 원하는 표적을 얻는 기능을 별도 모듈로 설계한다.",
+        "computational": "기본 tropism을 없애는 것만으로 새 tropism이 생기지는 않으며 두 기능을 각각 설계해야 한다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -2326,6 +2422,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "5dccb1218212c4e66bfbef67cc8c656267b262faadd2b856e02b2a9e640eb5dd",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -2376,11 +2480,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 T세포의 조직 침투와 표적 인식 특성을 이용해 유전자 편집 도구를 다른 세포로 전달할 수 있는지 시험했습니다. 연구진은 T세포가 편집 장치를 만들고 표적 세포로 전달할 수 있으며, 프로그래밍 가능한 리간드에 반응해 시간·공간적 논리에 따라 전달을 제어한다고 보고합니다. 전달은 세포 접촉 의존적 방식과 비의존적 방식 모두에서 가능했고, 일차 인간 T세포에서도 맞춤형 유전 회로의 구현 가능성을 보였습니다. 초록은 표적 세포에서 실제 편집이 일어나는 정도나 생체 내 치료 효과를 구체적으로 제시하지 않습니다.",
-      "whyCare": "세포 자체를 표적 인식과 전달을 겸하는 편집 도구로 활용하려는 접근으로, 전달이라는 유전자 편집의 주요 병목을 다룹니다. 특히 세포 간 상호작용을 이용해 거대분자 전달을 조절한다는 점은 편집 기술과 합성생물학 양쪽에서 관심을 가질 만합니다.",
-      "skepticism": "초록은 편집 장치의 전달과 일차 인간 T세포에서의 회로 구현 가능성을 보고하지만, 표적 세포에서 실제로 확인된 편집 결과와 그 효율·특이성은 밝히지 않습니다. 어떤 편집 효소와 표적 세포를 사용했는지, 접촉 의존·비의존 전달을 어떻게 구분했는지, 비표적 세포에도 장치가 전달되는지 확인할 필요가 있습니다. 또한 초록만으로는 생체 내 전달이나 치료 효과가 입증되었다고 볼 수 없습니다.",
-      "knowledge": "핵심 개념은 면역세포를 단순한 운반체가 아니라 표적 인식과 유전자 회로를 갖춘 세포 간 전달 시스템으로 설계하는 것입니다. 프로그래밍 가능한 리간드에 반응해 전달을 제어하고, 접촉 여부에 따른 전달 방식을 다룬다는 점이 이 연구의 기술적 초점입니다.",
-      "takeaway": "전달 제어를 위한 세포 기반의 유망한 합성생물학 접근이지만, 초록만으로는 표적 세포의 기능적 편집 성능이나 생체 내 유용성까지 판단할 수 없습니다. 전달 메커니즘의 가능성과 치료적 검증은 구분해서 읽어야 합니다.",
+      "shortSummary": "공학적으로 설계한 T-lymphoid 세포가 편집 효소를 생산하고 표적 세포로 전달한다. Programmable ligand 입력에 따라 접촉 의존적 또는 비의존적 cargo 전송을 구현하며 primary human T세포에서도 접근을 시연했다.",
+      "whyCare": "면역세포의 침투와 세포 인식을 delivery system의 일부로 활용하는 살아 있는 전달 플랫폼이다.",
+      "skepticism": "Ligand 인식과 cargo 전송 사이에 어떤 논리 조건을 넣을 수 있을까? 접촉 의존적 전달과 확산형 전달은 서로 다른 표적 환경에서 어떤 장점을 가질까?",
+      "knowledge": "전달체의 재료뿐 아니라 전달을 수행하는 세포의 인식 회로도 설계할 수 있다.",
+      "takeaway": "전달체의 재료뿐 아니라 전달을 수행하는 세포의 인식 회로도 설계할 수 있다.",
       "paperKey": "8a5db495cb3d53",
       "tracker": "preprints",
       "source": "bioRxiv",
@@ -2436,8 +2540,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "프로그래밍 가능한 T세포가 세포 간 상호작용에 따라 편집 효소를 생산·전달하는 회로를 만들고, 일차 인간 T세포에서 가능성을 보였다.",
-        "computational": "세포 회로와 편집 기계 전달을 실험적으로 구현한 연구다."
+        "main": "면역세포의 침투와 세포 인식을 delivery system의 일부로 활용하는 살아 있는 전달 플랫폼이다.",
+        "computational": "전달체의 재료뿐 아니라 전달을 수행하는 세포의 인식 회로도 설계할 수 있다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -2493,6 +2597,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "7527940a72e7d9a4d615b35436d647cef9699f73863a6b8e1541380849d321a9",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -2554,11 +2666,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 논문은 암 억제인자 TP53의 변이처럼 기존 약물로 직접 겨냥하기 어려운 표적을, 암세포 특이적 RNA 신호로 인식해 제거할 수 있는지 다룹니다. 저자들은 RNA 유도 nuclease인 CRISPR-Cas12a2가 표적 전사체를 감지하면 trans 절단 활성을 통해 염색질을 절단하고 DNA 손상과 세포사를 유도하도록 설계했다고 보고합니다. 초록은 이 방식이 TP53 변이 세포를 선택적으로 제거하는 접근이라고 제시하지만, 실험계와 성능을 뒷받침하는 구체적 결과는 요약하지 않습니다.",
-      "whyCare": "전사체 인식과 염색질 파괴를 결합해 약물 결합 부위가 없는 변이 단백질을 겨냥한다는 발상은 genome editing과 단백질·효소 공학에 직접 관련됩니다. 선택성과 안전성이 실제로 입증된다면, 기존 표적치료가 어려운 변이에 대한 새로운 세포 제거 원리가 될 수 있습니다.",
-      "skepticism": "초록은 선택적 제거를 주장하지만, 어떤 세포 모델에서 확인했는지, TP53 변이 전사체와 야생형 전사체를 얼마나 구별하는지, 정상세포에서 비표적 염색질 손상이 있는지는 밝히지 않습니다. 세포사멸이 표적 RNA 인식에 의존하는지와 전달·체내 조건에서도 선택성이 유지되는지도 초록만으로는 판단할 수 없습니다.",
-      "knowledge": "핵심 개념은 표적 RNA를 인식 신호로 삼고 Cas12a2의 trans 절단 활성을 이용해 염색질 손상과 세포 제거를 연결하는 것입니다. 이는 변이 단백질 기능을 복구하거나 단백질 자체를 억제하는 대신, 변이 발현 세포를 선택적으로 제거하려는 전략입니다.",
-      "takeaway": "개념적으로는 genome editing 및 암세포 선택적 제거 분야에서 주목할 만한 접근입니다. 다만 현재 제공된 초록만으로는 선택성, 안전성, 치료 가능성을 평가할 근거가 부족하므로, 강한 결론보다 핵심 대조군과 실험 결과를 확인할 가치가 있는 논문으로 보는 것이 타당합니다.",
+      "shortSummary": "Cas12a2가 암 특이 전사체를 인식하면 trans-nucleolytic 활성이 chromatin을 절단하고 DNA 손상 반응과 세포사를 유발한다. 단백질의 약물 결합 부위를 찾는 대신 RNA signature를 입력으로 사용해 암세포 증식을 억제하는 접근이다.",
+      "whyCare": "RNA 인식과 DNA 파괴를 연결해 질환 변이의 감지와 실행 기능을 서로 다른 분자 층으로 나눈다.",
+      "skepticism": "Guide와 표적 RNA의 조합은 활성화 임계값을 어떻게 바꿀까? 표적 전사체의 양과 세포의 스트레스 상태를 함께 읽는 조건부 회로를 만들 수 있을까?",
+      "knowledge": "표적 RNA를 절단하는 기능과 표적 인식 후 다른 분자를 절단하는 trans 활성은 별도의 설계 축이다.",
+      "takeaway": "표적 RNA를 절단하는 기능과 표적 인식 후 다른 분자를 절단하는 trans 활성은 별도의 설계 축이다.",
       "paperKey": "f7259906a949f0",
       "tracker": "preprints",
       "source": "bioRxiv",
@@ -2614,8 +2726,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "암세포 전사체를 감지해 Cas12a2의 염색질 절단과 세포사를 유도한다는 새로운 치료 개념이나, 초록에는 실험 범위와 검증 세부사항이 제한적이다.",
-        "computational": "CRISPR-Cas12a2 기반 세포 실험이 중심이며 계산 방법론 연구가 아니다."
+        "main": "RNA 인식과 DNA 파괴를 연결해 질환 변이의 감지와 실행 기능을 서로 다른 분자 층으로 나눈다.",
+        "computational": "표적 RNA를 절단하는 기능과 표적 인식 후 다른 분자를 절단하는 trans 활성은 별도의 설계 축이다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -2671,6 +2783,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "74bf35d495f1bc46eb92819e814f1e60117ae2a10839a8ddb8ea8f88204233cb",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -2726,11 +2846,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 CRISPR-Cas RNA 유도 인식의 진화적 기원과 다른 표적 인식 방식이 있는지를 조사합니다. 저자들은 Vipr 단백질과 GGY/NN 반복 모티프로 이루어진 vrRNA를 포함하는 VIPR 시스템을 보고하며, vrRNA의 비연속적인 가변 서열들이 함께 이중가닥 DNA의 간격이 있는 표적 서열을 인식한다고 설명합니다. 자연 표적 분석은 경쟁 파지를 겨냥할 가능성을 시사하고, 저자들은 파지 방어를 프로그램하고 복합체를 전사 억제로 전환할 수 있음을 보였습니다.",
-      "whyCare": "연속적인 가이드-표적 염기쌍 형성과 다른 DNA 인식 논리를 제시해 RNA 유도 유전 제어의 작동 원리를 넓힙니다. 파지 방어와 전사 억제의 프로그램 가능성까지 보고해, 진화적 면역 기전뿐 아니라 합성생물학 및 유전자 조절 도구 연구에도 의미가 있습니다.",
-      "skepticism": "초록은 VIPR의 발견, 자연 표적 분석, 프로그램 가능한 파지 방어와 전사 억제를 보고하지만, 비연속 인식 규칙의 적용 범위와 표적 특이성·비표적 인식 정도는 제시하지 않습니다. 또한 ‘CRISPR-Cas보다 더 오래된’ 계통이라는 진화적 주장의 근거와, 이 시스템이 다양한 세포 환경에서 작동하는지는 초록만으로 평가할 수 없습니다.",
-      "knowledge": "핵심 개념은 vrRNA의 반복부에 있는 가변 NN 서열들이 표적의 연속 구간 하나가 아니라 간격이 있는 DNA 인식 서열을 함께 지정한다는 것입니다. 이 연구는 이런 인식 방식이 파지 방어에 쓰일 수 있고, 복합체를 전사 억제에 재지정할 수 있다는 가능성도 제시합니다.",
-      "takeaway": "새로운 RNA 유도 DNA 인식 기전과 그 프로그램 가능성을 함께 제시한, 유전체 조절·합성생물학·진화생물학 분야에 폭넓게 관련된 연구입니다. 다만 초록에서 확인되는 것은 전사 억제의 시연까지이며, 범용 유전자 조절 또는 편집 플랫폼으로서의 성능은 별도 검증이 필요합니다.",
+      "shortSummary": "VIPR은 Vipr 단백질과 GGY/NN이 번갈아 나오는 vrRNA로 DNA를 인식하는 시스템이다. 연속적인 complementarity 대신 각 NN이 끊어진 target sequence를 지정하며 programmable transcriptional repression과 phage defense를 구현한다.",
+      "whyCare": "RNA-guided DNA 인식이 연속적인 염기쌍 결합만으로 이루어져야 한다는 기존 설계 틀을 넓힌다.",
+      "skepticism": "Gapped recognition code의 자유도와 off-target landscape는 어떤 관계를 가질까? Repeat 길이와 spacer 배열로 표적 선택성을 조절할 수 있을까?",
+      "knowledge": "표적 정보는 연속 서열뿐 아니라 반복 단위와 끊어진 위치의 조합으로도 encoding할 수 있다.",
+      "takeaway": "표적 정보는 연속 서열뿐 아니라 반복 단위와 끊어진 위치의 조합으로도 encoding할 수 있다.",
       "paperKey": "ac5082b7003c7b",
       "tracker": "preprints",
       "source": "bioRxiv",
@@ -2786,8 +2906,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "CRISPR보다 오래된 VIPR의 비연속 RNA 코드 인식을 발견하고, 파지 방어 및 표적 전사 억제로 새로운 programmable 유전자 조절 원리를 제시했다.",
-        "computational": "서열 분석을 포함하지만 핵심은 새 RNA 유도 DNA 인식 시스템의 실험적 발견과 재프로그래밍이다."
+        "main": "RNA-guided DNA 인식이 연속적인 염기쌍 결합만으로 이루어져야 한다는 기존 설계 틀을 넓힌다.",
+        "computational": "표적 정보는 연속 서열뿐 아니라 반복 단위와 끊어진 위치의 조합으로도 encoding할 수 있다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -2843,6 +2963,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "43990b19d568f6deddc628dab4a70fcd2bd5a479e25f094f0d1b37d445badf83",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -2890,11 +3018,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 VIPR의 RNA-guided DNA 인식에서 vrRNA의 교차 배열 GGY·NN 서열이 표적을 어떻게 지정하는지 묻습니다. 저자들은 조립 경로를 아우르는 21개의 cryo-EM 구조를 제시하고, Vipr 단백질이 vrRNA를 따라 오른손 나선 필라멘트를 형성한다고 보고합니다. 표적 결합 때는 세 번째 염기마다 건너뛰는 방식으로 vrRNA-DNA 혼성 나선이 만들어지고, 이것이 비표적 DNA 가닥을 감싸 구조적 삼중나선을 이룬다는 모델을 제안합니다. 이에 따라 삼중나선 형성이 비연속적 RNA-guided DNA 인식의 구조적 기반이라는 결론입니다.",
-      "whyCare": "연속적인 염기쌍 형성과 다른 표적 인식 원리를 구조적으로 설명해, 프로그래머블 핵산 인식의 작동 원리를 넓혀 줍니다. 구조생물학과 RNA-guided DNA 조작 시스템에 관심 있는 연구자에게 특히 읽을 가치가 있습니다. 다만 초록만으로는 VIPR이 유전체 편집 도구로 검증됐다고 볼 수 없습니다.",
-      "skepticism": "초록은 구조 기반의 기전을 제시하지만, 각 구조적 특징이 표적 결합이나 침묵화에 필수적인지를 보여 주는 변이·기능 실험은 기술하지 않습니다. GGY 또는 NN 구간의 교란, 건너뛰는 염기의 변경이 결합과 침묵화에 각각 어떤 영향을 주는지, 인식 가능한 표적 서열 범위가 어느 정도인지가 판별력 있는 질문입니다. 따라서 구조적 설명의 강도와 기능적 인과성은 구분해 평가해야 합니다.",
-      "knowledge": "핵심 개념은 비연속적 RNA-DNA 염기쌍 형성, 표적 가닥의 회전, 그리고 RNA-DNA 혼성체가 비표적 DNA 가닥을 감싸는 삼중나선 구조입니다. 여러 cryo-EM 구조를 조립 경로에 걸쳐 비교해 분자 조립과 표적 인식의 순서를 연결하는 접근도 주목할 만합니다.",
-      "takeaway": "VIPR의 비연속적 RNA-guided DNA 인식을 설명하는 독창적인 구조적 기전 연구입니다. 구조생물학 및 프로그래머블 핵산 인식에는 높은 관련성이 있지만, 편집 성능이나 생체 내 활용 가능성까지 입증한 연구로 확대 해석해서는 안 됩니다.",
+      "shortSummary": "21개 cryo-EM 구조로 VIPR의 assembly와 target engagement를 해석했다. Vipr oligomer가 vrRNA의 GGY를 고정하고 NN을 DNA pairing에 배치하며, DNA의 세 번째 염기를 건너뛰는 hybrid helix가 non-target strand를 감싸 geometric triplex를 만든다.",
+      "whyCare": "새로운 인식 코드를 구조적 반복과 strand handoff로 설명해 programmable binder의 공간 설계를 생각하게 한다.",
+      "skepticism": "Repeat마다 생기는 기하학적 제약을 바꾸면 새로운 표적 간격을 인식할 수 있을까? RNA-DNA interface의 안정성과 oligomer assembly를 함께 예측하려면 무엇을 학습해야 할까?",
+      "knowledge": "Triplex와 helical assembly는 gapped recognition을 구현하는 물리적 구조다.",
+      "takeaway": "Triplex와 helical assembly는 gapped recognition을 구현하는 물리적 구조다.",
       "paperKey": "305260f9b3eb14",
       "tracker": "preprints",
       "source": "bioRxiv",
@@ -2950,8 +3078,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "21개 cryo-EM 구조로 VIPR 조립과 비연속 RNA-DNA 혼성체 및 삼중나선 형성 기전을 밝혀 새로운 핵산 인식 원리를 설명한다.",
-        "computational": "주요 기여는 cryo-EM 구조와 기능적 DNA 결합 기전의 규명이다."
+        "main": "새로운 인식 코드를 구조적 반복과 strand handoff로 설명해 programmable binder의 공간 설계를 생각하게 한다.",
+        "computational": "Triplex와 helical assembly는 gapped recognition을 구현하는 물리적 구조다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -3007,6 +3135,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "78b9db9f7837475b90c334fbe902b45ca11de2790882d4cc3e69d9f850e89c9b",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -3052,11 +3188,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 CRISPR-Csm으로 세포 안의 RNA를 표적 절단해 전사체 일부를 제거하거나 서로 다른 RNA 조각을 이어 붙일 수 있는지 조사했습니다. 저자들은 인간 세포에서 표적 RNA의 짧거나 긴 구간을 제거할 수 있었고, Csm에 RNA ligase RtcB를 융합하면 절단 산물의 연결 효율이 높아졌다고 보고합니다. 두 전사체를 절단해 키메라 RNA를 만드는 ‘spligation’을 제시했으며, 내인성 전사체에서도 canonical splice site에 의존하지 않는 재조합 mRNA 생성을 보였습니다. 논문은 아직 프리프린트입니다.",
-      "whyCare": "DNA를 바꾸지 않고도 RNA 서열을 제거하거나 서로 다른 전사체의 조각을 연결하는 새로운 조작 방식이라는 점에서 가치가 있습니다. RNA 편집·조절을 넘어서는 프로그래밍 가능한 전사체 설계의 가능성을 열어, RNA 공학과 세포 내 유전자 발현 조절에 관심 있는 연구자에게 읽을 만한 방법론적 진전입니다.",
-      "skepticism": "초록은 절단과 연결이 가능하다고 보고하지만, 생성 효율과 표적 특이성, 원치 않는 절단·연결의 범위, 키메라 RNA의 안정성 및 기능은 제시하지 않습니다. 내인성 전사체에서 관찰된 생성물이 세포 표현형에 어떤 영향을 주는지, 다양한 세포 유형이나 생체 내에서도 작동하는지도 초록만으로는 판단할 수 없습니다. 다음 확인 사항은 접합부의 정확성·비표적 결과를 어떻게 측정했는지와 생성된 RNA의 기능 검증 여부입니다.",
-      "knowledge": "핵심 개념은 CRISPR-Csm의 RNA 절단을 RNA ligase RtcB와 결합해 절단 후 연결로 확장하는 것입니다. 서로 다른 전사체에서 나온 조각을 연결하는 trans-ligation을 ‘spligation’이라 부르며, canonical splice site에 의존하지 않는 RNA 재조합을 목표로 합니다. 이는 DNA 편집과 구별되는 RNA 수준의 전사체 공학 접근입니다.",
-      "takeaway": "Csm 매개 절단과 RtcB 매개 연결을 결합해 세포 내 키메라 RNA를 만들 수 있다는, RNA 조작 분야의 유망한 방법론적 결과입니다. 다만 초록만으로는 효율·특이성·생물학적 효과의 범위를 판단할 수 없어, 현재로서는 범용 도구의 확립보다 새로운 가능성의 제시로 보는 것이 타당합니다.",
+      "shortSummary": "CRISPR-Csm으로 RNA를 지정한 위치에서 절단하고 RtcB ligase를 결합해 절제·연결 효율을 높였다. 한 전사체 안의 짧거나 긴 구간을 제거하거나 서로 다른 전사체의 절단 산물을 이어 chimeric RNA를 만든다. Endogenous transcript에서도 canonical splice site에 의존하지 않는 RNA 재조합을 구현했다.",
+      "whyCare": "RNA 인식, 절단과 연결을 나눠 조합함으로써 base editing과 splicing 외의 transcript engineering을 제공한다.",
+      "skepticism": "절단 말단의 거리와 ligase recruitment는 연결 파트너의 선택을 어떻게 바꿀까? 서로 다른 RNA 구조와 세포 구획에서 반응을 유지하는 조건은 무엇일까?",
+      "knowledge": "Programmable RNA cleavage에 ligation을 결합하면 transcript의 일부만 바꾸거나 다른 transcript를 이어 붙일 수 있다.",
+      "takeaway": "Programmable RNA cleavage에 ligation을 결합하면 transcript의 일부만 바꾸거나 다른 transcript를 이어 붙일 수 있다.",
       "paperKey": "d2837f3446ae6d",
       "tracker": "preprints",
       "source": "bioRxiv",
@@ -3112,8 +3248,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "CRISPR-Csm 절단과 RtcB 연결을 이용해 세포 내 RNA 일부를 제거하거나 서로 다른 전사체를 연결한 키메라 RNA를 만든다.",
-        "computational": "RNA 조작 도구를 세포에서 구현하고 내인성 전사체에 적용한 실험 연구다."
+        "main": "RNA 인식, 절단과 연결을 나눠 조합함으로써 base editing과 splicing 외의 transcript engineering을 제공한다.",
+        "computational": "Programmable RNA cleavage에 ligation을 결합하면 transcript의 일부만 바꾸거나 다른 transcript를 이어 붙일 수 있다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -3169,6 +3305,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "64c798229e9f3bc8594ca4205533fc83d529a223b36b468ff0f9948a0e694b70",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -3224,11 +3368,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 논문은 식물에서 바이러스로 편집기를 전달해 조직배양 없이 유전 가능한 편집을 얻는 VIGE를 다룹니다. 기존 Arabidopsis 단일 표적 접근을 개선하기 위해 다중 gRNA 발현 체계와 고활성으로 설계된 Ymu1-WFR TnpB 변이를 결합했다고 보고합니다. 저자들은 이를 효율적인 다중 표적 편집 플랫폼으로 제시합니다. 다만 제공된 초록에는 편집 효율이나 검증 결과의 구체적 수치가 제시되어 있지 않습니다.",
-      "whyCare": "유전 가능한 다중 표적 편집과 바이러스 전달을 결합한 점에서 genome editing, delivery, editor engineering에 직접 관련됩니다. 식물 생식계열 편집을 조직배양 의존성 및 외래 유전자 잔류 문제를 줄이는 방향으로 확장할 가능성이 있어, 편집 플랫폼 연구자에게 읽을 가치가 있습니다. 다른 생물종이나 전달 체계로의 확장 가능성은 초록만으로는 판단할 수 없습니다.",
-      "skepticism": "초록은 새 gRNA 체계와 Ymu1-WFR 사용을 설명하지만, 편집 효율의 크기, 동시 편집된 표적 수, 생식계열 전달 빈도, 대조군 대비 개선 정도를 밝히지 않습니다. transgene-free 주장과 표적 외 편집의 평가 범위, 그리고 결과가 Arabidopsis를 넘어서는지도 본문에서 확인해야 합니다. 따라서 플랫폼의 효율성과 일반성을 초록만으로 확정할 수는 없습니다.",
-      "knowledge": "핵심 개념은 compact RNA-guided nuclease인 TnpB를 TRV 기반 바이러스 유도 유전체 편집에 활용하고, 다중 gRNA 발현 및 고활성 편집기 변이를 함께 적용하는 전략입니다. 이 초록은 접근법의 개발을 보고하지만, 각 구성요소가 성능 향상에 기여한 정도를 정량적으로 보여주지는 않습니다.",
-      "takeaway": "식물 유전 가능 편집을 위한 바이러스 전달·다중화·편집기 공학의 유망한 조합으로, lab-wide 관심에서는 genome editing과 delivery 분야에 해당합니다. 다만 제공된 초록만으로는 성능 개선의 규모와 견고성을 평가하기 어려워, 강한 실증 논문인지 판단하려면 결과를 확인해야 합니다.",
+      "shortSummary": "TRV를 통해 compact TnpB와 guide RNA를 전달하는 Arabidopsis germline editing 플랫폼을 개선했다. Multiple gRNA expression과 고활성 Ymu1-WFR을 결합해 tissue culture 없이 multiplexed editing을 수행하는 접근이다.",
+      "whyCare": "작은 효소의 장점을 전달 제약과 guide 다중화에 연결하는 compact editor 응용 사례다.",
+      "skepticism": "Editor의 크기, 활성과 다중 guide 발현 중 어떤 요소가 multiplexing의 병목일까? 조직별 바이러스 이동과 생식세포 편집의 관계는 어떻게 측정할까?",
+      "knowledge": "Compact editor의 가치는 촉매 성능뿐 아니라 전달 payload와 guide 구성의 자유도에서 나온다.",
+      "takeaway": "Compact editor의 가치는 촉매 성능뿐 아니라 전달 payload와 guide 구성의 자유도에서 나온다.",
       "paperKey": "cefa1017f31d0f",
       "tracker": "preprints",
       "source": "bioRxiv",
@@ -3284,8 +3428,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "개량 TnpB와 다중 gRNA를 TRV로 전달해 Arabidopsis에서 조직배양·외래유전자 없이 다중 생식계열 편집을 구현하는 식물 유전자편집 기술이다.",
-        "computational": "바이러스 전달과 식물 유전자편집 실험이 핵심이다."
+        "main": "작은 효소의 장점을 전달 제약과 guide 다중화에 연결하는 compact editor 응용 사례다.",
+        "computational": "Compact editor의 가치는 촉매 성능뿐 아니라 전달 payload와 guide 구성의 자유도에서 나온다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -3341,6 +3485,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "45c26888a4b0683f3bd07bf70c2db7ed9dba168c27b27d11d41745fef4b2e4e6",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -3406,11 +3558,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 Ymu1 TnpB가 표적 DNA를 어떻게 풀어야 절단에 이르는지를 생화학적·단분자 분석으로 조사했습니다. DNA 풀림 과정에서 오래 지속되는 부분 풀림 중간 상태를 거쳐 완전히 열린 상태에 이르며, 완전 개방은 효율이 낮고 음의 초나선이 없으면 쉽게 되돌아간다고 보고합니다. 연구진은 두 풀림 상태를 안정화하는 Ymu1-WFR 변이를 만들었고, 이 변이는 시험관 내 절단과 식물의 유전체 편집을 향상시켰습니다. 결과는 자연형 TnpB의 낮은 활성이 DNA 풀림 상태의 불안정성과 관련되며, 이를 조절해 표적화를 개선할 수 있음을 제시합니다.",
-      "whyCare": "TnpB는 작고 CRISPR-Cas12와 진화적으로 연관된 편집기로 관심을 받지만, 낮은 활성이 활용의 걸림돌입니다. 이 연구는 활성을 단순히 서열 인식이나 절단 촉매가 아니라 표적 DNA의 단계적 풀림과 연결하고, 그 상태를 안정화한 변이가 식물 편집까지 개선됐다고 보고합니다. 기전과 편집 성능 개선을 잇는 점에서 genome editing 및 단백질/편집기 공학 연구자가 읽을 가치가 있습니다.",
-      "skepticism": "초록은 생화학·단분자 분석, 시험관 내 절단, 식물 편집 개선을 보고하지만, 효과의 크기나 식물·표적별 범위, 비표적 편집, 다른 TnpB 계열로의 일반화는 확립하지 않습니다. WFR 변이가 풀림 상태 안정화 외의 특성을 통해 성능을 높였을 가능성도 초록만으로는 배제할 수 없습니다. 프리프린트이므로 변이 설계와 비교 실험의 범위를 원문에서 확인할 필요가 있습니다.",
-      "knowledge": "핵심 개념은 RNA 유도 DNA 절단 전에 표적 이중가닥의 풀림이 단계적으로 진행될 수 있고, 각 풀림 상태의 안정성이 최종 절단을 제한할 수 있다는 것입니다. 이 연구는 단분자 측정으로 중간 상태와 열린 상태를 구분하고, 변이 공학으로 상태 안정화와 편집 성능 향상을 연결한 사례를 제시합니다.",
-      "takeaway": "TnpB의 낮은 활성을 설명하는 물리적 기전을 제시하고, DNA 풀림 상태를 안정화해 시험관 내 절단 및 식물 편집을 개선했다는 점에서 강한 편집기 기전 연구입니다. 다만 효과의 범위와 일반성은 초록만으로 판단할 수 없습니다.",
+      "shortSummary": "Ymu1 TnpB의 DNA unwinding은 오래 유지되는 부분적 중간체를 거쳐 open state로 진행한다. Open state는 잘 형성되지 않고 negative supercoiling이 없으면 쉽게 무너진다. Ymu1-WFR은 중간체와 open state를 안정화해 DNA 절단 및 식물 편집 활성을 높인다.",
+      "whyCare": "활성 저하의 원인을 서열 상관관계가 아니라 반응 중간체의 형성과 안정성으로 설명한다.",
+      "skepticism": "TnpB variant의 활성은 어떤 구조 상태의 안정화와 가장 잘 연결될까? 다른 DNA-binding editor에서도 intermediate occupancy를 예측하는 layer를 만들 수 있을까?",
+      "knowledge": "최종 구조의 안정성만이 아니라 기능으로 이동하는 중간체의 에너지와 수명이 중요하다.",
+      "takeaway": "최종 구조의 안정성만이 아니라 기능으로 이동하는 중간체의 에너지와 수명이 중요하다.",
       "paperKey": "4c2fb25b90807c",
       "tracker": "preprints",
       "source": "bioRxiv",
@@ -3466,8 +3618,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "생화학·단분자 분석으로 TnpB의 단계적 DNA 풀림을 규명하고, 상태를 안정화한 Ymu1-WFR이 시험관 내 절단과 식물 유전체 편집을 높임을 보였다.",
-        "computational": "TnpB의 분자 기전과 개량 변이체를 생화학·단분자 및 식물 편집 실험으로 검증했다."
+        "main": "활성 저하의 원인을 서열 상관관계가 아니라 반응 중간체의 형성과 안정성으로 설명한다.",
+        "computational": "최종 구조의 안정성만이 아니라 기능으로 이동하는 중간체의 에너지와 수명이 중요하다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -3523,6 +3675,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "6636b50a062c4b9b751ac4a8f90b376b4421fe3466e76931bd4a2d834e3da4d3",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -3574,11 +3734,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 조직에서 편집 효소를 전달받는 세포가 제한된다는 문제를, 편집 효소가 주변 세포로 옮겨가도록 하는 NANITE 전략으로 해결할 수 있는지 시험했습니다. 초록에 따르면 이 전략은 배양 세포에서 비확산 대조군보다 편집 효율을 약 4배 높였습니다. 생쥐에 NANITE 플라스미드를 정맥 주사했을 때 간의 Ttr 편집은 약 3배 증가했고, 혈청 TTR도 감소했습니다. 저자들은 이를 비바이러스·비감염성 편집 증폭 전략으로 제시합니다.",
-      "whyCare": "전달된 세포의 수가 조직 내 편집 범위를 제한한다는 문제를 세포 간 효소 전달로 우회하려는 접근입니다. 배양계 결과뿐 아니라 생쥐 간에서 편집 증가와 표적 단백질 감소가 함께 보고되어, in vivo 유전자 편집 전달과 치료 효과를 연결하는 연구 방향에 직접 관련됩니다.",
-      "skepticism": "초록은 편집 증가와 혈청 TTR 감소를 보고하지만, 효소가 세포 사이로 이동하는 경로와 편집 증가에 대한 기여도는 설명하지 않습니다. 편집의 세포별·조직별 분포, 지속성, 비표적 편집 및 안전성도 초록에서 확인되지 않습니다. 정맥 투여 뒤의 결과가 다른 조직이나 치료 표적에서도 재현되는지 살펴볼 필요가 있습니다.",
-      "knowledge": "핵심 개념은 편집기를 직접 운반하는 세포 수를 늘리는 대신, 이미 형질도입된 세포가 이웃 세포에 편집 효소를 전달하도록 해 편집을 증폭한다는 것입니다. 초록에서 제시된 기능적 지표는 간 Ttr 유전자 편집과 혈청 TTR 감소입니다.",
-      "takeaway": "NANITE는 배양 세포와 생쥐 간에서 편집을 높였다는 초기 in vivo 근거를 제시하는 전달·편집 증폭 연구입니다. 치료 표적 단백질 감소까지 함께 보고되어 실험실의 전달 및 in vivo 편집 관심사에 읽을 가치가 있지만, 작동 원리와 적용 범위는 추가 검토가 필요합니다.",
+      "shortSummary": "NANITE는 처음 transfection된 세포가 주변 세포로 편집 효소를 전달하도록 설계한다. 배양 세포에서 non-spreading 대조군 대비 편집 효율이 4배 증가했고, 생쥐에서는 단회 plasmid 투여 후 간 Ttr 편집이 약 3배 증가하며 serum TTR이 감소했다.",
+      "whyCare": "처음 전달되는 세포의 수를 늘리는 대신 전달 후 세포 간 확산을 이용해 편집 범위를 증폭한다.",
+      "skepticism": "효소의 확산 거리와 전달 지속 시간을 독립적으로 조절할 수 있을까? 증폭과 표적 선택성을 동시에 유지하는 회로는 어떻게 설계할까?",
+      "knowledge": "최초 전달 효율과 전달 이후의 효소 spreading은 별도의 증폭 단계다.",
+      "takeaway": "최초 전달 효율과 전달 이후의 효소 spreading은 별도의 증폭 단계다.",
       "paperKey": "77ecf50bd6901d",
       "tracker": "preprints",
       "source": "bioRxiv",
@@ -3634,8 +3794,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "NANITE가 배양세포 편집을 4배, 생쥐 간 Ttr 편집을 약 3배 높이고 혈청 TTR도 낮춰, 비바이러스 체내 전달을 증폭하는 접근을 제시한다.",
-        "computational": "계산 방법론이 주기여가 아니며, 핵심은 생체 내 편집 효소 전달과 편집 효과의 실험적 검증이다."
+        "main": "처음 전달되는 세포의 수를 늘리는 대신 전달 후 세포 간 확산을 이용해 편집 범위를 증폭한다.",
+        "computational": "최초 전달 효율과 전달 이후의 효소 spreading은 별도의 증폭 단계다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -3691,6 +3851,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "32c8f9e0026caa5e7f682c78164503598b324e0cbf5dd30fb8fd027bea425b4d",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -3746,11 +3914,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "고차원 단백질 서열 공간에서 서로 상승작용을 내는 돌연변이 조합을 찾는 문제를 다룹니다. 저자들은 protein language model 또는 기존 기능 데이터와 상호작용(에피스타시스) 모델을 결합해 다중 돌연변이체를 제안하고, MULTI-assembly로 이를 제작하는 MULTI-evolve를 제시했습니다. 초록에 따르면 세 단백질에 적용해 단 한 차례의 모델 유도 진화로 최대 10배의 기능 향상을 얻었습니다. 이 연구는 예측과 다중 돌연변이 제작을 연결하는 범용 단백질 공학 절차를 주장합니다.",
-      "whyCare": "단계적으로 돌연변이를 쌓는 방식 대신, 상호작용하는 변이 조합을 한 번에 탐색하도록 설계한 점이 핵심입니다. 실험적으로 검증된 결과와 다중킬로베이스 서열 조립법을 함께 제시해, 단백질 공학 및 편집기 단백질 최적화에 응용할 수 있는 방법론적 가치가 있습니다.",
-      "skepticism": "세 단백질의 정체와 기능, 각 단백질에서의 향상 폭, 비교 기준 및 실험 재현성은 초록에 제시되지 않습니다. 따라서 ‘광범위한 단백질 유형에 적용 가능하다’는 주장의 범위와 성능 일관성은 초록만으로 판단하기 어렵습니다. 또한 예측 성능이 단백질 언어모델, 기존 기능 데이터, 에피스타시스 모델 중 무엇에 얼마나 의존하는지, MULTI-assembly가 기존 제작법보다 어떤 조건에서 유리한지도 확인할 필요가 있습니다.",
-      "knowledge": "핵심 개념은 개별 변이의 효과뿐 아니라 변이 간 에피스타시스를 이용해 다중 돌연변이 조합을 예측하는 것입니다. 방법론적으로는 모델 기반 조합 제안과 다중킬로베이스 서열 조립을 묶어, 예측에서 실험 검증까지의 한 라운드 작업 흐름을 구성합니다.",
-      "takeaway": "단 한 라운드의 실험으로 세 단백질에서 최대 10배 향상을 보고한, 단백질 공학에 직접 관련된 방법 논문입니다. 편집기 최적화에는 유망한 적용 후보이지만, 초록은 편집기에서의 성능이나 범용성을 입증하지 않습니다.",
+      "shortSummary": "MULTI-evolve는 PLM 또는 기존 기능 데이터와 epistasis 모델을 결합해 시너지 조합 변이를 예측한다. MULTI-assembly는 multikilobase 서열에도 다중 변이를 효율적으로 제작한다. 세 단백질에서 한 번의 ML-guided evolution으로 최대 10배 성능 향상을 얻었다.",
+      "whyCare": "조합 예측과 제작을 하나의 실험 루프로 연결해 변이 개수와 gene synthesis가 만드는 탐색 병목을 해결한다.",
+      "skepticism": "Epistasis를 서열 유사성 대신 구조 상태와 기능별 interaction으로 예측하면 무엇이 달라질까? 같은 제작 예산에서 탐색·활용·새 배경 재설계에 후보를 어떻게 나눌까?",
+      "knowledge": "좋은 multimutant 제안과 그 제안을 실제 제작하는 능력은 함께 최적화해야 한다.",
+      "takeaway": "좋은 multimutant 제안과 그 제안을 실제 제작하는 능력은 함께 최적화해야 한다.",
       "paperKey": "ec430554d448a9",
       "tracker": "flagship",
       "source": "Science (New York, N.Y.)",
@@ -3806,8 +3974,8 @@
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "단 한 차례의 모델 기반 진화로 세 단백질의 기능을 최대 10배 높이고, 대형 유전자 조립법까지 제시한 단백질 공학 방법이다.",
-        "computational": "단백질 언어모델과 상위성 모델의 예측을 실제 다중변이체 제작·기능 개선으로 검증해 계산-실험 연결성이 강하다."
+        "main": "조합 예측과 제작을 하나의 실험 루프로 연결해 변이 개수와 gene synthesis가 만드는 탐색 병목을 해결한다.",
+        "computational": "좋은 multimutant 제안과 그 제안을 실제 제작하는 능력은 함께 최적화해야 한다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -3863,6 +4031,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "4cfc07d439ae83cda76cab5eab228aec16418ee267853987e431516a5ed96a7a",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -3926,11 +4102,11 @@
         "excerpt": "*correspondence:silvana@arcinstitute.org(s.k.),patrick@arcinstitute.org(p.d.h.)https://doi.org/10.1016/j.cels.2025.101487summaryunlikegenomeediting,rnaeditingofferstheabilitytotransientlyaltercellswithminimalriskfromoff-targeteffects.whileexon-skippingtechnologiescaninfluencesplicesiteselection,manydesiredperturbationstothetranscriptomerequirereplacementoradditionofexogenousexonstotargetmrnas,such",
         "retrievedAt": "2026-10-08T15:42:00.721967+00:00"
       },
-      "shortSummary": "이 연구는 내인성 전사체에 원하는 RNA 서열을 삽입하는 RNA-guided trans-splicing 기술 RESPLICE를 개발했습니다. 두 종류의 RNA 표적 CRISPR 효과기를 함께 사용해 trans-splicing 전구체를 표적 RNA에 가까이 두고, 기존 cis-splicing은 억제합니다. 저자들은 세포 세 종류에서 11개 내인성 전사체를 대상으로 최대 2.1 kb의 RNA 화물을 삽입했으며, 효율은 bulk에서 최대 45%, 효과기 발현이 높은 세포를 선별한 뒤에는 최대 90%였다고 보고합니다. 이는 DNA 서열을 바꾸지 않고 전사체를 프로그래밍해 조절할 수 있는 접근입니다.",
-      "whyCare": "단순한 exon skipping과 달리, 질병 관련 exon을 바꾸거나 부족한 단백질 서열을 보충하는 데 필요한 RNA 서열의 추가·교체를 겨냥한다는 점이 중요합니다. 보고된 결과는 여러 내인성 표적과 세포 종류에서의 적용 가능성을 보여주지만, 치료 효과나 생체 내 적용 가능성까지 입증한 것은 아닙니다.",
-      "skepticism": "초록은 효율과 특이성을 주장하지만, 특이성을 어떤 측정법으로 평가했는지와 비표적 RNA 또는 정상 splicing에 미치는 영향은 제시하지 않습니다. 선별 후 최대 90% 효율이 고발현 세포에 한정되는지, 단백질 기능 회복으로 이어지는지, 효과가 얼마나 지속되는지도 초록만으로는 알 수 없습니다. 오가노이드·생체 내 전달 및 기능 검증 역시 확인이 필요합니다.",
-      "knowledge": "핵심 개념은 두 RNA 표적 효과기를 역할 분담시켜 trans-splicing을 촉진하면서 cis-splicing을 억제하는 것입니다. 최대 2.1 kb 화물과 여러 내인성 전사체에서의 결과는 적용 범위의 가능성을 보여주지만, 선별 전 bulk 효율과 발현량이 높은 세포에서의 효율은 구분해 해석해야 합니다.",
-      "takeaway": "RESPLICE는 DNA를 직접 바꾸지 않고 내인성 RNA에 서열을 추가하거나 교체하려는 유망한 기술적 진전입니다. 다만 초록이 뒷받침하는 결론은 세포에서의 전사체 편집 가능성까지이며, 치료적 기능 회복과 전달 가능성은 별도 검증이 필요합니다.",
+      "shortSummary": "RESPLICE는 두 orthogonal RNA-targeting CRISPR effector로 trans-splicing pre-mRNA를 표적에 모으고 경쟁하는 cis-splicing을 억제한다. 11개 endogenous transcript와 세 cell type에 최대 2.1 kb cargo를 넣었다. Bulk에서 최대 45%, 고발현 세포를 sorting했을 때 90%의 trans-splicing 효율을 보였다.",
+      "whyCare": "원하는 반응의 recruitment와 경쟁 반응의 억제를 동시에 설계해 큰 RNA cargo를 교체·추가한다.",
+      "skepticism": "두 effector의 발현 비율과 시간 차이가 cis·trans-splicing 경쟁을 어떻게 바꿀까? Cargo 길이와 RNA 구조를 반영한 design rule을 만들 수 있을까?",
+      "knowledge": "반응 효율은 목표 반응을 촉진하는 힘과 경쟁 경로를 억제하는 힘의 균형에서 나온다.",
+      "takeaway": "반응 효율은 목표 반응을 촉진하는 힘과 경쟁 경로를 억제하는 힘의 균형에서 나온다.",
       "paperKey": "8e757fd2c5ef87",
       "tracker": "flagship",
       "source": "Cell systems",
@@ -3986,8 +4162,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "두 CRISPR RNA 표적화 인자로 내인성 전사체에 최대 2.1 kb RNA를 삽입하는 프로그래밍 가능한 전사체 개입 도구를 여러 전사체와 세포에서 보였다.",
-        "computational": "계산 방법론이 주기여가 아니며, 핵심 결과는 여러 세포 유형에서의 전사체 트랜스-스플라이싱 실험이다."
+        "main": "원하는 반응의 recruitment와 경쟁 반응의 억제를 동시에 설계해 큰 RNA cargo를 교체·추가한다.",
+        "computational": "반응 효율은 목표 반응을 촉진하는 힘과 경쟁 경로를 억제하는 힘의 균형에서 나온다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4043,6 +4219,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "93d14855426b21a33b3616f5ea37cfa172aaf381520bcd7e23f68c6cf9b83a4d",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -4105,11 +4289,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 landing pad를 미리 설치하지 않고 큰 DNA 서열을 인간 유전체의 지정 위치에 삽입하는 large serine recombinase(LSR)의 효율과 특이도를 높이는 것을 목표로 합니다. 연구진은 directed evolution, 구조 분석, 계산 모델을 결합해 변이 조합을 찾고, donor DNA를 최적화하며 dCas9 융합으로 표적과 donor의 모집을 강화했습니다. 보고된 최상위 변이체는 내인성 인간 표적 자리에서 최대 53% 삽입 효율과 97%의 genome-wide 특이도를 보였습니다. 최대 12 kb 화물을 비분열 세포, 줄기세포 및 일차 인간 T세포에 삽입해 안정 발현시켰다고 보고합니다.",
-      "whyCare": "큰 DNA 화물을 사전 설치된 landing pad 없이 한 단계로 삽입하는 능력은 기존 소형 편집이나 표적 절단 기반 접근으로 다루기 어려운 유전자 교체·추가에 직접 연결됩니다. 특히 효율과 특이도를 함께 개선하고 비분열 세포와 일차 T세포까지 적용한 결과는 genome editing과 세포치료 연구자에게 폭넓게 유용할 수 있습니다.",
-      "skepticism": "초록은 97% 특이도의 측정 방식과 검출 한계, 여러 표적 자리에서의 재현성, 삽입 후 장기 안정성에 관한 세부를 제시하지 않습니다. 최대 효율·특이도 수치가 동일한 변이체와 조건에서 동시에 달성됐는지도 초록만으로는 분명하지 않습니다. 또한 여러 세포 유형에서의 삽입은 보고하지만, 생체 내 치료 효과나 장기 안전성을 입증한 결과는 제시하지 않습니다.",
-      "knowledge": "핵심 기술적 개념은 LSR의 단백질 공학과 donor DNA 설계, 그리고 dCas9를 이용한 표적·donor 동시 모집을 결합해 재조합 효율과 특이도를 함께 끌어올리는 것입니다. directed evolution에 구조 분석과 계산 모델을 더해 변이 조합을 찾는 접근도 편집 효소 공학의 사례로 참고할 수 있습니다.",
-      "takeaway": "대형 DNA를 사전 설치된 landing pad 없이 삽입하는 LSR을 효율·특이도·세포 유형 범위 측면에서 진전시킨, genome editing 분야의 강한 기술 논문입니다. 다만 초록에 보고된 성능을 생체 내 치료 효능이나 일반화된 안전성으로 확대 해석해서는 안 됩니다.",
+      "shortSummary": "Directed evolution·구조 분석·계산 모델로 large serine recombinase의 효율과 특이성을 함께 개선했다. Donor DNA 최적화와 dCas9 fusion으로 target·donor recruitment를 결합했다. 최상위 Dn29 variant는 endogenous human locus에서 최대 53% integration과 97% genome-wide specificity를 보이며 최대 12 kb cargo를 삽입했다.",
+      "whyCare": "효소, donor와 recruitment를 함께 설계해 landing pad 없는 대형 DNA 삽입의 효율·특이성을 높인다.",
+      "skepticism": "효소 변이, donor 구조와 dCas9 tethering의 기여를 어떻게 분리할까? Prime Assembly와 연결할 때 integration site 선택성을 어떤 제약으로 넣을까?",
+      "knowledge": "Integration 공학에서는 촉매 서열, DNA substrate와 공간적 recruitment가 함께 성능을 결정한다.",
+      "takeaway": "Integration 공학에서는 촉매 서열, DNA substrate와 공간적 recruitment가 함께 성능을 결정한다.",
       "paperKey": "2bd62e82845ed3",
       "tracker": "flagship",
       "source": "Nature biotechnology",
@@ -4165,8 +4349,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "공학적 대형 세린 재조합효소가 내인성 인간 좌위에서 최대 53% 삽입과 97% 특이성을 보이고, 비분열세포·줄기세포·T세포에 최대 12 kb를 통합했다.",
-        "computational": "계산 모델은 공학 과정의 일부이며, 주된 기여는 진화·구조 분석과 세포 내 삽입 검증을 결합한 재조합효소 개발이다."
+        "main": "효소, donor와 recruitment를 함께 설계해 landing pad 없는 대형 DNA 삽입의 효율·특이성을 높인다.",
+        "computational": "Integration 공학에서는 촉매 서열, DNA substrate와 공간적 recruitment가 함께 성능을 결정한다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4222,6 +4406,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "f0f63e872dbd1596cb7e07ecbbdd37a83e69ce4c3597590ad961ab48ea245c8f",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -4291,11 +4483,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 large serine recombinase Bxb1이 attP와 attB를 어떻게 인식하고 DNA 가닥을 교환하는지 규명하고, 이를 유전자 삽입에 맞게 개선하는 것을 목표로 합니다. 저자들은 재조합 주기의 네 기능 상태에서 Bxb1- DNA 복합체를 cryo-EM으로 분석했습니다. 구조는 두 Bxb1 이합체가 사량체 복합체를 이루는 방식과 DNA 절단 뒤 이합체 사이에 약 180° 회전이 일어나는 기전을 설명합니다. 또한 DNA 선호도와 재조합 활성이 달라진 Bxb1 변이체를 제작해 인간 세포에서 프로그램 가능한 유전자 삽입을 개선했다고 보고합니다.",
-      "whyCare": "구조 기전과 단백질 공학을 결합해 Bxb1의 작동 원리를 설명하고, 그 이해를 인간 세포의 유전자 삽입 성능 개선으로 연결한 점이 중요합니다. 이는 genome editing과 단백질/editor 공학을 함께 다루는 연구자에게 직접적인 관련성이 있으며, 구조생물학적으로도 기능 상태별 자료가 기전 모델을 뒷받침합니다.",
-      "skepticism": "초록만으로는 변이체의 성능 향상 폭, 시험한 표적과 세포 조건의 범위, DNA 선호도 변화가 다른 자리의 삽입에 미치는 영향을 판단할 수 없습니다. 인간 세포에서의 결과가 다양한 세포 유형이나 생체 내 조건에서도 유지되는지, 삽입의 정확성과 원치 않는 재조합을 어떻게 평가했는지도 초록에는 제시되지 않습니다. 구조가 제안한 회전 기전과 각 변이체의 기능 변화가 얼마나 직접적으로 연결되는지 본문에서 확인할 만합니다.",
-      "knowledge": "핵심 개념은 attP-attB 재조합을 수행하는 Bxb1의 사량체 synaptic complex, DNA 절단 뒤 이합체 간 회전에 의한 가닥 교환, 그리고 구조 정보를 이용한 재조합효소 공학입니다. 이 연구는 여러 기능 상태의 cryo-EM 구조를 단백질 변이 설계와 인간 세포의 기능 검증에 연결하는 접근을 보여줍니다.",
-      "takeaway": "기능 상태별 구조로 Bxb1의 가닥 교환 기전을 제시하고, 변이체 공학으로 인간 세포의 프로그램 가능한 유전자 삽입 개선까지 보고한, genome editing과 구조 기반 단백질 공학 분야에서 우선 읽을 가치가 높은 연구입니다.",
+      "shortSummary": "Bxb1-attP-attB 복합체의 네 functional state를 cryo-EM으로 분석했다. DNA 절단 후 dimer 사이의 약 180도 회전이 strand exchange와 religation을 연결한다. DNA 선호도와 활성을 바꾼 variant가 human cell에서 programmable integration을 개선했다.",
+      "whyCare": "Recombinase의 정적 결합 구조가 아니라 전체 반응 cycle을 공학의 대상으로 만든다.",
+      "skepticism": "DNA 인식과 회전·religation 단계의 변이를 분리해서 조합하면 어떤 시너지가 생길까? Att-site 선호도를 바꾸면서 촉매 cycle을 유지하는 설계 제약은 무엇일까?",
+      "knowledge": "Recombinase specificity는 DNA 인식과 strand exchange의 동역학을 함께 봐야 이해할 수 있다.",
+      "takeaway": "Recombinase specificity는 DNA 인식과 strand exchange의 동역학을 함께 봐야 이해할 수 있다.",
       "paperKey": "2c66bf23927408",
       "tracker": "flagship",
       "source": "Molecular cell",
@@ -4351,8 +4543,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "Bxb1 재조합 주기의 네 기능 상태를 cryo-EM으로 규명하고, DNA 선호도와 활성이 달라진 변이체가 인간 세포의 유전자 삽입을 개선함을 보였다.",
-        "computational": "계산 방법론이 주기여가 아니며, 구조와 기능 검증이 재조합 기전 및 변이체 개발의 핵심이다."
+        "main": "Recombinase의 정적 결합 구조가 아니라 전체 반응 cycle을 공학의 대상으로 만든다.",
+        "computational": "Recombinase specificity는 DNA 인식과 strand exchange의 동역학을 함께 봐야 이해할 수 있다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4408,6 +4600,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "0a535f6bab13ac084841b8f7d033ffff857e206302f887247cd7d5336153a2d7",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -4476,11 +4676,11 @@
       ],
       "correspondenceStatus": "verified",
       "preprintServer": "medRxiv",
-      "shortSummary": "이 연구는 혈장 단백질체, 웨어러블 자료, 사망 위험을 통합해 생물학적 나이와 건강 상태를 추정하는 mAge를 제안합니다. UK Biobank 자료에서 통합 모델은 단일 자료원 기준선보다 나이 예측 성능이 높았고, 사망 위험 예측 오차도 줄였다고 보고합니다. 또한 49개 장기·세포 하위체계의 노화 시계를 만들고, GLP-1 수용체 작용제·가바펜틴·ACE 억제제 사용과 낮은 노화 지표 또는 사망 관련 지표 사이의 연관성을 제시합니다. 초록에 제시된 약물 결과는 관찰 자료에서의 연관성이며, 수명 연장 효과를 인과적으로 입증한 결과는 아닙니다.",
-      "whyCare": "분자 측정과 연속적인 웨어러블 자료를 결합해 전신 및 하위체계별 노화를 정량화하려는 점은 노화 연구의 표현형 설정과 환자 층화에 유용할 수 있습니다. 다만 이 논문의 주된 기여는 예측·연관 분석이며, 새로운 노화 기전이나 개입 효과의 실증은 초록에서 확인되지 않습니다.",
-      "skepticism": "웨어러블 통합으로 보고된 예측 개선이 독립된 집단에서도 재현되는지, 장기·세포별 시계가 실제 조직 노화를 반영하는지 확인할 필요가 있습니다. 약물 사용과 노화·사망 지표의 연관성은 적응증, 건강 상태, 복용 선택 등 교란으로 설명될 수 있으며, 초록은 약물 개입의 인과 효과를 입증하지 않습니다. 제시된 성능값만으로 임상적 효용이나 개인별 치료 선택의 타당성을 판단할 수도 없습니다.",
-      "knowledge": "이 논문에서 주목할 개념은 웨어러블의 종단적 생리 정보를 단백질체 기반 노화 지표와 결합하는 멀티모달 예측, 그리고 하나의 전신 노화 점수 대신 장기·세포 하위체계를 분리해 추정하는 접근입니다. 약물 표적과 노화 지표를 연결하는 분석은 개입 후보를 생성할 수 있지만, 후보 발굴과 인과적 검증은 구별해야 합니다.",
-      "takeaway": "멀티모달 노화 측정과 하위체계별 분석은 유용한 연구 틀로 보이지만, 이 초록만으로는 제안된 약물이 수명을 늘리거나 노화를 늦춘다고 결론낼 수 없습니다. 노화 바이오마커·예측 방법에 관심이 있다면 읽을 가치가 있으나, 인과 기전 중심의 우선순위는 낮습니다.",
+      "shortSummary": "mAge는 plasma proteomics·wearables·mortality hazard를 통합해 biological age와 기능·사망 위험을 예측한다. UK Biobank에서 age prediction의 test R2 0.87과 평균 오차 2.3년을 달성하고 49개 장기·세포 subsystem clock을 구성했다. 약물 표적을 매핑해 낮은 proteomic age와 사망 위험에 연관된 intervention을 찾는다.",
+      "whyCare": "노화의 평균 점수에 머물지 않고 장기·세포별 상태와 연속적인 생체 데이터의 연결을 분석한다.",
+      "skepticism": "서로 다른 subsystem clock의 공통 축과 독립 축은 무엇일까? Intervention 전후 변화를 예측할 때 연령 예측용 feature와 기능 회복용 feature를 어떻게 분리할까?",
+      "knowledge": "Age prediction, mortality prediction과 intervention 효과의 모델링은 서로 다른 목적이며 multimodal 데이터가 이를 연결한다.",
+      "takeaway": "Age prediction, mortality prediction과 intervention 효과의 모델링은 서로 다른 목적이며 multimodal 데이터가 이를 연결한다.",
       "paperKey": "7712a0e3b8c9e4",
       "tracker": "preprints",
       "source": "medRxiv",
@@ -4536,8 +4736,8 @@
       "crossOver": false,
       "mainPageEligible": false,
       "lensReasons": {
-        "main": "대규모 코호트의 노화 예측과 약물 연관성 분석은 흥미롭지만, 제시된 결과는 관찰적 연관에 주로 기반해 실험적 기전·개입 근거가 제한적이다.",
-        "computational": "다중모달 예측 프레임워크와 코호트 분석이 주기여이며, 약물 후보 연관성은 생물학적 개입으로 검증되지 않았다."
+        "main": "노화의 평균 점수에 머물지 않고 장기·세포별 상태와 연속적인 생체 데이터의 연결을 분석한다.",
+        "computational": "Age prediction, mortality prediction과 intervention 효과의 모델링은 서로 다른 목적이며 multimodal 데이터가 이를 연결한다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4593,6 +4793,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "649054049bb96618ba7abe90db17b66fd88d0e78aba6d1f58ef77ffc63eaf40b",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -4656,11 +4864,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 논문은 표적 RNA를 인식해 번역을 조절하는 RADARS(Reprogrammable Adenosine Deaminase Acting on RNA Sensors)의 설계·제작·검증 프로토콜을 제시합니다. 표적 RNA와 센서 RNA가 결합하면 ADAR가 센서의 조기 종결 코돈을 편집해 하류 화물의 번역을 허용하는 방식입니다. 저자들은 표적 서열에 맞춘 가이드 설계, 클로닝, 검증과 화물·센서·ADAR 시스템 선택을 다루며, 영상화·세포 분류·시퀀싱 응용을 설명합니다. 초록에 따르면 상위 가이드 선별에는 약 2주가 걸릴 수 있습니다.",
-      "whyCare": "전사체 표지를 세포 상태별 번역 출력으로 바꾸는 재프로그래밍 가능한 방법이라, 특정 세포를 관찰하는 데서 나아가 분류하거나 화물을 발현시키는 실험 설계에 활용할 수 있습니다. 특히 스크리닝, 합성생물학, 세포 상태 분석과 맞닿아 있어 연구실의 여러 관심 분야에 유용한 기술 논문입니다.",
-      "skepticism": "초록은 설계와 응용 절차를 설명하지만, 표적 인식의 특이성·민감도, 배경 번역, 관련 전사체에 대한 교차반응, 세포 유형별 ADAR 차이가 성능에 미치는 영향은 제시하지 않습니다. 또한 이 초록만으로는 일차 세포나 생체 내에서의 작동성, 또는 서로 다른 응용 간 성능을 판단할 수 없습니다. 실제 적용 전에는 의도한 세포 맥락에서 누출 발현과 표적 의존성을 어떻게 검증하는지 확인할 필요가 있습니다.",
-      "knowledge": "핵심 설계 원리는 표적 RNA와 센서 가이드의 염기쌍 형성으로 ADAR 편집을 유도하고, 조기 종결 코돈의 편집을 통해 화물 번역을 허용하는 것입니다. 가이드 서열뿐 아니라 화물, 센서 설계, ADAR 시스템의 선택이 실험 목적에 맞춰 함께 고려되어야 합니다. 이 접근은 DNA 수준의 세포 표적화와 구별되는 RNA 기반 감지·번역 조절입니다.",
-      "takeaway": "특정 전사체를 기준으로 세포를 감지하고 조작하는 데 쓸 수 있는 실용적 프로토콜이며, 스크리닝과 세포 상태 분석 측면에서 연구실에 읽을 가치가 있습니다. 다만 초록은 프로토콜의 범용성을 설명할 뿐, 각 세포 맥락에서의 성능을 정량적으로 확립하지는 않습니다.",
+      "shortSummary": "RADARS는 표적 RNA와 sensor RNA가 pairing하면 ADAR가 premature stop codon을 편집해 downstream cargo 번역을 켠다. 이 protocol은 guide 설계·cloning·검증부터 cargo 선택과 ADAR system 선택까지 제공한다. RNA signature에 따라 imaging·sorting·sequencing 및 세포 상태 perturbation을 연결한다.",
+      "whyCare": "표적 RNA의 존재를 편집·번역 출력으로 바꾸는 programmable sensor를 실험 workflow로 제공한다.",
+      "skepticism": "센서의 basal leak와 활성화 민감도는 어떤 구조 변수로 조절할까? 여러 transcript를 함께 읽는 논리 회로를 만들 때 guide 간 간섭은 어떻게 다룰까?",
+      "knowledge": "ADAR editing은 RNA sequence 교정뿐 아니라 조건부 cargo 번역의 스위치가 될 수 있다.",
+      "takeaway": "ADAR editing은 RNA sequence 교정뿐 아니라 조건부 cargo 번역의 스위치가 될 수 있다.",
       "paperKey": "6212a8ff7d5d77",
       "tracker": "flagship",
       "source": "Nature protocols",
@@ -4716,8 +4924,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "전사체 신호에 반응해 번역을 켜는 ADAR 센서의 설계·검증 프로토콜로, 세포 상태 기반 이미징·분류·시퀀싱에 실용적이다.",
-        "computational": "웹 인터페이스를 통한 가이드 설계는 포함되지만, 주기여는 센서 실험 프로토콜과 사용자 지침이다."
+        "main": "표적 RNA의 존재를 편집·번역 출력으로 바꾸는 programmable sensor를 실험 workflow로 제공한다.",
+        "computational": "ADAR editing은 RNA sequence 교정뿐 아니라 조건부 cargo 번역의 스위치가 될 수 있다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4773,6 +4981,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "29e7278d9782c860391dac734985c63bdf8c66c651662a042b24dd06718424f9",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -4844,11 +5060,11 @@
         "excerpt": "*correspondingauthor.email:doudna@berkeley.edu†theseauthorscontributedequallytothiswork.‡presentaddress:thebiochemistry,quantitativebiology,biophysicsandstructuralbiology(bqbs)track,yaleuniversity,newhaven,ct,usa.downloadedfromhttps://www.science.orgatkoreaadvancedinstituteofscience&technologykaistonoctober08,2026",
         "retrievedAt": "2026-10-08T15:41:56.959785+00:00"
       },
-      "shortSummary": "이 연구는 초기 CRISPR-Cas 효과기가 어떻게 RNA로 DNA를 인식하게 되었는지를 묻고, 조상형 Vipr 단백질과 VIPR RNA(vrRNA)로 이루어진 시스템을 보고합니다. 저자들에 따르면 vrRNA의 교차하는 GGY/NN 모티프에서 가변 NN 염기쌍들이 표적 DNA의 간격이 있는 서열을 함께 지정해, 연속적 상보성에 의존하는 알려진 가이드 RNA와 다른 인식 규칙을 만듭니다. 자연 표적은 파지 간 경쟁에서의 역할과 부합하며, 복합체를 재지정해 파지 방어와 전사 억제를 구현했다고 초록은 보고합니다. 이 결과는 RNA-유도 DNA 인식의 기원과 서열 부호화 방식에 관한 새로운 작동 원리를 제시합니다.",
-      "whyCare": "새로운 RNA-유도 DNA 인식 규칙과 이를 구현하는 조상형 효과기를 함께 제시해, CRISPR의 기원에 대한 생물학적 이해와 RNA-단백질 복합체를 프로그래밍하는 방법 모두에 의미가 있습니다. 실험적으로 파지 방어 및 전사 억제를 보였다는 점은 단순한 서열·계통 분석을 넘어선 기능적 근거입니다. 다만 초록만으로는 이를 포유류 세포의 유전체 편집 도구로 볼 수 없습니다.",
-      "skepticism": "초록은 VIPR가 초기 CRISPR-Cas 효과기의 조상형이라고 보고하지만, 그 진화적 해석을 뒷받침하는 계통·기능 증거의 범위는 초록만으로 판단할 수 없습니다. 또한 ‘프로그래밍 가능’한 파지 방어와 전사 억제가 어떤 표적 범위와 조건에서 재현되는지, 비표적 인식이 어느 정도인지도 초록에 제시되어 있지 않습니다. 따라서 이 결과만으로 포유류 세포에서의 편집, 광범위한 표적화, 또는 치료적 활용이 입증되었다고 해석해서는 안 됩니다.",
-      "knowledge": "핵심 개념은 연속 상보성 대신 여러 가변 RNA 모티프가 간격을 둔 DNA 표적 서열을 함께 지정하는 ‘비연속 부호’입니다. 기능적으로는 VIPR 복합체를 재지정해 파지 방어와 전사 억제를 구현했다는 보고가 있습니다. 이는 CRISPR의 기원에 관한 진화적 주장을, 새로운 분자 인식 메커니즘의 발견과 구분해 읽는 사례이기도 합니다.",
-      "takeaway": "초록에 보고된 내용만으로도 CRISPR 진화와 RNA-유도 DNA 인식의 원리를 넓히는 주목할 만한 발견이며, 프로그래밍 가능한 기능까지 제시합니다. 다만 이를 곧바로 유전체 편집 기술로 간주하기보다는, 새로운 인식 논리와 그 작동 범위를 밝힌 연구로 평가하는 것이 타당합니다.",
+      "shortSummary": "VIPR은 Vipr 단백질과 GGY/NN이 번갈아 나오는 vrRNA로 DNA를 인식하는 시스템이다. 연속적인 complementarity 대신 각 NN이 끊어진 target sequence를 지정하며 programmable transcriptional repression과 phage defense를 구현한다.",
+      "whyCare": "RNA-guided DNA 인식이 연속적인 염기쌍 결합만으로 이루어져야 한다는 기존 설계 틀을 넓힌다.",
+      "skepticism": "Gapped recognition code의 자유도와 off-target landscape는 어떤 관계를 가질까? Repeat 길이와 spacer 배열로 표적 선택성을 조절할 수 있을까?",
+      "knowledge": "표적 정보는 연속 서열뿐 아니라 반복 단위와 끊어진 위치의 조합으로도 encoding할 수 있다.",
+      "takeaway": "표적 정보는 연속 서열뿐 아니라 반복 단위와 끊어진 위치의 조합으로도 encoding할 수 있다.",
       "paperKey": "38919a3038833d",
       "tracker": "flagship",
       "source": "Science (New York, N.Y.)",
@@ -4904,8 +5120,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "CRISPR의 기원과 연관된 새로운 VIPR 면역 시스템과 비연속 RNA-DNA 인식 규칙을 발견하고, 표적을 재지정해 파지 방어와 전사 억제를 보였다.",
-        "computational": "계산 방법론이 주기여가 아니며, 새로운 RNA 유도 DNA 인식 체계의 발견과 기능 실험이 중심이다."
+        "main": "RNA-guided DNA 인식이 연속적인 염기쌍 결합만으로 이루어져야 한다는 기존 설계 틀을 넓힌다.",
+        "computational": "표적 정보는 연속 서열뿐 아니라 반복 단위와 끊어진 위치의 조합으로도 encoding할 수 있다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -4961,6 +5177,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "2afebc8cb27c41254f6c4c3fd118f5d5aa2bfb733f9a05f0315051867ca2d86d",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -5024,11 +5248,11 @@
         "excerpt": "*correspondingauthor.email:doudna@berkeley.edu†theseauthorscontributedequallytothiswork.downloadedfromhttps://www.science.orgatkoreaadvancedinstituteofscience&technologykaistonoctober08,2026",
         "retrievedAt": "2026-10-08T15:41:58.207957+00:00"
       },
-      "shortSummary": "이 연구는 VIPR 단백질과 VIPR RNA가 어떻게 비연속적인 서열 규칙으로 DNA를 인식하는지 조사합니다. 저자들은 21개의 cryo-EM 구조를 제시하고, Vipr 단백질이 vrRNA를 따라 오른손 나선형 필라멘트를 만들며 GGY 모티프를 감추고 인접한 NN 염기를 DNA 표적과 짝짓는다고 보고합니다. 표적 DNA와의 결합에서는 RNA-DNA 혼성 나선이 매 세 번째 염기를 건너뛰며 비표적 DNA 가닥을 둘러싸는 기하학적 삼중 나선을 형성합니다. 저자들은 이 구조가 VIPR의 비연속적이고 프로그래밍 가능한 DNA 인식을 설명한다고 제안합니다.",
-      "whyCare": "RNA 유도 DNA 인식을 가능하게 하는 구조적 원리를 구체적으로 제시한 연구입니다. 특히 표적 가닥과 비표적 가닥을 함께 활용하는 삼중 나선 구조는 구조생물학과 RNA 기반 유전자 조절·편집 시스템의 작동 원리를 잇는 흥미로운 기전입니다. 다만 초록에서 보고된 핵심 성과는 인식 구조의 규명이며, 유전체 편집 도구로서의 성능 입증과는 구분해야 합니다.",
-      "skepticism": "구조가 제시한 GGY 은폐, NN 염기쌍 형성, 매 세 번째 염기 건너뛰기가 각각 표적 인식에 얼마나 필수적인지는 기능적 교란 실험으로 확인되었는지 살펴볼 필요가 있습니다. 이 규칙이 서로 다른 표적 서열에서도 유지되는지, 실제 세포에서 표적 범위와 비표적 결합은 어떤지, 삼중 나선 형성이 전사 침묵화에 인과적으로 기여하는지는 초록만으로 알 수 없습니다. 또한 이 구조가 편집 기능까지 지원한다는 근거는 초록에 제시되어 있지 않습니다.",
-      "knowledge": "핵심 개념은 GGY와 NN 구간을 교대로 갖는 vrRNA, 매 세 번째 DNA 염기를 건너뛰는 RNA-DNA 혼성체, 그리고 비표적 DNA 가닥을 둘러싸는 기하학적 삼중 나선입니다. 21개의 cryo-EM 구조는 단백질-RNA 필라멘트 형성과 DNA 결합 구조를 연결해, 비연속적 표적 인식에 대한 구조 기반 기전 모델을 제공합니다.",
-      "takeaway": "VIPR의 비연속적 RNA 유도 DNA 인식을 설명하는 구조적·기전적 성과로, 구조생물학과 프로그래머블 유전자 조절 연구자에게 읽을 가치가 높습니다. 다만 편집 도구로서의 활용성이나 세포 내 성능은 별도로 검증해야 합니다.",
+      "shortSummary": "21개 cryo-EM 구조로 VIPR의 assembly와 target engagement를 해석했다. Vipr oligomer가 vrRNA의 GGY를 고정하고 NN을 DNA pairing에 배치하며, DNA의 세 번째 염기를 건너뛰는 hybrid helix가 non-target strand를 감싸 geometric triplex를 만든다.",
+      "whyCare": "새로운 인식 코드를 구조적 반복과 strand handoff로 설명해 programmable binder의 공간 설계를 생각하게 한다.",
+      "skepticism": "Repeat마다 생기는 기하학적 제약을 바꾸면 새로운 표적 간격을 인식할 수 있을까? RNA-DNA interface의 안정성과 oligomer assembly를 함께 예측하려면 무엇을 학습해야 할까?",
+      "knowledge": "Triplex와 helical assembly는 gapped recognition을 구현하는 물리적 구조다.",
+      "takeaway": "Triplex와 helical assembly는 gapped recognition을 구현하는 물리적 구조다.",
       "paperKey": "67f8f37206ca6a",
       "tracker": "flagship",
       "source": "Science (New York, N.Y.)",
@@ -5084,8 +5308,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "21개의 cryo-EM 구조로 VIPR 단백질의 나선 조립과 비연속 RNA-DNA 결합, 기하학적 삼중나선 형성 기전을 설명한다.",
-        "computational": "계산 방법론이 주기여가 아니며, 다수의 구조와 결합 기전 분석이 핵심이다."
+        "main": "새로운 인식 코드를 구조적 반복과 strand handoff로 설명해 programmable binder의 공간 설계를 생각하게 한다.",
+        "computational": "Triplex와 helical assembly는 gapped recognition을 구현하는 물리적 구조다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -5141,6 +5365,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "eecc75db7dccfda5b43bb77b3d3f94f9c0764d7df174863fde617606873a7f2a",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -5212,11 +5444,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 RNA-guided endonuclease인 Ymu1 TnpB의 DNA 표적 인식과 절단이 어떻게 제한되는지 조사했습니다. 생화학적 분석과 단분자 실험에서 DNA가 한 번에 완전히 풀리는 것이 아니라, 오래 지속되는 부분적으로 풀린 중간 상태를 거쳐 열린 상태에 도달함을 관찰했습니다. 열린 상태는 음성 초나선이 없을 때 형성이 비효율적이고 쉽게 무너졌습니다. 이 상태들을 안정화하도록 설계한 Ymu1-WFR 변이는 시험관 내 절단과 식물에서의 유전체 편집을 모두 높였다고 보고합니다.",
-      "whyCare": "TnpB 편집 효율의 물리적 병목을 DNA 풀림 상태의 불안정성으로 설명하고, 그 상태를 안정화해 활성을 높였다는 점에서 기전과 편집기 엔지니어링을 연결하는 연구입니다. 특히 단분자 수준의 관찰이 시험관 내 절단 및 식물 편집 결과와 이어져, 단순한 구조·기전 기술을 넘어 실제 편집 성능과 관련된 근거를 제시합니다.",
-      "skepticism": "초록은 식물에서 편집이 증가했다고 보고하지만, 향상 폭과 검증한 표적·조건의 범위, 식물 종 간 재현성은 밝히지 않습니다. WFR 변이의 효과가 DNA 풀림 상태의 안정화에 주로 기인하는지, 다른 분자 단계에도 영향을 주는지는 후속 자료에서 구분할 필요가 있습니다. 오프타깃 편집, 장기적 성능, 다른 TnpB 계열로의 일반화 역시 초록만으로는 판단할 수 없습니다.",
-      "knowledge": "핵심 개념은 RNA-guided 절단효소의 활성에 DNA 표적 풀림이 단계적으로 진행되며, 부분 풀림 중간체와 완전히 열린 상태의 안정성이 절단 효율과 연결될 수 있다는 점입니다. 단분자 분석으로 상태 전이를 관찰하고, 상태를 안정화하는 단백질 변이를 설계한 뒤 생화학적 절단과 식물 편집에서 효과를 확인한 접근을 보여 줍니다.",
-      "takeaway": "TnpB의 제한된 활성을 DNA 풀림 상태의 불안정성과 연결하고, 이를 안정화한 변이로 시험관 내 및 식물 편집 활성을 높였다는 점에서 유전체 편집 연구자에게 직접 관련성이 높은 기전·엔지니어링 논문입니다. 다만 개선 효과의 크기와 적용 범위는 초록만으로 확정할 수 없습니다.",
+      "shortSummary": "Ymu1 TnpB의 DNA unwinding은 오래 유지되는 부분적 중간체를 거쳐 open state로 진행한다. Open state는 잘 형성되지 않고 negative supercoiling이 없으면 쉽게 무너진다. Ymu1-WFR은 중간체와 open state를 안정화해 DNA 절단 및 식물 편집 활성을 높인다.",
+      "whyCare": "활성 저하의 원인을 서열 상관관계가 아니라 반응 중간체의 형성과 안정성으로 설명한다.",
+      "skepticism": "TnpB variant의 활성은 어떤 구조 상태의 안정화와 가장 잘 연결될까? 다른 DNA-binding editor에서도 intermediate occupancy를 예측하는 layer를 만들 수 있을까?",
+      "knowledge": "최종 구조의 안정성만이 아니라 기능으로 이동하는 중간체의 에너지와 수명이 중요하다.",
+      "takeaway": "최종 구조의 안정성만이 아니라 기능으로 이동하는 중간체의 에너지와 수명이 중요하다.",
       "paperKey": "cb575f7e5b770b",
       "tracker": "flagship",
       "source": "Molecular cell",
@@ -5272,8 +5504,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "단분자 분석으로 TnpB의 DNA 풀림 중간 상태와 불안정성을 규명하고, 이를 안정화한 변이체가 시험관 내 절단과 식물 유전체 편집을 높였다.",
-        "computational": "계산 방법론이 주기여가 아니며, 생화학·단분자 실험과 식물 편집 검증으로 기전과 공학적 개선을 연결한다."
+        "main": "활성 저하의 원인을 서열 상관관계가 아니라 반응 중간체의 형성과 안정성으로 설명한다.",
+        "computational": "최종 구조의 안정성만이 아니라 기능으로 이동하는 중간체의 에너지와 수명이 중요하다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -5329,6 +5561,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "596e4c9d3e691222ccf46f5ab7761320a16d160b4a9ecfe6ca27b2aa02f75c1e",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -5396,11 +5636,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 진화 과정에 제한되지 않는 RNA-guided nuclease를 설계할 수 있는지 묻습니다. 연구진은 구조 기반 inverse-folding 모델과 진화 정보에 따른 잔기 제약을 결합해 TnpB 변이체인 SynTnpBs를 설계하고, 고처리량 스크리닝으로 활성을 평가했습니다. 보고된 일부 변이체는 세균·식물·인간 세포에서 야생형에 필적하거나 더 높은 활성을 보였습니다. 가장 발산적인 변이체의 cryo-EM 구조에서는 여러 구조 상태에 걸친 RNA-DNA 접촉이 안정화된 것으로 나타났습니다.",
-      "whyCare": "실험 검증된 단백질 설계와 구조 분석을 연결해, 자연계에 있는 뉴클레아제의 변형을 넘어 새로운 RNA-guided editor를 만들 수 있음을 보입니다. 서로 다른 세포 맥락에서 활성을 보고하고 구조적 근거도 제시해, 단백질·editor 엔지니어링과 구조생물학 연구자 모두에게 직접적인 관심거리가 있습니다.",
-      "skepticism": "초록은 여러 세포 유형에서 활성을 보고하지만, 활성의 정량적 크기와 표적별 일관성, 편집 정확도 및 비표적 효과는 제시하지 않습니다. 세포 내 전달, 생체 내 성능, 장기 안정성도 이 초록만으로는 알 수 없습니다. 또한 TnpB에서의 성공이 다른 뉴클레아제 계열에도 일반화되는지, 관찰된 RNA-DNA 접촉이 활성 차이를 실제로 일으키는지는 본문에서 확인해야 합니다.",
-      "knowledge": "핵심 개념은 구조 기반 inverse folding과 진화적으로 제약된 잔기 정보를 결합해 단백질 서열을 설계하는 방식입니다. 설계된 변이체를 다중 세포 맥락에서 고처리량으로 선별하고, cryo-EM으로 핵산 결합면의 구조를 검증해 설계 원리와 기능을 연결했습니다.",
-      "takeaway": "세포 기반 활성과 cryo-EM 구조 근거를 함께 제시한, genome-editing 도구의 단백질 설계에 직접 관련되는 연구입니다. 다만 초록만으로는 편집의 정밀도, 특이성, 생체 내 적용성이나 설계 원리의 일반성을 판단할 수 없습니다.",
+      "shortSummary": "SynTnpB는 structure-guided inverse folding과 evolution-informed residue constraint를 결합해 자연 서열에서 멀어진 nuclease를 설계한다. High-throughput screen에서 bacterial·plant·human cell 활성을 유지하거나 높인 variant를 찾았다. Divergent variant의 cryo-EM 구조는 여러 conformation에서 RNA-DNA interface를 안정화하는 새 contact를 보여준다.",
+      "whyCare": "Sequence novelty를 키우면서 기능적 nucleic-acid contact와 구조 상태를 보존하는 de novo·재설계의 구체적 방법이다.",
+      "skepticism": "보존할 촉매·결합 잔기와 재설계할 scaffold를 어떻게 나눌까? 여러 conformation의 안정성을 한꺼번에 목적함수에 넣으면 활성 variant의 비율이 높아질까?",
+      "knowledge": "진화 제약은 기능의 anchor를 남기고 inverse folding은 그 주변의 새 sequence space를 탐색한다.",
+      "takeaway": "진화 제약은 기능의 anchor를 남기고 inverse folding은 그 주변의 새 sequence space를 탐색한다.",
       "paperKey": "c8f46af94ee1ba",
       "tracker": "flagship",
       "source": "Science (New York, N.Y.)",
@@ -5456,8 +5696,8 @@
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "진화·구조 정보를 결합해 TnpB 편집기를 설계하고 세포에서 기능을 검증했으며, cryo-EM으로 새로운 RNA-DNA 접촉까지 보여 준 강력한 편집기·단백질공학 연구다.",
-        "computational": "AI 설계가 세포 기반 편집 검증과 cryo-EM 구조 분석으로 이어져 실험 연구와 직접 교차한다."
+        "main": "Sequence novelty를 키우면서 기능적 nucleic-acid contact와 구조 상태를 보존하는 de novo·재설계의 구체적 방법이다.",
+        "computational": "진화 제약은 기능의 anchor를 남기고 inverse folding은 그 주변의 새 sequence space를 탐색한다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -5513,6 +5753,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "7877b1af25cf7b9e0028f7e121cd472b6e636d3d3e4df38c8383e73b86aa43bc",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -5578,11 +5826,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 자연 진화에만 의존하지 않고 활성 RNA-guided nuclease를 설계할 수 있는지 묻습니다. 연구진은 TnpB를 대상으로 구조 기반 inverse folding과 진화 정보를 반영한 잔기 제약을 결합하고, 생성 변이체를 고처리량 기능 스크리닝으로 선별했습니다. 보고된 활성 변이체는 세균·식물·인간 세포에서 야생형과 비슷하거나 더 높은 활성을 보였습니다. 가장 divergent한 활성 변이체의 cryo-EM 구조에서는 여러 구조 상태에 걸친 새로운 RNA/DNA 계면 안정화 접촉이 관찰됐습니다.",
-      "whyCare": "AI 기반 단백질 설계가 실제 유전자 편집 활성을 내고, 서로 다른 세포 맥락에서 검증되며, 구조 분석으로 새로운 핵산 접촉까지 제시했다는 점에서 편집기·단백질 공학 양쪽에 직접 관련됩니다. 단순 계산 예측을 넘어 실험적으로 작동하는 비자연형 RNA-guided nuclease 설계 가능성을 보여줍니다.",
-      "skepticism": "초록에는 활성의 정량 비교, 표적 서열별 성능, 오프타깃 결과, 반복 실험의 세부 사항이 제시되지 않아 성능의 범위와 재현성을 판단하기 어렵습니다. cryo-EM에서 관찰된 접촉이 활성을 인과적으로 높이는지는 초록만으로 확립되지 않습니다. 세포에서의 활성이 생체 내 성능이나 전달 적합성을 뜻하지도 않습니다.",
-      "knowledge": "핵심 접근은 구조 기반 inverse protein folding에 진화 정보를 반영한 잔기 제약을 더하고, 생성 후보를 기능 스크리닝으로 거르는 것입니다. 이 연구는 그 접근을 TnpB에 적용해 여러 세포 유형에서 활성을 보고하고, cryo-EM으로 가장 divergent한 활성 변이체의 RNA/DNA 계면을 분석했습니다.",
-      "takeaway": "유전자 편집과 편집기 공학에 직접 연결되는 강한 교차 분야 연구입니다. 초록에 보고된 세포 활성과 구조 결과는 설계 접근의 가능성을 뒷받침하지만, 성능의 정량적 범위·특이성·생체 내 적용성은 추가 검토가 필요합니다.",
+      "shortSummary": "SynTnpB는 structure-guided inverse folding과 evolution-informed residue constraint를 결합해 자연 서열에서 멀어진 nuclease를 설계한다. High-throughput screen에서 bacterial·plant·human cell 활성을 유지하거나 높인 variant를 찾았다. Divergent variant의 cryo-EM 구조는 여러 conformation에서 RNA-DNA interface를 안정화하는 새 contact를 보여준다.",
+      "whyCare": "Sequence novelty를 키우면서 기능적 nucleic-acid contact와 구조 상태를 보존하는 de novo·재설계의 구체적 방법이다.",
+      "skepticism": "보존할 촉매·결합 잔기와 재설계할 scaffold를 어떻게 나눌까? 여러 conformation의 안정성을 한꺼번에 목적함수에 넣으면 활성 variant의 비율이 높아질까?",
+      "knowledge": "진화 제약은 기능의 anchor를 남기고 inverse folding은 그 주변의 새 sequence space를 탐색한다.",
+      "takeaway": "진화 제약은 기능의 anchor를 남기고 inverse folding은 그 주변의 새 sequence space를 탐색한다.",
       "paperKey": "0020a0565c1234",
       "tracker": "preprints",
       "source": "bioRxiv",
@@ -5638,8 +5886,8 @@
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "TnpB를 비자연형 RNA 유도 핵산분해효소로 설계해 여러 세포 유형에서 편집 활성을 보이고, cryo-EM으로 구조적 근거를 제시했다.",
-        "computational": "AI 기반 단백질 설계를 세포 편집 실험과 구조 분석으로 검증한 실험·계산 통합 연구다."
+        "main": "Sequence novelty를 키우면서 기능적 nucleic-acid contact와 구조 상태를 보존하는 de novo·재설계의 구체적 방법이다.",
+        "computational": "진화 제약은 기능의 anchor를 남기고 inverse folding은 그 주변의 새 sequence space를 탐색한다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -5695,6 +5943,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "69bd355f15e0a449fd9fa968512490edd75a1702550210889b6c9ee68f7c29cf",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -5751,11 +6007,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 바이러스가 면역 신호를 회피하는 데 쓰는 2H phosphodiesterase(PDE)의 다양성과 기질 선택성을 조사했습니다. 연구진은 구조를 바탕으로 바이러스 서열을 탐색해 기존 서열 검색으로는 찾기 어려운 효소들을 포함한 다양한 2H PDE를 확인했습니다. 생화학적 실험에서는 보존된 활성 부위에도 불구하고 효소별로 기질 선택성이 달랐으며, 그 차이가 2H 핵심 접힘의 변이와 대응했습니다. 저자들은 이런 선택성이 바이러스 PDE가 숙주의 다른 뉴클레오타이드 신호를 덜 방해하면서 면역 신호 올리고뉴클레오타이드를 분해하게 한다고 제안합니다.",
-      "whyCare": "면역 신호 분자를 분해하는 바이러스 효소가 생각보다 다양하고, 구조적 차이가 어떤 신호를 표적으로 삼는지와 연결된다는 점에서 기전적으로 흥미롭습니다. 특히 구조 기반 탐색과 생화학 검증을 결합해 서열 유사성만으로 놓칠 수 있는 효소 기능을 드러냈습니다. 면역 신호와 단백질 기능·구조의 관계를 다루는 연구자에게 읽을 가치가 있습니다.",
-      "skepticism": "초록은 구조 기반 서열 탐색과 생화학적 기질 실험을 보고하지만, 세포나 감염 상황에서 각 PDE가 면역 신호를 실제로 얼마나 바꾸는지는 제시하지 않습니다. 제안된 기질 선택성이 생리적 농도에서도 유지되는지, 그리고 다양한 바이러스에서 면역 회피에 기여하는 정도가 같은지도 초록만으로는 알 수 없습니다. 따라서 효소 수준의 선택성과 생체 내 면역 회피 효과를 구분해 읽어야 합니다.",
-      "knowledge": "구조 기반 검색은 서열 검색만으로 찾기 어려운 원거리 단백질 유사성을 발굴할 수 있습니다. 이 연구는 2H PDE의 활성 부위 보존만으로 기능을 예측하기 어렵고, 핵심 접힘의 변이가 올리고뉴클레오타이드 기질 선택성과 연관될 수 있음을 보여줍니다. 다만 초록에 보고된 구조 관련 내용은 탐색과 접힘 비교에 관한 것이며, 새로운 구조를 직접 규명했다는 뜻은 아닙니다.",
-      "takeaway": "바이러스 2H PDE의 다양성과 기질 선택성을 연결한 설득력 있는 효소·면역 기전 연구입니다. 실험적 근거는 효소 기능 수준에서 의미 있지만, 세포 및 감염 맥락에서의 면역 회피 효과는 초록에서 확인되지 않습니다.",
+      "shortSummary": "2H phosphodiesterase의 구조를 query로 viral sequence를 검색해 sequence search만으로 찾기 어려운 효소 다양성을 발굴했다. Active site가 보존돼 있어도 core fold의 변화에 따라 서로 다른 oligonucleotide messenger에 대한 substrate specificity가 나타났다.",
+      "whyCare": "서열 유사성의 한계를 구조 검색과 생화학적 비교로 넘어서는 효소 발굴·기질 선택성 연구다.",
+      "skepticism": "Core fold의 어떤 변화가 messenger 선택성을 바꿀까? 구조 기반 후보 탐색을 기능별 clustering과 결합하면 새로운 효소 family를 우선순위화할 수 있을까?",
+      "knowledge": "Active-site 보존만으로 substrate specificity가 같다고 볼 수 없으며 주변 fold가 선택성을 조절한다.",
+      "takeaway": "Active-site 보존만으로 substrate specificity가 같다고 볼 수 없으며 주변 fold가 선택성을 조절한다.",
       "paperKey": "40d59326e5a363",
       "tracker": "flagship",
       "source": "Cell host & microbe",
@@ -5811,8 +6067,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "바이러스 PDE의 다양성과 기질 선택성을 생화학적으로 연결해 CDN 면역 신호의 회피 기전을 제시하며, 2H 접힘 구조와 기능의 관계도 다룬다.",
-        "computational": "구조 기반 서열 탐색은 후보 발굴에 쓰였지만 핵심 근거는 효소의 생화학적 기질 특이성 검증이다."
+        "main": "서열 유사성의 한계를 구조 검색과 생화학적 비교로 넘어서는 효소 발굴·기질 선택성 연구다.",
+        "computational": "Active-site 보존만으로 substrate specificity가 같다고 볼 수 없으며 주변 fold가 선택성을 조절한다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -5868,6 +6124,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "1b3b2139e0e0a6c42cdd9a61d8a3b9d26382de3b5a56966eafc7a221d1c71f28",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -5930,11 +6194,11 @@
         "excerpt": "*correspondence:zhang@broadinstitute.orghttps://doi.org/10.1016/j.cels.2026.101644summarymammaliancellscanbedirectedtowardspecificfatesbyoverexpressionoftranscriptionfactors(tfs).how-ever,discoveringandoptimizingwhichtfsincombinationproduceastateofinterestremainschallenging.here,wedevelopascalablescreeningplatformthataddressesthischallengebycombininghighmultiplicityofinfection(moi),pooleddeliveryo",
         "retrievedAt": "2026-10-08T15:42:19.599306+00:00"
       },
-      "shortSummary": "이 연구는 전사인자(TF) 조합을 과발현해 인간 배아줄기세포를 조혈 줄기·전구세포 유사 상태로 유도하는 방법을 찾습니다. 저자들은 바코드가 부착된 TF 발현체의 풀드 전달, 표적 세포 농축, 단일세포 전사체 분석과 데이터 증강을 결합한 대규모 조합 스크리닝 플랫폼을 구축했습니다. 수백만 개 조합으로 재프로그래밍 적합도 지형을 만들고, 그 안에서 탐색한 두 TF 조합이 기준 대조군보다 미성숙 다분화능 조혈 전구세포를 더 효과적으로 생성했다고 보고합니다. 핵심은 조합형 세포 운명 제어를 실험적으로 탐색하고 최적화하는 확장 가능한 접근법입니다.",
-      "whyCare": "단일 인자 후보를 순차적으로 시험하는 대신 TF 조합의 넓은 공간을 스크리닝해 세포 운명 유도법을 찾는다는 점에서 합성생물학과 세포공학에 직접적인 방법론적 가치가 있습니다. 특히 단일세포 읽기 결과와 조합 탐색을 연결해, 희귀하거나 이질적인 유도 상태를 찾아내고 조합을 최적화할 수 있는 가능성을 보여줍니다. 조혈세포 생성이라는 구체적 생물학적 적용에서 후보 조합의 효능도 대조군과 비교해 제시합니다.",
-      "skepticism": "초록은 두 조합이 대조군보다 ‘naive multipotent hematopoietic progenitors’를 더 잘 생성했다고 보고하지만, 초록만으로는 해당 세포의 장기 조혈 재구성 능력이나 생체 내 기능이 입증됐다고 볼 수 없습니다. 후보 상태가 전사체 유사성에 얼마나 의존하는지, 기능적 다분화능이 어떤 검사로 확인됐는지, 서로 다른 세포주에서도 재현되는지는 초록에서 확인되지 않습니다. 전체 조합 탐색의 데이터 증강과 농축 단계가 최종 후보 선택에 미친 영향도 본문에서 살펴볼 질문입니다.",
-      "knowledge": "바코드가 부착된 TF 발현체를 풀드 방식으로 전달하고, 세포 농축과 단일세포 전사체 판독을 연결하면 대규모 조합별 세포 운명 효과를 비교할 수 있습니다. 이 접근은 조합 공간의 적합도 지형을 만든 뒤 계산적 탐색으로 후보를 고르고, 다시 실험에서 후보의 효능을 확인하는 구조입니다. 이 논문은 이 원리를 인간 배아줄기세포에서 조혈 전구세포 유사 상태를 유도하는 데 적용합니다.",
-      "takeaway": "세포 운명 공학의 조합 탐색과 단일세포 판독을 결합한 유망한 플랫폼 논문이며, 조혈 전구세포 생성이라는 실험적 적용도 제시합니다. 다만 초록만으로는 생성 세포가 기능적으로 성숙한 장기 재구성 조혈 줄기세포인지까지 판단할 수 없습니다.",
+      "shortSummary": "Barcoded TF ORF의 high-MOI pooled delivery와 single-cell readout을 결합해 수백만 조합의 reprogramming fitness landscape를 만든다. Data augmentation과 targeted enrichment로 HSPC-like cell fate를 최적화하고, gold-standard control보다 좋은 naive multipotent progenitor를 만드는 두 TF 조합을 찾았다.",
+      "whyCare": "조합 perturbation을 대규모로 관측하고 목표 세포 상태의 metric을 계산적으로 최적화하는 실험-계산 통합 사례다.",
+      "skepticism": "TF 조합의 효과를 latent cell-state 변화와 interaction term으로 나눌 수 있을까? 목표 상태의 similarity와 실제 기능을 함께 평가하는 선택 기준은 무엇일까?",
+      "knowledge": "Combinatorial screen의 핵심은 조합을 많이 만드는 것뿐 아니라 목표 상태를 측정할 readout과 metric을 정의하는 데 있다.",
+      "takeaway": "Combinatorial screen의 핵심은 조합을 많이 만드는 것뿐 아니라 목표 상태를 측정할 readout과 metric을 정의하는 데 있다.",
       "paperKey": "c36a62e6135672",
       "tracker": "flagship",
       "source": "Cell systems",
@@ -5990,8 +6254,8 @@
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "대규모 조합 TF 스크리닝으로 인간 배아줄기세포의 조혈 전구세포 유사 운명을 최적화하고, 후보 조합의 기능을 대조군과 비교해 검증했다.",
-        "computational": "계산 최적화가 바코드 조합 스크리닝과 단일세포 분석에 연결되고, 예측한 TF 조합을 실험으로 확인했다."
+        "main": "조합 perturbation을 대규모로 관측하고 목표 세포 상태의 metric을 계산적으로 최적화하는 실험-계산 통합 사례다.",
+        "computational": "Combinatorial screen의 핵심은 조합을 많이 만드는 것뿐 아니라 목표 상태를 측정할 readout과 metric을 정의하는 데 있다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -6047,6 +6311,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "9bef1f18fcd7601b840ca4138de9555aaba0fe4c530f09a67e6758214f796054",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -6121,11 +6393,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 prime editing의 효율을 높이기 위해 pegRNA 서열을 광범위하게 최적화해야 하는 문제를 다룹니다. 연구진은 prime editing 기전에 기반한 기계학습 모델 OptiPrime을 제시하고, PE3 nicking guide RNA와 twinPE 결과도 예측한다고 보고합니다. 초록에 따르면 모델은 mismatch repair(MMR)의 효율 결정 요인을 포착했으며, MMR 회피성 silent edit 설계와 여러 치료 관련 조건의 1차 인간·생쥐 세포 검증에 활용됐습니다. 또 KIF1A 관련 신경질환 생쥐 모델의 뇌에서 병원성 변이를 in vivo 교정하는 데 사용됐습니다.",
-      "whyCare": "이는 단순한 서열 예측 도구를 넘어, 편집 효율을 좌우하는 MMR 기전을 설계에 연결하고 1차 세포와 생체 내 교정까지 적용한 사례입니다. 따라서 genome editing 방법론과 in vivo 유전자 교정에 모두 직접적인 가치가 있으며, 초록이 보고한 범위에서는 계산 모델과 실험 검증의 연결도 강합니다.",
-      "skepticism": "초록은 예측 정확도가 최신 수준이라고 하지만, 데이터 분할 방식·독립 검증 규모·기존 모델 대비 개선 폭은 제시하지 않습니다. MMR 결정 요인을 포착했다는 주장이 어떤 교란 또는 직접적인 기능 검증으로 뒷받침되는지, silent edit 자체의 영향과 편집 효율 개선을 어떻게 분리했는지도 확인이 필요합니다. 뇌 교정의 효율, 세포 유형별 분포, 지속성, 안전성 및 치료적 표현형 개선은 초록만으로 판단할 수 없습니다.",
-      "knowledge": "핵심 개념은 prime editing 결과 예측에 기전 정보를 반영하는 접근과, MMR 회피성 silent edit를 이용해 편집 효율을 조정하는 설계 전략입니다. 또한 모델을 단일 pegRNA 예측에 한정하지 않고 PE3 및 twinPE 결과 예측과 1차 세포·생체 내 적용으로 확장했다는 점을 기억할 만합니다.",
-      "takeaway": "계산 방법이 주된 요소이지만, 1차 세포의 전향적 활용과 생쥐 뇌의 병원성 변이 교정이 보고되어 공유 실험 분야와의 연계가 강합니다. 따라서 computationalOnly로 보기보다는 genome editing 및 in vivo biology에서 읽을 가치가 높은 교차 분야 연구로 판단합니다.",
+      "shortSummary": "OptiPrime는 prime editing 기전을 반영해 pegRNA 효율과 PE3·twinPE outcome을 예측한다. Mismatch repair의 determinant를 학습해 MMR-evasive silent edit를 제안하고 primary human·mouse cell에서 적용했다. KIF1A 생쥐 모델의 뇌에서 병원성 변이를 효율적으로 교정하는 데 사용했다.",
+      "whyCare": "Sequence feature만의 회귀가 아니라 편집과 수선의 기전적 변수로 design recommendation을 만드는 모델이다.",
+      "skepticism": "MMR 상태와 edit 구조를 분리해 다른 cell type으로 transfer할 수 있을까? 효율, byproduct와 guide 제작 제약을 함께 예측하는 multi-objective layer는 어떻게 만들까?",
+      "knowledge": "Mechanistic inductive bias는 예측 정확도뿐 아니라 조절 가능한 설계 변수의 해석성을 높인다.",
+      "takeaway": "Mechanistic inductive bias는 예측 정확도뿐 아니라 조절 가능한 설계 변수의 해석성을 높인다.",
       "paperKey": "07c1779c17379d",
       "tracker": "flagship",
       "source": "Nature biotechnology",
@@ -6181,8 +6453,8 @@
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "프라임 편집 효율 예측을 MMR 기전과 연결하고, 사람·마우스 세포 및 마우스 뇌의 KIF1A 변이 교정까지 보여 준 실용적 편집 연구다.",
-        "computational": "기계학습 모델을 1차 세포와 생체 내 치료 맥락에서 전향적으로 검증해 편집 연구와 강하게 교차한다."
+        "main": "Sequence feature만의 회귀가 아니라 편집과 수선의 기전적 변수로 design recommendation을 만드는 모델이다.",
+        "computational": "Mechanistic inductive bias는 예측 정확도뿐 아니라 조절 가능한 설계 변수의 해석성을 높인다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -6238,6 +6510,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "7ef3e563bcbf6af2d932be69e5ec6a3a9450c2bb9d0343514e131cc2b4c361d8",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -6299,11 +6579,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 염증성 세포사멸을 암세포에서 유도하기 위해 보툴리눔 신경독소 X형(BoNT/X) 프로테아제를 재설계할 수 있는지 물었습니다. 연구진은 phage-assisted evolution으로 procaspase-1 또는 gasdermin D를 절단하는 변이체를 만들고, 야생형 및 진화된 프로테아제의 기질 특이성을 폭넓게 분석하는 방법도 개발했습니다. 변이체는 여러 암세포주에서 세포사를 유도했으며, gasdermin D 표적 변이체는 용해성 세포사를, procaspase-1 표적 변이체는 용해성 및 세포자멸사를 일으켰다고 보고합니다. BoNT 전위 도메인과 결합해 세포 내 전달을 가능하게 했고, 비암세포는 보존하면서 배양 암세포를 선택적으로 죽였습니다. Caspase-1 표적 프로테아제의 발현은 약물 내성 종양 마우스 모델에서 종양 성장을 낮췄습니다.",
-      "whyCare": "기존 세포사멸 경로를 조절하는 단백질을 진화·재설계해 원하는 세포사멸 효과를 내고, 이를 세포 내로 전달하는 전략을 함께 제시했다는 점에서 단백질/효소 공학과 전달, 암 생물학에 걸쳐 의미가 있습니다. 특히 기질 절단과 세포사멸 양상의 연결, 배양 세포의 선택성, 동물 모델의 종양 성장 억제까지 이어지는 결과는 단순한 도구 개발을 넘어 치료 가능성을 뒷받침합니다.",
-      "skepticism": "초록은 암세포 선택성과 마우스 종양 성장 억제를 보고하지만, 선택성의 범위와 정량적 크기, 정상 조직에서의 안전성, 종양 내 효소 전달·발현의 양상은 밝히지 않습니다. 또한 종양 억제 결과만으로 생존 개선이나 치료 효과의 지속성을 결론 내릴 수는 없습니다. 전체 논문에서는 절단 특이성 및 비표적 절단 평가, 세포 유형별 대조군, 동물 모델에서의 발현 방식과 독성 자료를 확인해야 합니다.",
-      "knowledge": "핵심 개념은 phage-assisted evolution으로 세포 내 표적 기질을 인식하는 프로테아제를 진화시키고, 기질 절단에 따라 염증성·용해성 세포사멸 양상을 설계하는 것입니다. 연구는 야생형과 진화 변이체의 기질 특이성을 포괄적으로 비교하는 분석 체계, 그리고 BoNT 전위 도메인을 활용한 세포 내 전달도 함께 다룹니다.",
-      "takeaway": "효소 진화, 세포사멸 경로의 설계, 세포 내 전달을 연결한 강한 공학·생물학 연구입니다. 초록에 제시된 선택적 암세포 사멸과 약물 내성 종양 모델 결과는 주목할 만하지만, 안전성과 생체 내 전달 범위는 추가 자료로 판단해야 합니다.",
+      "shortSummary": "Phage-assisted evolution으로 BoNT/X protease가 procaspase-1 또는 gasdermin D를 절단하도록 재프로그래밍했다. 두 variant는 서로 다른 lytic·apoptotic cell-death 출력을 유도한다. Native translocation domain을 결합한 self-delivery와 drug-resistant tumor 생쥐 모델의 tumor-growth 감소를 보여준다.",
+      "whyCare": "효소의 substrate specificity 변화가 서로 다른 세포 프로그램으로 이어지는 programmable protease 사례다.",
+      "skepticism": "Positive selection과 원래 기질에 대한 negative selection을 어떻게 균형 있게 설계할까? Protease specificity landscape를 세포사 출력과 연결하면 어떤 변이 조합을 우선할까?",
+      "knowledge": "원하는 기질의 cleavage 향상과 원하지 않는 기질의 cleavage 감소는 별도로 측정해야 한다.",
+      "takeaway": "원하는 기질의 cleavage 향상과 원하지 않는 기질의 cleavage 감소는 별도로 측정해야 한다.",
       "paperKey": "aa3fe3d32bffa0",
       "tracker": "flagship",
       "source": "Nature biotechnology",
@@ -6359,8 +6639,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "진화시킨 보툴리눔 독소 프로테아제로 염증성 세포사멸을 유도하고, 세포 전달 도메인과 결합해 약물저항성 종양 모델에서 성장을 억제했다.",
-        "computational": "핵심은 파지 보조 진화와 세포·마우스 검증이며, 계산 방법론이 주된 기여는 아니다."
+        "main": "효소의 substrate specificity 변화가 서로 다른 세포 프로그램으로 이어지는 programmable protease 사례다.",
+        "computational": "원하는 기질의 cleavage 향상과 원하지 않는 기질의 cleavage 감소는 별도로 측정해야 한다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -6416,6 +6696,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "34efccc2bb0df166ec7c24f866ce12d242327f168f764bff35eacead4184cb11",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -6475,11 +6763,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 prime-editing guide RNA(pegRNA)의 3′ 말단에 붙이는 RNA 안정화 모티프를 체계적으로 발굴·개선하고자 했다. 저자들은 인간 세포에서 PE-PRISM으로 자연·공학적 RNA 모티프 2,858개를 네 차례의 반복 라이브러리로 평가하고, 구조 기반 돌연변이 및 조합 스크리닝을 통해 tevo2.0, eHAV, eSBRMV1-A를 개발했다. ClinVar 병적 변이 847개 교정 스크린에서 이 모티프들은 90%가 넘는 표적에서 널리 쓰이는 tevopreQ 1보다 효율을 높였다고 보고했다. 일차 인간 세포와 생쥐 뇌·간에서도 질병 관련 변이 교정 효율이 증가했다고 초록은 밝혔다.",
-      "whyCare": "pegRNA의 3′ 구조가 안정성과 편집 효율을 좌우한다는 점을 대규모로 시험하고, 폭넓은 변이에서 성능 개선을 보였다는 직접적인 genome-editing 발전이다. 인간 일차 세포와 생체 내 결과까지 제시해 세포주 스크리닝에 그치지 않는 잠재적 적용성을 뒷받침한다. 편집 도구를 개발하거나 질환 변이 교정 전략을 연구하는 연구자에게 실질적으로 읽을 가치가 높은 논문이다.",
-      "skepticism": "초록은 847개 변이 중 90% 이상에서 기존 모티프보다 개선됐다고 보고하지만, 개선 폭의 분포나 표적별 예외, 반복 간 변동은 제시하지 않는다. 일차 세포와 생쥐 뇌·간에서 효율이 증가했다는 결과만으로 각 조직에서의 효과 크기나 다른 표적·전달 조건으로의 일반화를 단정할 수는 없다. 후속 확인에서는 표적별 효과 크기와 편집 부산물, 그리고 모티프별 구조·안정성 변화가 효율 향상과 어떻게 연결되는지 살펴볼 필요가 있다.",
-      "knowledge": "pegRNA의 3′ 말단 구조 모티프는 단순한 부가 서열이 아니라 RNA 안정성과 prime-editing 성능을 조절하는 설계 요소다. 이 연구는 대규모 pooled screen, 구조 기반 돌연변이, 조합 변이 평가를 연결해 RNA 모티프를 반복적으로 진화·최적화하는 접근을 보여준다. 다만 초록만으로는 개별 모티프의 작동 원리나 효율 개선의 분자적 원인을 확정할 수 없다.",
-      "takeaway": "직접적인 편집 도구 공학에 대규모 변이 평가와 일차 세포·생체 내 검증을 더한 강한 연구다. 초록에 보고된 범위에서 genome-editing 분야의 높은 연구 관심 대상이지만, 실험실의 구체적 표적에서 얻을 개선 폭은 별도 검증이 필요하다.",
+      "shortSummary": "PE-PRISM은 human cell에서 pegRNA 3' 말단의 RNA 안정화 motif를 pooled screen한다. 네 iterative library에서 2,858개 motif를 평가하고 structure-guided mutagenesis와 조합 screening으로 tevo2.0·eHAV·eSBRMV1-A를 만들었다. 847개 ClinVar edit 중 90% 넘는 경우에 tevopreQ1보다 효율을 높였으며 primary cell과 mouse brain·liver에서도 개선됐다.",
+      "whyCare": "Editor protein 밖의 작은 RNA 구조도 대규모 진화와 context별 검증을 통해 큰 성능 개선을 만들 수 있다.",
+      "skepticism": "Motif의 안정성, RT recruitment와 pegRNA context 효과를 어떻게 분리할까? 단일 평균 효율 대신 여러 edit에서의 일관성을 최적화할 수 있을까?",
+      "knowledge": "RNA motif의 구조와 editor·guide context 사이의 interaction은 PE 성능의 독립적인 최적화 축이다.",
+      "takeaway": "RNA motif의 구조와 editor·guide context 사이의 interaction은 PE 성능의 독립적인 최적화 축이다.",
       "paperKey": "ab1f275b750ea5",
       "tracker": "flagship",
       "source": "Nature biotechnology",
@@ -6535,8 +6823,8 @@
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "2,858개 pegRNA 안정화 모티프를 고처리량으로 선별하고, 다수의 병원성 변이·1차 세포·마우스에서 프라임 편집 효율 향상을 보였다.",
-        "computational": "주요 기여는 실험적 RNA 모티프 선별과 최적화이며, 생체 내 편집 결과까지 제시한다."
+        "main": "Editor protein 밖의 작은 RNA 구조도 대규모 진화와 context별 검증을 통해 큰 성능 개선을 만들 수 있다.",
+        "computational": "RNA motif의 구조와 editor·guide context 사이의 interaction은 PE 성능의 독립적인 최적화 축이다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -6592,6 +6880,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "5f1fb094d69de8b2192982b0ef7cd9dbe1c1e40c9f039f00af46a76c2d770580",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -6656,11 +6952,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 진화로 성능을 높인 prime editor가 단백질 안정성과 발현 저하를 겪는 문제를 다룹니다. 연구진은 촉매에 필요한 영역을 보존하면서 ProteinMPNN 등 구조 기반 AI 방법으로 prime editor의 역전사효소(RT) 도메인을 재설계했습니다. 재설계 RT는 안정성·가용성 발현과 세포 내 단백질 수준을 높였고, 여러 일차 인간 세포 및 전달 방식에서 편집 효율을 개선했다고 보고합니다. 생쥐에서는 PE8의 편집 효율이 비교 대상인 PE6, PE7, PEmax보다 최대 2.9배 높았습니다.",
-      "whyCare": "단백질 공학과 실험실 진화에서 생길 수 있는 안정성·발현의 상충을 구조 기반 설계로 보완하고, 개선이 배양 세포를 넘어 생체 내 편집에서도 관찰됐다는 점이 중요합니다. AI 설계와 실험 검증이 직접 연결된 genome editing 연구이므로 계산 방법론에만 국한되지 않는 높은 연구실 관련성이 있습니다.",
-      "skepticism": "초록은 여러 세포·전달 조건과 생쥐에서 향상을 보고하지만, 어떤 세포 유형·표적·전달 방식에서 개선이 일관적인지, 효율 증가가 편집의 정확성이나 부산물에 어떤 영향을 주는지는 제시하지 않습니다. 또한 최대 2.9배라는 결과만으로 다른 표적이나 생체 내 조건 전반에서의 일반성을 판단할 수 없습니다. 후속 검토에서는 비교 조건과 편집 정확도·안전성 평가를 확인할 필요가 있습니다.",
-      "knowledge": "핵심 개념은 진화로 얻은 기능 향상이 단백질 안정성 및 발현을 희생할 수 있다는 점, 그리고 촉매에 필요한 영역을 보존하면서 구조 기반 역접힘 설계로 나머지 RT 서열을 재설계할 수 있다는 점입니다. 이 논문은 광범위한 서열 변경과 발현 개선을 여러 세포 및 생체 내 편집 결과와 연결해 제시합니다.",
-      "takeaway": "AI 기반 RT 재설계는 실험실 진화로 얻은 prime editor의 성능을 안정성·발현 개선과 함께 끌어올릴 수 있다는 유망한 실험 검증 사례입니다. 생체 내 결과까지 보고해 genome editing 및 단백질 공학 연구자에게 읽을 가치가 높습니다.",
+      "shortSummary": "진화된 prime editor RT의 안정성과 발현 저하를 ProteinMPNN 기반 재설계로 개선했다. Catalysis에 중요한 영역을 유지하면서 30~163개 치환을 도입해 folding·soluble expression과 mRNA 전달 후 세포 내 editor 양을 높였다. PE8은 primary cell과 여러 delivery modality에서 개선됐고 mouse editing은 PE6·PE7·PEmax 대비 최대 2.9배 높았다.",
+      "whyCare": "활성 변이가 만든 stability cost를 재설계로 회복하는 진화-재설계 반복 전략이다.",
+      "skepticism": "TadA·DddA의 진화 variant에도 안정성 보상 재설계를 적용할 수 있을까? Catalytic constraint를 유지하면서 보상 변이를 찾는 모델은 무엇을 조건으로 삼아야 할까?",
+      "knowledge": "활성 향상, 안정성과 세포 내 발현량은 같은 방향으로 움직이지 않으며 각각 측정하고 보완해야 한다.",
+      "takeaway": "활성 향상, 안정성과 세포 내 발현량은 같은 방향으로 움직이지 않으며 각각 측정하고 보완해야 한다.",
       "paperKey": "5596db6af48846",
       "tracker": "flagship",
       "source": "Nature biotechnology",
@@ -6716,8 +7012,8 @@
       "crossOver": true,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "AI 기반 역접힘 설계로 역전사효소 안정성과 발현을 높여 여러 1차 세포와 마우스에서 기존 프라임 편집기보다 높은 편집 효율을 보였다.",
-        "computational": "계산 설계가 단백질 발현·안정성 및 세포·생체 내 편집 실험으로 검증된 단백질공학 연구다."
+        "main": "활성 변이가 만든 stability cost를 재설계로 회복하는 진화-재설계 반복 전략이다.",
+        "computational": "활성 향상, 안정성과 세포 내 발현량은 같은 방향으로 움직이지 않으며 각각 측정하고 보완해야 한다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -6773,6 +7069,14 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "0c389c4e69b802962ee8743143d1feb7e4c2313f396a6cd1e0fd1767b44c02d6",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     },
     {
@@ -6827,11 +7131,11 @@
         }
       ],
       "correspondenceStatus": "verified",
-      "shortSummary": "이 연구는 Dravet 증후군의 원인 변이인 SCN1A R613X를 adenine base editor로 교정해 질환 표현형을 완화할 수 있는지 시험했습니다. 연구진은 세포에서 편집 전략을 선별한 뒤, dual-AAV9로 편집기를 Scn1a R613X/+ 생쥐에 전달했습니다. 신생아 처리군에서는 대뇌피질의 DNA·mRNA 편집과 억제성 뉴런의 흥분성 및 나트륨 전류 회복이 보고됐고, 자발성·온도유발 발작이 줄었습니다. 생존율도 vehicle 대조군보다 높았으며, 12일령 처리에서도 생존 개선이 보고됐습니다.",
-      "whyCare": "증상 완화가 아니라 질환 원인 변이를 직접 교정해 신경세포 기능과 동물 수준의 질환 표현형을 함께 개선했다는 점이 중요합니다. 특히 생체 내 유전자 편집, AAV 전달, 신경회로 기능 및 생존 결과를 연결한 전임상 근거라 genome editing과 in vivo biology 양쪽에서 읽을 가치가 있습니다.",
-      "skepticism": "초록은 대뇌피질 bulk 조직의 편집률과 기능·행동 결과를 보고하지만, 편집이 세포 유형별로 어떻게 분포하는지 또는 관련 신경세포에서 어느 정도의 교정이 필요한지는 보여주지 않습니다. 또한 오프타깃 편집, 장기 지속성, 면역반응 및 다른 장기에서의 전달·안전성은 초록만으로 판단할 수 없습니다. DNA와 mRNA 편집률이 다른 이유도 초록에서 설명되지 않으므로, 그 차이의 측정·해석을 원문에서 확인할 필요가 있습니다.",
-      "knowledge": "핵심 개념은 병원성 염기 치환을 직접 바로잡는 ABE, 큰 편집기 구성을 전달하기 위한 dual-AAV 접근, 그리고 분자 수준의 교정을 뉴런 전기생리·발작·생존 결과와 연결하는 평가입니다. 이 연구는 세포주에서 전략을 선별한 뒤 생쥐 모델에서 생체 내 유효성을 시험했다는 점도 보여줍니다.",
-      "takeaway": "초록에 보고된 결과는 SCN1A R613X의 ABE 교정이 Dravet 증후군 생쥐에서 기능적·질환 수준의 개선으로 이어질 수 있다는 강한 전임상 근거입니다. 다만 사람에서의 효과와 안전성, 세포 유형별 교정 및 장기 지속성까지 입증한 연구로 확대 해석해서는 안 됩니다.",
+      "shortSummary": "ABE로 SCN1A R613X를 교정해 Dravet syndrome 생쥐의 신경 기능과 생존을 개선했다. Dual AAV9 전달 후 neonatal bulk neocortex에서 DNA 59%, mRNA 97% editing을 달성하고 inhibitory neuron의 excitability와 sodium current를 회복했다. 발작을 줄였으며 45일 생존율은 27%에서 90%로, 생후 12일 치료의 60일 생존율은 27%에서 82%로 높아졌다.",
+      "whyCare": "유전자 교정에서 세포 electrophysiology·발작·생존까지 이어지는 기능적 readout의 연결이 선명하다.",
+      "skepticism": "DNA와 mRNA editing 비율의 차이는 세포 구성과 발현에 어떻게 연결될까? 같은 bulk 교정률에서도 어떤 세포를 편집했는지에 따라 기능 회복이 달라질까?",
+      "knowledge": "Bulk 편집률과 실제 기능 회복을 연결하려면 세포 종류, 발현과 physiological output을 함께 봐야 한다.",
+      "takeaway": "Bulk 편집률과 실제 기능 회복을 연결하려면 세포 종류, 발현과 physiological output을 함께 봐야 한다.",
       "paperKey": "4a8b4e5db07540",
       "tracker": "flagship",
       "source": "Science translational medicine",
@@ -6887,8 +7191,8 @@
       "crossOver": false,
       "mainPageEligible": true,
       "lensReasons": {
-        "main": "AAV9-ABE로 Dravet 마우스의 Scn1a 변이를 교정해 신경세포 기능과 발작을 개선하고 생존을 높여, 생체 내 치료 효과를 강하게 입증했다.",
-        "computational": "계산 기법이 주된 기여가 아니며, 핵심 근거는 ABE 전달·교정과 마우스 질환 표현형 개선이다."
+        "main": "유전자 교정에서 세포 electrophysiology·발작·생존까지 이어지는 기능적 readout의 연결이 선명하다.",
+        "computational": "Bulk 편집률과 실제 기능 회복을 연결하려면 세포 종류, 발현과 physiological output을 함께 봐야 한다."
       },
       "editorialRerankFallback": false,
       "editorialStatus": "success",
@@ -6944,14 +7248,22 @@
           }
         ],
         "cached": true
+      },
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "b7b33219d63f63d95b5e85035b543efa275cb8b8b0198a2adfb10608a22bfcaf",
+        "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+        "providerCalls": 0,
+        "replacesReaderFacingText": true
       }
     }
   ],
   "digest": {
     "title": "교신저자 연구 흐름: 최근 1년",
-    "weekOneLineSummary": "이번 주 통합 후보 39편 중 초록 근거를 확인해 우선순위를 정리했습니다. 선정 논문에서 두드러진 주제는 Genome editing & In vivo translation입니다.",
-    "summary": "제공된 논문들은 유전체 편집기와 전달체의 설계·개선, RNA 및 단백질 기능의 프로그래밍, 세포 운명과 면역 조절을 폭넓게 다룬다. 다수 연구가 세포 또는 동물 모델의 실험 결과를 제시하지만, 이를 임상 효능이나 장기 안전성으로 확대 해석할 근거는 제한적이다.",
-    "executiveSummary": "논문들에서 두드러지는 축은 편집기의 작동 원리를 밝히고 성능을 높이는 연구, 편집 도구를 표적 세포·조직으로 전달하는 연구, 그리고 RNA·단백질·세포 상태를 새롭게 조작하는 방법론이다. Patrick Hsu의 해당 논문들은 bridge recombinase, 대형 DNA 삽입, 전사체 조작, 후성유전 도메인 조합과 유전체 모델링을 다룬다. Jennifer Doudna의 논문들은 RNA 유도 인식과 TnpB의 구조·작동 원리부터 암세포 표적화, 식물 편집, RNA 조작까지 폭넓다. David Liu의 논문들은 prime editing과 염기교정의 공학적 개선 및 질환 모델 검증에 집중되어 있으며, 단백질 진화와 표적 면역세포 조작도 포함한다. Jonathan Gootenberg와 Omar Abudayyeh의 공동 대응저자 논문들은 LNP 표적화, 재조합효소, RNA 센서와 노화 분석을 아우르고, Feng Zhang의 논문들은 노화 면역의 생체 내 개입과 조혈 전구세포 유사 운명 유도 조합을 다룬다. 근거의 강도는 논문마다 다르다. 일부는 구조·생화학·세포 실험에 한정되고, 일부는 생쥐 질환 모델 결과를 보고하며, 관찰 자료의 연관성이나 프로토콜 제시를 인과적·범용적 효과로 해석해서는 안 된다. 제공된 초록만으로는 임상 적용, 장기 안전성, 조직과 세포 유형 전반의 재현성을 확정할 수 없다.",
+    "weekOneLineSummary": "유전자 편집의 경쟁축이 단일 효소의 활성을 넘어 반응 기하학, 조합 변이, RNA 설계와 세포 선택적 전달을 함께 최적화하는 방향으로 이동하고 있다.",
+    "summary": "유전자 편집의 경쟁축이 단일 효소의 활성을 넘어 반응 기하학, 조합 변이, RNA 설계와 세포 선택적 전달을 함께 최적화하는 방향으로 이동하고 있다.",
+    "executiveSummary": "가장 중요한 연결은 단백질 설계와 directed evolution의 역할 분담이다. MULTI-evolve는 PLM과 epistasis 모델로 조합 변이를 제안하고 이를 실제로 만드는 MULTI-assembly를 연결한다. Liu의 AI 재설계 연구는 변이를 고르기 전에 출발 단백질의 안정성과 변이 수용성을 바꾸는 것이 진화의 도달점을 바꾼다는 것을 보여준다. SynTnpB는 구조와 진화 제약을 함께 사용해 새로운 서열에서도 RNA-DNA 결합 상태를 유지한다. 세 논문을 함께 읽으면 좋은 computational layer의 목표가 단순한 활성 예측이 아니라 출발점, 조합 효과, 기능적 구조 상태, 제작 가능성을 함께 다루는 것임을 알 수 있다.\n\nPrime editing도 단백질 하나의 개선으로 끝나지 않는다. AI로 RT의 안정성을 회복하는 PE8, pegRNA 말단의 구조 모티프를 진화시키는 PE-PRISM, MMR과 PE3·twinPE를 반영하는 OptiPrime, RNA cargo와 LNP를 최적화하는 PE-LNP가 서로 다른 병목을 해결한다. 편집 결과는 효소의 서열, RNA 구조, 세포의 수선 반응, 전달 후 발현량이 만나는 지점에서 결정된다.\n\nDNA와 RNA의 programmability 자체도 넓어지고 있다. Bridge recombination은 RNA-DNA의 공간 배치와 handshake guide가 삽입·절제 방향성을 조절한다. Bxb1과 engineered LSR은 DNA 인식과 strand exchange를 구조 및 공학으로 재설계한다. VIPR은 연속적인 염기쌍 대신 끊어진 인식 코드와 triplex를 사용한다. RESPLICE와 spligation은 전사체의 엑손 교체, 절제와 연결을 서로 다른 방식으로 구현한다. 새로운 편집 도구를 찾을 때 인식 규칙, 반응 단계, cargo 연결 방식을 분리해 생각할 수 있는 사례들이다.\n\n전달 연구에서는 간으로 가는 기본 경로를 줄이는 detargeting, 원하는 세포에 붙이는 retargeting, RNA로 세포 상태를 판별하는 sensing, 세포 간 cargo 전송이라는 네 가지 설계 축이 드러난다. Corona engineering, pMHC-eVLP, RADARS, T-cell delivery와 NANITE를 연결해 읽으면 어디에 도착할지뿐 아니라 어떤 세포 상태에서 작동하고 어디까지 퍼질지를 설계하는 흐름이 보인다. 미토콘드리아·소기관 연구에서는 Evo 2의 서열 설계와 PEX1 교정에 따른 대사 및 소기관 기능 회복이 각각 설계 공간과 기능 평가의 참고점이 된다.",
     "theme": "Genome editing & In vivo translation",
     "keywords": [
       "Genome editing",
@@ -6969,60 +7281,60 @@
           "id": "3e430b3d741296",
           "title": "Prime editing-installed suppressor tRNAs for disease-agnostic genome editing.",
           "tracker": "flagship",
-          "reason": "수천 종의 tRNA를 선별해 내인성 억제 tRNA를 프라임 편집으로 설치하고, 여러 질환 세포와 Hurler 증후군 마우스에서 병리 구제를 보였다.",
-          "implication": "제안 가능한 후속 연구로는 연구실이 관심을 가진 질환의 조기종결 변이 또는 환자 유래 오가노이드에서 PERT가 단백질 기능과 질환 표현형을 회복하는지 시험할 수 있습니다. 변이의 종결코돈 종류와 서열 맥락별 반응을 비교하고, 편집된 tRNA의 지속성 및 세포 유형별 효과를 측정하면 적용 가능한 범위를 구체화할 수 있습니다. 이는 초록에 보고된 결과가 아니라 제안된 검증 방향입니다.",
-          "question": "초록은 세 질환의 사람 세포 모델과 Hurler 증후군 마우스 모델에서의 회복을 보고하지만, 어떤 종결코돈·서열 맥락·조직에서 효과가 일관적인지, 장기간 치료 후에도 유지되는지는 제시하지 않습니다. 자연 종결코돈의 readthrough와 전사체·단백질체 변화가 검출되지 않았다는 결과는 고무적이지만, 검출 범위와 민감도, 장기적인 번역 정확성 및 생체 내 안전성은 초록만으로 판단할 수 없습니다. 여러 조직에 prime editor를 전달하는 효율과 사람에서의 실현 가능성도 별도 확인이 필요합니다.",
-          "whyImportant": "수천 종의 tRNA를 선별해 내인성 억제 tRNA를 프라임 편집으로 설치하고, 여러 질환 세포와 Hurler 증후군 마우스에서 병리 구제를 보였다.",
-          "labUse": "제안 가능한 후속 연구로는 연구실이 관심을 가진 질환의 조기종결 변이 또는 환자 유래 오가노이드에서 PERT가 단백질 기능과 질환 표현형을 회복하는지 시험할 수 있습니다. 변이의 종결코돈 종류와 서열 맥락별 반응을 비교하고, 편집된 tRNA의 지속성 및 세포 유형별 효과를 측정하면 적용 가능한 범위를 구체화할 수 있습니다. 이는 초록에 보고된 결과가 아니라 제안된 검증 방향입니다.",
-          "knowledge": "PERT는 조기종결 변이를 여러 질환에 걸쳐 다룰 수 있다는 강한 치료 개념을 세포와 마우스 모델에서 뒷받침합니다. 특히 내인성 tRNA의 단일 좌위 편집과 생체 내 병리 개선이 돋보입니다. 다만 질환·조직·변이 맥락 전반의 효능과 장기 안전성은 초록이 확립하지 않으므로, 광범위한 임상 적용 가능성은 후속 근거를 기다려야 합니다.",
+          "reason": "개별 병원성 변이의 직접 교정 대신 번역 시스템의 공통 요소를 바꾸는 질환 범용 설계다.",
+          "implication": "후속 연구 아이디어: tRNA의 구조, 발현 locus와 codon context는 readthrough의 선택성을 어떻게 결정할까? 여러 질환에 공통으로 적용할 편집 전략을 어떤 기능 층에서 찾을 수 있을까?",
+          "question": "tRNA의 구조, 발현 locus와 codon context는 readthrough의 선택성을 어떻게 결정할까? 여러 질환에 공통으로 적용할 편집 전략을 어떤 기능 층에서 찾을 수 있을까?",
+          "whyImportant": "개별 병원성 변이의 직접 교정 대신 번역 시스템의 공통 요소를 바꾸는 질환 범용 설계다.",
+          "labUse": "후속 연구 아이디어: tRNA의 구조, 발현 locus와 codon context는 readthrough의 선택성을 어떻게 결정할까? 여러 질환에 공통으로 적용할 편집 전략을 어떤 기능 층에서 찾을 수 있을까?",
+          "knowledge": "DNA 편집의 표적을 질환 유전자에서 endogenous 번역 구성요소로 옮길 수 있다.",
           "labRank": 97
         },
         {
           "id": "07c1779c17379d",
           "title": "Mechanistic machine learning for prediction of prime editing outcomes.",
           "tracker": "flagship",
-          "reason": "프라임 편집 효율 예측을 MMR 기전과 연결하고, 사람·마우스 세포 및 마우스 뇌의 KIF1A 변이 교정까지 보여 준 실용적 편집 연구다.",
-          "implication": "후속 연구에서 OptiPrime을 pegRNA 후보 선별과 MMR 회피성 silent edit 설계의 출발점으로 시험해볼 수 있습니다. 특히 뇌 표적 편집을 포함한 in vivo 적용을 검토할 때, 해당 변이·세포 유형에서 예측이 재현되는지 먼저 비교하는 파일럿 분석이 제안됩니다.",
-          "question": "초록은 예측 정확도가 최신 수준이라고 하지만, 데이터 분할 방식·독립 검증 규모·기존 모델 대비 개선 폭은 제시하지 않습니다. MMR 결정 요인을 포착했다는 주장이 어떤 교란 또는 직접적인 기능 검증으로 뒷받침되는지, silent edit 자체의 영향과 편집 효율 개선을 어떻게 분리했는지도 확인이 필요합니다. 뇌 교정의 효율, 세포 유형별 분포, 지속성, 안전성 및 치료적 표현형 개선은 초록만으로 판단할 수 없습니다.",
-          "whyImportant": "프라임 편집 효율 예측을 MMR 기전과 연결하고, 사람·마우스 세포 및 마우스 뇌의 KIF1A 변이 교정까지 보여 준 실용적 편집 연구다.",
-          "labUse": "후속 연구에서 OptiPrime을 pegRNA 후보 선별과 MMR 회피성 silent edit 설계의 출발점으로 시험해볼 수 있습니다. 특히 뇌 표적 편집을 포함한 in vivo 적용을 검토할 때, 해당 변이·세포 유형에서 예측이 재현되는지 먼저 비교하는 파일럿 분석이 제안됩니다.",
-          "knowledge": "계산 방법이 주된 요소이지만, 1차 세포의 전향적 활용과 생쥐 뇌의 병원성 변이 교정이 보고되어 공유 실험 분야와의 연계가 강합니다. 따라서 computationalOnly로 보기보다는 genome editing 및 in vivo biology에서 읽을 가치가 높은 교차 분야 연구로 판단합니다.",
+          "reason": "Sequence feature만의 회귀가 아니라 편집과 수선의 기전적 변수로 design recommendation을 만드는 모델이다.",
+          "implication": "후속 연구 아이디어: MMR 상태와 edit 구조를 분리해 다른 cell type으로 transfer할 수 있을까? 효율, byproduct와 guide 제작 제약을 함께 예측하는 multi-objective layer는 어떻게 만들까?",
+          "question": "MMR 상태와 edit 구조를 분리해 다른 cell type으로 transfer할 수 있을까? 효율, byproduct와 guide 제작 제약을 함께 예측하는 multi-objective layer는 어떻게 만들까?",
+          "whyImportant": "Sequence feature만의 회귀가 아니라 편집과 수선의 기전적 변수로 design recommendation을 만드는 모델이다.",
+          "labUse": "후속 연구 아이디어: MMR 상태와 edit 구조를 분리해 다른 cell type으로 transfer할 수 있을까? 효율, byproduct와 guide 제작 제약을 함께 예측하는 multi-objective layer는 어떻게 만들까?",
+          "knowledge": "Mechanistic inductive bias는 예측 정확도뿐 아니라 조절 가능한 설계 변수의 해석성을 높인다.",
           "labRank": 96
         },
         {
           "id": "2bd62e82845ed3",
           "title": "Site-specific DNA insertion into the human genome with engineered recombinases.",
           "tracker": "flagship",
-          "reason": "공학적 대형 세린 재조합효소가 내인성 인간 좌위에서 최대 53% 삽입과 97% 특이성을 보이고, 비분열세포·줄기세포·T세포에 최대 12 kb를 통합했다.",
-          "implication": "제안: 실험실이 대형 카세트의 정밀 삽입을 필요로 하는 세포 모델을 보유한다면, 해당 LSR 변이체를 기존 삽입 방법과 비교하는 파일럿을 설계할 만합니다. 서로 다른 표적 자리와 세포 유형에서 삽입률, 비표적 삽입, 화물 안정 발현을 함께 평가하면 연구실 조건에서의 적용 범위를 가늠할 수 있습니다.",
-          "question": "초록은 97% 특이도의 측정 방식과 검출 한계, 여러 표적 자리에서의 재현성, 삽입 후 장기 안정성에 관한 세부를 제시하지 않습니다. 최대 효율·특이도 수치가 동일한 변이체와 조건에서 동시에 달성됐는지도 초록만으로는 분명하지 않습니다. 또한 여러 세포 유형에서의 삽입은 보고하지만, 생체 내 치료 효과나 장기 안전성을 입증한 결과는 제시하지 않습니다.",
-          "whyImportant": "공학적 대형 세린 재조합효소가 내인성 인간 좌위에서 최대 53% 삽입과 97% 특이성을 보이고, 비분열세포·줄기세포·T세포에 최대 12 kb를 통합했다.",
-          "labUse": "제안: 실험실이 대형 카세트의 정밀 삽입을 필요로 하는 세포 모델을 보유한다면, 해당 LSR 변이체를 기존 삽입 방법과 비교하는 파일럿을 설계할 만합니다. 서로 다른 표적 자리와 세포 유형에서 삽입률, 비표적 삽입, 화물 안정 발현을 함께 평가하면 연구실 조건에서의 적용 범위를 가늠할 수 있습니다.",
-          "knowledge": "대형 DNA를 사전 설치된 landing pad 없이 삽입하는 LSR을 효율·특이도·세포 유형 범위 측면에서 진전시킨, genome editing 분야의 강한 기술 논문입니다. 다만 초록에 보고된 성능을 생체 내 치료 효능이나 일반화된 안전성으로 확대 해석해서는 안 됩니다.",
+          "reason": "효소, donor와 recruitment를 함께 설계해 landing pad 없는 대형 DNA 삽입의 효율·특이성을 높인다.",
+          "implication": "후속 연구 아이디어: 효소 변이, donor 구조와 dCas9 tethering의 기여를 어떻게 분리할까? Prime Assembly와 연결할 때 integration site 선택성을 어떤 제약으로 넣을까?",
+          "question": "효소 변이, donor 구조와 dCas9 tethering의 기여를 어떻게 분리할까? Prime Assembly와 연결할 때 integration site 선택성을 어떤 제약으로 넣을까?",
+          "whyImportant": "효소, donor와 recruitment를 함께 설계해 landing pad 없는 대형 DNA 삽입의 효율·특이성을 높인다.",
+          "labUse": "후속 연구 아이디어: 효소 변이, donor 구조와 dCas9 tethering의 기여를 어떻게 분리할까? Prime Assembly와 연결할 때 integration site 선택성을 어떤 제약으로 넣을까?",
+          "knowledge": "Integration 공학에서는 촉매 서열, DNA substrate와 공간적 recruitment가 함께 성능을 결정한다.",
           "labRank": 96
         },
         {
           "id": "4a8b4e5db07540",
           "title": "In vivo adenine base editing ameliorates Dravet syndrome phenotypes in a mouse model.",
           "tracker": "flagship",
-          "reason": "AAV9-ABE로 Dravet 마우스의 Scn1a 변이를 교정해 신경세포 기능과 발작을 개선하고 생존을 높여, 생체 내 치료 효과를 강하게 입증했다.",
-          "implication": "제안: 이 연구를 신경계 변이 교정 프로젝트의 전임상 설계 사례로 삼아, 표적 변이와 편집 창, 편집기 구성, AAV 전달 및 세포 기능 평가를 어떻게 연결했는지 검토할 수 있습니다. 후속 연구를 구상한다면 세포 유형별 교정과 장기 안전성·효능을 별도로 측정하는 설계를 검토할 만합니다.",
-          "question": "초록은 대뇌피질 bulk 조직의 편집률과 기능·행동 결과를 보고하지만, 편집이 세포 유형별로 어떻게 분포하는지 또는 관련 신경세포에서 어느 정도의 교정이 필요한지는 보여주지 않습니다. 또한 오프타깃 편집, 장기 지속성, 면역반응 및 다른 장기에서의 전달·안전성은 초록만으로 판단할 수 없습니다. DNA와 mRNA 편집률이 다른 이유도 초록에서 설명되지 않으므로, 그 차이의 측정·해석을 원문에서 확인할 필요가 있습니다.",
-          "whyImportant": "AAV9-ABE로 Dravet 마우스의 Scn1a 변이를 교정해 신경세포 기능과 발작을 개선하고 생존을 높여, 생체 내 치료 효과를 강하게 입증했다.",
-          "labUse": "제안: 이 연구를 신경계 변이 교정 프로젝트의 전임상 설계 사례로 삼아, 표적 변이와 편집 창, 편집기 구성, AAV 전달 및 세포 기능 평가를 어떻게 연결했는지 검토할 수 있습니다. 후속 연구를 구상한다면 세포 유형별 교정과 장기 안전성·효능을 별도로 측정하는 설계를 검토할 만합니다.",
-          "knowledge": "초록에 보고된 결과는 SCN1A R613X의 ABE 교정이 Dravet 증후군 생쥐에서 기능적·질환 수준의 개선으로 이어질 수 있다는 강한 전임상 근거입니다. 다만 사람에서의 효과와 안전성, 세포 유형별 교정 및 장기 지속성까지 입증한 연구로 확대 해석해서는 안 됩니다.",
+          "reason": "유전자 교정에서 세포 electrophysiology·발작·생존까지 이어지는 기능적 readout의 연결이 선명하다.",
+          "implication": "후속 연구 아이디어: DNA와 mRNA editing 비율의 차이는 세포 구성과 발현에 어떻게 연결될까? 같은 bulk 교정률에서도 어떤 세포를 편집했는지에 따라 기능 회복이 달라질까?",
+          "question": "DNA와 mRNA editing 비율의 차이는 세포 구성과 발현에 어떻게 연결될까? 같은 bulk 교정률에서도 어떤 세포를 편집했는지에 따라 기능 회복이 달라질까?",
+          "whyImportant": "유전자 교정에서 세포 electrophysiology·발작·생존까지 이어지는 기능적 readout의 연결이 선명하다.",
+          "labUse": "후속 연구 아이디어: DNA와 mRNA editing 비율의 차이는 세포 구성과 발현에 어떻게 연결될까? 같은 bulk 교정률에서도 어떤 세포를 편집했는지에 따라 기능 회복이 달라질까?",
+          "knowledge": "Bulk 편집률과 실제 기능 회복을 연결하려면 세포 종류, 발현과 physiological output을 함께 봐야 한다.",
           "labRank": 95
         },
         {
           "id": "36892c18300e04",
           "title": "Efficient prime editing in vivo and in vitro using lipid nanoparticles.",
           "tracker": "flagship",
-          "reason": "최적화된 LNP로 생쥐 간에서 prime editing 49%를 달성하고, 페닐케톤뇨증 모델의 PAH 변이를 치료 예상 수준으로 교정했다. 반복 투여·오프타깃·간독성 결과까지 제시한 강력한 생체내 편집 연구다.",
-          "implication": "후속 적용 제안으로, 연구실의 간 표적 편집이나 다른 prime-editing 표적에서 이 cargo 최적화 접근을 재현하고, 조직별 편집률·off-target·반복 투여 반응을 비교할 수 있습니다. 특히 치료 표적을 바꿨을 때 최적화 원칙이 얼마나 일반화되는지 시험하는 출발점으로 유용합니다.",
-          "question": "초록은 PAH 변이 교정과 혈청 페닐알라닌 개선을 보고하지만, 이를 실제 장기 질환 교정이나 임상적 효능으로 확정하지는 않습니다. ‘치료적 수준으로 예상’된 수치와 실제 지속성, 조직·세포 유형별 편집 분포, off-target 평가 범위, 반복 투여 후 면역 반응 및 장기 안전성은 초록만으로 판단할 수 없습니다. ‘장기 독성이 관찰되지 않았다’는 주장도 관찰 기간과 평가 항목을 본문에서 확인해야 합니다.",
-          "whyImportant": "최적화된 LNP로 생쥐 간에서 prime editing 49%를 달성하고, 페닐케톤뇨증 모델의 PAH 변이를 치료 예상 수준으로 교정했다. 반복 투여·오프타깃·간독성 결과까지 제시한 강력한 생체내 편집 연구다.",
-          "labUse": "후속 적용 제안으로, 연구실의 간 표적 편집이나 다른 prime-editing 표적에서 이 cargo 최적화 접근을 재현하고, 조직별 편집률·off-target·반복 투여 반응을 비교할 수 있습니다. 특히 치료 표적을 바꿨을 때 최적화 원칙이 얼마나 일반화되는지 시험하는 출발점으로 유용합니다.",
-          "knowledge": "생쥐 간에서 높은 prime-editing 효율과 PAH 모델의 유의미한 치료 지표 개선을 함께 보고한, 전달·편집 분야의 강한 전임상 연구입니다. 다만 초록의 결과만으로 지속성, 완전한 안전성 또는 실제 임상 효능까지 결론 내릴 수는 없습니다.",
+          "reason": "복잡한 편집 시스템을 RNA cargo 설계와 전달 조건의 공동 최적화 문제로 다루는 실용적인 프레임워크다.",
+          "implication": "후속 연구 아이디어: 편집기 mRNA와 각 guide의 비율, 안정성, 발현 시간이 결과에 어떻게 기여할까? 다른 조직으로 옮길 때 cargo 최적화와 LNP 표적화를 어떤 순서로 조절할까?",
+          "question": "편집기 mRNA와 각 guide의 비율, 안정성, 발현 시간이 결과에 어떻게 기여할까? 다른 조직으로 옮길 때 cargo 최적화와 LNP 표적화를 어떤 순서로 조절할까?",
+          "whyImportant": "복잡한 편집 시스템을 RNA cargo 설계와 전달 조건의 공동 최적화 문제로 다루는 실용적인 프레임워크다.",
+          "labUse": "후속 연구 아이디어: 편집기 mRNA와 각 guide의 비율, 안정성, 발현 시간이 결과에 어떻게 기여할까? 다른 조직으로 옮길 때 cargo 최적화와 LNP 표적화를 어떤 순서로 조절할까?",
+          "knowledge": "다중 구성요소 편집기는 각 분자의 전달량뿐 아니라 세포 안에서 함께 존재하는 시간도 중요하다.",
           "labRank": 95
         }
       ],
@@ -7031,25 +7343,25 @@
           "id": "3e430b3d741296",
           "title": "Prime editing-installed suppressor tRNAs for disease-agnostic genome editing.",
           "tracker": "flagship",
-          "reason": "수천 종의 tRNA를 선별해 내인성 억제 tRNA를 프라임 편집으로 설치하고, 여러 질환 세포와 Hurler 증후군 마우스에서 병리 구제를 보였다.",
-          "implication": "제안 가능한 후속 연구로는 연구실이 관심을 가진 질환의 조기종결 변이 또는 환자 유래 오가노이드에서 PERT가 단백질 기능과 질환 표현형을 회복하는지 시험할 수 있습니다. 변이의 종결코돈 종류와 서열 맥락별 반응을 비교하고, 편집된 tRNA의 지속성 및 세포 유형별 효과를 측정하면 적용 가능한 범위를 구체화할 수 있습니다. 이는 초록에 보고된 결과가 아니라 제안된 검증 방향입니다.",
-          "question": "초록은 세 질환의 사람 세포 모델과 Hurler 증후군 마우스 모델에서의 회복을 보고하지만, 어떤 종결코돈·서열 맥락·조직에서 효과가 일관적인지, 장기간 치료 후에도 유지되는지는 제시하지 않습니다. 자연 종결코돈의 readthrough와 전사체·단백질체 변화가 검출되지 않았다는 결과는 고무적이지만, 검출 범위와 민감도, 장기적인 번역 정확성 및 생체 내 안전성은 초록만으로 판단할 수 없습니다. 여러 조직에 prime editor를 전달하는 효율과 사람에서의 실현 가능성도 별도 확인이 필요합니다."
+          "reason": "개별 병원성 변이의 직접 교정 대신 번역 시스템의 공통 요소를 바꾸는 질환 범용 설계다.",
+          "implication": "후속 연구 아이디어: tRNA의 구조, 발현 locus와 codon context는 readthrough의 선택성을 어떻게 결정할까? 여러 질환에 공통으로 적용할 편집 전략을 어떤 기능 층에서 찾을 수 있을까?",
+          "question": "tRNA의 구조, 발현 locus와 codon context는 readthrough의 선택성을 어떻게 결정할까? 여러 질환에 공통으로 적용할 편집 전략을 어떤 기능 층에서 찾을 수 있을까?"
         },
         {
           "id": "2bd62e82845ed3",
           "title": "Site-specific DNA insertion into the human genome with engineered recombinases.",
           "tracker": "flagship",
-          "reason": "공학적 대형 세린 재조합효소가 내인성 인간 좌위에서 최대 53% 삽입과 97% 특이성을 보이고, 비분열세포·줄기세포·T세포에 최대 12 kb를 통합했다.",
-          "implication": "제안: 실험실이 대형 카세트의 정밀 삽입을 필요로 하는 세포 모델을 보유한다면, 해당 LSR 변이체를 기존 삽입 방법과 비교하는 파일럿을 설계할 만합니다. 서로 다른 표적 자리와 세포 유형에서 삽입률, 비표적 삽입, 화물 안정 발현을 함께 평가하면 연구실 조건에서의 적용 범위를 가늠할 수 있습니다.",
-          "question": "초록은 97% 특이도의 측정 방식과 검출 한계, 여러 표적 자리에서의 재현성, 삽입 후 장기 안정성에 관한 세부를 제시하지 않습니다. 최대 효율·특이도 수치가 동일한 변이체와 조건에서 동시에 달성됐는지도 초록만으로는 분명하지 않습니다. 또한 여러 세포 유형에서의 삽입은 보고하지만, 생체 내 치료 효과나 장기 안전성을 입증한 결과는 제시하지 않습니다."
+          "reason": "효소, donor와 recruitment를 함께 설계해 landing pad 없는 대형 DNA 삽입의 효율·특이성을 높인다.",
+          "implication": "후속 연구 아이디어: 효소 변이, donor 구조와 dCas9 tethering의 기여를 어떻게 분리할까? Prime Assembly와 연결할 때 integration site 선택성을 어떤 제약으로 넣을까?",
+          "question": "효소 변이, donor 구조와 dCas9 tethering의 기여를 어떻게 분리할까? Prime Assembly와 연결할 때 integration site 선택성을 어떤 제약으로 넣을까?"
         },
         {
           "id": "e8d1a370431e95",
           "title": "Genome modelling and design across all domains of life with Evo 2.",
           "tracker": "flagship",
-          "reason": "대규모 DNA foundation model의 변이 예측·서열 생성 능력은 유전체 설계에 폭넓게 쓰일 수 있고, 생성된 염색질 접근성 패턴의 실험 검증도 보고한다. 모델 자체가 주된 기여다.",
-          "implication": "제안: 관심 있는 세포 유형의 접근성 예측 모델을 조건으로 조절 서열 후보를 생성하고, 후보를 실험적으로 평가하는 파일럿에 활용할 수 있습니다. 편집 연구에서는 비암호화 변이 후보를 우선순위화하는 보조 도구로 시험할 수도 있습니다. 초록은 이런 활용의 실험적 성공을 직접 입증하지는 않습니다.",
-          "question": "초록만으로는 변이 예측의 기준선 대비 성능, 세포 유형별 일반화, 또는 생성 서열이 목표 기능을 얼마나 일관되게 구현하는지 판단할 수 없습니다. 접근성 패턴의 실험 검증은 보고되지만, 검증 범위와 세포 맥락, 측정된 결과는 제시되지 않습니다. 따라서 ‘게놈 설계’의 폭넓은 가능성과 실제로 검증된 기능을 구분해 읽어야 합니다."
+          "reason": "유전자 단위의 예측에서 긴 조절 문맥과 소기관·게놈 규모 설계로 computational biology의 범위를 넓힌다.",
+          "implication": "후속 연구 아이디어: 미토콘드리아 서열 설계에서 보존해야 할 코딩·전사·복제 제약을 어떻게 함께 넣을까? 모델 점수와 기능적 readout을 연결하는 search objective는 무엇이 될까?",
+          "question": "미토콘드리아 서열 설계에서 보존해야 할 코딩·전사·복제 제약을 어떻게 함께 넣을까? 모델 점수와 기능적 readout을 연결하는 search objective는 무엇이 될까?"
         }
       ],
       "watchlistArchive": [
@@ -7057,41 +7369,41 @@
           "id": "b380a31cfe6b8c",
           "title": "In vivo base editing rescues liver pathophysiology and peroxisome dysfunction in a mouse model of Zellweger spectrum disorder.",
           "tracker": "flagship",
-          "reason": "AAV와 LNP 염기편집으로 ZSD 마우스의 간 병리와 대사 이상을 개선하고, 환자 유래 세포에서도 과산화소체 기능을 회복했다.",
-          "implication": "제안: 간 표적 편집 연구에서 교정률과 대사산물·조직 표현형을 함께 측정하는 설계의 참고 사례로 활용할 수 있습니다. AAV9와 LNP 결과를 바탕으로, 연구실의 관련 모델에서 전달 방식·투여 시점별 교정과 기능 회복의 관계를 비교하는 후속 실험을 구상할 수 있습니다.",
-          "question": "초록은 간 벌크 교정률과 개선된 대사·조직 지표를 보고하지만, 어떤 간 세포에서 교정됐는지와 세포별 교정률이 표현형 회복에 어떻게 기여했는지는 제시하지 않습니다. 효과의 장기 지속성, 안전성, 신경계 기능 개선 여부도 이 초록만으로는 확립되지 않습니다. 오프타깃 분석은 최소 수준을 보고하지만, 분석 범위와 검출 한계는 원문에서 확인할 필요가 있습니다."
+          "reason": "소기관 기능을 DNA 교정률뿐 아니라 대사물, 조직 상태와 transcriptome 변화로 연결하는 평가 사례다.",
+          "implication": "후속 연구 아이디어: 어느 세포의 교정이 전체 대사물 정상화에 가장 크게 기여할까? 소기관 engineering의 성공 지표를 여러 기능 readout의 공통 축으로 정의할 수 있을까?",
+          "question": "어느 세포의 교정이 전체 대사물 정상화에 가장 크게 기여할까? 소기관 engineering의 성공 지표를 여러 기능 readout의 공통 축으로 정의할 수 있을까?"
         },
         {
           "id": "5596db6af48846",
           "title": "AI-guided redesign of laboratory-evolved reverse transcriptases enhances prime editing.",
           "tracker": "flagship",
-          "reason": "AI 기반 역접힘 설계로 역전사효소 안정성과 발현을 높여 여러 1차 세포와 마우스에서 기존 프라임 편집기보다 높은 편집 효율을 보였다.",
-          "implication": "제안: 연구실의 prime editor 변이체나 다른 진화 기반 편집기를 개선할 때, 촉매 기능을 보존하는 RT 재설계 접근을 후보 생성·검증의 출발점으로 살펴볼 수 있습니다. 특히 발현량과 편집 효율을 함께 비교하는 후속 실험에 참고가 될 수 있습니다.",
-          "question": "초록은 여러 세포·전달 조건과 생쥐에서 향상을 보고하지만, 어떤 세포 유형·표적·전달 방식에서 개선이 일관적인지, 효율 증가가 편집의 정확성이나 부산물에 어떤 영향을 주는지는 제시하지 않습니다. 또한 최대 2.9배라는 결과만으로 다른 표적이나 생체 내 조건 전반에서의 일반성을 판단할 수 없습니다. 후속 검토에서는 비교 조건과 편집 정확도·안전성 평가를 확인할 필요가 있습니다."
+          "reason": "활성 변이가 만든 stability cost를 재설계로 회복하는 진화-재설계 반복 전략이다.",
+          "implication": "후속 연구 아이디어: TadA·DddA의 진화 variant에도 안정성 보상 재설계를 적용할 수 있을까? Catalytic constraint를 유지하면서 보상 변이를 찾는 모델은 무엇을 조건으로 삼아야 할까?",
+          "question": "TadA·DddA의 진화 variant에도 안정성 보상 재설계를 적용할 수 있을까? Catalytic constraint를 유지하면서 보상 변이를 찾는 모델은 무엇을 조건으로 삼아야 할까?"
         },
         {
           "id": "ab1f275b750ea5",
           "title": "Directed evolution of small RNA-stabilizing motifs that improve prime-editing efficiency.",
           "tracker": "flagship",
-          "reason": "2,858개 pegRNA 안정화 모티프를 고처리량으로 선별하고, 다수의 병원성 변이·1차 세포·마우스에서 프라임 편집 효율 향상을 보였다.",
-          "implication": "제안: 연구실에서 사용하는 pegRNA 설계에 새 모티프를 적용해 관심 표적 몇 개에서 기존 3′ 모티프와 나란히 비교하고, 세포 유형별로 효율과 재현성을 확인할 수 있다. 오가노이드나 생체 내 교정 연구로 이어갈 경우에는 해당 모델·조직에서의 성능을 별도로 검증하는 후속 단계로 삼을 수 있다.",
-          "question": "초록은 847개 변이 중 90% 이상에서 기존 모티프보다 개선됐다고 보고하지만, 개선 폭의 분포나 표적별 예외, 반복 간 변동은 제시하지 않는다. 일차 세포와 생쥐 뇌·간에서 효율이 증가했다는 결과만으로 각 조직에서의 효과 크기나 다른 표적·전달 조건으로의 일반화를 단정할 수는 없다. 후속 확인에서는 표적별 효과 크기와 편집 부산물, 그리고 모티프별 구조·안정성 변화가 효율 향상과 어떻게 연결되는지 살펴볼 필요가 있다."
+          "reason": "Editor protein 밖의 작은 RNA 구조도 대규모 진화와 context별 검증을 통해 큰 성능 개선을 만들 수 있다.",
+          "implication": "후속 연구 아이디어: Motif의 안정성, RT recruitment와 pegRNA context 효과를 어떻게 분리할까? 단일 평균 효율 대신 여러 edit에서의 일관성을 최적화할 수 있을까?",
+          "question": "Motif의 안정성, RT recruitment와 pegRNA context 효과를 어떻게 분리할까? 단일 평균 효율 대신 여러 edit에서의 일관성을 최적화할 수 있을까?"
         },
         {
           "id": "c8f46af94ee1ba",
           "title": "Structure and evolution-guided design of minimal RNA-guided nucleases.",
           "tracker": "flagship",
-          "reason": "진화·구조 정보를 결합해 TnpB 편집기를 설계하고 세포에서 기능을 검증했으며, cryo-EM으로 새로운 RNA-DNA 접촉까지 보여 준 강력한 편집기·단백질공학 연구다.",
-          "implication": "제안: 이 설계 전략을 다른 TnpB 변이체나 관련 RNA-guided nuclease에 적용해 활성을 높이거나 성질을 바꿀 후보를 만들고, 세포별 편집 성능과 구조적 안정화 가설을 함께 시험할 수 있습니다. 특히 진화 정보와 구조 모델의 조합이 후보 선별에 어떤 기여를 하는지 분리 비교하는 후속 실험이 유용하겠습니다.",
-          "question": "초록은 여러 세포 유형에서 활성을 보고하지만, 활성의 정량적 크기와 표적별 일관성, 편집 정확도 및 비표적 효과는 제시하지 않습니다. 세포 내 전달, 생체 내 성능, 장기 안정성도 이 초록만으로는 알 수 없습니다. 또한 TnpB에서의 성공이 다른 뉴클레아제 계열에도 일반화되는지, 관찰된 RNA-DNA 접촉이 활성 차이를 실제로 일으키는지는 본문에서 확인해야 합니다."
+          "reason": "Sequence novelty를 키우면서 기능적 nucleic-acid contact와 구조 상태를 보존하는 de novo·재설계의 구체적 방법이다.",
+          "implication": "후속 연구 아이디어: 보존할 촉매·결합 잔기와 재설계할 scaffold를 어떻게 나눌까? 여러 conformation의 안정성을 한꺼번에 목적함수에 넣으면 활성 variant의 비율이 높아질까?",
+          "question": "보존할 촉매·결합 잔기와 재설계할 scaffold를 어떻게 나눌까? 여러 conformation의 안정성을 한꺼번에 목적함수에 넣으면 활성 variant의 비율이 높아질까?"
         },
         {
           "id": "2c2f1a15f6d285",
           "title": "A combinatorial domain screening platform reveals epigenetic effector interactions for transcriptional perturbation.",
           "tracker": "flagship",
-          "reason": "5만 쌍이 넘는 후성유전 effector 조합을 선별하고, 침묵화·활성화의 장기 기억과 CRISPR 양방향 조절을 뒷받침하는 조합을 찾아낸 강력한 스크리닝·epigenome editing 연구다.",
-          "implication": "제안: 관심 유전자에서 억제와 활성의 지속성이 중요한 경우, COMBINE의 조합 선별 원리를 적용해 도메인 조합별 발현 변화와 유도 중단 후 지속성을 비교할 수 있습니다. 오가노이드에서 사용하려면 해당 세포 유형에서의 성능과 전달·발현 조건을 먼저 확인하는 것이 적절합니다.",
-          "question": "초록은 대규모 스크리닝과 특정 조합의 기능을 보고하지만, 시험한 세포 유형과 표적 유전자 범위, 개별 조합의 재현성, 장기 효과의 구체적 정의는 밝히지 않습니다. DNA 메틸화 조절 인자가 기억에 필수라는 결론을 어떤 조건에서 확인했는지, KRAB-L3MBTL3의 이점이 다양한 표적과 세포 맥락에서도 유지되는지는 본문에서 확인해야 합니다. 초록만으로는 생체 내 효능이나 오가노이드 적용성이 입증됐다고 볼 수 없습니다."
+          "reason": "단일 도메인 성능으로는 보이지 않는 시너지와 장기 상태 기억을 대규모 조합 데이터로 연결한다.",
+          "implication": "후속 연구 아이디어: 조합의 효과를 additive 성분과 interaction 성분으로 분리하면 새 도메인 쌍을 예측할 수 있을까? 단기 발현 변화와 장기 기억을 함께 최적화하는 목적함수는 어떻게 만들까?",
+          "question": "조합의 효과를 additive 성분과 interaction 성분으로 분리하면 새 도메인 쌍을 예측할 수 있을까? 단기 발현 변화와 장기 기억을 함께 최적화하는 목적함수는 어떻게 만들까?"
         }
       ]
     },
@@ -7099,7 +7411,7 @@
     "perAuthor": [
       {
         "authorId": "patrick-hsu",
-        "researchTrend": "확인된 논문들은 재조합효소와 유전체 삽입의 기전·설계, 전사체 조작, 후성유전 조절, 유전체 모델링, 단백질 진화를 함께 다룬다. IS621의 방향성에 대한 구조 연구와 large serine recombinase의 인간 유전체 삽입 연구는 재조합 기반 편집의 작동 원리와 공학적 개선을 제시한다. RESPLICE는 DNA를 바꾸지 않고 내인성 RNA를 재작성하는 접근을, COMBINE은 후성유전 도메인 조합을 탐색하는 플랫폼을 제시한다. Evo 2는 광범위한 유전체 모델링과 서열 생성에 실험 검증을 일부 결합했고, MULTI-evolve는 단백질 언어 모델과 에피스타시스 기반 설계를 실험적 진화와 연결한다. 다만 초록만으로는 이런 접근들의 생체 내 적용성이나 각 방법의 일반화 범위를 확정할 수 없으며, 연구별로 증거의 성격도 다르다.",
+        "researchTrend": "Hsu의 연구는 예측 모델과 실제 제작·섭동 플랫폼을 연결하는 데 초점이 있다. Evo 2는 긴 DNA 문맥을 학습해 변이 효과와 서열 설계를 다루고, MULTI-evolve는 PLM·epistasis 예측을 조합 변이 제작으로 이어준다. COMBINE은 5만 개가 넘는 effector 도메인 쌍을 비교해 KRAB-L3MBTL3와 후성유전 기억의 설계 규칙을 찾는다. Bridge recombination과 engineered LSR은 DNA 재배열의 기하학과 표적·donor recruitment를 공학적으로 다루며, RESPLICE는 두 RNA-targeting effector로 전사체 교체를 제어한다. 공통점은 예측 점수만 내는 것이 아니라 서열 제작, 반응 선택성, 기능적 readout까지 이어지는 플랫폼을 만든다는 것이다.",
         "paperIds": [
           "bb56f10b350645",
           "2c2f1a15f6d285",
@@ -7111,7 +7423,7 @@
       },
       {
         "authorId": "jonathan-gootenberg",
-        "researchTrend": "공동 대응저자로 명시된 논문들은 LNP의 세포·조직 표적화, Bxb1 재조합효소의 구조와 공학, 멀티모달 노화 측정, RNA 기반 세포 상태 센서를 다룬다. 코로나 조절과 항체 표적화를 결합한 LNP 연구는 전달 범위를 넓히려는 실험적 접근을 제시하고, Bxb1 연구는 인간 세포의 프로그램 가능한 삽입 개선을 보고한다. RADARS 논문은 RNA 감지와 번역 조절을 위한 설계·검증 프로토콜이며, mAge는 관찰 자료를 통합한 노화 지표다. 이 자료들은 전달·유전자 조작·측정 방법의 서로 다른 기여를 보여주지만, mAge의 약물 관련 결과는 인과성을 입증하지 않으며 프로토콜과 개별 전달 응용의 범용성·생체 내 안전성도 초록만으로 확정되지 않는다.",
+        "researchTrend": "Gootenberg의 연구에서는 표적화와 세포 상태 제어를 모듈로 나누는 접근이 두드러진다. Corona engineering은 ApoE-LDLR 경로를 약화시키는 detargeting과 항체 retargeting을 결합한다. RADARS는 표적 RNA를 감지한 뒤 ADAR 편집으로 cargo 번역을 켜므로 세포의 전사 상태를 실행 조건으로 사용할 수 있다. Bxb1 구조 연구는 strand exchange의 회전 단계와 DNA 선호도를 연결해 integration 공학의 기반을 제공한다. mAge는 proteomics·wearables·mortality를 통합하고 장기와 세포 종류별 노화를 분해한다. 서로 다른 분야를 관통하는 질문은 하나의 평균 성능 대신 표적과 상태를 구별하는 programmable system을 어떻게 만들 것인가이다.",
         "paperIds": [
           "76a901f8379019",
           "2c66bf23927408",
@@ -7121,7 +7433,7 @@
       },
       {
         "authorId": "omar-abudayyeh",
-        "researchTrend": "공동 대응저자로 확인된 논문들은 표적화 LNP 전달, Bxb1 기반 유전자 삽입, 멀티모달 노화 분석, 재프로그래밍 가능한 RNA 센서를 포함한다. LNP 연구는 간 편향을 낮추고 항체 기반 표적화를 시도했으며, Bxb1 연구는 구조 분석과 변이체 공학을 인간 세포의 프로그램 가능한 삽입과 연결한다. RADARS는 RNA 표적 인식에 따라 번역을 조절하는 센서의 프로토콜을 제공하고, mAge는 여러 자료원을 통합해 생물학적 노화를 추정한다. 다만 노화 지표와 약물 사용 사이의 관찰적 연관성을 치료 효과로 볼 수 없고, 센서·전달체의 성능과 안전성이 다양한 생체 맥락에서 일반화되는지도 제공된 초록으로는 판단하기 어렵다.",
+        "researchTrend": "Abudayyeh의 이 모음은 Gootenberg와 공유하는 네 연구를 통해 RNA sensing, delivery, integration, 노화 상태 모델링이 어떻게 연결되는지 보여준다. RADARS는 RNA signature에서 cargo 번역으로 이어지는 센서-출력 구조를 제공하고, corona engineering은 간 유입 억제와 새 표적 획득을 분리한다. Bxb1의 여러 반응 상태는 효율과 DNA 선호도를 구조적으로 해석하는 길을 열며, mAge는 전체 생물학적 나이뿐 아니라 장기·세포별 축을 따로 모델링한다. 연구 도구를 설계할 때 인식, 실행, 전달과 평가를 각각 조절 가능한 모듈로 보는 것이 핵심이다.",
         "paperIds": [
           "76a901f8379019",
           "2c66bf23927408",
@@ -7131,7 +7443,7 @@
       },
       {
         "authorId": "jennifer-doudna",
-        "researchTrend": "확인된 논문들은 세균 면역과 RNA 유도 DNA 인식의 기초 기전, 편집기 설계, 전달 및 세포 조작을 폭넓게 다룬다. VIPR 관련 논문들은 비연속적 RNA 서열이 DNA를 인식하는 규칙과 구조적 삼중나선 모델을 제시하며, TnpB 연구들은 DNA 풀림 단계의 역할과 설계된 변이체의 편집 활성을 다룬다. 최소 RNA 유도 뉴클레아제 설계와 식물의 바이러스 전달 편집도 보고되어 있다. 그 밖에 Cas12a2를 이용한 RNA 유도 염색질 절단, T세포를 통한 세포 간 편집기 전달, NANITE, 세포 내 RNA 절단·연결, 항바이러스 면역계의 프로테아제-뉴클레아제 쌍과 바이러스 PDE 연구가 포함된다. 기초 기전에서 응용 개념까지 범위가 넓지만, 일부 암 표적화·전달 연구는 초록의 정량적 근거가 제한적이고, 구조·시험관 내 결과를 생체 내 효능으로 확대할 수 없다. Spligation은 제공된 자료에서 프리프린트로 표시되어 있다.",
+        "researchTrend": "Doudna의 연구는 자연계의 새로운 인식·반응 규칙을 찾아 구조로 해석하고 programmable tool로 바꾸는 흐름이 강하다. VIPR의 발견 논문과 구조 논문은 gapped recognition code와 geometric triplex를 각각 기능과 구조의 관점에서 설명한다. TnpB의 stepwise unwinding은 반응 중간체가 효율을 결정함을 보여주고, SynTnpB는 구조·진화 제약을 결합해 비자연 서열의 활성을 구현한다. Cas12a2는 RNA 인식을 chromatin shredding으로 연결하며, spligation은 Csm 절단과 RtcB 연결로 RNA 재조합을 만든다. T-cell delivery와 NANITE는 세포 간 전달을 새로운 delivery 자원으로 활용한다. 면역 nuclease-protease와 viral PDE 연구에서는 절단 활성의 조건부 제어와 구조 기반 효소 발굴이라는 공통 설계 원리가 드러난다. 동일 연구의 preprint와 정식 논문은 발전 경로를 함께 읽되 별개의 발견으로 중복 해석하지 않는 것이 자연스럽다.",
         "paperIds": [
           "7b8d1b97a8d0ca",
           "32fca23e220075",
@@ -7154,7 +7466,7 @@
       },
       {
         "authorId": "feng-zhang",
-        "researchTrend": "확인된 두 논문은 서로 다른 세포·생리 수준의 조절을 다룬다. 하나는 노화 생쥐에서 감소한 면역 관련 인자를 간세포 mRNA 전달로 일시적으로 보충하고 면역 기능 및 일부 질환 관련 지표의 개선을 보고한다. 다른 하나는 전사인자 조합 스크리닝으로 인간 배아줄기세포에서 조혈 전구세포 유사 상태를 유도하는 조합을 탐색한다. 따라서 제공된 자료는 생체 내 면역 개입과 조합 기반 세포 운명 조절이라는 기여를 보여주지만, 장기적인 면역 효과나 기능적으로 완전한 조혈 줄기세포의 생성 여부는 초록만으로 확인되지 않는다. 두 논문만으로 더 넓은 연구 궤적을 추론하기도 어렵다.",
+        "researchTrend": "Feng Zhang의 두 연구는 개별 유전자보다 조합 프로그램을 통해 세포 상태를 바꾸는 방향으로 연결된다. 하나는 노화에 따라 줄어드는 DLL1·FLT3L·IL-7 신호를 찾아 간에 mRNA로 일시 재구성하고 면역계를 회복시키는 접근이다. 다른 하나는 barcoded TF 전달과 single-cell readout으로 수백만 TF 조합의 reprogramming landscape를 만들고 HSPC-like 상태를 유도하는 조합을 찾는다. 중요한 학습 포인트는 목표 세포 상태의 정의, 조합 효과의 측정, 시스템 수준 출력까지 연결하는 설계다.",
         "paperIds": [
           "bd474ddc4723b5",
           "c36a62e6135672"
@@ -7162,7 +7474,7 @@
       },
       {
         "authorId": "david-liu",
-        "researchTrend": "확인된 논문들은 prime editing과 염기교정의 성능 개선, 질환 모델에서의 교정, 그리고 단백질 기능의 설계·진화를 중심으로 한다. pegRNA 안정화 모티프, AI 기반 역전사효소 재설계, OptiPrime의 결과 예측은 prime editing의 설계와 효율을 개선하려는 서로 다른 접근이며, LNP 전달 연구는 생쥐 간의 편집과 질환 모델 지표를 함께 다룬다. PERT는 억제 tRNA를 설치하는 범질환적 개념을 세포와 생쥐 모델에서 시험했고, ZSD 및 Dravet 생쥐 연구는 염기교정과 병리·기능 지표의 연계를 보고한다. 이 밖에 종양 특이 T세포 편집 전달, 보툴리눔 신경독소 효소의 AI 재설계와 진화, 암세포 사멸을 유도하는 프로테아제 진화가 포함된다. 실험 근거가 세포에서 동물 모델까지 이어지는 논문들이 있으나, 사람에서의 효능과 장기 안전성은 입증되지 않았고 각 편집·전달 전략의 적용 범위도 추가 검증이 필요하다.",
+        "researchTrend": "Liu의 연구에서는 편집 효소의 성능과 실제 생물학적 출력을 잇는 여러 병목을 병렬로 해결한다. AI 재설계는 directed evolution의 출발점과 진화 후 RT의 안정성을 개선하고, PE-PRISM은 pegRNA 구조 모티프를, OptiPrime는 수선 기전을 반영한 guide 설계를, PE-LNP는 cargo 전달을 최적화한다. PERT는 질환 변이마다 편집기를 새로 만드는 대신 endogenous tRNA를 suppressor tRNA로 바꾸는 공통 해법을 제시한다. pMHC-eVLP는 항원 특이 T세포의 확장과 편집을 결합하고, PEX1과 SCN1A 교정은 소기관 대사와 신경 기능·생존이라는 서로 다른 출력으로 이어진다. BoNT protease 진화는 기질 선택성을 재프로그래밍해 세포사를 제어한다. 효소 활성을 독립 지표로 보지 않고 안정성·RNA·수선·전달·기능적 phenotype을 묶어 최적화하는 흐름이다.",
         "paperIds": [
           "1f17218915d10f",
           "36892c18300e04",
@@ -7178,21 +7490,10 @@
       }
     ],
     "summaryProvenance": {
-      "model": "gpt-6-luna",
-      "effort": "high",
-      "responseId": "resp_0513e8266f28850c016ac7bad8bff087d0b81ce692e4f8a73d",
-      "usage": {
-        "input_tokens": 12966,
-        "input_tokens_details": {
-          "cache_write_tokens": 12963,
-          "cached_tokens": 0
-        },
-        "output_tokens": 4088,
-        "output_tokens_details": {
-          "reasoning_tokens": 1473
-        },
-        "total_tokens": 17054
-      }
+      "origin": "assistant_authored",
+      "basis": "formal_abstract",
+      "authoredBriefSha256": "07a9bad0de5621c82c13d11c310aa13b8dd09722171e3004897ab5bdd2c34775",
+      "providerCalls": 0
     }
   },
   "trackers": [],

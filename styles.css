@@ -454,6 +454,7 @@ svg {
 }
 
 .editor-note {
+  white-space: pre-line;
   max-width: 820px;
   margin-top: 24px;
   border-left: 4px solid var(--red);

@@ -260,6 +260,18 @@
         "sourcePage": 1
       }
     ],
+    "10.1016/j.cels.2025.101487": [
+      {
+        "id": "patrick-hsu",
+        "name": "Patrick D. Hsu",
+        "verified": true,
+        "sourceUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S2405471225003205-mmc11.pdf",
+        "method": "publisher_pdf_explicit_star_legend",
+        "excerpt": "patrickd.hsu1,2,5,7,*; *correspondence:silvana@arcinstitute.org(s.k.),patrick@arcinstitute.org(p.d.h.)https://doi.org/10.1016/j.cels.2025.101487summaryunlikegenomeediting,rnaeditingofferstheabilitytotransientlyaltercellswithminimalriskfromoff-targeteffects.whileexon-skippingtechnologiescaninfluencesplicesiteselection,manydesiredperturbationstothetranscriptomerequirereplacementoradditionofexogenousexonstotargetmrnas,such",
+        "sourceSha256": "5b50fd45f13206c17e26644d9e3958da3a86bcae0c06079a5a9caafbcc458ac8",
+        "sourcePage": 2
+      }
+    ],
     "10.1038/s41587-025-02895-3": [
       {
         "id": "patrick-hsu",
@@ -326,6 +338,30 @@
         "excerpt": "Correspondence to Fei Chen (chenf@broadinstitute.org), Omar O. Abudayyeh (omar@abudayyeh.science) or Jonathan S. Gootenberg (jgoot@mit.edu)."
       }
     ],
+    "10.1126/science.aei0498": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.science.org/doi/pdf/10.1126/science.aei0498?download=true",
+        "method": "publisher_pdf_explicit_star_legend",
+        "excerpt": "jennifera.doudna1,2,3,4,5,8,9,10*; *correspondingauthor.email:doudna@berkeley.edu†theseauthorscontributedequallytothiswork.‡presentaddress:thebiochemistry,quantitativebiology,biophysicsandstructuralbiology(bqbs)track,yaleuniversity,newhaven,ct,usa.downloadedfromhttps://www.science.orgatkoreaadvancedinstituteofscience&technologykaistonoctober08,2026",
+        "sourceSha256": "17249c84b4ae3641c51a2ea1d0cd37d5172b28407f201fa94ed990b677b8e720",
+        "sourcePage": 1
+      }
+    ],
+    "10.1126/science.aei3472": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.science.org/doi/pdf/10.1126/science.aei3472?download=true",
+        "method": "publisher_pdf_explicit_star_legend",
+        "excerpt": "jennifera.doudna1,2,3,5,6,7,8,9*; *correspondingauthor.email:doudna@berkeley.edu†theseauthorscontributedequallytothiswork.downloadedfromhttps://www.science.orgatkoreaadvancedinstituteofscience&technologykaistonoctober08,2026",
+        "sourceSha256": "1d8393b7f516c8d6bf3e1726fe63a265f55330a1db3c92d4db92e725dbe6df05",
+        "sourcePage": 1
+      }
+    ],
     "10.1016/j.molcel.2026.07.015": [
       {
         "id": "jennifer-doudna",
@@ -364,6 +400,18 @@
         "sourceUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12730640",
         "method": "jats_corresp",
         "excerpt": "Jennifer A. Doudna; corresp=; †Lead Contact: doudna@berkeley.edu"
+      }
+    ],
+    "10.1016/j.cels.2026.101644": [
+      {
+        "id": "feng-zhang",
+        "name": "Feng Zhang",
+        "verified": true,
+        "sourceUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S2405471226001262-mmc7.pdf",
+        "method": "publisher_pdf_explicit_star_legend",
+        "excerpt": "fengzhang1,2,3,4,5,6,7,11,*; *correspondence:zhang@broadinstitute.orghttps://doi.org/10.1016/j.cels.2026.101644summarymammaliancellscanbedirectedtowardspecificfatesbyoverexpressionoftranscriptionfactors(tfs).how-ever,discoveringandoptimizingwhichtfsincombinationproduceastateofinterestremainschallenging.here,wedevelopascalablescreeningplatformthataddressesthischallengebycombininghighmultiplicityofinfection(moi),pooleddeliveryo",
+        "sourceSha256": "72d08f055ae6e54fb24dc363540e8c5a09379b4834f346dec9cad04abaa296ff",
+        "sourcePage": 2
       }
     ],
     "10.1038/s41587-026-03261-7": [

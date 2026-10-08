@@ -41,7 +41,7 @@
     "20260330",
     "20260327"
   ],
-  "generatedAt": "2026-10-08T13:16:15.616544+00:00",
+  "generatedAt": "2026-10-08T13:33:15.067212+00:00",
   "papers": [
     {
       "id": "7b8d1b97a8d0ca",
@@ -203,7 +203,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -373,7 +373,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -545,7 +545,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -710,7 +710,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -930,7 +930,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -1113,7 +1113,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -1284,7 +1284,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -1452,7 +1452,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -1630,7 +1630,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -1794,7 +1794,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -1975,7 +1975,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -2144,7 +2144,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -2325,7 +2325,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -2492,7 +2492,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -2670,7 +2670,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -2842,7 +2842,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -3006,7 +3006,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -3168,7 +3168,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -3340,7 +3340,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -3522,7 +3522,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -3690,7 +3690,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -3862,7 +3862,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -4041,7 +4041,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -4226,7 +4226,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -4406,7 +4406,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -4594,7 +4594,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -4778,7 +4778,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -4960,7 +4960,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -5133,7 +5133,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -5324,7 +5324,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -5502,7 +5502,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -5678,7 +5678,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -5859,7 +5859,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -6030,7 +6030,7 @@
             "count": 4
           }
         ],
-        "cached": false
+        "cached": true
       }
     }
   ],
@@ -6326,7 +6326,7 @@
         "count": 4
       }
     ],
-    "cached": false
+    "cached": true
   },
   "stats": {
     "papers": 34,
@@ -6457,7 +6457,7 @@
         "id": "146ea506877993",
         "doi": "10.1038/s44319-026-00907-0",
         "title": "Circulating cholesterol fuels SARS-CoV-2 replication via ORF3a.",
-        "reason": "correspondence_unverified"
+        "reason": "not_marked_in_source"
       },
       {
         "id": "38919a3038833d",

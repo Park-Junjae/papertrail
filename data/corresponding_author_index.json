@@ -258,6 +258,24 @@
         "excerpt": "Correspondence to Patrick D. Hsu (patrick@arcinstitute.org)."
       }
     ],
+    "10.64898/2026.05.08.26352759": [
+      {
+        "id": "omar-abudayyeh",
+        "name": "Omar O. Abudayyeh",
+        "verified": true,
+        "sourceUrl": "https://www.medrxiv.org/content/early/2026/05/12/2026.05.08.26352759.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Omar O. Abudayyeh; corresp=yes; *Co-corresponding: oabudayyeh@bwh.harvard.edu, jgootenb@bidmc.harvard.edu, vgladyshev@bwh.harvard.edu"
+      },
+      {
+        "id": "jonathan-gootenberg",
+        "name": "Jonathan S. Gootenberg",
+        "verified": true,
+        "sourceUrl": "https://www.medrxiv.org/content/early/2026/05/12/2026.05.08.26352759.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Jonathan S. Gootenberg; corresp=yes; *Co-corresponding: oabudayyeh@bwh.harvard.edu, jgootenb@bidmc.harvard.edu, vgladyshev@bwh.harvard.edu"
+      }
+    ],
     "10.1038/s41596-025-01305-x": [
       {
         "id": "jonathan-gootenberg",

@@ -237,6 +237,136 @@
         "method": "jats_corresp",
         "excerpt": "Jennifer A. Doudna; corresp=yes; *Corresponding author. Email: doudna@berkeley.edu"
       }
+    ],
+    "10.1126/science.aea1820": [
+      {
+        "id": "patrick-hsu",
+        "name": "Patrick D. Hsu",
+        "verified": true,
+        "sourceUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12991030",
+        "method": "jats_corresp",
+        "excerpt": "Patrick D. Hsu; corresp=; *Corresponding author: patrick@arcinstitute.org (P.D.H.)"
+      }
+    ],
+    "10.1038/s41587-025-02895-3": [
+      {
+        "id": "patrick-hsu",
+        "name": "Patrick D. Hsu",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41587-025-02895-3",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to Patrick D. Hsu (patrick@arcinstitute.org)."
+      }
+    ],
+    "10.1038/s41596-025-01305-x": [
+      {
+        "id": "jonathan-gootenberg",
+        "name": "Jonathan S. Gootenberg",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41596-025-01305-x",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to Fei Chen (chenf@broadinstitute.org), Omar O. Abudayyeh (omar@abudayyeh.science) or Jonathan S. Gootenberg (jgoot@mit.edu)."
+      },
+      {
+        "id": "omar-abudayyeh",
+        "name": "Omar O. Abudayyeh",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41596-025-01305-x",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to Fei Chen (chenf@broadinstitute.org), Omar O. Abudayyeh (omar@abudayyeh.science) or Jonathan S. Gootenberg (jgoot@mit.edu)."
+      }
+    ],
+    "10.1016/j.molcel.2026.07.015": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13577324",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=; *Correspondence: doudna@berkeley.edu, zevry@stanford.edu, jacobsen@ucla.edu"
+      }
+    ],
+    "10.1126/science.aed6123": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13547106",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=; *Corresponding author. doudna@berkeley.edu."
+      }
+    ],
+    "10.64898/2025.12.08.692503": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2025/12/08/2025.12.08.692503.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=yes; *Correspondence should be addressed to JAD (doudna@berkeley.edu)"
+      }
+    ],
+    "10.1016/j.chom.2025.10.018": [
+      {
+        "id": "jennifer-doudna",
+        "name": "Jennifer A. Doudna",
+        "verified": true,
+        "sourceUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12730640",
+        "method": "jats_corresp",
+        "excerpt": "Jennifer A. Doudna; corresp=; †Lead Contact: doudna@berkeley.edu"
+      }
+    ],
+    "10.1038/s41587-026-03261-7": [
+      {
+        "id": "david-liu",
+        "name": "David R. Liu",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41587-026-03261-7",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to David R. Liu (drliu@fas.harvard.edu)."
+      }
+    ],
+    "10.1038/s41587-026-03243-9": [
+      {
+        "id": "david-liu",
+        "name": "David R. Liu",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41587-026-03243-9",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to David R. Liu (drliu@fas.harvard.edu)."
+      }
+    ],
+    "10.1038/s41587-026-03123-2": [
+      {
+        "id": "david-liu",
+        "name": "David R. Liu",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41587-026-03123-2",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to David R. Liu (drliu@fas.harvard.edu)."
+      }
+    ],
+    "10.1038/s41587-026-03149-6": [
+      {
+        "id": "david-liu",
+        "name": "David R. Liu",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41587-026-03149-6",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to David R. Liu (drliu@fas.harvard.edu)."
+      }
+    ],
+    "10.1126/scitranslmed.adx5999": [
+      {
+        "id": "david-liu",
+        "name": "David R. Liu",
+        "verified": true,
+        "sourceUrl": "https://drive.google.com/file/d/12rcxews05DxkmmD-hasC-0Ogg9RDXRdc/view?usp=sharing",
+        "method": "science_pdf_corresp_footnote",
+        "excerpt": "David R. Liu1,2,3*; *corresponding author. email: drliu@ fas. harvard. edu (d.r.l.); goldberge@ chop. edu \n(e.M.G.); cat. lutz@ jax. org (c.M.l.)",
+        "sourceSha256": "0042750c324e2e2e91444cbfbfeb965600de4613b765055aaca770bd9a4c256d",
+        "sourcePage": 1
+      }
     ]
   }
 }

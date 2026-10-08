@@ -307,17 +307,17 @@
         "id": "omar-abudayyeh",
         "name": "Omar O. Abudayyeh",
         "verified": true,
-        "sourceUrl": "https://www.medrxiv.org/content/early/2026/05/12/2026.05.08.26352759.source.xml",
-        "method": "jats_corresp",
-        "excerpt": "Omar O. Abudayyeh; corresp=yes; *Co-corresponding: oabudayyeh@bwh.harvard.edu, jgootenb@bidmc.harvard.edu, vgladyshev@bwh.harvard.edu"
+        "sourceUrl": "https://www.medrxiv.org/content/10.64898/2026.05.08.26352759v1.article-info",
+        "method": "browser_explicit_corresp",
+        "excerpt": "*Co-corresponding: Omar O. Abudayyeh, oabudayyeh@bwh.harvard.edu; Jonathan S. Gootenberg, jgootenb@bidmc.harvard.edu; Vadim N. Gladyshev, vgladyshev@bwh.harvard.edu"
       },
       {
         "id": "jonathan-gootenberg",
         "name": "Jonathan S. Gootenberg",
         "verified": true,
-        "sourceUrl": "https://www.medrxiv.org/content/early/2026/05/12/2026.05.08.26352759.source.xml",
-        "method": "jats_corresp",
-        "excerpt": "Jonathan S. Gootenberg; corresp=yes; *Co-corresponding: oabudayyeh@bwh.harvard.edu, jgootenb@bidmc.harvard.edu, vgladyshev@bwh.harvard.edu"
+        "sourceUrl": "https://www.medrxiv.org/content/10.64898/2026.05.08.26352759v1.article-info",
+        "method": "browser_explicit_corresp",
+        "excerpt": "*Co-corresponding: Omar O. Abudayyeh, oabudayyeh@bwh.harvard.edu; Jonathan S. Gootenberg, jgootenb@bidmc.harvard.edu; Vadim N. Gladyshev, vgladyshev@bwh.harvard.edu"
       }
     ],
     "10.1038/s41596-025-01305-x": [
@@ -464,6 +464,36 @@
         "excerpt": "David R. Liu1,2,3*; *corresponding author. email: drliu@ fas. harvard. edu (d.r.l.); goldberge@ chop. edu \n(e.M.G.); cat. lutz@ jax. org (c.M.l.)",
         "sourceSha256": "0042750c324e2e2e91444cbfbfeb965600de4613b765055aaca770bd9a4c256d",
         "sourcePage": 1
+      }
+    ],
+    "10.64898/2026.02.20.706353": [
+      {
+        "id": "david-liu",
+        "name": "David R. Liu",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/02/20/2026.02.20.706353.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "David R. Liu; corresp=yes; *Correspondence: drliu@fas.harvard.edu"
+      }
+    ],
+    "10.64898/2026.05.25.727180": [
+      {
+        "id": "feng-zhang",
+        "name": "Feng Zhang",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/05/25/2026.05.25.727180.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Feng Zhang; corresp=yes; *Corresponding author. Email: zhang@broadinstitute.org"
+      }
+    ],
+    "10.64898/2026.09.09.750476": [
+      {
+        "id": "feng-zhang",
+        "name": "Feng Zhang",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/09/11/2026.09.09.750476.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Feng Zhang; corresp=yes; †Corresponding authors: Feng Zhang (zhang@broadinstitute.org) and Guilhem Faure (gfaure@broadinstitute.org)"
       }
     ]
   }

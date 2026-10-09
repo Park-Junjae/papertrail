@@ -368,7 +368,7 @@ function renderIssue() {
     <div class="tracker-row">
       <span class="tracker-dot" aria-hidden="true"></span>
       <strong>${escapeHtml(tracker.shortLabel)}</strong>
-      <span>${tracker.collected == null ? "Collected ?" : `${formatNumber(tracker.collected)} collected`} · ${tracker.screened == null ? "screened unknown" : `${formatNumber(tracker.screened)} screened`} · ${formatNumber(tracker.selected ?? tracker.reviewed)} selected · ${formatNumber(tracker.reviewed)} reviewed · ${escapeHtml(tracker.screenStatus || "unknown")}</span>
+      <span>${tracker.sourceRuns?.length > 1 ? `${tracker.sourceRuns.length} runs · latest run: ` : ""}${tracker.collected == null ? "Collected ?" : `${formatNumber(tracker.collected)} collected`} · ${tracker.screened == null ? "screened unknown" : `${formatNumber(tracker.screened)} screened`} · ${tracker.sourceRuns?.length > 1 ? "weekly union: " : ""}${formatNumber(tracker.selected ?? tracker.reviewed)} selected · ${formatNumber(tracker.reviewed)} reviewed · ${escapeHtml(tracker.screenStatus || "unknown")}</span>
     </div>
   `).join("");
 }

@@ -28,7 +28,7 @@
     "20260605",
     "20260601"
   ],
-  "generatedAt": "2026-10-08T19:36:47.862623+00:00",
+  "generatedAt": "2026-10-12T03:36:02.232485+00:00",
   "papers": [
     {
       "id": "3e430b3d741296",
@@ -5930,6 +5930,14 @@
           "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13128491/fullTextXML",
           "method": "jats_corresp",
           "excerpt": "Patrick D. Hsu; corresp=yes; "
+        },
+        {
+          "id": "brian-hie",
+          "name": "Brian L. Hie",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13128491/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "Brian L. Hie; corresp=yes; "
         }
       ],
       "sourceType": "journal",
@@ -7523,13 +7531,941 @@
         "providerCalls": 0,
         "replacesReaderFacingText": true
       }
+    },
+    {
+      "id": "d075374e157b35",
+      "doi": "10.64898/2026.09.22.753630",
+      "pmid": "",
+      "pmcid": "",
+      "title": "Coevolutionary mining of prokaryotic non-coding elements with a genome language model",
+      "authors": [
+        "David Li",
+        "Garyk Brixi",
+        "Alexandra Kim",
+        "Mateus Fiamenghi",
+        "Claudia Driscoll",
+        "Simone Evans",
+        "Alex Gao",
+        "Natalia Ivanova",
+        "Nikos Kyrpides",
+        "Karl Deisseroth",
+        "Max Wilkinson",
+        "Michael Fischbach",
+        "Brian Hie"
+      ],
+      "published": "2026-09-24",
+      "journal": "",
+      "abstract": "Microbial genomes encode compact molecular machines and diverse non-coding RNAs (ncRNAs) essential to gene regulation, pathogenesis, and many foundational biotechnologies. However, annotation remains largely protein-centric and homology-driven. Here, we introduce Minerva, a framework for coevolutionary mining that uses genome language models to predict local interactions directly from sequence as two-dimensional maps. Introducing two complementary techniques, categorical Jacobian fingerprinting and interaction heads, we demonstrate fast, accurate, alignment-free prediction of ncRNA base-pairing, monomeric protein contacts, and repetitive sequence motifs. Applied to 150 bacterial genomes, Minerva recovers known systems and predicts that 84.3% of predicted intergenic base-pairing falls outside of known annotations. In Pseudomonas, we find that the widespread TwoAYGGAY ncRNA family carries large secondary-structure extensions and is often flanked by short upstream repetitive motifs and larger downstream genomic repeats. Interpreting the coevolution maps, we find that Minerva emergently detects open-reading-frame (ORF) signatures at the DNA level despite never being trained to do so. In prophages within these genomes, we discover that Unknown Group 27 (UG27) reverse transcriptase systems encode arrays of structurally conserved yet sequence-diverse ncRNAs that template complementary DNA (cDNA) hairpin products. Together, these results establish coevolutionary mining as a scalable route to genome annotation and biological discovery across the rapidly expanding microbial universe.",
+      "url": "https://doi.org/10.64898/2026.09.22.753630",
+      "candidateAuthors": [
+        "brian-hie"
+      ],
+      "discoverySource": "Full bioRxiv/medRxiv posting inventory",
+      "correspondingAuthors": [
+        {
+          "id": "brian-hie",
+          "name": "Brian L. Hie",
+          "verified": true,
+          "sourceUrl": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.22.753630",
+          "method": "biorxiv_author_corresponding",
+          "excerpt": "author_corresponding: Brian Hie"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "preprintVersion": "2",
+      "preprintServer": "bioRxiv",
+      "license": "cc_by",
+      "publishedDoi": "NA",
+      "correspondenceStatus": "verified",
+      "inventorySource": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/5100",
+      "sourceRecord": {
+        "title": "Coevolutionary mining of prokaryotic non-coding elements with a genome language model",
+        "authors": "Li, D. B.; Brixi, G.; Kim, A. S.; Fiamenghi, M. B.; Driscoll, C. L.; Evans, S. A.; Gao, A.; Ivanova, N. N.; Kyrpides, N. C.; Deisseroth, K.; Wilkinson, M. E.; Fischbach, M. A.; Hie, B.",
+        "author_corresponding": "Brian Hie",
+        "author_corresponding_institution": "Stanford University",
+        "doi": "10.64898/2026.09.22.753630",
+        "date": "2026-09-24",
+        "version": "2",
+        "type": "new results",
+        "license": "cc_by",
+        "category": "bioinformatics",
+        "jatsxml": "https://www.biorxiv.org/content/early/2026/09/24/2026.09.22.753630.source.xml",
+        "abstract": "Microbial genomes encode compact molecular machines and diverse non-coding RNAs (ncRNAs) essential to gene regulation, pathogenesis, and many foundational biotechnologies. However, annotation remains largely protein-centric and homology-driven. Here, we introduce Minerva, a framework for coevolutionary mining that uses genome language models to predict local interactions directly from sequence as two-dimensional maps. Introducing two complementary techniques, categorical Jacobian fingerprinting and interaction heads, we demonstrate fast, accurate, alignment-free prediction of ncRNA base-pairing, monomeric protein contacts, and repetitive sequence motifs. Applied to 150 bacterial genomes, Minerva recovers known systems and predicts that 84.3% of predicted intergenic base-pairing falls outside of known annotations. In Pseudomonas, we find that the widespread TwoAYGGAY ncRNA family carries large secondary-structure extensions and is often flanked by short upstream repetitive motifs and larger downstream genomic repeats. Interpreting the coevolution maps, we find that Minerva emergently detects open-reading-frame (ORF) signatures at the DNA level despite never being trained to do so. In prophages within these genomes, we discover that Unknown Group 27 (UG27) reverse transcriptase systems encode arrays of structurally conserved yet sequence-diverse ncRNAs that template complementary DNA (cDNA) hairpin products. Together, these results establish coevolutionary mining as a scalable route to genome annotation and biological discovery across the rapidly expanding microbial universe.",
+        "published": "NA",
+        "server": "bioRxiv",
+        "inventorySource": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/5100"
+      },
+      "firstPosted": "2026-09-23",
+      "versionsAudited": [
+        {
+          "version": "1",
+          "date": "2026-09-23"
+        },
+        {
+          "version": "2",
+          "date": "2026-09-24"
+        }
+      ],
+      "paperKey": "d075374e157b35",
+      "tracker": "preprints",
+      "trackerLabel": "Preprints",
+      "source": "bioRxiv",
+      "canonicalUrl": "https://doi.org/10.64898/2026.09.22.753630",
+      "sourceOrigins": [
+        "Full bioRxiv/medRxiv posting inventory"
+      ],
+      "keywords": [
+        "AI-guided biology",
+        "Protein engineering"
+      ],
+      "sourceScore": 0,
+      "sourcePriority": "author-archive",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "shortSummary": "Minerva는 genome language model에서 local interaction을 2차원 지도로 읽어 비암호화 RNA와 구조적 관계를 찾는 coevolutionary mining 방법이다. Alignment 없이 RNA 염기쌍, 단백질 접촉과 반복 motif를 예측하는 두 접근을 제시한다. 150개 세균 유전체에 적용했을 때 예측한 intergenic base-pairing의 84.3%가 기존 annotation 밖에 있었고, RNA와 역전사 관련 요소의 새로운 구조적 관계를 조사했다.",
+      "whyCare": "단백질 homolog 중심의 발굴에서 놓치는 비암호화 요소와 상호작용을 후보 공간으로 만든다. 모델을 단순 점수 함수가 아니라 새로운 생물학적 가설을 만드는 관측 도구로 읽을 사례다.",
+      "skepticism": "기존 annotation 밖의 상호작용 중 기능성 요소를 구분하는 관측은 무엇이며, sequence model의 상호작용 지도와 구조 기반 예측은 어떤 오류를 서로 보완하는가?",
+      "knowledge": "Coevolution 정보를 반드시 다중서열 정렬로만 추출할 필요는 없다. Genome model의 반응과 학습된 interaction head를 이용해 비암호화 구조와 국소 관계를 탐색할 수 있다.",
+      "takeaway": "Coevolution 정보를 반드시 다중서열 정렬로만 추출할 필요는 없다. Genome model의 반응과 학습된 interaction head를 이용해 비암호화 구조와 국소 관계를 탐색할 수 있다.",
+      "audienceScores": {
+        "labWide": 90,
+        "genomeEditing": 75,
+        "inVivo": 15,
+        "organoid": 10,
+        "epigenetics": 25,
+        "organelleMitochondria": 40,
+        "structuralBiology": 90,
+        "screening": 85,
+        "syntheticBiology": 92,
+        "proteinEngineering": 88,
+        "computational": 98,
+        "scientificNovelty": 96,
+        "evidenceStrength": 82,
+        "actionability": 85,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 86,
+        "computational": 90
+      },
+      "computationalOnly": false,
+      "crossOver": true,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "단백질 homolog 중심의 발굴에서 놓치는 비암호화 요소와 상호작용을 후보 공간으로 만든다. 모델을 단순 점수 함수가 아니라 새로운 생물학적 가설을 만드는 관측 도구로 읽을 사례다.",
+        "computational": "Coevolution 정보를 반드시 다중서열 정렬로만 추출할 필요는 없다. Genome model의 반응과 학습된 interaction head를 이용해 비암호화 구조와 국소 관계를 탐색할 수 있다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "compbioMembership": "included",
+      "score": 86,
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "a95922dc2047da6e9877bc5deb5b9441af166d6eca03acc457c2b92d6ecd0934",
+        "providerCalls": 0,
+        "ratingBasis": "assistant_curated_axes_not_a_new_provider_rerank"
+      },
+      "editorialStage": {
+        "status": "success",
+        "model": "assistant-authored",
+        "effort": "direct_review",
+        "calls": []
+      }
+    },
+    {
+      "id": "cc5e374b972333",
+      "doi": "10.1038/s41592-026-03137-3",
+      "pmid": "42601461",
+      "pmcid": "PMC13541614",
+      "title": "Aligning protein-generative models to experimental fitness with ProteinDPO",
+      "authors": [
+        "Talal Widatalla",
+        "Ashir A Borah",
+        "Samuel H King",
+        "Claudia L Driscoll",
+        "Rafael Rafailov",
+        "Brian L Hie"
+      ],
+      "published": "2026-08-14",
+      "journal": "Nature methods",
+      "abstract": "Biological generative models can predict biological functions without task-specific training data but often under-perform specialized models. This is due to a fundamental 'alignment gap', where the rules learned during unsupervised training are not related to the function of interest. Here we demonstrate how to provide task-specific information without losing the general knowledge learned during pretraining by using direct preference optimization to align a structure-conditioned protein language model to preferentially generate stable protein sequences. Our aligned model, ProteinDPO, achieves stability prediction competitive to task-specific models and consistently outperforms unsupervised and fine-tuned versions of the model. Notably, ProteinDPO generalizes beyond its training data to enable stabilization and improved binding affinity prediction of large multichain protein complexes. When applied to stabilization of the hemagglutinin trimer, a primary component of influenza vaccines, ~80% of designs achieve increased or similar stability compared with the native hemagglutinin and up to 32 °C improvements from recently emerged mammalian strains. Our results demonstrate how to augment generative models with biophysical information and, more broadly, provide a general framework for the alignment of biological foundation models.",
+      "url": "https://doi.org/10.1038/s41592-026-03137-3",
+      "candidateAuthors": [
+        "brian-hie"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "brian-hie",
+          "name": "Brian L. Hie",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13541614/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "Brian L Hie; corresp=; ✉Corresponding author."
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13541614/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "paperKey": "cc5e374b972333",
+      "tracker": "flagship",
+      "trackerLabel": "Flagship",
+      "source": "Nature methods",
+      "canonicalUrl": "https://doi.org/10.1038/s41592-026-03137-3",
+      "sourceOrigins": [
+        "Europe PMC"
+      ],
+      "keywords": [
+        "AI-guided biology",
+        "Protein engineering"
+      ],
+      "sourceScore": 0,
+      "sourcePriority": "author-archive",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "shortSummary": "ProteinDPO는 구조 조건부 단백질 생성 모델에 실험적 안정성의 상대 선호를 학습시켜, 사전학습 지식과 원하는 물성 사이를 연결한다. 정렬된 모델은 원래 모델과 추가 fine-tuning 모델보다 안정성 예측을 개선했고, 학습에 쓰인 작은 단량체 밖의 큰 단백질 복합체에도 일반화를 보였다. 핵심은 좋은 서열만 재학습하는 방법과 후보 간 선호를 학습하는 방법을 구분해 비교한 것이다.",
+      "whyCare": "EvolvePro·MULTI-evolve식 후보 선택과 달리 생성 모델의 분포 자체를 실험적 목적에 정렬하는 방향이다. 후보 순위뿐 아니라 무엇을 생성하게 할 것인가를 computational layer의 학습 목표로 만들 수 있다.",
+      "skepticism": "활성·특이성·안정성의 선호가 서로 충돌할 때 어떤 조건부 선호 표현이 유용하며, 정렬 후에도 새로운 scaffold와 측정 조건에 대한 일반화가 유지되는가?",
+      "knowledge": "높은 sequence likelihood와 원하는 실험적 성질은 서로 다른 목표다. DPO는 상대적으로 더 좋은 관측을 이용해 생성 분포를 이동시키면서 예측과 생성 능력을 함께 활용하는 정렬 방식이다.",
+      "takeaway": "높은 sequence likelihood와 원하는 실험적 성질은 서로 다른 목표다. DPO는 상대적으로 더 좋은 관측을 이용해 생성 분포를 이동시키면서 예측과 생성 능력을 함께 활용하는 정렬 방식이다.",
+      "audienceScores": {
+        "labWide": 96,
+        "genomeEditing": 75,
+        "inVivo": 25,
+        "organoid": 10,
+        "epigenetics": 20,
+        "organelleMitochondria": 45,
+        "structuralBiology": 95,
+        "screening": 80,
+        "syntheticBiology": 65,
+        "proteinEngineering": 98,
+        "computational": 98,
+        "scientificNovelty": 94,
+        "evidenceStrength": 90,
+        "actionability": 93,
+        "venueQuality": 95
+      },
+      "lensRanks": {
+        "lab": 95,
+        "computational": 95
+      },
+      "computationalOnly": false,
+      "crossOver": true,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "EvolvePro·MULTI-evolve식 후보 선택과 달리 생성 모델의 분포 자체를 실험적 목적에 정렬하는 방향이다. 후보 순위뿐 아니라 무엇을 생성하게 할 것인가를 computational layer의 학습 목표로 만들 수 있다.",
+        "computational": "높은 sequence likelihood와 원하는 실험적 성질은 서로 다른 목표다. DPO는 상대적으로 더 좋은 관측을 이용해 생성 분포를 이동시키면서 예측과 생성 능력을 함께 활용하는 정렬 방식이다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "compbioMembership": "included",
+      "score": 95,
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "eb8a9b9adb7f02e3c16f99d65f47fd1dead17059e5236c547f1483d3bc188fd3",
+        "providerCalls": 0,
+        "ratingBasis": "assistant_curated_axes_not_a_new_provider_rerank"
+      },
+      "editorialStage": {
+        "status": "success",
+        "model": "assistant-authored",
+        "effort": "direct_review",
+        "calls": []
+      }
+    },
+    {
+      "id": "dfa5028c09b1e1",
+      "doi": "10.64898/2026.08.27.741102",
+      "pmid": "",
+      "pmcid": "",
+      "title": "Forecasting viral evolution from phylogenetic trees",
+      "authors": [
+        "Ivan Specht",
+        "Soyoon Park",
+        "Seyone Chithrananda",
+        "Claudia Driscoll",
+        "Garyk Brixi",
+        "Julia Palacios",
+        "Brian Hie"
+      ],
+      "published": "2026-09-05",
+      "journal": "",
+      "abstract": "Viral mutation forecasting plays a key role in pandemic preparedness by enabling researchers to anticipate novel variants and design proactive interventions. Evolutionary histories, represented as phylogenetic trees, offer key insights into the emergence of past and present strains, yet their role in predicting future sequence changes remains largely unexplored. We introduce antiGen, a machine learning model that forecasts the evolutionary future of viruses by learning from their evolutionary past. antiGen achieves state-of-the-art performance for predicting mutations to the SARS-CoV-2 spike protein, anticipating never-before-seen mutations and mutations that emerge years after the model's training window. antiGen-forecasted spike mutations also retain pseudoviral infectivity in vitro. Moreover, antiGen demonstrates leading predictive performance on surface proteins of influenza virus, respiratory syncytial virus, and dengue virus despite far less available sequencing data. Viral evolution models that explicitly learn from phylogenetic structure offer a valuable resource for applications ranging from epidemiological modeling to therapeutic development.",
+      "url": "https://doi.org/10.64898/2026.08.27.741102",
+      "candidateAuthors": [
+        "brian-hie"
+      ],
+      "discoverySource": "Full bioRxiv/medRxiv posting inventory",
+      "correspondingAuthors": [
+        {
+          "id": "brian-hie",
+          "name": "Brian L. Hie",
+          "verified": true,
+          "sourceUrl": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.08.27.741102",
+          "method": "biorxiv_author_corresponding",
+          "excerpt": "author_corresponding: Brian L Hie"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "preprintVersion": "1",
+      "preprintServer": "bioRxiv",
+      "license": "cc_by",
+      "publishedDoi": "NA",
+      "correspondenceStatus": "verified",
+      "inventorySource": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/1080",
+      "sourceRecord": {
+        "title": "Forecasting viral evolution from phylogenetic trees",
+        "authors": "Specht, I.; Park, S.; Chithrananda, S.; Driscoll, C. L.; Brixi, G.; Palacios, J. A.; Hie, B. L.",
+        "author_corresponding": "Brian L Hie",
+        "author_corresponding_institution": "Stanford University",
+        "doi": "10.64898/2026.08.27.741102",
+        "date": "2026-09-05",
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by",
+        "category": "evolutionary biology",
+        "jatsxml": "https://www.biorxiv.org/content/early/2026/09/05/2026.08.27.741102.source.xml",
+        "abstract": "Viral mutation forecasting plays a key role in pandemic preparedness by enabling researchers to anticipate novel variants and design proactive interventions. Evolutionary histories, represented as phylogenetic trees, offer key insights into the emergence of past and present strains, yet their role in predicting future sequence changes remains largely unexplored. We introduce antiGen, a machine learning model that forecasts the evolutionary future of viruses by learning from their evolutionary past. antiGen achieves state-of-the-art performance for predicting mutations to the SARS-CoV-2 spike protein, anticipating never-before-seen mutations and mutations that emerge years after the model's training window. antiGen-forecasted spike mutations also retain pseudoviral infectivity in vitro. Moreover, antiGen demonstrates leading predictive performance on surface proteins of influenza virus, respiratory syncytial virus, and dengue virus despite far less available sequencing data. Viral evolution models that explicitly learn from phylogenetic structure offer a valuable resource for applications ranging from epidemiological modeling to therapeutic development.",
+        "published": "NA",
+        "server": "bioRxiv",
+        "inventorySource": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/1080"
+      },
+      "firstPosted": "2026-09-05",
+      "versionsAudited": [
+        {
+          "version": "1",
+          "date": "2026-09-05"
+        }
+      ],
+      "paperKey": "dfa5028c09b1e1",
+      "tracker": "preprints",
+      "trackerLabel": "Preprints",
+      "source": "bioRxiv",
+      "canonicalUrl": "https://doi.org/10.64898/2026.08.27.741102",
+      "sourceOrigins": [
+        "Full bioRxiv/medRxiv posting inventory"
+      ],
+      "keywords": [
+        "AI-guided biology",
+        "Protein engineering"
+      ],
+      "sourceScore": 0,
+      "sourcePriority": "author-archive",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "shortSummary": "antiGen은 계통 트리로 표현된 진화의 과거를 학습해 미래 변이 분포를 예측하는 연구다. 서로 다른 바이러스의 관측 데이터를 이용해 시간 범위 밖의 예측을 평가했다. 우리 랩에서는 바이러스 설계보다 시간·계통 정보가 예측 평가의 독립성과 일반화에 주는 영향을 읽는 방법론적 참고 문헌으로 다룬다.",
+      "whyCare": "서열 목록만 학습하는 모델과 진화의 시간적·계통적 관계를 이용하는 모델을 구분한다. Computational biology에서 무작위 분할의 성능과 미래 또는 다른 계통에 대한 성능을 별도로 읽게 한다.",
+      "skepticism": "시간 분할과 계통 분할을 동시에 적용하면 무작위 분할에서 보인 개선이 어떻게 달라지며, 가까운 서열의 중복이 평가 결과에 주는 영향은 무엇인가?",
+      "knowledge": "변이 예측의 평가는 입력 서열뿐 아니라 관측 시점과 계통의 독립성을 고려해야 한다. 새로운 데이터로의 일반화는 과거 자료를 섞은 평가와 별도의 질문이다.",
+      "takeaway": "변이 예측의 평가는 입력 서열뿐 아니라 관측 시점과 계통의 독립성을 고려해야 한다. 새로운 데이터로의 일반화는 과거 자료를 섞은 평가와 별도의 질문이다.",
+      "audienceScores": {
+        "labWide": 55,
+        "genomeEditing": 15,
+        "inVivo": 5,
+        "organoid": 5,
+        "epigenetics": 5,
+        "organelleMitochondria": 5,
+        "structuralBiology": 25,
+        "screening": 35,
+        "syntheticBiology": 20,
+        "proteinEngineering": 45,
+        "computational": 94,
+        "scientificNovelty": 86,
+        "evidenceStrength": 75,
+        "actionability": 60,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 60,
+        "computational": 82
+      },
+      "computationalOnly": true,
+      "crossOver": false,
+      "mainPageEligible": false,
+      "lensReasons": {
+        "main": "서열 목록만 학습하는 모델과 진화의 시간적·계통적 관계를 이용하는 모델을 구분한다. Computational biology에서 무작위 분할의 성능과 미래 또는 다른 계통에 대한 성능을 별도로 읽게 한다.",
+        "computational": "변이 예측의 평가는 입력 서열뿐 아니라 관측 시점과 계통의 독립성을 고려해야 한다. 새로운 데이터로의 일반화는 과거 자료를 섞은 평가와 별도의 질문이다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "compbioMembership": "included",
+      "score": 60,
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "2aefb755942eb685bd7727d24928fe5b4e42b2017bbaf536039450adfe896ef7",
+        "providerCalls": 0,
+        "ratingBasis": "assistant_curated_axes_not_a_new_provider_rerank"
+      },
+      "editorialStage": {
+        "status": "success",
+        "model": "assistant-authored",
+        "effort": "direct_review",
+        "calls": []
+      }
+    },
+    {
+      "id": "2c6adc65b5fb40",
+      "doi": "10.64898/2026.06.22.733870",
+      "pmid": "",
+      "pmcid": "",
+      "title": "A high-level programming language for generative biology with Proto",
+      "authors": [
+        "Aditi Merchant",
+        "Daniel Guo",
+        "Ben Viggiano",
+        "Lucas Brennan-Almaraz",
+        "Evelyn Hur",
+        "Tina Mai",
+        "Peter Yin",
+        "Samuel King",
+        "Euan Ashley",
+        "Brian Hie"
+      ],
+      "published": "2026-06-23",
+      "journal": "",
+      "abstract": "Programmable composition of complex systems is a longstanding goal of biological research. Generative modeling has improved the reliability of computational design, but existing methods are highly specialized and are difficult to extend or compose. Here, we introduce Proto, a high-level programming language for generative biology. By composing a small set of abstract primitives into structured programs, Proto encodes generative design campaigns across diverse modalities and scales--spanning DNA, RNA, proteins, ligands, and their interactions. Proto readily incorporates predictive models into generative workflows, which we leveraged to design alternatively spliced introns with experimental validation in human cell lines. Proto is natively multi-objective, enabling the design of promoter-repressor pairs with leading experimental success rates for synthetic protein-DNA design. Alongside AI agents, Proto enables the specification of complex pathways and regulatory logic through natural language instructions. We openly release Proto, including software infrastructure and user interfaces, to enable widespread access to generative biological programming.",
+      "url": "https://doi.org/10.64898/2026.06.22.733870",
+      "candidateAuthors": [
+        "brian-hie"
+      ],
+      "discoverySource": "Full bioRxiv/medRxiv posting inventory",
+      "correspondingAuthors": [
+        {
+          "id": "brian-hie",
+          "name": "Brian L. Hie",
+          "verified": true,
+          "sourceUrl": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.06.22.733870",
+          "method": "biorxiv_author_corresponding",
+          "excerpt": "author_corresponding: Brian L Hie"
+        }
+      ],
+      "sourceType": "preprint",
+      "publicationTypes": [
+        "Preprint"
+      ],
+      "preprintVersion": "1",
+      "preprintServer": "bioRxiv",
+      "license": "cc_by",
+      "publishedDoi": "NA",
+      "correspondenceStatus": "verified",
+      "inventorySource": "https://api.biorxiv.org/details/biorxiv/2026-06-01/2026-06-30/5760",
+      "sourceRecord": {
+        "title": "A high-level programming language for generative biology with Proto",
+        "authors": "Merchant, A.;Guo, D.;Viggiano, B.;Brennan-Almaraz, L.;Hurr, E.;Mai, T.;Yin, P.;King, S.;Ashley, E.;Hie, B.",
+        "author_corresponding": "Brian L Hie",
+        "author_corresponding_institution": "Stanford University",
+        "doi": "10.64898/2026.06.22.733870",
+        "date": "2026-06-23",
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by",
+        "category": "Synthetic Biology",
+        "jatsxml": "https://www.biorxiv.org/content/early/2026/06/23/2026.06.22.733870.source.xml",
+        "abstract": "Programmable composition of complex systems is a longstanding goal of biological research. Generative modeling has improved the reliability of computational design, but existing methods are highly specialized and are difficult to extend or compose. Here, we introduce Proto, a high-level programming language for generative biology. By composing a small set of abstract primitives into structured programs, Proto encodes generative design campaigns across diverse modalities and scales--spanning DNA, RNA, proteins, ligands, and their interactions. Proto readily incorporates predictive models into generative workflows, which we leveraged to design alternatively spliced introns with experimental validation in human cell lines. Proto is natively multi-objective, enabling the design of promoter-repressor pairs with leading experimental success rates for synthetic protein-DNA design. Alongside AI agents, Proto enables the specification of complex pathways and regulatory logic through natural language instructions. We openly release Proto, including software infrastructure and user interfaces, to enable widespread access to generative biological programming.",
+        "published": "NA",
+        "server": "bioRxiv",
+        "inventorySource": "https://api.biorxiv.org/details/biorxiv/2026-06-01/2026-06-30/5760"
+      },
+      "firstPosted": "2026-06-23",
+      "versionsAudited": [
+        {
+          "version": "1",
+          "date": "2026-06-23"
+        }
+      ],
+      "paperKey": "2c6adc65b5fb40",
+      "tracker": "preprints",
+      "trackerLabel": "Preprints",
+      "source": "bioRxiv",
+      "canonicalUrl": "https://doi.org/10.64898/2026.06.22.733870",
+      "sourceOrigins": [
+        "Full bioRxiv/medRxiv posting inventory"
+      ],
+      "keywords": [
+        "AI-guided biology",
+        "Protein engineering"
+      ],
+      "sourceScore": 0,
+      "sourcePriority": "author-archive",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "shortSummary": "Proto는 개별 생성 모델을 새로운 모델 하나로 대체하기보다, 설계를 표현하는 고수준 프로그램을 제안한다. 작은 수의 공통 primitive로 DNA·RNA·단백질·리간드와 상호작용의 생성 과정을 조합하고, 예측 모델을 평가자로 넣는다. 인간 세포에서 검증한 대체 splicing intron과 promoter–repressor 설계를 사례로 다목적 설계의 조합 가능성을 보여준다.",
+      "whyCare": "여러 모델을 붙이는 작업을 과제·제약·평가자·생성기의 조합으로 재구성한다. 서로 다른 편집기와 설계 도구를 연결하는 플랫폼을 만들 때 모델 교체보다 프로그램 표현의 일관성이 중요하다는 관점을 제공한다.",
+      "skepticism": "설계 primitive는 어떤 수준에서 공유되어야 하며, 평가자 사이의 불일치와 실험 결과의 갱신을 프로그램 의미론에 어떻게 반영할 수 있는가?",
+      "knowledge": "Generative biology의 프로그램은 단일 서열 생성 요청이 아니라 목표·조건·상호작용·평가를 조합하는 표현이다. 공통 표현이 있으면 모델별 전문 기능을 하나의 설계 과제로 묶을 수 있다.",
+      "takeaway": "Generative biology의 프로그램은 단일 서열 생성 요청이 아니라 목표·조건·상호작용·평가를 조합하는 표현이다. 공통 표현이 있으면 모델별 전문 기능을 하나의 설계 과제로 묶을 수 있다.",
+      "audienceScores": {
+        "labWide": 94,
+        "genomeEditing": 85,
+        "inVivo": 30,
+        "organoid": 25,
+        "epigenetics": 65,
+        "organelleMitochondria": 50,
+        "structuralBiology": 80,
+        "screening": 90,
+        "syntheticBiology": 98,
+        "proteinEngineering": 90,
+        "computational": 98,
+        "scientificNovelty": 95,
+        "evidenceStrength": 80,
+        "actionability": 95,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 89,
+        "computational": 90
+      },
+      "computationalOnly": false,
+      "crossOver": true,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "여러 모델을 붙이는 작업을 과제·제약·평가자·생성기의 조합으로 재구성한다. 서로 다른 편집기와 설계 도구를 연결하는 플랫폼을 만들 때 모델 교체보다 프로그램 표현의 일관성이 중요하다는 관점을 제공한다.",
+        "computational": "Generative biology의 프로그램은 단일 서열 생성 요청이 아니라 목표·조건·상호작용·평가를 조합하는 표현이다. 공통 표현이 있으면 모델별 전문 기능을 하나의 설계 과제로 묶을 수 있다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "compbioMembership": "included",
+      "score": 89,
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "b3052310912c34bcac02c7a0d2cc1954ee218f770553608895d82b1a8d97d2df",
+        "providerCalls": 0,
+        "ratingBasis": "assistant_curated_axes_not_a_new_provider_rerank"
+      },
+      "editorialStage": {
+        "status": "success",
+        "model": "assistant-authored",
+        "effort": "direct_review",
+        "calls": []
+      }
+    },
+    {
+      "id": "1a6d999680cbe6",
+      "doi": "10.1038/s41587-026-03187-0",
+      "pmid": "42337361",
+      "pmcid": "PMC13366713",
+      "title": "Efficient generation of epitope-targeted antibodies with Germinal",
+      "authors": [
+        "Luis S Mille-Fragoso",
+        "Claudia L Driscoll",
+        "John N Wang",
+        "Haoyu Dai",
+        "Talal Widatalla",
+        "Jim L Zhang",
+        "Xiaowei Zhang",
+        "Bing Rao",
+        "Liang Feng",
+        "Brian L Hie",
+        "Xiaojing J Gao"
+      ],
+      "published": "2026-06-23",
+      "journal": "Nature biotechnology",
+      "abstract": "Obtaining antibodies to specific protein targets is a widely important yet experimentally laborious process. Meanwhile, computational methods for antibody design have been limited by low success rates that require resource-intensive screening. Here we introduce Germinal, a broadly enabling generative pipeline that designs antibodies against specific epitopes with nanomolar binding affinities while requiring only low-n experimental testing. Our method co-optimizes antibody structure and sequence by integrating a structure predictor with an antibody-specific protein language model to perform de novo design of functional complementarity-determining regions onto a user-specified structural framework. When tested against four diverse protein targets, Germinal designed functional antibodies across all targets and binder formats, testing only 43-101 designs for each antigen. Validated designs also exhibited robust expression in mammalian cells and high sequence and structural novelty. We provide open-source code and full computational and experimental protocols to facilitate wide adoption.",
+      "url": "https://doi.org/10.1038/s41587-026-03187-0",
+      "candidateAuthors": [
+        "brian-hie"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "brian-hie",
+          "name": "Brian L. Hie",
+          "verified": true,
+          "sourceUrl": "https://www.nature.com/articles/s41587-026-03187-0",
+          "method": "publisher_correspondence_to",
+          "excerpt": "Correspondence to\n                 Luis S. Mille-Fragoso ,  Brian L. Hie  or  Xiaojing J. Gao . "
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13366713/fullTextXML",
+          "status": "unavailable",
+          "error": "RuntimeError"
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13366713",
+          "status": "retrieved",
+          "matches": 0
+        },
+        {
+          "url": "https://www.nature.com/articles/s41587-026-03187-0",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "paperKey": "1a6d999680cbe6",
+      "tracker": "flagship",
+      "trackerLabel": "Flagship",
+      "source": "Nature biotechnology",
+      "canonicalUrl": "https://doi.org/10.1038/s41587-026-03187-0",
+      "sourceOrigins": [
+        "Europe PMC"
+      ],
+      "keywords": [
+        "AI-guided biology",
+        "Protein engineering"
+      ],
+      "sourceScore": 0,
+      "sourcePriority": "author-archive",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "shortSummary": "Germinal은 지정된 framework 위에 항체 CDR을 de novo 설계하면서 구조 예측과 항체 특이적 서열 모델을 함께 최적화한다. 네 종류의 표적에서 항원당 43–101개 설계를 시험해 nanomolar 결합을 보이는 항체를 얻었다. 같은 연구의 갱신된 preprint와 정식 논문을 연결해 읽으면 설계 흐름과 최종 검증을 함께 파악할 수 있다.",
+      "whyCare": "구조적으로 맞는 결합 면과 자연스러운 서열 분포를 동시에 다루고, 낮은 실험 후보 수로 검증하는 설계 사례다. De novo binder와 단백질 상호작용 공학에서 생성량보다 실험 성공률을 목표로 삼는 관점을 제공한다.",
+      "skepticism": "Framework·CDR·epitope의 조건이 바뀔 때 구조 평가자와 서열 prior의 기여는 어떻게 달라지며, 설계 성공률을 유지하는 조건은 무엇인가?",
+      "knowledge": "기능성 결합체 설계는 구조 점수와 서열 점수 중 하나를 고르는 문제가 아니다. 서로 다른 prior를 조합하고 실제 결합·발현으로 성공을 읽는 다목적 문제다.",
+      "takeaway": "기능성 결합체 설계는 구조 점수와 서열 점수 중 하나를 고르는 문제가 아니다. 서로 다른 prior를 조합하고 실제 결합·발현으로 성공을 읽는 다목적 문제다.",
+      "audienceScores": {
+        "labWide": 89,
+        "genomeEditing": 45,
+        "inVivo": 35,
+        "organoid": 20,
+        "epigenetics": 20,
+        "organelleMitochondria": 25,
+        "structuralBiology": 96,
+        "screening": 70,
+        "syntheticBiology": 75,
+        "proteinEngineering": 98,
+        "computational": 93,
+        "scientificNovelty": 88,
+        "evidenceStrength": 90,
+        "actionability": 88,
+        "venueQuality": 96
+      },
+      "lensRanks": {
+        "lab": 91,
+        "computational": 91
+      },
+      "computationalOnly": false,
+      "crossOver": true,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "구조적으로 맞는 결합 면과 자연스러운 서열 분포를 동시에 다루고, 낮은 실험 후보 수로 검증하는 설계 사례다. De novo binder와 단백질 상호작용 공학에서 생성량보다 실험 성공률을 목표로 삼는 관점을 제공한다.",
+        "computational": "기능성 결합체 설계는 구조 점수와 서열 점수 중 하나를 고르는 문제가 아니다. 서로 다른 prior를 조합하고 실제 결합·발현으로 성공을 읽는 다목적 문제다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "compbioMembership": "included",
+      "score": 91,
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "4efd852dbf3b37401823203c0e1faa702462520c34991940ded79d8d287e52c7",
+        "providerCalls": 0,
+        "ratingBasis": "assistant_curated_axes_not_a_new_provider_rerank"
+      },
+      "editorialStage": {
+        "status": "success",
+        "model": "assistant-authored",
+        "effort": "direct_review",
+        "calls": []
+      }
+    },
+    {
+      "id": "1f706a656d90d7",
+      "doi": "10.1038/s41586-025-09749-7",
+      "pmid": "41261132",
+      "pmcid": "PMC12804078",
+      "title": "Semantic design of functional de novo genes from a genomic language model",
+      "authors": [
+        "Aditi T Merchant",
+        "Samuel H King",
+        "Eric Nguyen",
+        "Brian L Hie"
+      ],
+      "published": "2025-11-19",
+      "journal": "Nature",
+      "abstract": "Generative genomic models can design increasingly complex biological systems 1 . However, controlling these models to generate novel sequences with desired functions remains challenging. Here, we show that Evo, a genomic language model, can leverage genomic context to perform function-guided design that accesses novel regions of sequence space. By learning semantic relationships across prokaryotic genes 2 , Evo enables a genomic 'autocomplete' in which a DNA prompt encoding genomic context for a function of interest guides the generation of novel sequences enriched for related functions, which we refer to as 'semantic design'. We validate this approach by experimentally testing the activity of generated anti-CRISPR proteins and type II and III toxin-antitoxin systems, including de novo genes with no significant sequence similarity to natural proteins. In-context design of proteins and non-coding RNAs with Evo achieves robust activity and high experimental success rates even in the absence of structural priors, known evolutionary conservation or task-specific fine-tuning. We then use Evo to complete millions of prompts to produce SynGenome, a database containing over 120 billion base pairs of artificial intelligence-generated genomic sequences that enables semantic design across many functions. More broadly, these results demonstrate that generative genomics with biological language models can extend beyond natural sequences.",
+      "url": "https://doi.org/10.1038/s41586-025-09749-7",
+      "candidateAuthors": [
+        "brian-hie"
+      ],
+      "discoverySource": "Europe PMC",
+      "correspondingAuthors": [
+        {
+          "id": "brian-hie",
+          "name": "Brian L. Hie",
+          "verified": true,
+          "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12804078/fullTextXML",
+          "method": "jats_corresp",
+          "excerpt": "Brian L Hie; corresp=; ✉Corresponding author."
+        }
+      ],
+      "sourceType": "journal",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "verificationAttempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12804078/fullTextXML",
+          "status": "retrieved",
+          "matches": 1
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "paperKey": "1f706a656d90d7",
+      "tracker": "flagship",
+      "trackerLabel": "Flagship",
+      "source": "Nature",
+      "canonicalUrl": "https://doi.org/10.1038/s41586-025-09749-7",
+      "sourceOrigins": [
+        "Europe PMC"
+      ],
+      "keywords": [
+        "AI-guided biology",
+        "Protein engineering"
+      ],
+      "sourceScore": 0,
+      "sourcePriority": "author-archive",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "shortSummary": "Semantic design은 원하는 기능을 자연어 label만으로 지정하는 대신, 기능과 관련된 genomic context를 서열 생성의 조건으로 사용한다. Evo로 생성한 단백질과 비암호화 RNA의 기능을 실험적으로 평가하고, 자연 단백질과 높은 서열 유사성이 없는 기능성 사례를 보고했다. SynGenome은 이렇게 생성한 문맥–서열 관계를 큰 규모의 탐색 자원으로 제공한다.",
+      "whyCare": "자연 homolog의 탐색과 구조 scaffold의 재설계 외에, genomic context를 후보 발굴의 조건으로 사용하는 선택지를 보여준다. 좋은 후보의 출발점을 만드는 문제를 후보의 점수를 매기는 문제와 분리하게 한다.",
+      "skepticism": "생성된 후보의 기능은 주변 문맥의 어떤 정보로 결정되며, 문맥의 기능적 일치와 후보의 구조·서열 신규성을 어떻게 독립적으로 평가할 수 있는가?",
+      "knowledge": "기능적으로 함께 작동하는 유전자들의 문맥은 서열 유사성과 다른 종류의 정보다. Genomic context를 조건으로 삼는 생성은 이미 알려진 자연 서열의 범위를 넓히는 탐색 전략이 될 수 있다.",
+      "takeaway": "기능적으로 함께 작동하는 유전자들의 문맥은 서열 유사성과 다른 종류의 정보다. Genomic context를 조건으로 삼는 생성은 이미 알려진 자연 서열의 범위를 넓히는 탐색 전략이 될 수 있다.",
+      "audienceScores": {
+        "labWide": 88,
+        "genomeEditing": 75,
+        "inVivo": 15,
+        "organoid": 10,
+        "epigenetics": 20,
+        "organelleMitochondria": 35,
+        "structuralBiology": 60,
+        "screening": 60,
+        "syntheticBiology": 95,
+        "proteinEngineering": 90,
+        "computational": 95,
+        "scientificNovelty": 94,
+        "evidenceStrength": 88,
+        "actionability": 80,
+        "venueQuality": 100
+      },
+      "lensRanks": {
+        "lab": 90,
+        "computational": 93
+      },
+      "computationalOnly": false,
+      "crossOver": true,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "자연 homolog의 탐색과 구조 scaffold의 재설계 외에, genomic context를 후보 발굴의 조건으로 사용하는 선택지를 보여준다. 좋은 후보의 출발점을 만드는 문제를 후보의 점수를 매기는 문제와 분리하게 한다.",
+        "computational": "기능적으로 함께 작동하는 유전자들의 문맥은 서열 유사성과 다른 종류의 정보다. Genomic context를 조건으로 삼는 생성은 이미 알려진 자연 서열의 범위를 넓히는 탐색 전략이 될 수 있다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "compbioMembership": "included",
+      "score": 90,
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "104e60912713f964c1b7cde3d14dd173855f734c16627daa085baacc8fe25cbe",
+        "providerCalls": 0,
+        "ratingBasis": "assistant_curated_axes_not_a_new_provider_rerank"
+      },
+      "editorialStage": {
+        "status": "success",
+        "model": "assistant-authored",
+        "effort": "direct_review",
+        "calls": []
+      }
+    },
+    {
+      "id": "140ff3ceeca472",
+      "doi": "10.1101/2025.09.19.677421",
+      "pmid": "",
+      "pmcid": "",
+      "title": "Efficient generation of epitope-targeted de novo antibodies with Germinal",
+      "authors": [
+        "Mille-Fragoso, L. S.",
+        " Driscoll, C. L.",
+        " Wang, J. N.",
+        " Dai, H.",
+        " Widatalla, T. M.",
+        " Zhang, J. L.",
+        " Zhang, X.",
+        " Rao, B.",
+        " Feng, L.",
+        " Hie, B. L.",
+        " Gao, X. J."
+      ],
+      "journal": "bioRxiv",
+      "url": "https://doi.org/10.1101/2025.09.19.677421",
+      "candidateAuthors": [
+        "brian-hie"
+      ],
+      "sourceType": "preprint",
+      "abstract": "Obtaining novel antibodies against specific protein targets is a widely important yet experimentally laborious process. Meanwhile, computational methods for antibody design have been limited by low success rates that currently require resource-intensive screening. Here, we introduce Germinal, a broadly enabling generative pipeline that designs antibodies against specific epitopes with nanomolar binding affinities while requiring only low-n experimental testing. Our method co-optimizes antibody structure and sequence by integrating a structure predictor with an antibody-specific protein language model to perform de novo design of functional complementarity-determining regions (CDRs) onto a user-specified structural framework. When tested against four diverse protein targets, Germinal successfully designed functional antibodies across all targets and binder formats, testing only 43-101 designs for each antigen. Validated designs also exhibited robust expression in mammalian cells and high sequence and structural novelty. We provide open-source code and full computational and experimental protocols to facilitate wide adoption. Germinal represents a milestone in efficient, epitope-targeted de novo antibody design, with notable implications for the development of molecular tools and therapeutics.",
+      "published": "2026-04-15",
+      "preprintVersion": "3",
+      "preprintServer": "bioRxiv",
+      "license": "cc_by_nc",
+      "publishedDoi": "NA",
+      "discoverySource": "Full bioRxiv/medRxiv posting inventory",
+      "correspondingAuthors": [
+        {
+          "id": "brian-hie",
+          "name": "Brian L. Hie",
+          "verified": true,
+          "sourceUrl": "https://api.biorxiv.org/details/biorxiv/10.1101/2025.09.19.677421",
+          "method": "biorxiv_author_corresponding",
+          "excerpt": "author_corresponding: Brian L Hie"
+        }
+      ],
+      "correspondenceStatus": "verified",
+      "inventorySource": "https://api.biorxiv.org/details/biorxiv/2026-04-01/2026-04-30/2700",
+      "sourceRecord": {
+        "title": "Efficient generation of epitope-targeted de novo antibodies with Germinal",
+        "authors": "Mille-Fragoso, L. S.; Driscoll, C. L.; Wang, J. N.; Dai, H.; Widatalla, T. M.; Zhang, J. L.; Zhang, X.; Rao, B.; Feng, L.; Hie, B. L.; Gao, X. J.",
+        "author_corresponding": "Brian L Hie",
+        "author_corresponding_institution": "Stanford University",
+        "doi": "10.1101/2025.09.19.677421",
+        "date": "2026-04-15",
+        "version": "3",
+        "type": "new results",
+        "license": "cc_by_nc",
+        "category": "synthetic biology",
+        "jatsxml": "https://www.biorxiv.org/content/early/2026/04/15/2025.09.19.677421.source.xml",
+        "abstract": "Obtaining novel antibodies against specific protein targets is a widely important yet experimentally laborious process. Meanwhile, computational methods for antibody design have been limited by low success rates that currently require resource-intensive screening. Here, we introduce Germinal, a broadly enabling generative pipeline that designs antibodies against specific epitopes with nanomolar binding affinities while requiring only low-n experimental testing. Our method co-optimizes antibody structure and sequence by integrating a structure predictor with an antibody-specific protein language model to perform de novo design of functional complementarity-determining regions (CDRs) onto a user-specified structural framework. When tested against four diverse protein targets, Germinal successfully designed functional antibodies across all targets and binder formats, testing only 43-101 designs for each antigen. Validated designs also exhibited robust expression in mammalian cells and high sequence and structural novelty. We provide open-source code and full computational and experimental protocols to facilitate wide adoption. Germinal represents a milestone in efficient, epitope-targeted de novo antibody design, with notable implications for the development of molecular tools and therapeutics.",
+        "published": "NA",
+        "server": "bioRxiv",
+        "inventorySource": "https://api.biorxiv.org/details/biorxiv/2026-04-01/2026-04-30/2700"
+      },
+      "firstPosted": "2025-09-24",
+      "versionsAudited": [
+        {
+          "version": "1",
+          "date": "2025-09-24"
+        },
+        {
+          "version": "2",
+          "date": "2025-09-25"
+        },
+        {
+          "version": "3",
+          "date": "2026-04-15"
+        }
+      ],
+      "paperKey": "140ff3ceeca472",
+      "tracker": "preprints",
+      "trackerLabel": "Preprints",
+      "source": "bioRxiv",
+      "canonicalUrl": "https://doi.org/10.1101/2025.09.19.677421",
+      "sourceOrigins": [
+        "Full bioRxiv/medRxiv posting inventory"
+      ],
+      "keywords": [
+        "AI-guided biology",
+        "Protein engineering"
+      ],
+      "sourceScore": 0,
+      "sourcePriority": "author-archive",
+      "reviewStatus": "completed",
+      "reviewBasis": "formal_abstract",
+      "shortSummary": "Germinal은 지정된 framework 위에 항체 CDR을 de novo 설계하면서 구조 예측과 항체 특이적 서열 모델을 함께 최적화한다. 네 종류의 표적에서 항원당 43–101개 설계를 시험해 nanomolar 결합을 보이는 항체를 얻었다. 같은 연구의 갱신된 preprint와 정식 논문을 연결해 읽으면 설계 흐름과 최종 검증을 함께 파악할 수 있다.",
+      "whyCare": "구조적으로 맞는 결합 면과 자연스러운 서열 분포를 동시에 다루고, 낮은 실험 후보 수로 검증하는 설계 사례다. De novo binder와 단백질 상호작용 공학에서 생성량보다 실험 성공률을 목표로 삼는 관점을 제공한다.",
+      "skepticism": "Framework·CDR·epitope의 조건이 바뀔 때 구조 평가자와 서열 prior의 기여는 어떻게 달라지며, 설계 성공률을 유지하는 조건은 무엇인가?",
+      "knowledge": "기능성 결합체 설계는 구조 점수와 서열 점수 중 하나를 고르는 문제가 아니다. 서로 다른 prior를 조합하고 실제 결합·발현으로 성공을 읽는 다목적 문제다.",
+      "takeaway": "기능성 결합체 설계는 구조 점수와 서열 점수 중 하나를 고르는 문제가 아니다. 서로 다른 prior를 조합하고 실제 결합·발현으로 성공을 읽는 다목적 문제다.",
+      "audienceScores": {
+        "labWide": 89,
+        "genomeEditing": 45,
+        "inVivo": 35,
+        "organoid": 20,
+        "epigenetics": 20,
+        "organelleMitochondria": 25,
+        "structuralBiology": 96,
+        "screening": 70,
+        "syntheticBiology": 75,
+        "proteinEngineering": 98,
+        "computational": 93,
+        "scientificNovelty": 88,
+        "evidenceStrength": 90,
+        "actionability": 88,
+        "venueQuality": 55
+      },
+      "lensRanks": {
+        "lab": 87,
+        "computational": 87
+      },
+      "computationalOnly": false,
+      "crossOver": true,
+      "mainPageEligible": true,
+      "lensReasons": {
+        "main": "구조적으로 맞는 결합 면과 자연스러운 서열 분포를 동시에 다루고, 낮은 실험 후보 수로 검증하는 설계 사례다. De novo binder와 단백질 상호작용 공학에서 생성량보다 실험 성공률을 목표로 삼는 관점을 제공한다.",
+        "computational": "기능성 결합체 설계는 구조 점수와 서열 점수 중 하나를 고르는 문제가 아니다. 서로 다른 prior를 조합하고 실제 결합·발현으로 성공을 읽는 다목적 문제다."
+      },
+      "editorialRerankFallback": false,
+      "editorialStatus": "success",
+      "editorialConfidence": "source_abstract",
+      "priority": "must-read",
+      "priorityLabel": "Must read",
+      "compbioMembership": "included",
+      "score": 87,
+      "directReviewProvenance": {
+        "origin": "assistant_authored",
+        "basis": "formal_abstract",
+        "sourceAbstractSha256": "214df88cafe51aafe90ba7c5cf924177d21ff0dca74b8d41b555a14b696753dc",
+        "providerCalls": 0,
+        "ratingBasis": "assistant_curated_axes_not_a_new_provider_rerank"
+      },
+      "editorialStage": {
+        "status": "success",
+        "model": "assistant-authored",
+        "effort": "direct_review",
+        "calls": []
+      }
     }
   ],
   "digest": {
     "title": "교신저자 연구 흐름: 최근 1년",
-    "weekOneLineSummary": "편집기 설계의 경쟁축은 단백질 활성 하나에서 반응 상태, RNA 설계, 세포 선택성과 전달 후 확산까지 함께 제어하는 방향으로 넓어지고 있다.",
-    "summary": "편집기 설계의 경쟁축은 단백질 활성 하나에서 반응 상태, RNA 설계, 세포 선택성과 전달 후 확산까지 함께 제어하는 방향으로 넓어지고 있다.",
-    "executiveSummary": "단백질 설계에서는 자연 서열을 그대로 출발점으로 삼는 것과 기능적 구조 상태를 보존하며 새로운 서열을 만드는 것이 다른 탐색 전략이다. SynTnpB는 inverse folding과 진화 제약을 결합하고, TnpB unwinding 연구는 활성의 병목을 부분적으로 열린 DNA와 완전히 열린 DNA 사이의 전이로 설명한다. TadA·DddA를 위한 computational layer도 단일 활성 점수뿐 아니라 구조 상태, 기질 결합, 안정성과 조합 변이의 상호작용을 분리해 다루는 방향으로 확장할 수 있다.\n\nPrime editing에서는 OptiPrime가 효율 예측을 pegRNA 순위 선정에 그치지 않고 MMR 회피 silent edit, PE3와 twinPE 설계로 연결한다. 중요한 포인트는 기전 지식을 모델의 설계 변수로 넣고, 새로운 세포와 편집 조건에서 실제 설계 결정을 개선하는지 평가하는 것이다.\n\n전달 연구의 공통 주제는 기본 유입 경로를 낮추는 detargeting, 수용체를 고르는 retargeting, 전달체를 조립하는 제조 방식, 편집 효소를 이웃 세포로 보내는 확산을 각각 제어하는 것이다. Corona engineering, dArc1 capsid, T-cell delivery와 NANITE는 이 네 축을 서로 다른 방식으로 구현한다. 세포 전달과 미토콘드리아 내부 유입을 별도의 설계 문제로 나누면 전달체와 TALED·DdCBE cargo의 조합을 더 명확하게 비교할 수 있다.\n\nVIPR은 연속적인 염기쌍 대신 끊어진 인식 코드와 triplex를 사용하고, spligation은 RNA 절단과 연결을 결합한다. 새로운 programmability를 찾을 때 자연계의 인식 규칙을 그대로 작은 모듈로 옮기기보다, 인식·촉매·조립의 역할을 나눠 보는 데 도움이 된다. mAge는 장기와 세포별 상태를 분해하는 평가 틀로 읽을 수 있어, super mitochondria 탐색에서도 단일 평균 점수보다 기능 축별 phenotype을 정의하는 관점과 연결된다.",
+    "weekOneLineSummary": "유전체 편집·전달·단백질 공학과 생물학적 AI의 설계 전략을 연결해 읽는 교신저자별 연간 연구 모음이다.",
+    "summary": "유전체 편집·전달·단백질 공학과 생물학적 AI의 설계 전략을 연결해 읽는 교신저자별 연간 연구 모음이다.",
+    "executiveSummary": "단백질 설계에서는 자연 서열을 그대로 출발점으로 삼는 것과 기능적 구조 상태를 보존하며 새로운 서열을 만드는 것이 다른 탐색 전략이다. SynTnpB는 inverse folding과 진화 제약을 결합하고, TnpB unwinding 연구는 활성의 병목을 부분적으로 열린 DNA와 완전히 열린 DNA 사이의 전이로 설명한다. TadA·DddA를 위한 computational layer도 단일 활성 점수뿐 아니라 구조 상태, 기질 결합, 안정성과 조합 변이의 상호작용을 분리해 다루는 방향으로 확장할 수 있다.\n\nPrime editing에서는 OptiPrime가 효율 예측을 pegRNA 순위 선정에 그치지 않고 MMR 회피 silent edit, PE3와 twinPE 설계로 연결한다. 중요한 포인트는 기전 지식을 모델의 설계 변수로 넣고, 새로운 세포와 편집 조건에서 실제 설계 결정을 개선하는지 평가하는 것이다.\n\n전달 연구의 공통 주제는 기본 유입 경로를 낮추는 detargeting, 수용체를 고르는 retargeting, 전달체를 조립하는 제조 방식, 편집 효소를 이웃 세포로 보내는 확산을 각각 제어하는 것이다. Corona engineering, dArc1 capsid, T-cell delivery와 NANITE는 이 네 축을 서로 다른 방식으로 구현한다. 세포 전달과 미토콘드리아 내부 유입을 별도의 설계 문제로 나누면 전달체와 TALED·DdCBE cargo의 조합을 더 명확하게 비교할 수 있다.\n\nVIPR은 연속적인 염기쌍 대신 끊어진 인식 코드와 triplex를 사용하고, spligation은 RNA 절단과 연결을 결합한다. 새로운 programmability를 찾을 때 자연계의 인식 규칙을 그대로 작은 모듈로 옮기기보다, 인식·촉매·조립의 역할을 나눠 보는 데 도움이 된다. mAge는 장기와 세포별 상태를 분해하는 평가 틀로 읽을 수 있어, super mitochondria 탐색에서도 단일 평균 점수보다 기능 축별 phenotype을 정의하는 관점과 연결된다.\n\nBrian Hie의 지난 1년은 세 가지 축으로 읽힌다. 첫째, Evo 2와 semantic design은 DNA 문맥을 이용해 기능과 서열의 관계를 학습하고 자연 homolog 밖의 후보 공간을 탐색한다. 둘째, ProteinDPO와 Germinal은 생성 모델의 그럴듯함을 실험에서 원하는 성질과 연결한다. ProteinDPO는 실험적 상대 선호를 모델에 정렬하고, Germinal은 구조와 항체 서열 prior를 함께 사용한다. 셋째, Proto는 DNA·RNA·단백질·리간드의 설계를 공통 primitive로 조합하고, Minerva는 genome model에서 비암호화 요소와 상호작용 지도를 읽어낸다. 우리 랩에서는 TadA·DddA 후보를 잘 고르는 모델 하나를 추가하기보다, 생성 prior·실험 선호·구조 제약·다목적 평가를 분리해서 결합하는 computational layer를 구상할 가치가 있다. antiGen은 계통 정보와 시간적 일반화의 평가 관점에서 읽을 문헌이다.",
     "theme": "Genome editing & In vivo translation",
     "keywords": [
       "Genome editing",
@@ -7537,9 +8473,9 @@
       "Synthetic biology",
       "Protein engineering"
     ],
-    "windowStart": "2025-10-09",
-    "windowEnd": "2026-10-08",
-    "mustDiscussCount": 35,
+    "windowStart": "2025-10-13",
+    "windowEnd": "2026-10-12",
+    "mustDiscussCount": 42,
     "highInterestCount": 7,
     "sections": {
       "topPapers": [
@@ -7783,6 +8719,46 @@
         "preprintPaperIds": [
           "b5c73328683609"
         ]
+      },
+      {
+        "authorId": "brian-hie",
+        "researchTrend": "Brian Hie의 지난 1년은 세 가지 축으로 읽힌다. 첫째, Evo 2와 semantic design은 DNA 문맥을 이용해 기능과 서열의 관계를 학습하고 자연 homolog 밖의 후보 공간을 탐색한다. 둘째, ProteinDPO와 Germinal은 생성 모델의 그럴듯함을 실험에서 원하는 성질과 연결한다. ProteinDPO는 실험적 상대 선호를 모델에 정렬하고, Germinal은 구조와 항체 서열 prior를 함께 사용한다. 셋째, Proto는 DNA·RNA·단백질·리간드의 설계를 공통 primitive로 조합하고, Minerva는 genome model에서 비암호화 요소와 상호작용 지도를 읽어낸다. 우리 랩에서는 TadA·DddA 후보를 잘 고르는 모델 하나를 추가하기보다, 생성 prior·실험 선호·구조 제약·다목적 평가를 분리해서 결합하는 computational layer를 구상할 가치가 있다. antiGen은 계통 정보와 시간적 일반화의 평가 관점에서 읽을 문헌이다.",
+        "paperIds": [
+          "e8d1a370431e95",
+          "d075374e157b35",
+          "cc5e374b972333",
+          "dfa5028c09b1e1",
+          "2c6adc65b5fb40",
+          "1a6d999680cbe6",
+          "1f706a656d90d7",
+          "140ff3ceeca472"
+        ],
+        "preprintPaperIds": [
+          "d075374e157b35",
+          "dfa5028c09b1e1",
+          "2c6adc65b5fb40",
+          "140ff3ceeca472"
+        ],
+        "reviewWindow": {
+          "start": "2025-10-13",
+          "end": "2026-10-12"
+        },
+        "relatedReading": [
+          {
+            "doi": "10.1126/science.aec2657",
+            "title": "Generative design of bacteriophages with genome language models",
+            "url": "https://doi.org/10.1126/science.aec2657",
+            "roleStatus": "공동저자는 확인했으며 출판본 교신저자 표기는 확인 대기",
+            "shortSummary": "단일 유전자나 단백질을 넘어 여러 요소가 상호작용하는 유전체 규모의 생성 모델을 실험적 시스템으로 평가한 Science 연구다. 여러 생성 결과의 기능적 다양성과 구조 관찰을 통해 설계의 단위를 넓혔다.",
+            "whyCare": "이번 연간 연구 흐름을 분자 하나의 설계에서 여러 구성요소가 함께 작동하는 시스템의 설계로 확장해 읽을 참고 문헌이다.",
+            "question": "여러 구성요소의 기능을 각각 만족하는 것과 전체 시스템이 함께 작동하는 것 사이의 차이를 어떤 평가 구조로 표현할 수 있는가?",
+            "knowledge": "시스템 수준의 설계에서는 각 요소의 성능뿐 아니라 요소 간 호환성과 전체 기능을 별도 readout으로 두는 관점이 중요하다."
+          }
+        ],
+        "directReviewProvenance": {
+          "origin": "assistant_authored",
+          "providerCalls": 0
+        }
       }
     ],
     "summaryProvenance": {
@@ -7794,77 +8770,86 @@
   "trackers": [],
   "editorialStage": {
     "status": "success",
-    "model": "assistant-authored",
-    "effort": "direct review",
-    "origin": "assistant_authored",
+    "model": "mixed-provenance",
+    "effort": "saved_and_direct",
+    "calls": [],
+    "addedAuthor": "brian-hie",
     "providerCalls": 0,
-    "oneTime": true,
-    "scoreScale": "0-100",
-    "scoreMethod": "PI editorial judgement, not a provider-generated score",
-    "journalScoresPreserved": true,
     "previousStage": {
       "status": "success",
-      "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+      "model": "assistant-authored",
+      "effort": "direct review",
+      "origin": "assistant_authored",
+      "providerCalls": 0,
+      "oneTime": true,
       "scoreScale": "0-100",
-      "model": "gpt-6-luna",
-      "effort": "high",
-      "errorCategory": null,
-      "calls": [
-        {
-          "status": "completed",
-          "model": "gpt-6-luna",
-          "requestedModel": "gpt-6-luna",
-          "effort": "high",
-          "inputTokens": 6239,
-          "outputTokens": 4733,
-          "totalTokens": 10972,
-          "count": 10
-        },
-        {
-          "status": "completed",
-          "model": "gpt-6-luna",
-          "requestedModel": "gpt-6-luna",
-          "effort": "high",
-          "inputTokens": 5996,
-          "outputTokens": 3724,
-          "totalTokens": 9720,
-          "count": 10
-        },
-        {
-          "status": "completed",
-          "model": "gpt-6-luna",
-          "requestedModel": "gpt-6-luna",
-          "effort": "high",
-          "inputTokens": 5668,
-          "outputTokens": 4259,
-          "totalTokens": 9927,
-          "count": 10
-        },
-        {
-          "status": "completed",
-          "model": "gpt-6-luna",
-          "requestedModel": "gpt-6-luna",
-          "effort": "high",
-          "inputTokens": 5556,
-          "outputTokens": 3495,
-          "totalTokens": 9051,
-          "count": 9
-        }
-      ],
-      "cached": true
+      "scoreMethod": "PI editorial judgement, not a provider-generated score",
+      "journalScoresPreserved": true,
+      "previousStage": {
+        "status": "success",
+        "profileVersion": "PAPERTRAIL_ABSTRACT_RECOVERY_20260930_SCALE_100",
+        "scoreScale": "0-100",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "errorCategory": null,
+        "calls": [
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 6239,
+            "outputTokens": 4733,
+            "totalTokens": 10972,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5996,
+            "outputTokens": 3724,
+            "totalTokens": 9720,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5668,
+            "outputTokens": 4259,
+            "totalTokens": 9927,
+            "count": 10
+          },
+          {
+            "status": "completed",
+            "model": "gpt-6-luna",
+            "requestedModel": "gpt-6-luna",
+            "effort": "high",
+            "inputTokens": 5556,
+            "outputTokens": 3495,
+            "totalTokens": 9051,
+            "count": 9
+          }
+        ],
+        "cached": true
+      }
     }
   },
   "stats": {
-    "papers": 42,
+    "papers": 49,
     "collected": 258,
-    "mustRead": 35
+    "mustRead": 42,
+    "highInterest": 7
   },
   "collectionAudit": {
-    "windowStart": "2025-10-09",
-    "windowEnd": "2026-10-08",
-    "reviewedCount": 42,
+    "windowStart": "2025-10-13",
+    "windowEnd": "2026-10-12",
+    "reviewedCount": 49,
     "candidateCount": 258,
-    "coverageStatus": "complete_biorxiv_medrxiv_version_inventory_and_correspondence_audit",
+    "coverageStatus": "author_scoped_extension; prior_six_preserved; one_new_journal_correspondence_pending",
     "preprintDatePolicy": "Most recent preprint version posted within window; original first-posted date retained separately",
     "oneTime": true,
     "inventoryIntegrity": {
@@ -9734,7 +10719,51 @@
         "reason": "not_marked_in_source",
         "correspondenceStatus": "not_marked_in_source"
       }
-    ]
+    ],
+    "previousWindow": {
+      "start": "2025-10-09",
+      "end": "2026-10-08"
+    },
+    "brianHieAudit": {
+      "windowStart": "2025-10-13",
+      "windowEnd": "2026-10-12",
+      "candidates": 13,
+      "verifiedRecords": 8,
+      "journalRecords": 4,
+      "preprintRecords": 4,
+      "coverage": {
+        "EuropePMC": {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AUTH%3A%22Hie+BL%22+OR+AUTH%3A%22Brian+Hie%22%29+AND+FIRST_PDATE%3A%5B2025-10-13+TO+2026-10-12%5D&format=json&resultType=core&pageSize=1000&cursorMark=%2A",
+          "hitCount": 12,
+          "fetchedCount": 12
+        },
+        "cachedAnnualPagesChecked": 3151,
+        "cachedAnnualPostingRowsChecked": 94156,
+        "tail": [
+          {
+            "server": "biorxiv",
+            "start": "2026-10-09",
+            "end": "2026-10-12",
+            "total": 609,
+            "fetched": 609,
+            "complete": true
+          },
+          {
+            "server": "medrxiv",
+            "start": "2026-10-09",
+            "end": "2026-10-12",
+            "total": 139,
+            "fetched": 139,
+            "complete": true
+          }
+        ],
+        "labPublications": "https://evodesign.org/publications",
+        "arxivExcluded": true
+      },
+      "sourceDatePolicy": "Journal first publication; preprint latest posting version within the author-specific one-year window",
+      "pendingJournalDoi": "10.1126/science.aec2657",
+      "earlierSixAuthorsReviewedThrough": "2026-10-08"
+    }
   },
   "windowStart": "2025-10-09",
   "windowEnd": "2026-10-08"

@@ -48,6 +48,14 @@
         "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13128491/fullTextXML",
         "method": "jats_corresp",
         "excerpt": "Patrick D. Hsu; corresp=yes; "
+      },
+      {
+        "id": "brian-hie",
+        "name": "Brian L. Hie",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13128491/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Brian L. Hie; corresp=yes; "
       }
     ],
     "10.1038/s41587-026-03221-1": [
@@ -494,6 +502,76 @@
         "sourceUrl": "https://www.biorxiv.org/content/early/2026/09/11/2026.09.09.750476.source.xml",
         "method": "jats_corresp",
         "excerpt": "Feng Zhang; corresp=yes; †Corresponding authors: Feng Zhang (zhang@broadinstitute.org) and Guilhem Faure (gfaure@broadinstitute.org)"
+      }
+    ],
+    "10.64898/2026.09.22.753630": [
+      {
+        "id": "brian-hie",
+        "name": "Brian L. Hie",
+        "verified": true,
+        "sourceUrl": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.22.753630",
+        "method": "biorxiv_author_corresponding",
+        "excerpt": "author_corresponding: Brian Hie"
+      }
+    ],
+    "10.1038/s41592-026-03137-3": [
+      {
+        "id": "brian-hie",
+        "name": "Brian L. Hie",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13541614/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Brian L Hie; corresp=; ✉Corresponding author."
+      }
+    ],
+    "10.64898/2026.08.27.741102": [
+      {
+        "id": "brian-hie",
+        "name": "Brian L. Hie",
+        "verified": true,
+        "sourceUrl": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.08.27.741102",
+        "method": "biorxiv_author_corresponding",
+        "excerpt": "author_corresponding: Brian L Hie"
+      }
+    ],
+    "10.64898/2026.06.22.733870": [
+      {
+        "id": "brian-hie",
+        "name": "Brian L. Hie",
+        "verified": true,
+        "sourceUrl": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.06.22.733870",
+        "method": "biorxiv_author_corresponding",
+        "excerpt": "author_corresponding: Brian L Hie"
+      }
+    ],
+    "10.1038/s41587-026-03187-0": [
+      {
+        "id": "brian-hie",
+        "name": "Brian L. Hie",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41587-026-03187-0",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to\n                 Luis S. Mille-Fragoso ,  Brian L. Hie  or  Xiaojing J. Gao . "
+      }
+    ],
+    "10.1038/s41586-025-09749-7": [
+      {
+        "id": "brian-hie",
+        "name": "Brian L. Hie",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12804078/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Brian L Hie; corresp=; ✉Corresponding author."
+      }
+    ],
+    "10.1101/2025.09.19.677421": [
+      {
+        "id": "brian-hie",
+        "name": "Brian L. Hie",
+        "verified": true,
+        "sourceUrl": "https://api.biorxiv.org/details/biorxiv/10.1101/2025.09.19.677421",
+        "method": "biorxiv_author_corresponding",
+        "excerpt": "author_corresponding: Brian L Hie"
       }
     ]
   }

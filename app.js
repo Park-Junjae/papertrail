@@ -15,6 +15,7 @@ const CORRESPONDING_AUTHORS = [
   ["patrick-hsu", "Patrick Hsu"], ["jonathan-gootenberg", "Gootenberg"],
   ["omar-abudayyeh", "Abudayyeh"], ["jennifer-doudna", "Doudna"],
   ["feng-zhang", "Feng Zhang"], ["david-liu", "David R. Liu"],
+  ["brian-hie", "Brian L. Hie"],
 ];
 const hasDom = typeof document !== "undefined" && typeof window !== "undefined";
 const staticDataBase = hasDom
@@ -338,7 +339,8 @@ function renderIssue() {
   elements.authorSynthesis.hidden = !authorSummaries.length;
   elements.authorSynthesis.innerHTML = authorSummaries.map((row) => `<section>
     <h3><a href="?week=corresponding-year&amp;authors=${encodeURIComponent(row.authorId)}#papers">${escapeHtml(CORRESPONDING_AUTHORS.find(([id]) => id === row.authorId)?.[1] || row.authorId)}</a></h3>
-    <p class="korean-copy" lang="ko">${escapeHtml(row.researchTrend)}</p></section>`).join("");
+    <p class="korean-copy" lang="ko">${escapeHtml(row.researchTrend)}</p>
+    ${(row.relatedReading || []).map((item) => `<p class="korean-copy" lang="ko"><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a><br>${escapeHtml(item.roleStatus)}</p>`).join("")}</section>`).join("");
   document.getElementById("digest-period-label").textContent = data.weekKey === "corresponding-year" ? "The year in science" : "The week in science";
   elements.digestTitle.textContent = digestHeadline(digest, data.weekKey);
   elements.digestSummary.textContent = digest.summary || data.site?.description || "";

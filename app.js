@@ -1,5 +1,6 @@
 const state = {
   data: null,
+  publishedWeeks: null,
   query: "",
   tracker: "all",
   correspondingAuthors: new Set(),
@@ -225,6 +226,17 @@ async function loadData(week = "") {
     const payload = await response.json();
     if (!response.ok) throw new Error(payload.error || `HTTP ${response.status}`);
     state.data = payload;
+    if (staticDataBase) {
+      try {
+        const manifestResponse = await fetch(`${staticDataBase}/archive_manifest.json`, { cache: "no-store" });
+        if (manifestResponse.ok) {
+          const manifest = await manifestResponse.json();
+          if (Array.isArray(manifest.weeks)) state.publishedWeeks = publishedArchiveWeeks(manifest.weeks);
+        }
+      } catch (_) {
+        // Keep the last known publication index if the manifest is unavailable.
+      }
+    }
     // Shared evidence overlays archived data without rewriting its scores/reviews.
     const evidenceEndpoint = staticDataBase ? `${staticDataBase}/corresponding_author_index.json` : "/api/corresponding-author-index";
     const evidenceResponse = await fetch(evidenceEndpoint, { cache: "no-store" });
@@ -375,8 +387,13 @@ function renderIssue() {
   `).join("");
 }
 
+function publishedArchiveWeeks(...groups) {
+  return [...new Set(groups.flat().filter((week) => typeof week === "string" && /^\d{8}$/.test(week)))].sort().reverse();
+}
+
 function renderWeekSelect() {
-  elements.weekSelect.innerHTML = `<option value="corresponding-year" ${state.data.weekKey === "corresponding-year" ? "selected" : ""}>Corresponding authors · past year</option>` + (state.data.availableWeeks || []).map((week) => `
+  const weeks = state.publishedWeeks || publishedArchiveWeeks(state.data.availableWeeks || [], state.data.weekKey);
+  elements.weekSelect.innerHTML = `<option value="corresponding-year" ${state.data.weekKey === "corresponding-year" ? "selected" : ""}>Corresponding authors · past year</option>` + weeks.map((week) => `
     <option value="${escapeHtml(week)}" ${week === state.data.weekKey ? "selected" : ""}>
       ${formatWeekOption(week)}
     </option>
@@ -926,6 +943,7 @@ if (typeof module !== "undefined" && module.exports) {
     matchesCorrespondingAuthors,
     verifiedCorrespondingAuthors,
     paperAnalysisHref,
+    publishedArchiveWeeks,
     labScore,
     rankPapersForTracker,
     reasonForTracker,

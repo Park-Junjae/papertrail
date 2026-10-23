@@ -1,0 +1,2387 @@
+{
+  "events": [
+    {
+      "eventId": "event-de8d86d7d988de11",
+      "paperId": "paper-9bf83395feda4f5e",
+      "paperTitle": "Reprogrammable RNA-targeting CRISPR systems evolved from RNA toxin-antitoxins",
+      "paperDoi": "10.1016/j.cell.2025.01.034",
+      "presentedAt": "2025-06-07",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-001",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-52d6b80bb06dc980",
+      "paperId": "paper-63e5fe232fdedfc8",
+      "paperTitle": "QBEmax is a sequence-permuted and internally protected base editor",
+      "paperDoi": "10.1038/s41587-025-02641-9",
+      "presentedAt": "2025-06-14",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-002",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-d7f910cdb9666f8d",
+      "paperId": "paper-0cfc00569d92dc5f",
+      "paperTitle": "Silencing mitochondrial gene expression in living cells",
+      "paperDoi": "10.1126/science.adr3498",
+      "presentedAt": "2025-06-30",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-003",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-1eb0b8908d31383a",
+      "paperId": "paper-75d62699a69458c7",
+      "paperTitle": "A mitochondrial disease model is generated and corrected using engineered base editors in rat zygotes",
+      "paperDoi": "10.1038/s41587-025-02684-y",
+      "presentedAt": "2025-07-12",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-004",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-5337408423b28928",
+      "paperId": "paper-0fb50e575737171c",
+      "paperTitle": "Age-dependent accumulation of mitochondrial tRNA mutations in mouse kidneys linked to mitochondrial kidney diseases",
+      "paperDoi": "10.1038/s43587-025-00909-y",
+      "presentedAt": "2025-07-12",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-005",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-116573e8b26bb17d",
+      "paperId": "paper-7cf79a4a37bb1a76",
+      "paperTitle": "Custom CRISPR–Cas9 PAM variants via scalable engineering and machine learning",
+      "paperDoi": "10.1038/s41586-025-09021-y",
+      "presentedAt": "2025-07-12",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-006",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-b4fbb4ff8865284d",
+      "paperId": "paper-48c4ea5b0fb883f9",
+      "paperTitle": "Genome-wide CRISPR screen in human T cells reveals regulators of FOXP3",
+      "paperDoi": "10.1038/s41586-025-08795-5",
+      "presentedAt": "2025-07-12",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-007",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-f2fb23e876081e65",
+      "paperId": "paper-4497d253be1b84a5",
+      "paperTitle": "Nerve-to-cancer transfer of mitochondria during cancer metastasis",
+      "paperDoi": "10.1038/s41586-025-09176-8",
+      "presentedAt": "2025-07-12",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-008",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-365c1ddd6b706aa3",
+      "paperId": "paper-7bca10c9a144053a",
+      "paperTitle": "TIGR-Tas: A family of modular RNA-guided DNA-targeting systems in prokaryotes and their viruses",
+      "paperDoi": "10.1126/science.adv9789",
+      "presentedAt": "2025-07-12",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-009",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-9921e8be087d83dc",
+      "paperId": "paper-9d4d6dd6d325cbd9",
+      "paperTitle": "Advancing protein evolution with inverse folding models integrating structural and evolutionary constraints",
+      "paperDoi": "10.1016/j.cell.2025.06.014",
+      "presentedAt": "2025-07-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-010",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-b5230ffed3725e56",
+      "paperId": "paper-23e4ce51c0e0e2a2",
+      "paperTitle": "CRISPR-free base editors with enhanced activity and expanded targeting scope in mitochondrial and nuclear DNA",
+      "paperDoi": "10.1038/s41587-022-01256-8",
+      "presentedAt": "2025-07-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-011",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-bed109087dc37cd5",
+      "paperId": "paper-70eab24824ca6d67",
+      "paperTitle": "Efficient mitochondrial A-to-G base editors for the generation of mitochondrial disease models",
+      "paperDoi": "10.1038/s41587-025-02685-x",
+      "presentedAt": "2025-07-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-012",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-fa9552c818ca1b9f",
+      "paperId": "paper-d4c54742bfbbb5ca",
+      "paperTitle": "Internal cap-initiated translation for efficient protein production from circular mRNA",
+      "paperDoi": "10.1038/s41587-025-02561-8",
+      "presentedAt": "2025-07-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-013",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-c6e2014dc97a7148",
+      "paperId": "paper-8860974f29eaecff",
+      "paperTitle": "Immune evasion through mitochondrial transfer in the tumour microenvironment",
+      "paperDoi": "10.1038/s41586-024-08439-0",
+      "presentedAt": "2025-07-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-014",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-fb5510bacba140e1",
+      "paperId": "paper-e01a27ebb2f3acfa",
+      "paperTitle": "Precise modelling of mitochondrial diseases using optimized mitoBEs",
+      "paperDoi": "10.1038/s41586-024-08469-8",
+      "presentedAt": "2025-07-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-015",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-0be70c9edb60532d",
+      "paperId": "paper-2906631115993126",
+      "paperTitle": "In silico evolution of globular protein folds from random sequences",
+      "paperDoi": "10.1101/2024.11.10.622830",
+      "presentedAt": "2025-07-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-016",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-40ea8535f2899742",
+      "paperId": "paper-5ebe515f1bb1c8e7",
+      "paperTitle": "DdmDE eliminates plasmid invasion by DNA-guided DNA targeting",
+      "paperDoi": "10.1016/j.cell.2024.07.028",
+      "presentedAt": "2025-07-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-017",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-5c853feaffff3942",
+      "paperId": "paper-033a5356f388aa9b",
+      "paperTitle": "A motif preferred adenine base editor with minimal bystander and off-targets editing",
+      "paperDoi": "10.1101/2024.11.23.624961",
+      "presentedAt": "2025-07-25",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-018",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-97e4f57a5c2484d6",
+      "paperId": "paper-5c45630b61a3e2f0",
+      "paperTitle": "Rapid DNA unwinding accelerates genome editing by engineered CRISPR-Cas9",
+      "paperDoi": "10.1016/j.cell.2024.04.031",
+      "presentedAt": "2025-07-25",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-019",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-d822c82e57acf08d",
+      "paperId": "paper-3e0d1a8851095b7d",
+      "paperTitle": "Prime editor-based high-throughput screening reveals functional synonymous mutations in human cells",
+      "paperDoi": "10.1038/s41587-025-02710-z",
+      "presentedAt": "2025-08-01",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-020",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-1c0b000371e86904",
+      "paperId": "paper-1443a98b2b5628fa",
+      "paperTitle": "Systematic identification of anticancer drug targets reveals a nucleus-to-mitochondria ROS-sensing pathway",
+      "paperDoi": "10.1016/j.cell.2023.04.026",
+      "presentedAt": "2025-08-01",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-021",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-d5e65ba2920fffe4",
+      "paperId": "paper-1ada7cf779174d8c",
+      "paperTitle": "Mitochondrial DNA mosaicism in normal human somatic cells",
+      "paperDoi": "10.1038/s41588-024-01838-z",
+      "presentedAt": "2025-08-14",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-022",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-f9623c89b54ba6b3",
+      "paperId": "paper-e5503225eac63046",
+      "paperTitle": "Safe and effective in vivo delivery of DNA and RNA using proteolipid vehicles",
+      "paperDoi": "10.1016/j.cell.2024.07.023",
+      "presentedAt": "2025-08-14",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-023",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-fa5a86fc958e78b9",
+      "paperId": "paper-98b68ffae24c1310",
+      "paperTitle": "Premature ageing in mice expressing defective mitochondrial DNA polymerase",
+      "paperDoi": "10.1038/nature02517",
+      "presentedAt": "2025-08-14",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-024",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-a615eaf83612a46e",
+      "paperId": "paper-f0fe242f12c0f81e",
+      "paperTitle": "Single-cell analysis reveals context-dependent, cell-level selection of mtDNA",
+      "paperDoi": "10.1038/s41586-024-07332-0",
+      "presentedAt": "2025-08-14",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-025",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-9185ca9f94447331",
+      "paperId": "paper-a617c6b468999653",
+      "paperTitle": "Engineered platelets as targeted protein degraders and application to breast cancer models",
+      "paperDoi": "10.1038/s41587-024-02494-8",
+      "presentedAt": "2025-08-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-026",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-86a9ee215f554bf9",
+      "paperId": "paper-2688ae1fac8eb371",
+      "paperTitle": "RNA-binding proteins and glycoRNAs form domains on the cell surface for cell-penetrating peptide entry",
+      "paperDoi": "10.1016/j.cell.2025.01.040",
+      "presentedAt": "2025-08-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-027",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-6933072c0e3c85e4",
+      "paperId": "paper-fb82d6647eae731a",
+      "paperTitle": "Improved RNA base editing with guide RNAs mimicking highly edited endogenous ADAR substrates",
+      "paperDoi": "10.1038/s41587-025-02628-6",
+      "presentedAt": "2025-08-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-028",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-e54113983d2c0c22",
+      "paperId": "paper-5b88a2222e9fff0c",
+      "paperTitle": "Bone-marrow-homing lipid nanoparticles for genome editing in diseased and malignant haematopoietic stem cells",
+      "paperDoi": "10.1038/s41565-024-01680-8",
+      "presentedAt": "2025-08-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-029",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-72a6b343b4c4a776",
+      "paperId": "paper-b73bb7ca15db2f6a",
+      "paperTitle": "Iterative recombinase technologies for efficient and precise genome engineering across kilobase to megabase scales",
+      "paperDoi": "10.1016/j.cell.2025.07.011",
+      "presentedAt": "2025-08-29",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-030",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-375d7070b240402b",
+      "paperId": "paper-b89cde7b9fa018b7",
+      "paperTitle": "MTFP1 controls mitochondrial fusion to regulate inner membrane quality control and maintain mtDNA levels",
+      "paperDoi": "10.1016/j.cell.2024.05.017",
+      "presentedAt": "2025-08-29",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-031",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-9f0f6c8f1e51fc05",
+      "paperId": "paper-13593dc593d13f91",
+      "paperTitle": "Structural dynamics of DNA unwinding by a replicative helicase",
+      "paperDoi": "10.1038/s41586-025-08766-w",
+      "presentedAt": "2025-09-12",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-032",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-813b57c2bee527ba",
+      "paperId": "paper-a35fcd579537fba7",
+      "paperTitle": "Helicase-assisted continuous editing for programmable mutagenesis of endogenous genomes",
+      "paperDoi": "10.1126/science.adn5876",
+      "presentedAt": "2025-09-12",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-033",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-26390c48cb6f0337",
+      "paperId": "paper-5abfad7491d84254",
+      "paperTitle": "Engineered nucleocytosolic vehicles for loading of programmable editors",
+      "paperDoi": "10.1016/j.cell.2025.03.015",
+      "presentedAt": "2025-09-19",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-034",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-b2e1f2a0d9e9cab3",
+      "paperId": "paper-aaa4ea24d78d33d1",
+      "paperTitle": "Glycan shielding enables TCR-sufficient allogeneic CAR-T therapy",
+      "paperDoi": "10.1016/j.cell.2025.07.046",
+      "presentedAt": "2025-09-19",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-035",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-88523cbbb96ea77f",
+      "paperId": "paper-58e5071275793bf4",
+      "paperTitle": "Cas9 senses CRISPR RNA abundance to regulate CRISPR spacer acquisition",
+      "paperDoi": "10.1038/s41586-025-09577-9",
+      "presentedAt": "2025-09-19",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-036",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-5a693d3c44804d2d",
+      "paperId": "paper-a4d55f41ca575611",
+      "paperTitle": "Implantation of engineered adipocytes suppresses tumor progression in cancer models",
+      "paperDoi": "10.1038/s41587-024-02551-2",
+      "presentedAt": "2025-09-19",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-037",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-986bdd8c65e6e9b4",
+      "paperId": "paper-2bdc1875cb4ce96c",
+      "paperTitle": "Targeted DNA ADP-ribosylation triggers templated repair in bacteria and base mutagenesis in eukaryotes",
+      "paperDoi": "10.1038/s41587-025-02802-w",
+      "presentedAt": "2025-09-19",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-038",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-384f59d0b79daea7",
+      "paperId": "paper-ad10b060f4b82049",
+      "paperTitle": "Combining Multiplexed CRISPR/Cas9-Nickase and PARP Inhibitors Efficiently and Precisely Targets Cancer Cells",
+      "paperDoi": "10.1158/0008-5472.can-24-2938",
+      "presentedAt": "2025-10-02",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-039",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-999ee7f283754753",
+      "paperId": "paper-3876399a9a042a11",
+      "paperTitle": "Conversion of IscB and Cas9 into RNA-guided RNA editors",
+      "paperDoi": "10.1016/j.cell.2025.07.032",
+      "presentedAt": "2025-10-02",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-040",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-bb5f36dacd7eb71a",
+      "paperId": "paper-ff105c98008c97e0",
+      "paperTitle": "ProPE expands the prime editing window and enhances gene editing efficiency where prime editing is inefficient",
+      "paperDoi": "10.1038/s41929-025-01406-6",
+      "presentedAt": "2025-10-17",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-041",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-31f6e3c024f36666",
+      "paperId": "paper-ea12c172dba435cd",
+      "paperTitle": "The human mitochondrial mRNA structurome reveals mechanisms of gene expression",
+      "paperDoi": "10.1126/science.adm9238",
+      "presentedAt": "2025-10-17",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-042",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-ba22a48836a89e27",
+      "paperId": "paper-7000f3ffc7f9c704",
+      "paperTitle": "FASTKD5 processes mitochondrial pre-mRNAs at noncanonical cleavage sites",
+      "paperDoi": "10.1093/nar/gkaf665",
+      "presentedAt": "2025-10-17",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-043",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-339a14cb1d4be935",
+      "paperId": "paper-75073aa102c62389",
+      "paperTitle": "Ribonucleotide incorporation into mitochondrial DNA drives inflammation",
+      "paperDoi": "10.1038/s41586-025-09541-7",
+      "presentedAt": "2025-10-17",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-044",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-6f4931fe3f0409b6",
+      "paperId": "paper-d84a0951c6b5ceb0",
+      "paperTitle": "A base editor facilitates simultaneous purine and pyrimidine substitutions for ex vivo and in vivo mutagenesis screens",
+      "paperDoi": "10.1016/j.chembiol.2025.08.003",
+      "presentedAt": "2025-10-24",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-045",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-f6f2b11477c92aee",
+      "paperId": "paper-07da829040b50baf",
+      "paperTitle": "De novo RNA base editing in plant organelles with engineered synthetic P-type PPR editing factors",
+      "paperDoi": "10.1093/nar/gkaf279",
+      "presentedAt": "2025-10-31",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-046",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-ab3676f720344ef0",
+      "paperId": "paper-cd6069f2b61ed98a",
+      "paperTitle": "Misregulation of mitochondrial 6mA promotes the propagation of mutant mtDNA and causes aging in C. elegans",
+      "paperDoi": "10.1016/j.cmet.2024.07.020",
+      "presentedAt": "2025-10-31",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-047",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-4f4c741cf4fe06e1",
+      "paperId": "paper-0b151205f9ba11e7",
+      "paperTitle": "Prime editing using CRISPR-Cas12a and circular RNAs in human cells",
+      "paperDoi": "10.1038/s41587-023-02095-x",
+      "presentedAt": "2025-10-31",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-048",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-d7b03c30d81c3a35",
+      "paperId": "paper-190dd5e0e525a5e7",
+      "paperTitle": "Repair of CRISPR-guided RNA breaks enables site-specific RNA excision in human cells",
+      "paperDoi": "10.1126/science.adk5518",
+      "presentedAt": "2025-10-31",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-049",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-087b1652e4171dc3",
+      "paperId": "paper-478ff565592c0f42",
+      "paperTitle": "Super mitochondria-enriched extracellular vesicles enable enhanced mitochondria transfer",
+      "paperDoi": "10.1038/s41467-025-64486-9",
+      "presentedAt": "2025-11-07",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-050",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-d340109253c9c195",
+      "paperId": "paper-307ae7a4cb3e5834",
+      "paperTitle": "Long-range enhancer-controlled genes are hypersensitive to regulatory factor perturbations",
+      "paperDoi": "10.1016/j.xgen.2025.100778",
+      "presentedAt": "2025-11-07",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-051",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-94f7a2ccde8102d4",
+      "paperId": "paper-99c31eb055928098",
+      "paperTitle": "Dynamically covalent lipid nanoparticles mediate CRISPR-Cas9 genome editing against choroidal neovascularization in mice",
+      "paperDoi": "10.1126/sciadv.adj0006",
+      "presentedAt": "2025-11-07",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-052",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-928cc2042c9ee564",
+      "paperId": "paper-d544b225cdb986a0",
+      "paperTitle": "Programmable RNA writing with trans-splicing",
+      "paperDoi": "10.1101/2024.01.31.578223",
+      "presentedAt": "2025-11-07",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-053",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-320bba8ba449a4da",
+      "paperId": "paper-9fb687ffb6895baf",
+      "paperTitle": "Delayed protein translocation protects mitochondria against toxic CAT-tailed proteins",
+      "paperDoi": "10.1016/j.molcel.2025.09.030",
+      "presentedAt": "2025-11-07",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-054",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-537696f0b65ec341",
+      "paperId": "paper-d101a850d607d37d",
+      "paperTitle": "CRISPR anti-tag-mediated room-temperature RNA detection using CRISPR/Cas13a",
+      "paperDoi": "10.1038/s41467-025-64205-4",
+      "presentedAt": "2025-11-14",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-055",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-4a82e4a4f721fbf2",
+      "paperId": "paper-1a4810d99be68785",
+      "paperTitle": "ATFS-1 counteracts mitochondrial DNA damage by promoting repair over transcription",
+      "paperDoi": "10.1038/s41556-023-01192-y",
+      "presentedAt": "2025-11-14",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-056",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-d2ff75bf586d7a23",
+      "paperId": "paper-388ac7dcf1982c73",
+      "paperTitle": "Randomizing the human genome by engineering recombination between repeat elements",
+      "paperDoi": "10.1126/science.ado3979",
+      "presentedAt": "2025-11-14",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-057",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-b4c9dd8ce2c97c84",
+      "paperId": "paper-51244a10682b37ed",
+      "paperTitle": "Mutational scanning of TnpB reveals latent activity for genome editing",
+      "paperDoi": "10.1101/2025.02.11.637750",
+      "presentedAt": "2025-11-14",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-058",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-9ca0dbe90a804d3b",
+      "paperId": "paper-da0a3639681d1d8d",
+      "paperTitle": "Dynamic TOM–TIM23 supercomplex directs mitochondrial protein translocation and sorting",
+      "paperDoi": "10.1038/s41594-025-01662-x",
+      "presentedAt": "2025-11-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-059",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-becfbf63c4d2f7b1",
+      "paperId": "paper-e1d1fcef2a66d011",
+      "paperTitle": "Organelle-tuning condition robustly fabricates energetic mitochondria for cartilage regeneration",
+      "paperDoi": "10.1038/s41413-025-00411-6",
+      "presentedAt": "2025-11-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-060",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-368caa275bc5b3f0",
+      "paperId": "paper-2642ba5e2423d3dd",
+      "paperTitle": "RNA stability enhancers for durable base-modified mRNA therapeutics",
+      "paperDoi": "10.1038/s41587-025-02891-7",
+      "presentedAt": "2025-11-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-061",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-2ae6fbf7bd7c9215",
+      "paperId": "paper-c8a8aca43dfc5124",
+      "paperTitle": "Monitoring the complexity and dynamics of mitochondrial translation",
+      "paperDoi": "10.1016/j.molcel.2025.10.022",
+      "presentedAt": "2025-11-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-062",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-ab73e0504495dc29",
+      "paperId": "paper-79393fdc57a3267e",
+      "paperTitle": "Precise RNA targeting with CRISPR–Cas13d",
+      "paperDoi": "10.1038/s41587-025-02558-3",
+      "presentedAt": "2025-11-28",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-063",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-c12d1cb4ca5125ea",
+      "paperId": "paper-ccc8434ef3fbf086",
+      "paperTitle": "Design of optimized epigenetic regulators for durable gene silencing with application to PCSK9 in nonhuman primates",
+      "paperDoi": "10.1038/s41587-025-02838-y",
+      "presentedAt": "2025-11-28",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-064",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-46c25a8ceddada8d",
+      "paperId": "paper-133521aa8c21a0fc",
+      "paperTitle": "Double-stranded DNA deaminase DddAE1347A can increase the efficiency and targeting range of cytidine base editors",
+      "paperDoi": "10.1186/s13059-025-03849-3",
+      "presentedAt": "2025-11-28",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-065",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-3b595210873c942c",
+      "paperId": "paper-87ea5302eea691e8",
+      "paperTitle": "An updated evolutionary classification of CRISPR–Cas systems including rare variants",
+      "paperDoi": "10.1038/s41564-025-02180-8",
+      "presentedAt": "2025-11-28",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-066",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-af144befa188bfc9",
+      "paperId": "paper-98a3fd8ea62e4a72",
+      "paperTitle": "RNA structure modulates Cas13 activity and enables mismatch detection",
+      "paperDoi": "10.1038/s41587-025-02868-6",
+      "presentedAt": "2025-12-05",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-067",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-3de0fdce138aab06",
+      "paperId": "paper-220af887054106bf",
+      "paperTitle": "DNA mutagenesis driven by transcription factor competition with mismatch repair",
+      "paperDoi": "10.1016/j.cell.2025.07.003",
+      "presentedAt": "2025-12-12",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-068",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-ccc1c227adf45579",
+      "paperId": "paper-d79366eabfc4855b",
+      "paperTitle": "Chromatin context-dependent regulation and epigenetic manipulation of prime editing",
+      "paperDoi": "10.1016/j.cell.2024.03.020",
+      "presentedAt": "2025-12-12",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-069",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-2ffc9ee8d549b1d4",
+      "paperId": "paper-af378dc17f3331e6",
+      "paperTitle": "A parts list of promoters and gRNA scaffolds for mammalian genome engineering and molecular recording",
+      "paperDoi": "10.1038/s41587-025-02896-2",
+      "presentedAt": "2025-12-19",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-070",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-5cc7e49d54c5ef57",
+      "paperId": "paper-cabdabf581edc6ec",
+      "paperTitle": "Mapping single-cell diploid chromatin fiber architectures using DAF-seq",
+      "paperDoi": "10.1038/s41587-025-02914-3",
+      "presentedAt": "2025-12-19",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-071",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-9accb9deb19c2766",
+      "paperId": "paper-198e419d1434f862",
+      "paperTitle": "Fine-tuning of gene expression through the Mettl3-Mettl14-Dnmt1 axis controls ESC differentiation",
+      "paperDoi": "10.1016/j.cell.2024.12.009",
+      "presentedAt": "2025-12-19",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-072",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-41a21f2415677048",
+      "paperId": "paper-0e17933831a28b71",
+      "paperTitle": "Mitochondria-targeted gene delivery using fluorinated lipid nanoparticles to alleviate Leber’s hereditary optic neuropathy",
+      "paperDoi": "10.1038/s41467-025-65874-x",
+      "presentedAt": "2025-12-19",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-073",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-bd5793e5ea1c9c5e",
+      "paperId": "paper-39dd2f550d7c7d42",
+      "paperTitle": "Elucidating the genetic mechanisms governing cytosine base editing outcomes through CRISPRi screens",
+      "paperDoi": "10.1038/s41467-025-59948-z",
+      "presentedAt": "2026-01-09",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-074",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-65b45a7e37c51108",
+      "paperId": "paper-d420c3483bfd45de",
+      "paperTitle": "RECODE: a programmable guide-free C-to-U RNA editing tool",
+      "paperDoi": "10.1093/nar/gkaf1309",
+      "presentedAt": "2026-01-09",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-075",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-97abe94aa48e4a98",
+      "paperId": "paper-ff881f92d38052fc",
+      "paperTitle": "In vivo gene editing of human hematopoietic stem and progenitor cells using envelope-engineered virus-like particles",
+      "paperDoi": "10.1038/s41587-025-02915-2",
+      "presentedAt": "2026-01-09",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-076",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-fe94cf578eeb7f8f",
+      "paperId": "paper-2f490656c68e67d9",
+      "paperTitle": "CRISPR-Cas–mediated heritable chromosome fusions in Arabidopsis",
+      "paperDoi": "10.1126/science.adz8505",
+      "presentedAt": "2026-01-09",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-077",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-4ac5f954a333c239",
+      "paperId": "paper-524cd949f5af007a",
+      "paperTitle": "Casδ, an evolutionary transitional CRISPR system enables efficient genome editing across animals and plants",
+      "paperDoi": "10.1093/nar/gkaf1358",
+      "presentedAt": "2026-01-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-078",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-720f4e24f008a29d",
+      "paperId": "paper-bed60252987e0c2c",
+      "paperTitle": "ALKBH1 Drives Tumorigenesis and Drug Resistance via tRNA-decoding Reprogramming and Codon-biased Translation",
+      "paperDoi": "10.1158/2159-8290.cd-24-1043",
+      "presentedAt": "2026-01-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-079",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-1b713cb0876b598e",
+      "paperId": "paper-424b15f95d86a8a3",
+      "paperTitle": "Prime editing-installed suppressor tRNAs for disease-agnostic genome editing",
+      "paperDoi": "10.1038/s41586-025-09732-2",
+      "presentedAt": "2026-01-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-080",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-971c30a4459f27f8",
+      "paperId": "paper-e65cd873cadc7a59",
+      "paperTitle": "Characterizing and controlling CRISPR repair outcomes in nondividing human cells",
+      "paperDoi": "10.1038/s41467-025-66058-3",
+      "presentedAt": "2026-01-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-081",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-02cd28fe6c20d9c2",
+      "paperId": "paper-62ce1a6607e2f28b",
+      "paperTitle": "RNA 5-methylcytosine marks mitochondrial double-stranded RNAs for degradation and cytosolic release",
+      "paperDoi": "10.1016/j.molcel.2024.06.023",
+      "presentedAt": "2026-01-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-082",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-1f2dca5d946ebf6e",
+      "paperId": "paper-6b7bece4d8ac9286",
+      "paperTitle": "Triple base editor catalyzes saturation mutation of adenine, cytidine, and guanine",
+      "paperDoi": "10.1093/nar/gkaf1423",
+      "presentedAt": "2026-01-30",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-083",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-2980c7f44fd324d1",
+      "paperId": "paper-610da74830fd75c6",
+      "paperTitle": "Single-strand deaminase-assisted editing for functional RNA manipulation",
+      "paperDoi": "10.1038/s41587-025-02956-7",
+      "presentedAt": "2026-01-30",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-084",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-4dfa68b6c9eff4d7",
+      "paperId": "paper-bd0846cc3256730b",
+      "paperTitle": "Iterative engineering of a compact Cas9 ortholog for in vivo gene editing via single AAV delivery",
+      "paperDoi": "10.64898/2026.01.12.698990",
+      "presentedAt": "2026-02-06",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-085",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-6ae90c81b6f7c42c",
+      "paperId": "paper-a12b19c95d53bde5",
+      "paperTitle": "Site‐Specific Mitochondrial RNA N1‐Methyladenosine Demethylation via an Engineered MTS‐PUF‐ALKBH3 Fusion Protein",
+      "paperDoi": "10.1002/advs.202510482",
+      "presentedAt": "2026-02-06",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-086",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-e4edc2863258fcbe",
+      "paperId": "paper-ccdb49ab03505448",
+      "paperTitle": "Programmed Manipulation of RNA Targets By Human Argonaute 2",
+      "paperDoi": "10.64898/2026.02.01.703109",
+      "presentedAt": "2026-02-06",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-087",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-9808c092e6a0dc48",
+      "paperId": "paper-3dc433b8f00a2e04",
+      "paperTitle": "A programmable ribozyme for RNA signal transduction",
+      "paperDoi": "10.1038/s41467-025-68175-5",
+      "presentedAt": "2026-02-13",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-088",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-5f3ae1913ad6fb00",
+      "paperId": "paper-fc71b7496b6de104",
+      "paperTitle": "How and when organisms edit their own genomes",
+      "paperDoi": "10.1038/s41588-025-02230-1",
+      "presentedAt": "2026-02-13",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-089",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-60017eaa666f92ff",
+      "paperId": "paper-b628d0584ea4d483",
+      "paperTitle": "An anti-CRISPR targets the sgRNA to block Cas9 and guides the design of enhanced genome editors",
+      "paperDoi": "10.1038/s41594-025-01741-z",
+      "presentedAt": "2026-02-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-090",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-03d0961c97dcfc5f",
+      "paperId": "paper-67e42dbff56e2b3c",
+      "paperTitle": "AAVLINK breaks the cargo barrier",
+      "paperDoi": "10.1016/j.cell.2026.01.005",
+      "presentedAt": "2026-02-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-091",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-4719abf546b5d5b7",
+      "paperId": "paper-9a2be0465bb6240f",
+      "paperTitle": "AAVLINK: A potent DNA-recombination method for large cargo delivery in gene therapy",
+      "paperDoi": "10.1016/j.cell.2025.12.039",
+      "presentedAt": "2026-02-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-092",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-5c1e24cd9c99cce9",
+      "paperId": "paper-81e572386bc40794",
+      "paperTitle": "Selfish mutations promote age-associated erosion of mtDNA integrity in mammals",
+      "paperDoi": "10.1038/s41467-025-60477-y",
+      "presentedAt": "2026-02-27",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-093",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-9583a75b9619698b",
+      "paperId": "paper-8f9a62f5a9e062ec",
+      "paperTitle": "High-precision cytosine base editors by evolving nucleic-acid-recognition hotspots in deaminase",
+      "paperDoi": "10.1038/s41587-025-02678-w",
+      "presentedAt": "2026-02-27",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-094",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-cff9f727f7ac5394",
+      "paperId": "paper-d516f7010d3c8257",
+      "paperTitle": "A subcellular selective APEX2-based proximity labeling used for identifying mitochondrial G-quadruplex DNA binding proteins",
+      "paperDoi": "10.1093/nar/gkae1259",
+      "presentedAt": "2026-02-27",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-095",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-b2d9d589976c5787",
+      "paperId": "paper-ffcadd8af4cd2883",
+      "paperTitle": "Site-specific integration of transposon via engineered piggyBac transposase",
+      "paperDoi": "10.64898/2026.01.20.700476",
+      "presentedAt": "2026-03-06",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-096",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-bcf26f42d1a8bb00",
+      "paperId": "paper-8bfe19f27bc4e8ae",
+      "paperTitle": "Target-stabilized base editors enable robust high-fidelity RNA editing",
+      "paperDoi": "10.1038/s41467-026-69835-w",
+      "presentedAt": "2026-03-06",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-097",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-4688066656c39026",
+      "paperId": "paper-03eb71aa706bf2ca",
+      "paperTitle": "Isoform-specific single-cell perturb-seq reveals distinct functions of alternative promoters in drug response",
+      "paperDoi": "10.1093/nar/gkag118",
+      "presentedAt": "2026-03-06",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-098",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-1baf36a86cfe1f84",
+      "paperId": "paper-7af1c74dfbb11cb9",
+      "paperTitle": "Construction of complex and diverse DNA sequences using DNA three-way junctions",
+      "paperDoi": "10.1038/s41586-025-10006-0",
+      "presentedAt": "2026-03-06",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-099",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-29f12ebbb5d5269e",
+      "paperId": "paper-f1cd75529e61765f",
+      "paperTitle": "Highly mutagenic continuous evolution in E. coli using a Φ29-based orthogonal replication system",
+      "paperDoi": "10.1038/s41587-025-02944-x",
+      "presentedAt": "2026-03-06",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-100",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-967882357b838283",
+      "paperId": "paper-9e8341bff54d079a",
+      "paperTitle": "Engineering mtDNA deletions by reconstituting end joining in human mitochondria",
+      "paperDoi": "10.1016/j.cell.2025.02.009",
+      "presentedAt": "2026-03-13",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-101",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-20e5247566e2ff26",
+      "paperId": "paper-0643e75605617562",
+      "paperTitle": "A protein blueprint of the diatom CO2-fixing organelle",
+      "paperDoi": "10.1016/j.cell.2024.09.025",
+      "presentedAt": "2026-03-13",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-102",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-535ef3f8b41ef906",
+      "paperId": "paper-6f7a638c7ccd39d8",
+      "paperTitle": "A CRISPR-based sequence proximity binding protein labelling system for scanning upstream regulatory proteins",
+      "paperDoi": "10.1038/s41477-025-02212-5",
+      "presentedAt": "2026-03-13",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-103",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-04bd49ef806a104e",
+      "paperId": "paper-ca95daba09f3ab1b",
+      "paperTitle": "Optimized parameters for Cas9 CRISPR interference library design",
+      "paperDoi": "10.64898/2026.02.25.708018",
+      "presentedAt": "2026-03-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-104",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-4aba24dc4af5124f",
+      "paperId": "paper-b9cf5b3bc74f85b0",
+      "paperTitle": "Targeted delivery of genome editors in vivo.",
+      "paperDoi": "10.1038/s41587-025-02945-w",
+      "presentedAt": "2026-03-20",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-105",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-dce0cbba90186d42",
+      "paperId": "paper-50a6bd663c0ff483",
+      "paperTitle": "Reversible compromise of physiological resilience by accumulation of heteroplasmic mtDNA mutations",
+      "paperDoi": "10.1126/science.adk7978",
+      "presentedAt": "2026-03-27",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-106",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-335ab3e1b11a3679",
+      "paperId": "paper-507066ef4b477220",
+      "paperTitle": "Transplantation of encapsulated mitochondria alleviates dysfunction in mitochondrial and Parkinson’s disease models",
+      "paperDoi": "10.1016/j.cell.2026.02.023",
+      "presentedAt": "2026-03-27",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-107",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-1b2dcdcb1d3f34ef",
+      "paperId": "paper-8db3f447412214b7",
+      "paperTitle": "Structural insights into the chloroplast protein import in land plants",
+      "paperDoi": "10.1016/j.cell.2024.08.003",
+      "presentedAt": "2026-03-27",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-108",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-5806815751a314ea",
+      "paperId": "paper-398fe56befa3a9f8",
+      "paperTitle": "An optimized genome-wide, virus-free CRISPR screen for mammalian cells",
+      "paperDoi": "10.1016/j.crmeth.2021.100062",
+      "presentedAt": "2026-03-27",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-109",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-bdb3daa8ef67b1b4",
+      "paperId": "paper-cd00c6ab97985b14",
+      "paperTitle": "Cas-OFFinder: a fast and versatile algorithm that searches for potential off-target sites of Cas9 RNA-guided endonucleases",
+      "paperDoi": "10.1093/bioinformatics/btu048",
+      "presentedAt": "2026-04-03",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-110",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-2807c215f3e50ab3",
+      "paperId": "paper-aa74796d5724e549",
+      "paperTitle": "Optimized libraries for CRISPR-Cas9 genetic screens with multiple modalities",
+      "paperDoi": "10.1038/s41467-018-07901-8",
+      "presentedAt": "2026-04-03",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-111",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-59eb47cbdaf4efd5",
+      "paperId": "paper-765150a0b0c21d35",
+      "paperTitle": "Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9",
+      "paperDoi": "10.1038/nbt.3437",
+      "presentedAt": "2026-04-03",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-112",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-a2be2666b24fba3c",
+      "paperId": "paper-3e4ead1f84168218",
+      "paperTitle": "Precise, minimally evolved adenine base editors generated through mutation reversion analysis",
+      "paperDoi": "10.1038/s41587-026-03045-z",
+      "presentedAt": "2026-04-03",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-113",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-95d2df5d809f8f3a",
+      "paperId": "paper-aab5925dd39cec4b",
+      "paperTitle": "5′ end–centered expression profiling using cap-analysis gene expression and next-generation sequencing",
+      "paperDoi": "10.1038/nprot.2012.005",
+      "presentedAt": "2026-04-03",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-114",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-440f9d71986a9cba",
+      "paperId": "paper-fea85ba7414a4a7d",
+      "paperTitle": "TargetMITO: A rule-based model for generating highly functional synthetic mitochondrial targeting sequence in yeast",
+      "paperDoi": "10.64898/2026.02.22.707306",
+      "presentedAt": "2026-04-10",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-115",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-20c2830f32d0cba8",
+      "paperId": "paper-e49ba0f70aa13cf8",
+      "paperTitle": "Immune evasive DNA donors and recombinases license kilobase-scale writing",
+      "paperDoi": "10.1038/s41586-026-10241-z",
+      "presentedAt": "2026-04-10",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-116",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-db19a3daf2320445",
+      "paperId": "paper-620cf6822d3f7125",
+      "paperTitle": "Pearling drives mitochondrial DNA nucleoid distribution",
+      "paperDoi": "10.1126/science.adu5646",
+      "presentedAt": "2026-04-17",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-117",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-b1491ca911d5d816",
+      "paperId": "paper-70ad219e6f748e0f",
+      "paperTitle": "Coiled-coil heterodimer-mediated split base editing systems enable flexible and robust nucleotide substitutions",
+      "paperDoi": "10.1038/s41467-026-68469-2",
+      "presentedAt": "2026-04-17",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-118",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-b025e9ff17eddd77",
+      "paperId": "paper-c8e52049edf840ef",
+      "paperTitle": "Molecular basis for dual-spacer-guided target cleavage by the TIGR-TasH system",
+      "paperDoi": "10.1016/j.molcel.2026.02.017",
+      "presentedAt": "2026-04-17",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-119",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-80edea362e2ae581",
+      "paperId": "paper-633d9b13f8266d94",
+      "paperTitle": "Selict-seq profiles genome-wide off-target effects in adenosine base editing",
+      "paperDoi": "10.1093/nar/gkaf281",
+      "presentedAt": "2026-04-17",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-120",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-2e28b8a05d79cb93",
+      "paperId": "paper-f5e940c513acdfd7",
+      "paperTitle": "Ubiquitin-mediated mitophagy regulates the inheritance of mitochondrial DNA mutations",
+      "paperDoi": "10.1126/science.adr5438",
+      "presentedAt": "2026-04-17",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-121",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-f597132729b7b02c",
+      "paperId": "paper-308a2dbc1c323ba4",
+      "paperTitle": "Regulated transformation system (RTS): sddi-mediated programmable shut-off and mode switching of base editors",
+      "paperDoi": "10.1093/nar/gkag162",
+      "presentedAt": "2026-04-24",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-122",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-6b70a8d762ebbbeb",
+      "paperId": "paper-ba986922aaaa0de7",
+      "paperTitle": "Cell-type-targeted mitochondrial transplantation rescues cell degeneration",
+      "paperDoi": "10.1038/s41586-026-10391-0",
+      "presentedAt": "2026-04-24",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-123",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-0d1e5c5099cd3447",
+      "paperId": "paper-0879fe8f08f7260b",
+      "paperTitle": "Designing AI-programmable therapeutics with the EDEN family of foundation models",
+      "paperDoi": "10.64898/2026.01.12.699009",
+      "presentedAt": "2026-04-24",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-124",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-97d735027d72553c",
+      "paperId": "paper-53fba006b1ce62f7",
+      "paperTitle": "B lymphocyte protein factories produced by hematopoietic stem cell gene editing",
+      "paperDoi": "10.1126/science.adz8994",
+      "presentedAt": "2026-04-24",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-125",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-f4387792f31632d1",
+      "paperId": "paper-ecedfea2bf58bab3",
+      "paperTitle": "Molecular basis for methylation-sensitive editing by Cas9",
+      "paperDoi": "10.1038/s41586-026-10384-z",
+      "presentedAt": "2026-05-08",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-126",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-9dd81ead12b12282",
+      "paperId": "paper-cbbaa60bfa8b1308",
+      "paperTitle": "Efficient genome editing with chimeric oligonucleotide-directed editing",
+      "paperDoi": "10.1038/s41467-026-71624-4",
+      "presentedAt": "2026-05-08",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-127",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-e7e1a60c993e9e88",
+      "paperId": "paper-0566ef03e8a792af",
+      "paperTitle": "Activation of recombinases at specific DNA loci by zinc-finger domain insertions",
+      "paperDoi": "10.1038/s41587-023-02121-y",
+      "presentedAt": "2026-05-08",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-128",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-5ebbd39aaf31fbb5",
+      "paperId": "paper-cbbfbc12c1729dfd",
+      "paperTitle": "Structural visualization of the molecular evolution of CRISPR–Cas9",
+      "paperDoi": "10.1038/s41594-025-01743-x",
+      "presentedAt": "2026-05-08",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-129",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-39d88354d9e9fd05",
+      "paperId": "paper-4687e97a794f3933",
+      "paperTitle": "Calcium Shock Enables Efficient and Programmable Particle Delivery for Genome Editing Applications",
+      "paperDoi": "10.1002/advs.202510441",
+      "presentedAt": "2026-05-15",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-130",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-71749907709bad8b",
+      "paperId": "paper-b68dec9590066608",
+      "paperTitle": "RNA-triggered cell killing with CRISPR–Cas12a2",
+      "paperDoi": "10.1038/s41586-026-10466-y",
+      "presentedAt": "2026-05-15",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-131",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-d0cbd60f3e003e98",
+      "paperId": "paper-2fcec11d92376b75",
+      "paperTitle": "Inducible, split base editors for in vivo cancer functional genomics",
+      "paperDoi": "10.1038/s41587-026-03077-5",
+      "presentedAt": "2026-05-15",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-132",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-c1a04e88508690d8",
+      "paperId": "paper-bcfee2f1d20ea28c",
+      "paperTitle": "Generative design of sequence specific DNA binding proteins",
+      "paperDoi": "10.64898/2026.04.27.720408",
+      "presentedAt": "2026-05-15",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-133",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-f8f9dc4a7e21876f",
+      "paperId": "paper-c520a1b90e6c2856",
+      "paperTitle": "DNA-guided CRISPR–Cas12a effectors for programmable RNA recognition and cleavage",
+      "paperDoi": "10.1038/s41587-026-03120-5",
+      "presentedAt": "2026-05-22",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-134",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-64f03376d78ec9e2",
+      "paperId": "paper-cb8c97013c7c1810",
+      "paperTitle": "Engineering a compact high-fidelity Staphylococcus aureus Cas9 variant with broader targeting range and mechanistic insights into its activation",
+      "paperDoi": "10.1038/s41467-026-71626-2",
+      "presentedAt": "2026-05-22",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-135",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-b67a6d7542caa2c1",
+      "paperId": "paper-4db86ea3f7cda8a4",
+      "paperTitle": "Non-viral targeted integration of large DNA in primary human T cells independent of double-stranded DNA breaks",
+      "paperDoi": "10.1038/s41551-026-01671-1",
+      "presentedAt": "2026-05-22",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-136",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-e48bc0ba7b7b47a5",
+      "paperId": "paper-598e2543c826654a",
+      "paperTitle": "Bridging continuous and discrete evolution through a controllable, hypermutagenic phage-bacteria system",
+      "paperDoi": "10.1038/s41564-026-02346-y",
+      "presentedAt": "2026-05-22",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-137",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-59b4e2c634353143",
+      "paperId": "paper-4be70441190de14e",
+      "paperTitle": "Cytosolic acetyl-coenzyme A is a signalling metabolite to control mitophagy",
+      "paperDoi": "10.1038/s41586-025-09745-x",
+      "presentedAt": "2026-05-22",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-138",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-ca70d8b10b68e3d6",
+      "paperId": "paper-3f0a574bebce0e45",
+      "paperTitle": "Protein-templated synthesis of dinucleotide repeat DNA by an antiphage reverse transcriptase",
+      "paperDoi": "10.1126/science.aed1656",
+      "presentedAt": "2026-05-29",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-139",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-79c7ab7ca90984d6",
+      "paperId": "paper-208c7919665cf44e",
+      "paperTitle": "Structural basis for double-stranded DNA cytosine deamination by BaDTF3 and its application in mitochondrial genome editing",
+      "paperDoi": "10.1038/s41467-026-72730-z",
+      "presentedAt": "2026-05-29",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-140",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-829d28b16408db96",
+      "paperId": "paper-6c34977d81dfb886",
+      "paperTitle": "Mechanism of age-related accumulation of mtDNA mutations in human blood",
+      "paperDoi": "10.1038/s41586-026-10569-6",
+      "presentedAt": "2026-05-29",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-141",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-3ec819aa82e9233f",
+      "paperId": "paper-ecf99453f676b242",
+      "paperTitle": "NAD+ hydrolysis catalyzed by SelO is required for mitochondrial homeostasis",
+      "paperDoi": "10.1016/j.cell.2026.01.033",
+      "presentedAt": "2026-05-29",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-142",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-0479c0d4bdad4f0b",
+      "paperId": "paper-75e7eba07afc6a1d",
+      "paperTitle": "Transcriptional linkage analysis with in vivo AAV-Perturb-seq",
+      "paperDoi": "10.1038/s41586-023-06570-y",
+      "presentedAt": "2026-06-05",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-143",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-f4cabc736274bf4e",
+      "paperId": "paper-4766707faab479f6",
+      "paperTitle": "Spligation enables programmable chimeric RNA generation in living cells",
+      "paperDoi": "10.64898/2026.03.06.709984",
+      "presentedAt": "2026-06-05",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-144",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-7a80cf7d8253eb84",
+      "paperId": "paper-ac103dd25aa91cba",
+      "paperTitle": "Transplanting light-dependent reactions for mammalian eye photosynthesis",
+      "paperDoi": "10.1016/j.cell.2026.04.034",
+      "presentedAt": "2026-06-05",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-145",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-95dc3f7a7b56f95d",
+      "paperId": "paper-312096b695d10469",
+      "paperTitle": "Uncovering spatially resolved functional genomics with CRISPR screen sequencing",
+      "paperDoi": "10.1016/j.cell.2026.04.049",
+      "presentedAt": "2026-06-05",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-146",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-942646358fdc9b8b",
+      "paperId": "paper-94370b300bfa0204",
+      "paperTitle": "HAMMER: hairpin-based APOBEC3A-mediated mRNA editing reporter",
+      "paperDoi": "10.1093/nar/gkag302",
+      "presentedAt": "2026-06-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-147",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-12596bad737a73db",
+      "paperId": "paper-e776e2448a2141ad",
+      "paperTitle": "DNA polymerization activates RNA cleavage of a reverse transcriptase–like antiviral enzyme",
+      "paperDoi": "10.1126/science.aef3178",
+      "presentedAt": "2026-06-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-148",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-7c6dc2639cb05880",
+      "paperId": "paper-9273ad8a0990e0c4",
+      "paperTitle": "A genetically encoded device for transcriptome storage in mammalian cells",
+      "paperDoi": "10.1126/science.adz9353",
+      "presentedAt": "2026-06-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-149",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-da0a9db97eb81583",
+      "paperId": "paper-3de5eb43ffb6c18c",
+      "paperTitle": "Mitochondria-lysosome coupling contributes to lysosome acidification and aging",
+      "paperDoi": "10.1016/j.molcel.2026.05.004",
+      "presentedAt": "2026-06-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-150",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-aa0138177fcff7e9",
+      "paperId": "paper-c980a1a68fca1e30",
+      "paperTitle": "Single-cell mapping of regulatory DNA-protein interactions",
+      "paperDoi": "10.1016/j.cell.2026.05.014",
+      "presentedAt": "2026-06-26",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-151",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-1f9451bcd8af57b8",
+      "paperId": "paper-5c76c276dd3e9281",
+      "paperTitle": "Transfer of mitochondrial DNA into the nuclear genome during induced DNA breaks",
+      "paperDoi": "10.1038/s41467-024-53806-0",
+      "presentedAt": "2026-06-26",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-152",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-063dad923ce26cde",
+      "paperId": "paper-e9b062550498cc6c",
+      "paperTitle": "Programmable, multiplexed and orthogonal gene control in bacteria with attenuated Cas13d systems",
+      "paperDoi": "10.1038/s41587-026-03160-x",
+      "presentedAt": "2026-07-03",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-153",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-abfabe8f673d6c0c",
+      "paperId": "paper-f9c18704f7d61fcd",
+      "paperTitle": "Potential role of a CRISPR-Cas-activated toxin-antitoxin system in bacterial immunity",
+      "paperDoi": "10.1038/s41467-026-74930-z",
+      "presentedAt": "2026-07-03",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-154",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-329c5369f6e4b0c8",
+      "paperId": "paper-3a037145ce03e4cf",
+      "paperTitle": "Ultrasound‐Actuated Gene Editing in Human Kidney Organoids",
+      "paperDoi": "10.1002/advs.202520402",
+      "presentedAt": "2026-07-03",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-155",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-bac5bd87ccc145aa",
+      "paperId": "paper-072f994009aa71b3",
+      "paperTitle": "Chloroplast genome editing of Rubisco boosts photosynthesis and plant growth",
+      "paperDoi": "10.1038/s41467-026-73783-w",
+      "presentedAt": "2026-07-03",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-156",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-3f79571f552b719f",
+      "paperId": "paper-66e326f085c65c99",
+      "paperTitle": "A Chemically Defined Synthetic Cell Capable Of Growth And Replication",
+      "paperDoi": "10.64898/2026.07.01.735724",
+      "presentedAt": "2026-07-10",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-157",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-9ec9abaca58e6a62",
+      "paperId": "paper-0edff451a000cd65",
+      "paperTitle": "RNA structure programs endogenous ADAR for precise and efficient editing",
+      "paperDoi": "10.1016/j.cell.2026.04.047",
+      "presentedAt": "2026-07-10",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-158",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-29ae68bad03f555e",
+      "paperId": "paper-da238ab6157e213f",
+      "paperTitle": "Exonuclease-enhanced prime editors",
+      "paperDoi": "10.1038/s41592-023-02162-w",
+      "presentedAt": "2026-07-10",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-159",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-b823c1b81aef0a3b",
+      "paperId": "paper-056590f3fdbe1ba9",
+      "paperTitle": "Prime editing for precise genome engineering and modulation of fungal metabolism",
+      "paperDoi": "10.1038/s41587-026-03202-4",
+      "presentedAt": "2026-07-10",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-160",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-af0e8e0b1a99537f",
+      "paperId": "paper-3f07fb49530e318e",
+      "paperTitle": "Temperate phages enhance bacterial host fitness via RNA-guided flagellar remodelling",
+      "paperDoi": "10.1038/s41564-026-02355-x",
+      "presentedAt": "2026-07-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-161",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-3adc206a5c9d2e3b",
+      "paperId": "paper-e5d4024e0a176850",
+      "paperTitle": "Retargeted serine integrases for one-step, precise integration of large DNA sequences in human cells",
+      "paperDoi": "10.1038/s41587-026-03186-1",
+      "presentedAt": "2026-07-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-162",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-5b51ba61319a476e",
+      "paperId": "paper-905866e4cf6f8b1e",
+      "paperTitle": "Synchronized long-read genome, methylome, epigenome and transcriptome profiling resolve a Mendelian condition",
+      "paperDoi": "10.1038/s41588-024-02067-0",
+      "presentedAt": "2026-07-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-163",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-663b038ece47ac49",
+      "paperId": "paper-95964a4409a7f55d",
+      "paperTitle": "Efficient in vivo cytosine base editing using virus-like particles with uracil DNA glycosylase inhibition",
+      "paperDoi": "10.1038/s41587-026-03227-9",
+      "presentedAt": "2026-07-22",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-164",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-372c8238cebe6a85",
+      "paperId": "paper-8c6f101508f52eae",
+      "paperTitle": "U2AF regulates the translation and localization of nuclear-encoded mitochondrial mRNAs",
+      "paperDoi": "10.1016/j.molcel.2026.03.006",
+      "presentedAt": "2026-07-22",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-165",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-f9172465e4fb3914",
+      "paperId": "paper-db7f47cfb08eea8b",
+      "paperTitle": "A Noncontiguous Code for RNA-Guided DNA Recognition Preceded CRISPR",
+      "paperDoi": "10.64898/2026.04.26.720920",
+      "presentedAt": "2026-07-22",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-166",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-50285e0610644139",
+      "paperId": "paper-cb29082be9734e18",
+      "paperTitle": "Abasic CRISPR RNAs inherently harness fidelity of SpCas9 for genome editing",
+      "paperDoi": "10.1038/s41589-026-02139-8",
+      "presentedAt": "2026-07-22",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-167",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-3dcfa54612366108",
+      "paperId": "paper-f6d0155762c31862",
+      "paperTitle": "Efficient and precise programmable DNA knock-in without double-strand breaks",
+      "paperDoi": "10.1038/s41586-026-10819-7",
+      "presentedAt": "2026-07-31",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-168",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-6885a7f22ac5a158",
+      "paperId": "paper-2a19d76ed956ef92",
+      "paperTitle": "Efficient prime editing in vivo and in vitro using lipid nanoparticles.",
+      "paperDoi": "10.1038/s41565-026-02200-6",
+      "presentedAt": "2026-07-31",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-169",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-32e1bed344d501ad",
+      "paperId": "paper-7ff25049c7a581d5",
+      "paperTitle": "In vivo site-specific engineering to reprogram T cells",
+      "paperDoi": "10.1038/s41586-026-10235-x",
+      "presentedAt": "2026-07-31",
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-170",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-ae40e6d9fcc49d2b",
+      "paperId": "paper-7bdcd18962186ab9",
+      "paperTitle": "A CRISPR-based mitochondrial gene therapy tool derived by engineering guide RNAs",
+      "paperDoi": "10.1016/j.celrep.2026.116958",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-171",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-49f6d7d0ab1090cf",
+      "paperId": "paper-477033f3606c26c2",
+      "paperTitle": "A Plug-in system for reprogramming the editing patterns of base editors",
+      "paperDoi": "10.1038/s41467-025-67632-5",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-172",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-86cfae8241754afa",
+      "paperId": "paper-a57c1157f4e5abed",
+      "paperTitle": "A small polymerase ribozyme that can synthesize itself and its complementary strand",
+      "paperDoi": "10.1126/science.adt2760",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-173",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-7d90df745037be3c",
+      "paperId": "paper-fc269d0fc6e97a95",
+      "paperTitle": "A synthetic system for RNA-responsive pyroptosis based on type III-E CRISPR nuclease-protease",
+      "paperDoi": "10.1038/s41467-026-69179-5",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-174",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-877f16dd161276e0",
+      "paperId": "paper-be76a3fd95ef64c8",
+      "paperTitle": "A time-resolved, multi-symbol molecular recorder via sequential genome editing",
+      "paperDoi": "10.1038/s41586-022-04922-8",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-175",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-ba0028cb463b3624",
+      "paperId": "paper-51672ad0a061fe8c",
+      "paperTitle": "Anti-CRISPR protein AcrIIA5 can enhance the activity and security of prime editing",
+      "paperDoi": "10.1038/s41467-025-66237-2",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-176",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-06e31379746986e3",
+      "paperId": "paper-7c39adc923f8741a",
+      "paperTitle": "DNA-guided CRISPR–Cas12 for cellular RNA targeting",
+      "paperDoi": "10.1038/s41587-026-03129-w",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-177",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-3a4f0b991cd59880",
+      "paperId": "paper-fe1fc7a91d3ff1ca",
+      "paperTitle": "Domain Insertion Improves the Precision of a CRISPR Adenine Base Editor",
+      "paperDoi": null,
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-178",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-2f5a4856a20f3ecd",
+      "paperId": "paper-8988f0226a01ec98",
+      "paperTitle": "Functional assessment of all ATM SNVs using prime editing and deep learning",
+      "paperDoi": "10.1016/j.cell.2025.05.046",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-179",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-35f95f032c8896fc",
+      "paperId": "paper-df89e531eaf6fc23",
+      "paperTitle": "Genome instability triggers intercellular DNA transfer between human cells",
+      "paperDoi": "10.1016/j.cell.2026.04.041",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-180",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-ec5f74e01520689d",
+      "paperId": "paper-ce4828e4353e2b36",
+      "paperTitle": "Gigabase-scale deletion scanning of the human genome",
+      "paperDoi": "10.64898/2026.05.29.728882",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-181",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-37724df17594b6ba",
+      "paperId": "paper-e8824f62800eea03",
+      "paperTitle": "In vivo prime editing rescues alternating hemiplegia of childhood in mice",
+      "paperDoi": "10.1016/j.cell.2025.06.038",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-182",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-c8ecd76286885997",
+      "paperId": "paper-04ec8ea809318cf0",
+      "paperTitle": "Intracellular protein editing enables incorporation of noncanonical residues in endogenous proteins",
+      "paperDoi": "10.1126/science.adr5499",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-183",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-01f982e92e5785af",
+      "paperId": "paper-12541b74a8788827",
+      "paperTitle": "Language Modeling Materializes a World Model of Protein Biology",
+      "paperDoi": null,
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-184",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-c25b4c39ab2ccc28",
+      "paperId": "paper-1694841b14031015",
+      "paperTitle": "Mitochondria-associated condensates maintain mitochondrial homeostasis and promote lifespan",
+      "paperDoi": "10.1038/s43587-025-00942-x",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-185",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-50059449b1eaf48c",
+      "paperId": "paper-5aab6ed3a222d708",
+      "paperTitle": "Mitochondrial complexity is regulated at ER-mitochondria contact sites via PDZD8-FKBP8 tethering",
+      "paperDoi": "10.1038/s41467-025-58538-3",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-186",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-e3fba2a3b8ffc6de",
+      "paperId": "paper-f24f0ad8ed84c17e",
+      "paperTitle": "Noncanonical target-strand cytosine base editing via engineered Un1Cas12f1 platform",
+      "paperDoi": "10.1038/s41467-025-64562-0",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-187",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-9c6f876188be8322",
+      "paperId": "paper-29b8fda5ae862722",
+      "paperTitle": "Pathogen-induced formation of a nascent organelle derived from mitochondria",
+      "paperDoi": "10.64898/2026.04.23.720395",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-188",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-7d904a9fe8698cfa",
+      "paperId": "paper-c4832815d0a5edd6",
+      "paperTitle": "Principles of cotranslational mitochondrial protein import",
+      "paperDoi": "10.1016/j.cell.2025.07.021",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-189",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-a74ac69075626589",
+      "paperId": "paper-a6f139c95d420900",
+      "paperTitle": "Strand-preferred base editing of organellar and nuclear genomes using CyDENT",
+      "paperDoi": "10.1038/s41587-023-01910-9",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-190",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-f017d868c1f966cf",
+      "paperId": "paper-889f6fae442fe21b",
+      "paperTitle": "Universal transcriptomic hallmarks of mammalian ageing and mortality",
+      "paperDoi": "10.1038/s41586-026-10542-3",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-191",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-b0d0a0db87c83d5f",
+      "paperId": "paper-d10c92d0b56eadea",
+      "paperTitle": "Unraveling mitochondrial influence on mammalian pluripotency via enforced mitophagy",
+      "paperDoi": "10.1016/j.cell.2025.05.020",
+      "presentedAt": null,
+      "dateBasis": "folder_label",
+      "sourceRecord": "JC-192",
+      "recordBasis": "supplied_history_not_attendance_confirmation"
+    },
+    {
+      "eventId": "event-8c11e194134a78fb",
+      "paperId": "paper-53a730e39535a21d",
+      "paperTitle": "Structure-guided engineering of AI-derived adenine base editors for nuclear and mitochondrial DNA editing",
+      "paperDoi": "10.1093/nar/gkag737",
+      "presentedAt": "2026-08-07",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-01-file-01",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-01-file-01"
+      ]
+    },
+    {
+      "eventId": "event-8476fa85fc096232",
+      "paperId": "paper-4efd0e21e666033f",
+      "paperTitle": "AI-redesigned starting points and outcomes enhance protein evolution",
+      "paperDoi": "10.1038/s41586-026-10820-0",
+      "presentedAt": "2026-08-07",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-01-file-06",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-01-file-06"
+      ]
+    },
+    {
+      "eventId": "event-4aae0cfe65af610d",
+      "paperId": "paper-1d9eafecfbce2c9c",
+      "paperTitle": "Epigenetic editing at individual age-associated CpGs affects the genome-wide epigenetic aging landscape",
+      "paperDoi": "10.1038/s43587-025-00841-1",
+      "presentedAt": "2026-08-07",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-01-file-07",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-01-file-07"
+      ]
+    },
+    {
+      "eventId": "event-43c6d5242b68abb6",
+      "paperId": "paper-f6d0155762c31862",
+      "paperTitle": "Efficient and precise programmable DNA knock-in without double-strand breaks",
+      "paperDoi": "10.1038/s41586-026-10819-7",
+      "presentedAt": "2026-08-07",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-01-file-08",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-01-file-08"
+      ]
+    },
+    {
+      "eventId": "event-5c73dfdb1584d27e",
+      "paperId": "paper-21b3a2cac04282ab",
+      "paperTitle": "Directed evolution of small RNA-stabilizing motifs that improve prime-editing efficiency",
+      "paperDoi": "10.1038/s41587-026-03123-2",
+      "presentedAt": "2026-08-07",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-01-file-11",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-01-file-11"
+      ]
+    },
+    {
+      "eventId": "event-edc223e77a3a5dff",
+      "paperId": "paper-d3f777079dbd580b",
+      "paperTitle": "In vivo genome-wide CRISPR screens of human T cells in solid tumours",
+      "paperDoi": "10.1038/s41586-026-10906-9",
+      "presentedAt": "2026-09-11",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-03-file-03",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-03-file-03"
+      ]
+    },
+    {
+      "eventId": "event-4a16e35cac4beb50",
+      "paperId": "paper-61800c72c7086f1b",
+      "paperTitle": "Development of mitochondrial mutator pigs exhibiting increased mitochondrial DNA mutations and premature aging via prime editing",
+      "paperDoi": null,
+      "presentedAt": "2026-09-11",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-03-file-04",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-03-file-04"
+      ]
+    },
+    {
+      "eventId": "event-7e024785bd9d24fe",
+      "paperId": "paper-377dd46c8c894f1a",
+      "paperTitle": "A dual A-to-Y and G-to-Y base editor and a four-base concurrent hypermutator in mammalian cells",
+      "paperDoi": "10.1038/s41467-026-77241-5",
+      "presentedAt": "2026-09-11",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-03-file-05",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-03-file-05"
+      ]
+    },
+    {
+      "eventId": "event-f044c6d0185e6988",
+      "paperId": "paper-ece2b601739bc56c",
+      "paperTitle": "Mitochondrial translation termination, recycling, reinitiation, and rescue for in-frame and out-of-frame contexts",
+      "paperDoi": "10.1038/s41467-026-75248-6",
+      "presentedAt": "2026-09-11",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-03-file-07",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-03-file-07"
+      ]
+    },
+    {
+      "eventId": "event-6b8a2d8c499537ff",
+      "paperId": "paper-bcc1966d388fd8e4",
+      "paperTitle": "Dense RNA motif modifications enable robust in vivo prime editing and enhance efficiencies of diverse editing systems",
+      "paperDoi": "10.1038/s41551-026-01787-4",
+      "presentedAt": "2026-09-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-04-file-02",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-04-file-02"
+      ]
+    },
+    {
+      "eventId": "event-14a57d8798c1c6b8",
+      "paperId": "paper-034a331cacb7b012",
+      "paperTitle": "Aligning protein-generative models to experimental fitness with ProteinDPO",
+      "paperDoi": "10.1038/s41592-026-03137-3",
+      "presentedAt": "2026-09-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-04-file-03",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-04-file-03"
+      ]
+    },
+    {
+      "eventId": "event-1b4dd60db44ac1b7",
+      "paperId": "paper-822d71f841f90d0f",
+      "paperTitle": "Donor-complementary prime editing enables precise kilobase and library-compatible DNA insertions",
+      "paperDoi": "10.1038/s41587-026-03296-w",
+      "presentedAt": "2026-09-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-04-file-06",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-04-file-06"
+      ]
+    },
+    {
+      "eventId": "event-42d33fd026086dba",
+      "paperId": "paper-4368222e15d2a302",
+      "paperTitle": "Expansion and CAR engineering of granulocyte-monocyte progenitors for cellular immunotherapy",
+      "paperDoi": "10.1016/j.cell.2026.05.043",
+      "presentedAt": "2026-09-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-04-file-08",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-04-file-08"
+      ]
+    },
+    {
+      "eventId": "event-548e0e348e3321d5",
+      "paperId": "paper-1ba5a953915ea755",
+      "paperTitle": "Adaptive model-guided protein evolution with sparse data optimizes compact eukaryotic genome editors",
+      "paperDoi": "10.1038/s41587-026-03272-4",
+      "presentedAt": "2026-09-18",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-04-file-09",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-04-file-09",
+        "provided-zip-04-file-11"
+      ]
+    },
+    {
+      "eventId": "event-86a18f3cd30953f5",
+      "paperId": "paper-3bed29517e053281",
+      "paperTitle": "Half-match recombination drives bridge RNA-guided excision and off-target insertion",
+      "paperDoi": null,
+      "presentedAt": "2026-10-02",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-05-file-05",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-05-file-05"
+      ]
+    },
+    {
+      "eventId": "event-b892de68b813b59b",
+      "paperId": "paper-9ae316c53703bbec",
+      "paperTitle": "Diversity-generating retroelements for programmable targeted hypermutagenesis",
+      "paperDoi": "10.1038/s41587-026-03078-4",
+      "presentedAt": "2026-10-02",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-05-file-06",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-05-file-06"
+      ]
+    },
+    {
+      "eventId": "event-9920cd659b0fd377",
+      "paperId": "paper-34c43c36bee71985",
+      "paperTitle": "The SIRT5-SUCLG2 desuccinylation axis delays ovarian aging via a mitochondrial-epigenetic regulatory mechanism",
+      "paperDoi": "10.1038/s41467-026-75502-x",
+      "presentedAt": "2026-10-02",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-05-file-07",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-05-file-07"
+      ]
+    },
+    {
+      "eventId": "event-7de83764eda25679",
+      "paperId": "paper-ac11228563e9ac74",
+      "paperTitle": "Pluripotent stem-cell-based screening uncovers sildenafil as a mitochondrial disease therapy",
+      "paperDoi": "10.1016/j.cell.2026.02.008",
+      "presentedAt": "2026-10-02",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-05-file-08",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-05-file-08"
+      ]
+    },
+    {
+      "eventId": "event-5a3c23544ae1c65e",
+      "paperId": "paper-f330e61b27a5a475",
+      "paperTitle": "Chemogenomic maps reveal a PRDX1-dependent iron–damage axis in the DNA damage response",
+      "paperDoi": "10.1038/s41589-026-02312-z",
+      "presentedAt": "2026-10-08",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-06-file-06",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-06-file-06"
+      ]
+    },
+    {
+      "eventId": "event-c0f132c4036aa879",
+      "paperId": "paper-b5eea3778b31b286",
+      "paperTitle": "Genome-wide CRISPR screening identifies cellular factors controlling nonviral genome editing efficiency",
+      "paperDoi": "10.1038/s41467-026-76350-5",
+      "presentedAt": "2026-10-08",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-06-file-07",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-06-file-07"
+      ]
+    },
+    {
+      "eventId": "event-df68b56b5c95e4ba",
+      "paperId": "paper-d40994bd7e7399e8",
+      "paperTitle": "Single-cell profiling of mitochondrial phenotyping–coupled mtDNA genotyping",
+      "paperDoi": "10.1073/pnas.2531151123",
+      "presentedAt": "2026-10-08",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-06-file-08",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-06-file-08"
+      ]
+    },
+    {
+      "eventId": "event-9f8763a44d7bfee7",
+      "paperId": "paper-941f9dbbed24288e",
+      "paperTitle": "Expanding the human proteome with microproteins and peptideins",
+      "paperDoi": "10.1038/s41586-026-10459-x",
+      "presentedAt": "2026-10-08",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-06-file-09",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-06-file-09"
+      ]
+    },
+    {
+      "eventId": "event-9f6a0ca1e1ad9c5b",
+      "paperId": "paper-dce92cb183135fe1",
+      "paperTitle": "High-diversity base mutagenesis via simultaneous adenine, cytosine and guanine editing",
+      "paperDoi": "10.1038/s41467-026-76020-6",
+      "presentedAt": "2026-10-08",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-06-file-10",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-06-file-10"
+      ]
+    },
+    {
+      "eventId": "event-59e73ac3ceecb4b1",
+      "paperId": "paper-015a4bc62813bf26",
+      "paperTitle": "Metagenomic editing of commensal bacteria in vivo using CRISPR-associated transposases",
+      "paperDoi": "10.1126/science.adx7604",
+      "presentedAt": "2026-10-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-07-file-03",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-07-file-03"
+      ]
+    },
+    {
+      "eventId": "event-cd6a13ae8fbc0f1a",
+      "paperId": "paper-8247732ea1120b41",
+      "paperTitle": "Mechanistic machine learning for prediction of prime editing outcomes",
+      "paperDoi": "10.1038/s41587-026-03261-7",
+      "presentedAt": "2026-10-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-07-file-04",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-07-file-04"
+      ]
+    },
+    {
+      "eventId": "event-2b7313c50415cc3c",
+      "paperId": "paper-215bd9683f3ae647",
+      "paperTitle": "Highly efficient base editing at PCSK9 and normal human embryo development",
+      "paperDoi": "10.1038/s41586-026-11118-x",
+      "presentedAt": "2026-10-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-07-file-05",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-07-file-05"
+      ]
+    },
+    {
+      "eventId": "event-40949497466c0007",
+      "paperId": "paper-5d5833144e21e12b",
+      "paperTitle": "Engineered Transformer Base Editor with Enhanced Editing Efficiency",
+      "paperDoi": "10.1002/advs.77657",
+      "presentedAt": "2026-10-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-07-file-08",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-07-file-08"
+      ]
+    },
+    {
+      "eventId": "event-59564668b2c7f0fb",
+      "paperId": "paper-2f6c151da55ff28a",
+      "paperTitle": "Non-invasive control of gene editing in vivo by photoswitchable Cas12f and focused ultrasound",
+      "paperDoi": "10.1016/j.cell.2026.09.005",
+      "presentedAt": "2026-10-16",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-07-file-09",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-07-file-09"
+      ]
+    },
+    {
+      "eventId": "event-d5cf0b8d99525152",
+      "paperId": "paper-9181b3cbd9c2fd38",
+      "paperTitle": "Mutation-agnostic base editing of the progerin farnesylation site rescues Hutchinson-Gilford progeria syndrome phenotypes in neuromuscular organoids",
+      "paperDoi": "10.1038/s41467-026-77251-3",
+      "presentedAt": "2026-10-23",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-08-file-02",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-08-file-02"
+      ]
+    },
+    {
+      "eventId": "event-c46f2efb8e087257",
+      "paperId": "paper-01f1297894906a22",
+      "paperTitle": "Engineered ADARs enable precision A-to-G base editing of DNA",
+      "paperDoi": "10.1038/s41587-026-03223-z",
+      "presentedAt": "2026-10-23",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-08-file-04",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-08-file-04"
+      ]
+    },
+    {
+      "eventId": "event-ad35437956cf8c24",
+      "paperId": "paper-945b875c8e40124d",
+      "paperTitle": "Engineered mRNA-packaging virus-like particles enable efficient and precise mitochondrial base editing in vitro and in vivo",
+      "paperDoi": "10.64898/2026.10.04.756548",
+      "presentedAt": "2026-10-23",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-08-file-05",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-08-file-05"
+      ]
+    },
+    {
+      "eventId": "event-6ef7263602efca2c",
+      "paperId": "paper-2f6c151da55ff28a",
+      "paperTitle": "Non-invasive control of gene editing in vivo by photoswitchable Cas12f and focused ultrasound",
+      "paperDoi": "10.1016/j.cell.2026.09.005",
+      "presentedAt": "2026-10-23",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-08-file-09",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-08-file-09"
+      ]
+    },
+    {
+      "eventId": "event-6fd55d94db82df28",
+      "paperId": "paper-d4e1616611090ad9",
+      "paperTitle": "Virus-like particles enable targeted gene engineering and pooled CRISPR screening in primary human myeloid cells",
+      "paperDoi": "10.1038/s41587-026-03258-2",
+      "presentedAt": "2026-10-23",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-08-file-10",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-08-file-10"
+      ]
+    },
+    {
+      "eventId": "event-9812433efee1ef2c",
+      "paperId": "paper-d78a3363981e0e04",
+      "paperTitle": "Live-cell transcriptomics with engineered virus-like particles",
+      "paperDoi": "10.1016/j.cell.2026.08.005",
+      "presentedAt": "2026-10-23",
+      "dateBasis": "folder_label",
+      "sourceRecord": "provided-zip-08-file-03",
+      "recordBasis": "supplied_history_not_attendance_confirmation",
+      "evidenceRefs": [
+        "provided-zip-08-file-03"
+      ],
+      "dateNoteKo": "폴더는 10월 23일, 관련 슬라이드 표지는 10월 21일로 표기되어 실제 발표일은 미확정입니다."
+    }
+  ],
+  "historyStatus": "partial",
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-23",
+  "dateQualificationKo": "날짜는 제공 자료의 폴더 표기입니다. 실제 발표 완료일을 확인한 기록은 아닙니다. 날짜 미상 기록도 보존했습니다.",
+  "absenceQualificationKo": "발표 기록 없음은 제공된 목록에서 일치 기록을 찾지 못했다는 뜻이며, 미발표를 보장하지 않습니다.",
+  "coverageGaps": [
+    {
+      "date": "2026-08-14",
+      "reasonKo": "제공 ZIP에 논문 파일이 없어 확인하지 못했습니다."
+    },
+    {
+      "date": null,
+      "reasonKo": "과거 목록은 중복 정리본이며, 원본에 있던 모든 재발표 이력까지 복구된 것은 아닙니다."
+    },
+    {
+      "date": "2026-08-07",
+      "reasonKo": "별도 논문 식별자가 없는 미토콘드리아 후성유전 주제 발표는 특정 논문 발표로 임의 등록하지 않았습니다."
+    }
+  ]
+}

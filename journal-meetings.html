@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Search supplied journal meeting paper records and PaperTrail's literature catalog.">
+  <title>Journal Meeting Archive | papertrail</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./collections.css">
+  <script src="./paper-identity.js" defer></script><script src="./collections.js" defer></script>
+</head>
+<body class="collection-page" data-collection="meetings">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="masthead shell"><a class="wordmark" href="./index.html" aria-label="papertrail home">papertrail</a>
+      <div class="masthead-tools"><span class="issue-label">JOURNAL MEETINGS</span><button class="utility-button" type="button" id="collection-saved-nav">Saved <span class="count-pill" id="saved-count">0</span></button></div>
+    </div>
+    <nav class="primary-nav" aria-label="Primary navigation"><div class="shell primary-nav-inner">
+      <button class="mobile-menu-button" id="mobile-menu-button" type="button" aria-expanded="false">Menu</button>
+      <div class="nav-links" id="nav-links"><a href="./index.html">This week</a><a href="./index.html#papers">All papers</a><a href="./special.html">One-Year Special</a><a href="./journal-meetings.html" aria-current="page">Journal Meeting Archive</a><a href="./index.html#about">About</a></div>
+    </div></nav><div class="header-rule" aria-hidden="true"></div>
+  </header>
+  <main id="main-content">
+    <section class="collection-heading shell">
+      <p class="eyebrow">THE LAB’S READING HISTORY</p><h1>Journal Meeting Archive</h1>
+      <p class="collection-stats" id="collection-stats"></p>
+      <p class="collection-notice" id="history-qualification"></p>
+      <details><summary>자료 범위와 누락</summary><p class="collection-notice" id="coverage-gaps"></p></details>
+    </section>
+    <section class="collection-section shell" id="catalog" aria-labelledby="catalog-title">
+      <h2 id="catalog-title">Paper library</h2>
+      <form class="collection-filters" id="collection-filters" role="search" onsubmit="return false">
+        <label class="search-field">Search papers<input type="search" id="collection-search" placeholder="Title, DOI, journal, keyword" autocomplete="off"></label>
+        <label>Meeting record<select id="history-filter"><option value="">All indexed papers</option><option value="recorded" selected>발표 기록 있음</option><option value="none">발표 기록 없음</option></select></label>
+        <label>Journal<select id="journal-filter"><option value="">All journals</option></select></label>
+        <label>Publication year<select id="year-filter"><option value="">All publication years</option></select></label>
+        <label>Record year<select id="meeting-year-filter"><option value="">All record years</option></select></label>
+        <label>Sort<select id="sort-filter"><option value="newest">Latest record first</option><option value="title">Title A–Z</option></select></label>
+        <label class="check-field"><input type="checkbox" id="saved-filter">Saved only</label>
+        <button class="text-link" type="button" id="reset-filters">Reset filters</button>
+      </form>
+      <p id="collection-loading" role="status">Loading meeting records…</p><p id="result-count" aria-live="polite"></p>
+      <div id="collection-list"></div><p class="collection-empty" id="empty-message" hidden>일치하는 논문이 없습니다.</p>
+      <button class="load-more-button" id="collection-more" type="button" hidden>Load more</button>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell"><a class="wordmark" href="./index.html">papertrail</a><p>Lab weekly research review</p></div></footer>
+</body></html>

@@ -12,6 +12,8 @@ const state = {
 };
 
 const elements = {};
+let meetingHistory = null;
+let meetingCatalog = null;
 const CORRESPONDING_AUTHORS = [
   ["patrick-hsu", "Patrick Hsu"], ["jonathan-gootenberg", "Gootenberg"],
   ["omar-abudayyeh", "Abudayyeh"], ["jennifer-doudna", "Doudna"],
@@ -226,6 +228,17 @@ async function loadData(week = "") {
     const payload = await response.json();
     if (!response.ok) throw new Error(payload.error || `HTTP ${response.status}`);
     state.data = payload;
+    if (staticDataBase && typeof PaperIdentity !== "undefined" && !meetingCatalog) {
+      try {
+        const [catalogResponse, historyResponse] = await Promise.all([
+          fetch(`${staticDataBase}/meeting_archive_catalog.json`, { cache: "no-store" }), fetch(`${staticDataBase}/journal_meetings.json`, { cache: "no-store" }),
+        ]);
+        if (catalogResponse.ok && historyResponse.ok) {
+          meetingCatalog = PaperIdentity.index((await catalogResponse.json()).papers || []);
+          meetingHistory = await historyResponse.json();
+        }
+      } catch (_) { /* Meeting history must not prevent the weekly archive from loading. */ }
+    }
     if (staticDataBase) {
       try {
         const manifestResponse = await fetch(`${staticDataBase}/archive_manifest.json`, { cache: "no-store" });
@@ -433,6 +446,7 @@ function leadCardMarkup(paper) {
       ${journalMarkup(paper)}
       <h3>${paperLinkMarkup(paper)}</h3>
       <p class="paper-source">${escapeHtml(sourceLine(paper))}</p>
+      ${meetingHistoryMarkup(paper)}
       <p class="paper-blurb korean-copy" lang="ko">${escapeHtml(summary)}</p>
       <div class="lead-paper-footer">
       <a class="paper-link" href="${paperAnalysisHref(paper)}">Read analysis</a>
@@ -507,6 +521,7 @@ function paperCardMarkup(paper, index) {
         ${journalMarkup(paper)}
         <h3>${paperLinkMarkup(paper)}</h3>
         <p class="paper-meta">${escapeHtml(sourceLine(paper))}</p>
+        ${meetingHistoryMarkup(paper)}
         <p class="paper-summary korean-copy" lang="ko">${escapeHtml(summary)}</p>
         ${tags ? `<div class="keyword-list">${tags}</div>` : ""}
       </div>
@@ -689,9 +704,10 @@ function handleCardAction(event) {
 function toggleSaved(id) {
   const paper = state.data?.papers.find((item) => item.id === id);
   const key = paper ? savedIdentity(paper) : id;
-  if (state.saved.has(key) || state.saved.has(id)) {
+  if (paper ? isSaved(paper) : state.saved.has(id)) {
     state.saved.delete(key);
     state.saved.delete(id);
+    if (paper && meetingCatalog) state.saved.delete(PaperIdentity.match(paper, meetingCatalog)?.id);
   } else state.saved.add(key);
   persistSaved();
   updateSavedCount();
@@ -709,7 +725,17 @@ function loadSaved() {
 }
 
 function isSaved(paper) {
-  return state.saved.has(savedIdentity(paper)) || state.saved.has(paper.id);
+  return state.saved.has(savedIdentity(paper)) || state.saved.has(paper.id)
+    || Boolean(meetingCatalog && state.saved.has(PaperIdentity.match(paper, meetingCatalog)?.id));
+}
+
+function meetingHistoryMarkup(paper) {
+  if (!meetingHistory || !meetingCatalog || meetingHistory.historyStatus === "pending") return "";
+  const events = PaperIdentity.events(paper, meetingCatalog, meetingHistory);
+  if (!events.length) return "";
+  const canonical = PaperIdentity.match(paper, meetingCatalog);
+  const dates = events.map(event => event.presentedAt || "날짜 미상").join(", ");
+  return `<p class="paper-meta" lang="ko"><a href="./journal-meetings.html?paper=${encodeURIComponent(canonical.id)}">발표 기록 ${events.length}건 · ${escapeHtml(dates)}</a></p>`;
 }
 
 function savedIdentity(paper) {

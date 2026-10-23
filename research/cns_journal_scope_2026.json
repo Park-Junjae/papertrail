@@ -1,0 +1,142 @@
+{
+  "capturedAt": "2026-10-23",
+  "sourceSha256": "34a7523c117fb5fa3e58258d276ea872eaf56afa8c32259504c7b78b65338a01",
+  "preset": "cns_high_impact",
+  "windowStart": "2025-10-23",
+  "windowEnd": "2026-10-23",
+  "journals": [
+    {
+      "name": "Nature",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nature Biotechnology",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nature Methods",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nature Genetics",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nature Medicine",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nature Neuroscience",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nature Structural & Molecular Biology",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nature Chemical Biology",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nature Biomedical Engineering",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nature Cell Biology",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nature Metabolism",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nature Communications",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Science",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Science Translational Medicine",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Cell",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Molecular Cell",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Neuron",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Cell Metabolism",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Cell Stem Cell",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    },
+    {
+      "name": "Nucleic Acids Research",
+      "aliases": [],
+      "identifiers": {},
+      "included": true
+    }
+  ],
+  "exclusionPatterns": [
+    "^author correction\\b",
+    "^publisher correction\\b",
+    "^correction to\\b",
+    "^retraction\\b",
+    "\\bretracted\\b",
+    "\\beditorial\\b",
+    "\\bcommentary\\b",
+    "\\bperspective\\b",
+    "\\bnews\\b",
+    "\\binsight\\b"
+  ],
+  "scopeNote": "Configured journal names, not main CNS journals only. Missing aliases/identifiers were not inferred."
+}

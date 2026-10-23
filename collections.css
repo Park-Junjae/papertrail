@@ -1,0 +1,56 @@
+.collection-page, .collection-page :lang(ko), .collection-page .korean-copy { letter-spacing: 0; }
+.collection-heading { padding-top: 32px; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+.collection-heading h1 { font-family: var(--serif); font-size: 36px; line-height: 1.15; margin: 10px 0 14px; letter-spacing: 0; }
+.collection-heading p { max-width: 850px; }
+.collection-period { color: var(--mid-gray); margin: 4px 0; }
+.coverage-label { display: inline-block; color: var(--deep-red); border-bottom: 2px solid var(--red); font-size: 15px; padding-bottom: 3px; }
+.collection-section { padding-top: 28px; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+.collection-section h2 { font-family: var(--serif); font-size: 25px; margin: 0 0 18px; letter-spacing: 0; }
+.collection-overview { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px 36px; }
+.collection-overview h3 { font-size: 17px; margin: 12px 0 6px; }
+.collection-overview p { font-size: 15px; margin: 0; }
+.collection-highlights { margin: 0; padding-left: 22px; columns: 2; column-gap: 40px; }
+.collection-highlights li { break-inside: avoid; margin: 0 0 14px; padding-left: 5px; }
+.collection-highlights a { color: var(--ink); text-decoration-color: var(--line); }
+.collection-stats { display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 14px; margin-top: 16px; }
+.collection-filters { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 14px; margin: 20px 0; }
+.collection-filters label { display: flex; flex-direction: column; gap: 5px; font-size: 13px; color: var(--mid-gray); min-width: 0; }
+.collection-filters .search-field { grid-column: 1 / -1; }
+.collection-filters input, .collection-filters select { width: 100%; min-width: 0; height: 44px; border: 1px solid var(--line); border-radius: 3px; background: white; color: var(--ink); padding: 8px 10px; font-size: 15px; }
+.collection-filters .check-field { flex-direction: row; align-items: center; color: var(--ink); }
+.collection-filters .check-field input { width: 18px; height: 18px; }
+.collection-page .paper-card { grid-template-columns: 44px minmax(0,1fr) 96px; }
+.collection-page .paper-main h3 { overflow-wrap: anywhere; letter-spacing: 0; }
+.collection-page .paper-meta { overflow-wrap: anywhere; }
+.collection-page .paper-side { align-items: flex-end; }
+.collection-page .paper-index { padding-top: 6px; }
+.collection-page .collection-save { position: static; width: 36px; height: 40px; padding: 0; justify-content: center; border: 1px solid var(--line); border-radius: 3px; }
+.collection-page .collection-save svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+.collection-page .collection-save[aria-pressed="true"] svg { fill: var(--ink); }
+.meeting-history { display: block; font-size: 13px; color: var(--mid-gray); margin: 10px 0 0; }
+.meeting-history a { color: var(--link-blue); text-decoration: none; }
+.meeting-events { padding-left: 18px; font-size: 13px; color: var(--mid-gray); }
+.collection-page details { margin-top: 12px; font-size: 14px; }
+.collection-page summary { cursor: pointer; color: var(--link-blue); }
+.collection-page .analysis-label { margin: 12px 0 4px; font-weight: 600; }
+.collection-page .source-evidence { font-size: 12px; color: var(--mid-gray); }
+.collection-page .load-more-button { margin: 28px auto; display: block; }
+.collection-notice { font-size: 14px; color: var(--mid-gray); max-width: 900px; }
+.collection-empty { padding: 36px 0; border-top: 1px solid var(--line); }
+.collection-page .primary-nav-inner { flex-wrap: wrap; }
+.collection-page .nav-links { flex-wrap: wrap; }
+.collection-page .site-footer { margin-top: 40px; }
+@media (max-width: 700px) {
+  .collection-heading h1 { font-size: 28px; }
+  .collection-overview { grid-template-columns: minmax(0,1fr); }
+  .collection-highlights { columns: 1; }
+  .collection-filters { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .collection-filters label:has(#journal-filter) { grid-column: 1 / -1; }
+  .collection-page .masthead-tools .utility-button:first-of-type { display: flex; width: auto; min-width: 44px; padding: 0 10px; }
+  .collection-page .masthead-tools .count-pill { position: static; margin: 0; }
+  .collection-page .paper-card { grid-template-columns: 28px minmax(0,1fr) 40px; gap: 10px; }
+  .collection-page .paper-main { grid-column: 2; }
+  .collection-page .paper-side { grid-column: 3; grid-row: 1; }
+  .collection-page .paper-main h3 { font-size: 19px; }
+  .collection-page .paper-index { font-size: 12px; }
+}

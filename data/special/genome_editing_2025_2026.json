@@ -1,0 +1,1447 @@
+{
+  "schemaVersion": 1,
+  "title": "Genome Editing — One Year in Review",
+  "windowStart": "2025-10-23",
+  "windowEnd": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "coverageStatus": "in_progress",
+  "coverageLabelKo": "조사 진행 중",
+  "coverageNoteKo": "확인된 논문을 먼저 공개한 부분판입니다. 20개 저널의 모든 기간·주제 조합에 대한 조사는 아직 완료되지 않았으며, 전체 연간 목록이 아닙니다.",
+  "journalScope": {
+    "preset": "cns_high_impact",
+    "configSha256": "34a7523c117fb5fa3e58258d276ea872eaf56afa8c32259504c7b78b65338a01",
+    "journals": [
+      "Cell",
+      "Cell Metabolism",
+      "Cell Stem Cell",
+      "Molecular Cell",
+      "Nature",
+      "Nature Biomedical Engineering",
+      "Nature Biotechnology",
+      "Nature Cell Biology",
+      "Nature Chemical Biology",
+      "Nature Communications",
+      "Nature Genetics",
+      "Nature Medicine",
+      "Nature Metabolism",
+      "Nature Methods",
+      "Nature Neuroscience",
+      "Nature Structural & Molecular Biology",
+      "Neuron",
+      "Nucleic Acids Research",
+      "Science",
+      "Science Translational Medicine"
+    ]
+  },
+  "overview": [
+    {
+      "topic": "prime-editing",
+      "titleKo": "작은 교정에서 큰 DNA 조립과 RNA 설계로",
+      "textKo": "DoPE와 Prime Assembly는 donor와 prime-editing 중간체의 상보성을 활용한 삽입 전략이다. PE-PRISM과 조밀한 RNA 변형 연구는 pegRNA 안정성을, OptiPrime은 수선 과정의 설계를 다룬다. 서로 다른 병목을 해결하는 접근이며 단일 성능 순위로 해석하지 않는다."
+    },
+    {
+      "topic": "base-editing",
+      "titleKo": "효소·표적·적용 맥락의 확장",
+      "textKo": "ADAR 기반 DNA 편집, TadA 유래 CBE, 새로운 염기 치환 체계가 편집 화학의 범위를 넓힌다. 인간 배아 연구는 높은 편집률과 발생·염색체 결과를 분리해서 읽어야 함을 보여준다."
+    },
+    {
+      "topic": "genome-editing",
+      "titleKo": "서열 외의 선택성과 작동 위치",
+      "textKo": "Methylation-sensitive Cas9, 초음파로 제어하는 Cas12f, 장내 공생균 편집은 각각 표적 상태·작동 위치·조작 가능한 생물학적 대상을 확장한다. 단일세포 유전독성 측정은 도구의 기능과 함께 결과의 질을 평가한다."
+    },
+    {
+      "topic": "perturb-seq",
+      "titleKo": "유전자 효과를 세포와 공간 속에서 읽기",
+      "textKo": "Spatial Perturb-seq는 교란된 세포와 이웃 세포를 함께 해석한다. 일차 HSPC와 골수계 세포 연구는 도구 개발을 넘어 계통 결정과 면역 상태의 원인을 묻는다."
+    },
+    {
+      "topic": "crispr-screening",
+      "titleKo": "편집기만이 아닌 생물학의 발견",
+      "textKo": "종양 내 인간 T 세포, 암세포의 면역 살상 감수성, Cell Painting 기반 형태학은 서로 다른 기능 판독을 제공한다. 편집 기술 개발과 직접 연결되지 않아도 중심 발견이 substantive CRISPR screen에 기반하면 포함한다."
+    }
+  ],
+  "counts": {
+    "uniquePapers": 34,
+    "byTopic": {
+      "perturb-seq": 6,
+      "crispr-screening": 13,
+      "genome-editing": 14,
+      "prime-editing": 7,
+      "base-editing": 9
+    },
+    "byJournal": {
+      "Cell Stem Cell": 1,
+      "Cell": 2,
+      "Nature Biomedical Engineering": 2,
+      "Nature": 7,
+      "Nature Biotechnology": 8,
+      "Nature Communications": 11,
+      "Nature Genetics": 1,
+      "Nature Metabolism": 1,
+      "Science": 1
+    },
+    "byYear": {
+      "2026": 29,
+      "2025": 5
+    },
+    "withAuthorMetadata": 11,
+    "completeAuthorLists": 0,
+    "scientificSummaries": 25,
+    "metadataOnly": 9,
+    "duplicateDois": 0,
+    "unresolvedCandidates": 10,
+    "completedCoverageCells": 0,
+    "totalCoverageCells": 400
+  },
+  "topics": {
+    "genome-editing": "Genome editing",
+    "prime-editing": "Prime editing",
+    "base-editing": "Base editing",
+    "perturb-seq": "Perturb-seq",
+    "crispr-screening": "CRISPR screening"
+  },
+  "papers": [
+    {
+      "id": "paper-18032b3f2a28d0a4",
+      "title": "Single-cell CRISPR screen maps epigenetic regulators of lineage specification and malignancies in human HSPCs",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Cell Stem Cell",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-10-13",
+      "publicationYear": 2026,
+      "doi": "10.1016/j.stem.2026.09.005",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.stem.2026.09.005",
+      "topics": [
+        "perturb-seq",
+        "crispr-screening"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "일차 인간 HSPC에서 대규모 단일세포 CRISPR screen을 수행해 계통별 전사 프로그램과 재생 능력의 조절 인자를 연결했다. SMYD3와 여러 계통 편향 조절자를 후속 분석했다.",
+      "scientificSignificanceKo": "줄기세포의 분화·재생·질병 의존성을 하나의 기능 유전체 지도에서 다룬다.",
+      "evidenceLimitationsKo": "공여자별 차이와 장기 이식 결과를 포함하면 조절 인자의 우선순위가 어떻게 변하는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42869019/",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-2f6c151da55ff28a",
+      "title": "Non-invasive control of gene editing in vivo by photoswitchable Cas12f and focused ultrasound",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Cell",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-09-28",
+      "publicationYear": 2026,
+      "doi": "10.1016/j.cell.2026.09.005",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.cell.2026.09.005",
+      "topics": [
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "Photoswitchable Cas12f와 focused ultrasound를 조합해 생쥐의 표적 조직에서 비침습적·국소적인 유전자 편집을 제어했다.",
+      "scientificSignificanceKo": "전달 위치뿐 아니라 외부 자극으로 작동 위치와 시점을 조절하는 편집 제어 전략이다.",
+      "evidenceLimitationsKo": "조직 깊이·자극 반복·누출 활성에 따른 공간 선택성은 어느 범위까지 유지되는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://biox.stanford.edu/highlight/non-invasive-control-gene-editing-vivo-photoswitchable-cas12f-and-focused-ultrasound",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-bcc1966d388fd8e4",
+      "title": "Dense RNA motif modifications enable robust in vivo prime editing and enhance efficiencies of diverse editing systems",
+      "authors": [
+        "Xinlin Lei",
+        "Didi Chen",
+        "Kun Zhang"
+      ],
+      "authorsComplete": false,
+      "journal": "Nature Biomedical Engineering",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-09-11",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41551-026-01787-4",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41551-026-01787-4",
+      "topics": [
+        "prime-editing",
+        "base-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "pegRNA의 RNA motif에 조밀한 화학적 변형을 넣고, LNP를 통한 단회 RNA 전달로 생쥐 간의 prime editing을 높였다. 다른 RNA 기반 편집 구성에도 확장했다.",
+      "scientificSignificanceKo": "단백질 공학뿐 아니라 RNA의 안정성과 전달 후 생존 시간을 편집 성능의 핵심 설계 요소로 다룬다.",
+      "evidenceLimitationsKo": "간 이외 조직과 다른 pegRNA 구조에서도 같은 변형 패턴이 유효한가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41551-026-01787-4",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-215bd9683f3ae647",
+      "title": "Highly efficient base editing at PCSK9 and normal human embryo development",
+      "authors": [
+        "Stepan Jerabek",
+        "Chanju Jung",
+        "Michelle Kappy"
+      ],
+      "authorsComplete": false,
+      "journal": "Nature",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-09-09",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41586-026-11118-x",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41586-026-11118-x",
+      "topics": [
+        "base-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "인간 배아에서 PCSK9·HBG 표적 base editing을 조사했다. 단백질 전달과 mRNA 전달에서 발생 경과가 달랐고, 높은 표적 편집과 별개로 드문 염색체 이상과 모자이크 부산물이 관찰되었다.",
+      "scientificSignificanceKo": "표적 교정률, 전달 형식, 발생 과정의 유전독성을 함께 보아야 함을 보여주는 연구다.",
+      "evidenceLimitationsKo": "초기 배아의 희귀 염색체 사건과 장기 결과를 어떤 측정 설계로 포착할 것인가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41586-026-11118-x",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-892a1d456af88942",
+      "title": "Precise genomic integration of large DNA fragments by donor-directed annealing using prime editing",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Biotechnology",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-08-28",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41587-026-03301-2",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41587-026-03301-2",
+      "topics": [
+        "prime-editing",
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "Prime Assembly는 유전체와 donor DNA에 상보적인 3′ flap을 만들어 큰 DNA 삽입·치환을 유도하고, 일차 인간 T 세포의 CAR 삽입에도 적용했다.",
+      "scientificSignificanceKo": "Prime editing을 donor-directed assembly로 확장하여 점변이 교정과 큰 DNA 재구성 사이를 연결한다.",
+      "evidenceLimitationsKo": "표적별 flap 설계와 donor 구성은 정확한 조립 및 비정상 접합에 어떤 영향을 주는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41587-026-03301-2",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": true
+    },
+    {
+      "id": "paper-822d71f841f90d0f",
+      "title": "Donor-complementary prime editing enables precise kilobase and library-compatible DNA insertions",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Biotechnology",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-08-28",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41587-026-03296-w",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41587-026-03296-w",
+      "topics": [
+        "prime-editing",
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "Donor와 상보적인 prime-editing 중간체를 설계하는 DoPE로 킬로베이스 DNA 삽입과 라이브러리 호환 삽입을 구현했다.",
+      "scientificSignificanceKo": "작은 서열 교정에 머물지 않고, donor와 편집 중간체의 짝지음을 정밀 삽입의 설계 대상으로 삼는다.",
+      "evidenceLimitationsKo": "삽입물 크기와 표적이 바뀌면 정확한 접합과 원치 않는 donor 통합의 비율은 어떻게 달라지는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41587-026-03296-w",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-377dd46c8c894f1a",
+      "title": "A dual A-to-Y and G-to-Y base editor and a four-base concurrent hypermutator in mammalian cells",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Communications",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-08-27",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41467-026-77241-5",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41467-026-77241-5",
+      "topics": [
+        "base-editing",
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "포유류 세포에서 A와 G를 pyrimidine으로 바꾸는 dual editor와 네 염기를 함께 다양화하는 hypermutator를 제시했다.",
+      "scientificSignificanceKo": "전통적인 transition 위주의 편집에서 더 넓은 염기 치환·다양화 공간으로 확장한다.",
+      "evidenceLimitationsKo": "개별 치환의 순도와 넓은 변이 다양성 사이에서 어떤 용도별 설계가 필요한가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-026-77241-5",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "supplied_publisher_pdf_abstract_and_public_publication_metadata",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-cf0c38f10c615ef0",
+      "title": "Single-cell and in vivo profiling reveal heterogeneous and organ-specific CRISPR-Cas9 off-target and translocation outcomes",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Communications",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-08-26",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41467-026-77144-5",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41467-026-77144-5",
+      "topics": [
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "",
+      "scientificSignificanceKo": "",
+      "evidenceLimitationsKo": "",
+      "interpretationStatus": "pending",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-026-77144-5",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication"
+          ],
+          "reviewBasis": "publisher_bibliographic_record_only",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-1ba5a953915ea755",
+      "title": "Adaptive model-guided protein evolution with sparse data optimizes compact eukaryotic genome editors",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Biotechnology",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-08-24",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41587-026-03272-4",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41587-026-03272-4",
+      "topics": [
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "EvoMax는 Gaussian process, 단백질 언어모델, inverse folding과 반복 실험을 결합해 Fanzor2를 개선했다. Ortholog 탐색과 ωRNA 공학을 함께 수행하고, FanzMAX 변이체를 인간 세포와 생쥐에서 시험했다.",
+      "scientificSignificanceKo": "효소 서열만이 아니라 ortholog·RNA scaffold·실험 선택을 함께 다루는 희소 데이터 기반 compact editor 공학이다.",
+      "evidenceLimitationsKo": "새로운 효소 계열에서도 적은 데이터로 성능 향상을 재현할 수 있는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41587-026-03272-4",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "supplied_publisher_pdf_abstract_and_public_publication_metadata",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-d4e1616611090ad9",
+      "title": "Virus-like particles enable targeted gene engineering and pooled CRISPR screening in primary human myeloid cells",
+      "authors": [
+        "Hyuncheol Jung",
+        "Pascal Devant",
+        "Carter Ching"
+      ],
+      "authorsComplete": false,
+      "journal": "Nature Biotechnology",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-08-17",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41587-026-03258-2",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41587-026-03258-2",
+      "topics": [
+        "genome-editing",
+        "crispr-screening",
+        "perturb-seq"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "VLP 기반 전달로 일차 인간 골수계 세포에서 유전자 교란과 pooled screening을 수행하고, 대식세포의 염증 상태를 조절하는 인자를 찾았다.",
+      "scientificSignificanceKo": "전달이 어려웠던 일차 세포를 편집과 기능 유전체학의 대상으로 확장한다. TNFAIP3 교란과 CAR 대식세포 실험이 생물학적 활용을 보여준다.",
+      "evidenceLimitationsKo": "공여자와 골수계 세포 상태에 따른 전달·교란 편향을 어떻게 분리할 것인가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41587-026-03258-2",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": true
+    },
+    {
+      "id": "paper-b5eea3778b31b286",
+      "title": "Genome-wide CRISPR screening identifies cellular factors controlling nonviral genome editing efficiency",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Communications",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-08-13",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41467-026-76350-5",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41467-026-76350-5",
+      "topics": [
+        "crispr-screening",
+        "genome-editing",
+        "base-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "전장 CRISPR screen으로 비바이러스성 편집 효율을 조절하는 세포 인자를 찾고, BET1L·GJB2 교란과 환자 유래 망막 모델에서 base editing 및 기능 회복을 시험했다.",
+      "scientificSignificanceKo": "편집 효율의 차이를 editor 자체뿐 아니라 세포의 전달·처리 경로에서도 찾는다.",
+      "evidenceLimitationsKo": "일시적인 인자 조절만으로 편집 증진 효과를 얻으면서 정상 세포 기능을 보존할 수 있는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-026-76350-5",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-8247732ea1120b41",
+      "title": "Mechanistic machine learning for prediction of prime editing outcomes",
+      "authors": [
+        "Alvin Hsu",
+        "Peter J. Chen",
+        "Angus H. Li"
+      ],
+      "authorsComplete": false,
+      "journal": "Nature Biotechnology",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-08-12",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41587-026-03261-7",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41587-026-03261-7",
+      "topics": [
+        "prime-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "OptiPrime은 prime editing의 단계별 기전을 반영해 편집 결과를 예측하고, mismatch repair를 회피하는 설계와 PE3·twinPE 설계에 활용했다.",
+      "scientificSignificanceKo": "서열과 효율의 상관관계를 넘어 편집 과정의 병목을 설계 변수로 다루며, 일차 세포와 생체 내 적용으로 예측을 시험했다.",
+      "evidenceLimitationsKo": "새로운 표적과 세포 유형에서도 학습된 수선 기전의 기여가 유지되는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41587-026-03261-7",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-d3f777079dbd580b",
+      "title": "In vivo genome-wide CRISPR screens of human T cells in solid tumours",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-08-12",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41586-026-10906-9",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41586-026-10906-9",
+      "topics": [
+        "crispr-screening"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "인간 T 세포의 종양 내 축적과 effector 기능을 별도 전장 CRISPR screen으로 분석했다. P2RY8–Gα13은 침윤, GNAS–Gαs는 억제 신호에 대한 기능 저하와 연결되었고 조합 교란을 시험했다.",
+      "scientificSignificanceKo": "같은 종양 환경에서도 세포가 들어가는 능력과 들어간 뒤 작동하는 능력의 병목이 다를 수 있음을 기능적으로 분리한다.",
+      "evidenceLimitationsKo": "종양 종류와 공여자가 바뀌어도 우선순위 유전자의 효과가 유지되는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41586-026-10906-9",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "supplied_publisher_pdf_abstract_and_public_publication_metadata",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": true
+    },
+    {
+      "id": "paper-a3befdd788b9d2ee",
+      "title": "CRISPR screens identify targets to rescue age-related T cell dysfunction in cancer",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Cell",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-07-29",
+      "publicationYear": 2026,
+      "doi": "10.1016/j.cell.2026.07.016",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.cell.2026.07.016",
+      "topics": [
+        "crispr-screening"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "",
+      "scientificSignificanceKo": "",
+      "evidenceLimitationsKo": "",
+      "interpretationStatus": "pending",
+      "sourceEvidence": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42526438/",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication"
+          ],
+          "reviewBasis": "publisher_bibliographic_record_only",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-f2aa9a5a69cbe49f",
+      "title": "Precise DNA base editing using AlphaFold3-based contact modelling",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-07-22",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41586-026-10794-z",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41586-026-10794-z",
+      "topics": [
+        "base-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "",
+      "scientificSignificanceKo": "",
+      "evidenceLimitationsKo": "",
+      "interpretationStatus": "pending",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41586-026-10794-z",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication"
+          ],
+          "reviewBasis": "publisher_bibliographic_record_only",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-01f1297894906a22",
+      "title": "Engineered ADARs enable precision A-to-G base editing of DNA",
+      "authors": [
+        "Hyeon Woo Im",
+        "Bada Jeong",
+        "Yeji Lee"
+      ],
+      "authorsComplete": false,
+      "journal": "Nature Biotechnology",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-07-10",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41587-026-03223-z",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41587-026-03223-z",
+      "topics": [
+        "base-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "ADAR와 표적 RNA를 조합한 snuABE로 DNA의 A-to-G 변환을 구현하고, 단백질 공학과 RNA 보호 전략으로 활성을 높였다.",
+      "scientificSignificanceKo": "TadA 중심 ABE와 다른 효소·기질 인식 방식을 제시하여 단일 염기 선택성의 설계 공간을 넓힌다.",
+      "evidenceLimitationsKo": "다양한 표적에서 단일 염기 선택성과 충분한 편집 활성을 동시에 확보할 수 있는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41587-026-03223-z",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": true
+    },
+    {
+      "id": "paper-1793714d981b262d",
+      "title": "Base editing reveals an essential role for NANOG in human embryogenesis",
+      "authors": [
+        "Oliver J. Bower",
+        "Ana E. R. Orsi",
+        "Riley McMahon"
+      ],
+      "authorsComplete": false,
+      "journal": "Nature",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-06-25",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41586-026-10792-1",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41586-026-10792-1",
+      "topics": [
+        "base-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "인간 배아에서 NANOG splice donor를 ABE로 교란해 기능을 조사했다. NANOG 소실은 epiblast 형성을 방해하고 다른 초기 계통의 전사 프로그램을 유도했다.",
+      "scientificSignificanceKo": "단순한 편집 성능 시연이 아니라 인간 발생의 계통 결정 기전을 직접 시험한다. 마우스와 다른 보상 양상도 드러났다.",
+      "evidenceLimitationsKo": "서로 다른 배아·발생 단계에서 계통 전환의 일관성과 모자이크 편집의 기여는 어떠한가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41586-026-10792-1",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-21b3a2cac04282ab",
+      "title": "Directed evolution of small RNA-stabilizing motifs that improve prime-editing efficiency",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Biotechnology",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-05-20",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41587-026-03123-2",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41587-026-03123-2",
+      "topics": [
+        "prime-editing",
+        "crispr-screening"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "PE-PRISM pooled screen으로 pegRNA 3′ 안정화 motif를 탐색·진화시켰다. 개선 motif를 질병 변이 교정, 일차 세포, 생쥐 뇌·간에서 시험했다.",
+      "scientificSignificanceKo": "흔히 고정 부품으로 쓰던 RNA motif 자체를 진화 가능한 편집 구성 요소로 바꾼다.",
+      "evidenceLimitationsKo": "Spacer·PBS·RTT와 motif 사이의 구조적 간섭을 표적별로 예측할 수 있는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41587-026-03123-2",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-603273313ec65b4a",
+      "title": "Simultaneous orthogonal cell engineering by a single CRISPR-Cas9 polyfunctional editor",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Communications",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-05-08",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41467-026-72846-2",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41467-026-72846-2",
+      "topics": [
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "하나의 Cas9 구성에서 표적 삽입과 다른 유전자 좌위의 후성유전적 침묵화를 조합해 일차 인간 T 세포를 다중 프로그래밍했다.",
+      "scientificSignificanceKo": "절단이 필요한 좌위와 침묵화할 좌위의 작동을 분리하여 다중 세포 공학을 구현한다.",
+      "evidenceLimitationsKo": "장기 배양과 기능 수행 과정에서 유전자 침묵화와 삽입의 안정성이 함께 유지되는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-026-72846-2",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-9ae316c53703bbec",
+      "title": "Diversity-generating retroelements for programmable targeted hypermutagenesis",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Biotechnology",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-04-16",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41587-026-03078-4",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41587-026-03078-4",
+      "topics": [
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "DGRec은 diversity-generating retroelement와 recombineering을 결합해 지정한 DNA 구간에 변이를 집중시키고, 파지·dCas9·nanobody 진화에 적용했다.",
+      "scientificSignificanceKo": "유전체 전체의 무작위 변이 대신 관심 구간의 연속 다양화를 구현하는 도구다.",
+      "evidenceLimitationsKo": "역전사효소의 염기 편향과 변이 구간 길이가 탐색 가능한 적응 경로를 어떻게 제한하는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41587-026-03078-4",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-ecedfea2bf58bab3",
+      "title": "Molecular basis for methylation-sensitive editing by Cas9",
+      "authors": [
+        "Mitchell O. Roth",
+        "Yuerong Shu",
+        "Yu Zhao"
+      ],
+      "authorsComplete": false,
+      "journal": "Nature",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-04-15",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41586-026-10384-z",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41586-026-10384-z",
+      "topics": [
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "ThermoCas9의 구조·생화학·인간 세포 편집을 분석하여 PAM의 cytosine methylation이 표적 인식과 절단을 억제하는 기전을 밝혔다.",
+      "scientificSignificanceKo": "DNA 서열뿐 아니라 후성유전 상태를 구별하는 편집 선택성의 원리를 제시한다.",
+      "evidenceLimitationsKo": "혼합된 methylation 상태의 실제 조직에서 세포 선택성이 어느 수준까지 유지되는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41586-026-10384-z",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": true
+    },
+    {
+      "id": "paper-900f0682a4e75f84",
+      "title": "Mapping convergent regulators of melanoma drug resistance by PerturbFate",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-04-15",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41586-026-10367-0",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41586-026-10367-0",
+      "topics": [
+        "perturb-seq",
+        "crispr-screening"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "",
+      "scientificSignificanceKo": "",
+      "evidenceLimitationsKo": "",
+      "interpretationStatus": "pending",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41586-026-10367-0",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication"
+          ],
+          "reviewBasis": "publisher_bibliographic_record_only",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-f3d7c1f49aaa9a9a",
+      "title": "High-content CRISPR activation screens identify synthetically lethal RNA-based mechanisms to sensitize cancer cells to targeted T cell cytotoxicity",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Genetics",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-04-07",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41588-026-02561-7",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41588-026-02561-7",
+      "topics": [
+        "crispr-screening",
+        "perturb-seq"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "CRISPRa, 단일세포 및 optical screen을 결합해 암세포의 TCR 특이적 T 세포 살상 감수성을 높이는 RNA 관련 경로를 찾았다.",
+      "scientificSignificanceKo": "면역세포 자체의 강화뿐 아니라 표적 세포의 유전자 프로그램을 바꾸는 면역치료 전략을 제시한다.",
+      "evidenceLimitationsKo": "암세포에 대한 감수성 증가와 정상 조직의 T 세포 독성을 어떻게 분리할 것인가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41588-026-02561-7",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-fe1163b51d8cb6c5",
+      "title": "Spatial perturb-seq: single-cell functional genomics within intact tissue architecture",
+      "authors": [
+        "Kimberle Shen",
+        "Wan Yi Seow",
+        "Choong Tat Keng"
+      ],
+      "authorsComplete": false,
+      "journal": "Nature Communications",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-02-21",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41467-026-69677-6",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41467-026-69677-6",
+      "topics": [
+        "perturb-seq",
+        "crispr-screening"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "뇌 조직에서 CRISPR 교란 barcode와 공간 전사체를 함께 읽어, 교란된 세포 자체와 주변 미세환경의 변화를 분석했다.",
+      "scientificSignificanceKo": "해리 과정에서 사라지는 위치 정보와 세포 간 효과를 유전자 기능 해석에 포함한다.",
+      "evidenceLimitationsKo": "Barcode 회수율과 AAV tropism의 차이가 세포 유형별 교란 효과 추정에 어떤 편향을 주는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-026-69677-6",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": true
+    },
+    {
+      "id": "paper-24e887bf0aac5810",
+      "title": "High-efficiency TadA cytosine base editors for precise modelling of human disease variants",
+      "authors": [
+        "Wei Qin",
+        "Sheng-Jia Lin",
+        "Yu Zhang"
+      ],
+      "authorsComplete": false,
+      "journal": "Nature Biomedical Engineering",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-01-28",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41551-025-01607-1",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41551-025-01607-1",
+      "topics": [
+        "base-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "TadA 유래 cytosine editor인 TCBE-Umax를 최적화해 zebrafish에서 효율적인 양대립유전자 편집과 질병 변이의 기능 평가를 수행했다.",
+      "scientificSignificanceKo": "Editor 개선을 개체 수준 VUS 기능 판독과 연결하여, 편집 기술이 변이 해석에 기여하는 경로를 보여준다.",
+      "evidenceLimitationsKo": "F0 개체의 모자이크와 bystander 편집이 변이의 표현형 판정에 미치는 영향을 어떻게 구분하는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41551-025-01607-1",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-70ad219e6f748e0f",
+      "title": "Coiled-coil heterodimer-mediated split base editing systems enable flexible and robust nucleotide substitutions",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Communications",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-01-17",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41467-026-68469-2",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41467-026-68469-2",
+      "topics": [
+        "base-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "",
+      "scientificSignificanceKo": "",
+      "evidenceLimitationsKo": "",
+      "interpretationStatus": "pending",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-026-68469-2",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication"
+          ],
+          "reviewBasis": "publisher_bibliographic_record_only",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-59d6a5b5f582de33",
+      "title": "Development of an ultra-efficient prime editing system in tomato",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Communications",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-01-12",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41467-025-67874-3",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41467-025-67874-3",
+      "topics": [
+        "prime-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "",
+      "scientificSignificanceKo": "",
+      "evidenceLimitationsKo": "",
+      "interpretationStatus": "pending",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-67874-3",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication"
+          ],
+          "reviewBasis": "publisher_bibliographic_record_only",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-1c173e9cfe9d3af8",
+      "title": "Single-cell multiplex approaches deeply map ON-target CRISPR-genotoxicity and reveal its mitigation by palbociclib and long-term engraftment",
+      "authors": [
+        "Julian Boutin",
+        "Sabrina Fayet",
+        "Victor Marin"
+      ],
+      "authorsComplete": false,
+      "journal": "Nature Communications",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-01-10",
+      "publicationYear": 2026,
+      "doi": "10.1038/s41467-025-68177-3",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41467-025-68177-3",
+      "topics": [
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "단일세포 SNP-DNA sequencing과 세포 분석을 결합해 CRISPR on-target의 LOH와 염색체 이상을 추적하고, palbociclib 처리 및 장기 이식 후 변화를 비교했다.",
+      "scientificSignificanceKo": "작은 indel 중심 QC로 놓칠 수 있는 큰 유전체 사건을 단일세포 수준에서 측정한다.",
+      "evidenceLimitationsKo": "장기 이식 후 검출되지 않는 사건은 소실·선택·검출 감도 중 무엇으로 설명되는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-68177-3",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-fc2d0aa13f59d5a4",
+      "title": "Single-cell perturbations decipher ribosomal stress-surveillance regulators in type 2 diabetes",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Metabolism",
+      "articleType": "research",
+      "firstPublishedOnline": "2026-01-02",
+      "publicationYear": 2026,
+      "doi": "10.1038/s42255-025-01407-6",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s42255-025-01407-6",
+      "topics": [
+        "perturb-seq",
+        "crispr-screening"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "",
+      "scientificSignificanceKo": "",
+      "evidenceLimitationsKo": "",
+      "interpretationStatus": "pending",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s42255-025-01407-6",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication"
+          ],
+          "reviewBasis": "publisher_bibliographic_record_only",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-0f9fc1549e8b8c44",
+      "title": "A pooled Cell Painting CRISPR screening platform enables de novo inference of gene function by self-supervised deep learning",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Communications",
+      "articleType": "research",
+      "firstPublishedOnline": "2025-12-16",
+      "publicationYear": 2025,
+      "doi": "10.1038/s41467-025-66778-6",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41467-025-66778-6",
+      "topics": [
+        "crispr-screening"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "Cell Painting과 optical pooled CRISPR screen을 연결하고, 자기지도 영상 표현으로 유전자 교란의 형태학적 관계를 추론했다.",
+      "scientificSignificanceKo": "한 가지 marker나 생존율이 아니라 다차원 형태에서 기능 유전체 관계를 찾는다.",
+      "evidenceLimitationsKo": "세포 분할·염색·촬영 조건이 달라도 유전자 간 표현형 관계가 유지되는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-66778-6",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-92c1da6926327086",
+      "title": "A genome-wide CRISPR screen in Anopheles mosquito cells identifies fitness and immune cell function-related genes",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Communications",
+      "articleType": "research",
+      "firstPublishedOnline": "2025-11-24",
+      "publicationYear": 2025,
+      "doi": "10.1038/s41467-025-65304-y",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41467-025-65304-y",
+      "topics": [
+        "crispr-screening"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "",
+      "scientificSignificanceKo": "",
+      "evidenceLimitationsKo": "",
+      "interpretationStatus": "pending",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-65304-y",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication"
+          ],
+          "reviewBasis": "publisher_bibliographic_record_only",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-e6d700aaa50fdd3a",
+      "title": "A genome-wide CRISPR screen identifies the TNRC18 gene locus as a regulator of inflammatory signaling",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Nature Communications",
+      "articleType": "research",
+      "firstPublishedOnline": "2025-11-24",
+      "publicationYear": 2025,
+      "doi": "10.1038/s41467-025-65277-y",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41467-025-65277-y",
+      "topics": [
+        "crispr-screening"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "",
+      "scientificSignificanceKo": "",
+      "evidenceLimitationsKo": "",
+      "interpretationStatus": "pending",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-65277-y",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication"
+          ],
+          "reviewBasis": "publisher_bibliographic_record_only",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    },
+    {
+      "id": "paper-424b15f95d86a8a3",
+      "title": "Prime editing-installed suppressor tRNAs for disease-agnostic genome editing",
+      "authors": [
+        "Sarah E. Pierce",
+        "Steven Erwood",
+        "Keyede Oye"
+      ],
+      "authorsComplete": false,
+      "journal": "Nature",
+      "articleType": "research",
+      "firstPublishedOnline": "2025-11-19",
+      "publicationYear": 2025,
+      "doi": "10.1038/s41586-025-09732-2",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41586-025-09732-2",
+      "topics": [
+        "prime-editing",
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "PERT는 내인성 tRNA를 suppressor tRNA로 prime editing하여 여러 nonsense 변이의 단백질 발현을 회복시키고, 질환 세포와 생쥐 모델에서 시험했다.",
+      "scientificSignificanceKo": "각 질병 변이를 별도로 교정하는 대신 번역 단계의 공통 병목을 편집하는 접근이다.",
+      "evidenceLimitationsKo": "조직별 발현과 장기 번역 충실도를 유지하면서 어느 nonsense 변이군까지 확장할 수 있는가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://www.nature.com/articles/s41586-025-09732-2",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": true
+    },
+    {
+      "id": "paper-015a4bc62813bf26",
+      "title": "Metagenomic editing of commensal bacteria in vivo using CRISPR-associated transposases",
+      "authors": [],
+      "authorsComplete": false,
+      "journal": "Science",
+      "articleType": "research",
+      "firstPublishedOnline": "2025-11-13",
+      "publicationYear": 2025,
+      "doi": "10.1126/science.adx7604",
+      "pmid": null,
+      "url": "https://doi.org/10.1126/science.adx7604",
+      "topics": [
+        "genome-editing"
+      ],
+      "contexts": [],
+      "studyType": "original research",
+      "keyFindingKo": "MetaEdit은 CRISPR-associated transposase와 접합 전달을 결합해 생체 내 공생균을 직접 편집하고, 장내에서 대사 payload를 통한 성장 조절을 시연했다.",
+      "scientificSignificanceKo": "분리 배양이 어려운 미생물까지 원래의 군집 안에서 유전적으로 조작하는 방향이다.",
+      "evidenceLimitationsKo": "균종별 전달 편향과 payload의 장기 안정성은 어떻게 관리할 것인가?",
+      "interpretationStatus": "abstract_reviewed",
+      "sourceEvidence": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41231980/",
+          "checkedAt": "2026-10-23",
+          "supports": [
+            "identity",
+            "first_online_date",
+            "journal_publication",
+            "scientific_summary"
+          ],
+          "reviewBasis": "public_abstract",
+          "accessNote": "Publisher page / public publisher search excerpt; no full-paper review claimed."
+        }
+      ],
+      "verificationStatus": "verified",
+      "highlight": false
+    }
+  ]
+}

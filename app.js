@@ -395,9 +395,13 @@ function renderIssue() {
     <div class="tracker-row">
       <span class="tracker-dot" aria-hidden="true"></span>
       <strong>${escapeHtml(tracker.shortLabel)}</strong>
-      <span>${tracker.sourceRuns?.length > 1 ? `${tracker.sourceRuns.length} runs · latest run: ` : ""}${tracker.collected == null ? "Collected ?" : `${formatNumber(tracker.collected)} collected`} · ${tracker.screened == null ? "screened unknown" : `${formatNumber(tracker.screened)} screened`} · ${tracker.sourceRuns?.length > 1 ? "weekly union: " : ""}${formatNumber(tracker.selected ?? tracker.reviewed)} selected · ${formatNumber(tracker.reviewed)} reviewed · ${escapeHtml(tracker.screenStatus || "unknown")}</span>
+      <span>${tracker.sourceRuns?.length > 1 ? `${tracker.sourceRuns.length} runs · latest run: ` : ""}${tracker.collected == null ? "Collected ?" : `${formatNumber(tracker.collected)} collected`} · ${tracker.screened == null ? "screened unknown" : `${formatNumber(tracker.screened)} screened`} · ${tracker.sourceRuns?.length > 1 ? "weekly union: " : ""}${formatNumber(tracker.selected ?? tracker.reviewed)} selected · ${formatNumber(tracker.reviewed)} reviewed · ${escapeHtml(tracker.screenStatus || "unknown")}${trackerQualityNoteMarkup(tracker)}</span>
     </div>
   `).join("");
+}
+
+function trackerQualityNoteMarkup(tracker) {
+  return tracker.qualityNoteKo ? `<br><small lang="ko">${escapeHtml(tracker.qualityNoteKo)}</small>` : "";
 }
 
 function publishedArchiveWeeks(...groups) {
@@ -446,6 +450,7 @@ function leadCardMarkup(paper) {
       ${journalMarkup(paper)}
       <h3>${paperLinkMarkup(paper)}</h3>
       <p class="paper-source">${escapeHtml(sourceLine(paper))}</p>
+      ${reviewStatusMarkup(paper)}
       ${meetingHistoryMarkup(paper)}
       <p class="paper-blurb korean-copy" lang="ko">${escapeHtml(summary)}</p>
       <div class="lead-paper-footer">
@@ -521,6 +526,7 @@ function paperCardMarkup(paper, index) {
         ${journalMarkup(paper)}
         <h3>${paperLinkMarkup(paper)}</h3>
         <p class="paper-meta">${escapeHtml(sourceLine(paper))}</p>
+        ${reviewStatusMarkup(paper)}
         ${meetingHistoryMarkup(paper)}
         <p class="paper-summary korean-copy" lang="ko">${escapeHtml(summary)}</p>
         ${tags ? `<div class="keyword-list">${tags}</div>` : ""}
@@ -647,6 +653,7 @@ function detailsMarkup(paper) {
     <div class="paper-details">
       <section class="detail-brief">
         <h4>In brief</h4>
+        ${reviewStatusMarkup(paper)}
         <p class="korean-copy" lang="ko">${paper.reviewBasis === "formal_abstract" ? '<span class="review-basis">Review basis: formal abstract</span>' : ""}${escapeHtml(brief)}</p>
       </section>
       ${insights.length ? `<div class="detail-insights">${insights.join("")}</div>` : ""}
@@ -654,6 +661,10 @@ function detailsMarkup(paper) {
       ${(abstract || source || correspondence) ? `<div class="detail-footer">${correspondence}${abstract}${source}</div>` : ""}
     </div>
   `;
+}
+
+function reviewStatusMarkup(paper) {
+  return paper.reviewStatus === "skipped" ? '<p class="paper-meta" lang="ko">후보 검토 · 심층 리뷰 미실시</p>' : "";
 }
 
 function detailBlock(title, content) {
@@ -976,6 +987,8 @@ if (typeof module !== "undefined" && module.exports) {
     savedIdentity,
     scoreForTracker,
     selectTopPapers,
+    trackerQualityNoteMarkup,
+    reviewStatusMarkup,
   };
 }
 

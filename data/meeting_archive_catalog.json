@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-26",
   "papers": [
     {
       "id": "paper-aab5925dd39cec4b",
@@ -11160,7 +11160,9 @@
         "protein"
       ],
       "savedKeys": [
-        "6b959e72d3f89a"
+        "5cadcce2529370",
+        "6b959e72d3f89a",
+        "d554794cb9c01c"
       ],
       "metadataBasis": "existing_public_catalog"
     },
@@ -14085,6 +14087,7 @@
         "protein"
       ],
       "savedKeys": [
+        "74fdc5fde08bb7",
         "849efe31b7b23a",
         "cf0accef0b9f31"
       ],
@@ -26191,6 +26194,8 @@
         "genome-editing"
       ],
       "savedKeys": [
+        "98d8f0b791d5ad",
+        "a65586f43090d3",
         "paper-a214ec1aded836f7"
       ],
       "metadataBasis": "verified_special_issue_record",
@@ -40636,6 +40641,1813 @@
       ],
       "metadataBasis": "verified_special_issue_record",
       "specialIssueId": "paper-6a4c7062a4ae6ce3"
+    },
+    {
+      "id": "paper-593dc175aafe63ba",
+      "title": "GRP75-dependent SIMPA mediates inter-organellar quality control",
+      "doi": "10.1038/s41586-026-10733-y",
+      "journal": "Nature",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41586-026-10733-y",
+      "authors": [
+        "Fan Yu",
+        "Lingyu Jiang",
+        "Hanyu Liu",
+        "Song Yang",
+        "Yuan Yuan",
+        "Hongzhen Jin",
+        "Jinming Liu",
+        "Xi Liu",
+        "Yu Dong",
+        "Dongfeng Ren",
+        "Jie Kang",
+        "Yan Huang"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "566e1141171319",
+        "e9ef787a1c63cb"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-555e2175eec5a909",
+      "title": "Deep dynamical models of single-cell multiomic velocities predict loss-of-function and rescue perturbations in B cells",
+      "doi": "10.1038/s41587-026-03348-1",
+      "journal": "Nature Biotechnology",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41587-026-03348-1",
+      "authors": [
+        "Alireza Karbalayghareh",
+        "Benedikt Pelzer",
+        "Christopher R Chin",
+        "Ari Melnick",
+        "Darko Barisic",
+        "Christina S Leslie",
+        "Christopher R. Chin",
+        "Christina S. Leslie"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "d55d5fcfaa6444",
+        "2bff1bb97ce042"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-02b104117d8cc52b",
+      "title": "BAK and BAX form a multiprotein complex to drive mtDNA efflux and caspase-independent cell death",
+      "doi": "10.1126/science.aea2181",
+      "journal": "Science",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-22",
+      "url": "https://doi.org/10.1126/science.aea2181",
+      "authors": [
+        "Shaoyuan Yang",
+        "Hyungjin Kim",
+        "Guanghong Liao",
+        "Na Ta",
+        "Ho-Chou Tu",
+        "Shriram Ramani",
+        "Chih-Yu Chen",
+        "Zih-Yu Li",
+        "Nobuhiro Tanno",
+        "James J Hsieh",
+        "Emily H Cheng",
+        "James J. Hsieh"
+      ],
+      "topics": [
+        "bcl-2-Associated X Protein",
+        "bcl-2 Homologous Antagonist-Killer Protein",
+        "Animals",
+        "Mitochondrial Membranes",
+        "DNA, Mitochondrial",
+        "Apoptosis",
+        "Mitochondria",
+        "Cytochromes c",
+        "Calcium",
+        "Caspases",
+        "Mice",
+        "Voltage-Dependent Anion Channel 2"
+      ],
+      "savedKeys": [
+        "d932d72a0ed5d1",
+        "e5592e4c16a624"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-608e492ce0193de3",
+      "title": "Recordanelles for transcriptome-wide single-cell RNA recording in human cells",
+      "doi": "10.1038/s41587-026-03327-6",
+      "journal": "Nature Biotechnology",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41587-026-03327-6",
+      "authors": [
+        "Christopher D Reinkemeier",
+        "Marcos Manero-Carranza",
+        "Rick Farouni",
+        "Federica Filice",
+        "Alexander Klotz",
+        "Konstantin Schneider-Heieck",
+        "Tim L Andermann",
+        "Randall J Platt",
+        "Christopher D. Reinkemeier",
+        "Tim L. Andermann",
+        "Randall J. Platt"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "fd9b842131c7fe",
+        "0b7e40885d8241"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-61d073d076a580ae",
+      "title": "Establishing Polycomb regulatory landscapes in human early development",
+      "doi": "10.1038/s41588-026-02764-y",
+      "journal": "Nature Genetics",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-19",
+      "url": "https://doi.org/10.1038/s41588-026-02764-y",
+      "authors": [
+        "Xiaoyu Hu",
+        "Chuanxin Zhang",
+        "Bofeng Liu",
+        "Fangnong Lai",
+        "Shuiying Ma",
+        "Zhenzhen Hou",
+        "Qizhe Shao",
+        "Ling Liu",
+        "Xukun Lu",
+        "Guanling Yu",
+        "Hui Liu",
+        "Zhen Yang"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "f45bd35eede7a2",
+        "85ad5059fa24fd"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-6ab569269596730d",
+      "title": "Programmable Surface Receptor-Mediated Cell Targeting with Designer Antibody-Routed Nanoparticles (DARTs)",
+      "doi": "10.64898/2026.10.18.757718",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-20",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.18.757718v1",
+      "authors": [
+        "Roth, G. V.",
+        "Gengaro, I. R.",
+        "Ahmadian, N.",
+        "Gao, K.",
+        "Wang, D.",
+        "Xu, S.",
+        "Chavez, M.",
+        "Finn, P.",
+        "Wang, A.",
+        "Qi, L. S."
+      ],
+      "topics": [
+        "Genome editing core",
+        "delivery",
+        "genome editing",
+        "specificity"
+      ],
+      "savedKeys": [
+        "990270e18dc732",
+        "b4b3ad171245a3"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-72a4a103c79a9883",
+      "title": "Engineered human Argonaute 2 for targeted C-to-U RNA base editing",
+      "doi": "10.1038/s41587-026-03359-y",
+      "journal": "Nature Biotechnology",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-20",
+      "url": "https://doi.org/10.1038/s41587-026-03359-y",
+      "authors": [
+        "Robert F Lusi",
+        "Salvador Moncayo von Hase",
+        "Corey Model",
+        "Steven M Banik",
+        "Robert F. Lusi",
+        "Steven M. Banik"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "1592488630ea77",
+        "908d1f016112da"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-cb01f43d4eaac54f",
+      "title": "Structure and function of the DFCP1 membrane barrier responsible for ER microdomain organization in lysosome repair",
+      "doi": "10.64898/2026.10.19.759623",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.759623v1",
+      "authors": [
+        "Cui, Z.",
+        "Palacio-Rodriguez, K.",
+        "Herrmann, E.",
+        "Kourniotis, A.",
+        "Radulovic, M.",
+        "Pust, S.",
+        "Tapia, K.",
+        "Raiborg, C.",
+        "Hummer, G.",
+        "Stenmark, H.",
+        "Hurley, J. H."
+      ],
+      "topics": [],
+      "savedKeys": [
+        "ef7548c41d7378",
+        "e3735502dca22f"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-285218d5c9a77232",
+      "title": "ANO6 Scaffolds ER Mitochondria Contacts to Govern Spatial Lipid Compartmentalization and Ferroptosis Evasion in Chemoresistant Breast Cancer",
+      "doi": "10.64898/2026.10.22.761200",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761200v1",
+      "authors": [
+        "Yang, Q.",
+        "Yan, J.",
+        "Zhao, P.",
+        "Tang, Q.",
+        "Zheng, K.",
+        "Zhao, J.",
+        "Zhou, Z."
+      ],
+      "topics": [
+        "Mitochondria and mtDNA",
+        "mitochondria"
+      ],
+      "savedKeys": [
+        "aecdf4c84dabc7",
+        "efa0f39a20043c"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-8f1d2b19e83507e8",
+      "title": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits",
+      "doi": "10.1038/s41586-026-11186-z",
+      "journal": "Nature",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41586-026-11186-z",
+      "authors": [
+        "Junsung Woo",
+        "Michael R. Williamson",
+        "Dongjoo Choi",
+        "Ekin Akdemir",
+        "Thea Zlatkov",
+        "Kwanha Yu",
+        "Wookbong Kwon",
+        "Ehson Maleki",
+        "Yeunjung Ko",
+        "Kaitlyn Sanchez",
+        "Hussein Maleki",
+        "Jong Min Choi"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "802522258eb9c1",
+        "ee8764e107a326"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-23c95738398da3e3",
+      "title": "Cold activates a BH2 metabolic network promoting longevity and proteostasis",
+      "doi": "10.1038/s41586-026-11152-9",
+      "journal": "Nature",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41586-026-11152-9",
+      "authors": [
+        "Hyun Ju Lee",
+        "Cansu Doğan",
+        "Seda Koyuncu",
+        "Markus Wehrmann",
+        "Murat Artan",
+        "Dunja Petrovic",
+        "Rute Loureiro",
+        "Amit Kumar Sahu",
+        "Joana Schnubel",
+        "Pavel Grobushkin",
+        "Dimitrios Prymidis",
+        "Theodoros Georgomanolis"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "67f0667238c313",
+        "0db6769f27cd4e"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-18c2044f1dcf9f34",
+      "title": "Persistent neuronal stress signalling underlies Angelman syndrome phenotypes",
+      "doi": "10.1038/s41586-026-11165-4",
+      "journal": "Nature",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41586-026-11165-4",
+      "authors": [
+        "Kwang-Soo Kim",
+        "Cory Gardner",
+        "Alissa Cullen",
+        "Jalin A. Stelzer",
+        "Kevin Cho",
+        "Ashish Sharma",
+        "Mati T. Nemera",
+        "Travis Law",
+        "Huma Naz",
+        "Guoyan Zhao",
+        "Harrison W. Gabel",
+        "Gary J. Patti"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "73258f7ef16e9a",
+        "7b29e2a7cc1d58"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-e5a07951b99839b7",
+      "title": "Regulation by partition predicts enhancer target selection in mammalian genomes",
+      "doi": "10.64898/2026.10.23.761042",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761042v1",
+      "authors": [
+        "Valgardson, J.",
+        "Swigut, T.",
+        "Wysocka, J."
+      ],
+      "topics": [],
+      "savedKeys": [
+        "bd30b3ba0822f3",
+        "67006f3575cf78"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-365b00a8823f9898",
+      "title": "Multiplex programming of mappable, molecularly tagged genomic deletions",
+      "doi": "10.64898/2026.10.13.758960",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-17",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758960v1",
+      "authors": [
+        "Keith, A.",
+        "Daza, R. M.",
+        "Koeppel, J.",
+        "Liao, H.",
+        "Lee, D. S.",
+        "Moraes, D. K.",
+        "McDiarmid, T. A.",
+        "Choi, J.",
+        "Li, X.",
+        "Lalanne, J.-B.",
+        "Qiu, C.",
+        "Pinglay, S.",
+        "Shendure, J."
+      ],
+      "topics": [
+        "Genome editing core",
+        "crispr",
+        "pegrna",
+        "prime editing"
+      ],
+      "savedKeys": [
+        "8c68ee68d22e41",
+        "9e537557f934e8"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-ee655ab01ecf48df",
+      "title": "Chemogenetic activation of mitochondria counteracts the Warburg effect in tumor cells",
+      "doi": "10.1038/s41589-026-02350-7",
+      "journal": "Nature Chemical Biology",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-22",
+      "url": "https://doi.org/10.1038/s41589-026-02350-7",
+      "authors": [
+        "Dina Y Bass",
+        "Ekaterina S Potekhina",
+        "Alexander V Ivanenko",
+        "Aleksandr A Moshchenko",
+        "Dmitry A Korzhenevskiy",
+        "Alexey M Nesterenko",
+        "Evgeny K Shevchenko",
+        "Anastasia E Karnaeva",
+        "Natalia F Zakirova",
+        "Alexander V Ivanov",
+        "Liubov E Shimolina",
+        "Marina V Shirmanova"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "6f23cce708d39c",
+        "9e8731436b7a8f"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-094d230f2a16f592",
+      "title": "High efficiency gene editing and phenotype generation in avian embryos using lipid nanoparticles as a vector delivery platform",
+      "doi": "10.64898/2026.10.13.753869",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-19",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.753869v1",
+      "authors": [
+        "Keyte, A. L.",
+        "Zanin, J. P.",
+        "Collerton, B. M.",
+        "Nguyen, S. K.",
+        "Feist, W. N.",
+        "Coquelin, M. L.",
+        "Stout, J. N.",
+        "Blair, B. B.",
+        "Papizan, J. B.",
+        "Schneider, R. A.",
+        "Zhan, X."
+      ],
+      "topics": [
+        "cas9",
+        "dna",
+        "generation",
+        "genome",
+        "in vivo",
+        "rna"
+      ],
+      "savedKeys": [
+        "fed07a371ea5b3",
+        "3029c67822b045"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-a2ff4af2ea15effc",
+      "title": "Structural basis for protocadherin-1 recognition by New World hantaviruses",
+      "doi": "10.1038/s41586-026-11184-1",
+      "journal": "Nature",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41586-026-11184-1",
+      "authors": [
+        "Leandro Battini",
+        "Megan M. Slough",
+        "Ramandeep Kaur",
+        "Luqiang Guo",
+        "Catalina Florez",
+        "Alexandra Serris",
+        "Annalisa Meola",
+        "Gorka Lasso",
+        "Nicole D. Tischler",
+        "Raymond Alvarez",
+        "Upendra P. Lambe",
+        "Lohit Khera"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "2573650ee192f1",
+        "614af0b7f1aec5"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-c44a8002cc0be784",
+      "title": "NAD metabolism mediates a sex-specific protection against early life infections",
+      "doi": "10.64898/2026.10.19.760092",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760092v1",
+      "authors": [
+        "Klabunde, B.",
+        "Aasmul Olsen, K.",
+        "Spiegelhauer, M.",
+        "Kellezi, E. D.",
+        "Memushaj, A.",
+        "Thysen, A. H.",
+        "Long, N. P.",
+        "Brix, S.",
+        "Pedersen, C.",
+        "Boennelykke, K.",
+        "Chawes, B.",
+        "Treebak, J.",
+        "Baek, O.",
+        "Nguyen, D. N."
+      ],
+      "topics": [
+        "Mitochondria and mtDNA",
+        "mitochondria"
+      ],
+      "savedKeys": [
+        "eeb912cdfa2ec0",
+        "855bac806b717b"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-31899d3165e8882a",
+      "title": "Genome-scale base editing reveals the functional effects of variants in yeast",
+      "doi": "10.64898/2026.10.19.760269",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760269v1",
+      "authors": [
+        "Boocock, J.",
+        "Crisman, L.",
+        "Alamo Tapia, L. A.",
+        "Patel, S.",
+        "Vo, C.",
+        "Liu, C.",
+        "Marquez, H.",
+        "Bloom, J. S.",
+        "Kruglyak, L. S."
+      ],
+      "topics": [
+        "Genome editing core",
+        "base editing",
+        "crispr"
+      ],
+      "savedKeys": [
+        "f48f73a1b49d3d",
+        "29aef4c40632bf"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-61658834a0e268d5",
+      "title": "A futile Na+ K+ transport cycle augments energy expenditure in beige adipocytes",
+      "doi": "10.1038/s42255-026-01630-9",
+      "journal": "Nature Metabolism",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s42255-026-01630-9",
+      "authors": [
+        "Qing Liu",
+        "Ying Cheng",
+        "Dandan Yan",
+        "Wenjie Wu",
+        "Zhenchuan Lei",
+        "Qiaoyun Long",
+        "Ziyu Zhao",
+        "Yuan Gao",
+        "Baile Wang",
+        "Tianshi Feng",
+        "Jihoon Shin",
+        "Jiayu Zhao"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "5a771d6218295e",
+        "81f88c5798dc58"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-3bb3b20094bb2413",
+      "title": "High-content morphological profiling by Cell Painting in 3D spheroids",
+      "doi": "10.1038/s41467-026-78596-5",
+      "journal": "Nature Communications",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41467-026-78596-5",
+      "authors": [
+        "Christa Ringers",
+        "David Holmberg",
+        "Anders Larsson",
+        "Bomi Jung",
+        "Malin Jarvius",
+        "Anna Luchniak",
+        "Dan Rosén",
+        "Martin Johansson",
+        "Polina Georgiev",
+        "Brinton Seashore-Ludlow",
+        "Torkild Visnes",
+        "Åsmund Flobak"
+      ],
+      "topics": [
+        "Spheroids, Cellular",
+        "Humans",
+        "Cell Culture Techniques, Three Dimensional",
+        "Microscopy, Confocal",
+        "Cell Culture Techniques",
+        "DNA Damage",
+        "Cell Cycle",
+        "Fluorouracil",
+        "Cell Line, Tumor",
+        "Single-Cell Analysis",
+        "Animals"
+      ],
+      "savedKeys": [
+        "d6c3bd3fb89f3d",
+        "862d7acc219bbb"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-5f46b278e4c4270b",
+      "title": "NHEJ-mediated DNA synapsis and RPA-driven MRX exonuclease balance DNA end resection to control DSB repair",
+      "doi": "10.1038/s41467-026-78670-y",
+      "journal": "Nature Communications",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-22",
+      "url": "https://doi.org/10.1038/s41467-026-78670-y",
+      "authors": [
+        "Stefan Braunshier",
+        "Elda Cannavo",
+        "Vincent Morin",
+        "Sriram KK",
+        "Ananya Acharya",
+        "Giordano Reginato",
+        "Florian Morati",
+        "Virginie Ropars",
+        "Raphael Guerois",
+        "Jean-Baptiste Charbonnier",
+        "Fredrik Westerlund",
+        "Terence Strick"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "fc04a77824a0d1",
+        "48af46fe663008"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-36e8e53b2179c618",
+      "title": "Splicing-guaranteed artificial introns enable efficient homology-directed repair at internal exons and streamlined cell engineering",
+      "doi": "10.64898/2026.10.16.759525",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-16",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759525v1",
+      "authors": [
+        "wang, S.",
+        "Wang, X.",
+        "Shang, M.",
+        "Zhang, M.",
+        "Wu, K.",
+        "Huang, W."
+      ],
+      "topics": [
+        "design",
+        "dna",
+        "engineering",
+        "optimization",
+        "protein",
+        "sequence"
+      ],
+      "savedKeys": [
+        "671fa957d5956a",
+        "8ad4b7436db0b3"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-be2120a9cfad337f",
+      "title": "Design of synthetic activators for programmable gene expression",
+      "doi": "10.64898/2026.10.19.760300",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-20",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760300v1",
+      "authors": [
+        "Chen, W.",
+        "Jiao, R.",
+        "Coventry, B.",
+        "Qu, X.",
+        "Bauer, M.",
+        "Tran, L.",
+        "Tcheau, T.",
+        "Wu, K.",
+        "Song, Z.",
+        "Roullier, N.",
+        "Li, X.",
+        "Glasscock, C.",
+        "Hilton, I. B.",
+        "Baker, D."
+      ],
+      "topics": [
+        "AlphaFold3",
+        "binder",
+        "design",
+        "high-throughput",
+        "screening"
+      ],
+      "savedKeys": [
+        "98ffa0a2ae98c5",
+        "47248859808869"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-2fcb888306dcef2f",
+      "title": "Sequencing-Free Protospacer-Adjacent Motif Discovery for Uncharacterized CRISPR-Cas9 Orthologs via Active Learning",
+      "doi": "10.64898/2026.10.20.760532",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760532v1",
+      "authors": [
+        "Kirillov, B.",
+        "Vasileva, A.",
+        "Fedorov, O.",
+        "Kuzmina, Y.",
+        "Kolesnik, M.",
+        "Trofimova, A.",
+        "Demkina, A.",
+        "Ronchikova, V.",
+        "Drozhzhina, M.",
+        "Abramova, M.",
+        "Gorkovskaia, A.",
+        "Malysheva, P.",
+        "Vilinski-Mazur, K.",
+        "Khodorkovskii, M.",
+        "Panov, M.",
+        "Severinov, K. V."
+      ],
+      "topics": [
+        "active learning",
+        "cas9",
+        "dna",
+        "genome",
+        "in vivo",
+        "protein"
+      ],
+      "savedKeys": [
+        "915e0173fcaf62",
+        "44825b73a88e7f"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-5fdd0db37a76b753",
+      "title": "A heat-assisted ttLbCas12a workflow incorporating crRNA 3'-tailing enables efficient multiplex biallelic genome editing in hybrid poplar",
+      "doi": "10.64898/2026.10.21.760723",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760723v1",
+      "authors": [
+        "Zahn, V.",
+        "Fendel, A.",
+        "Fladung, M.",
+        "Bruegmann, T."
+      ],
+      "topics": [
+        "Genome editing core",
+        "cas12",
+        "genome editing"
+      ],
+      "savedKeys": [
+        "d18f9a16e1e13a",
+        "0423e1a1af0231"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-caf75d2b3c1c1171",
+      "title": "Tryptoline stereoprobe elaboration identifies inhibitors of the GRPEL1–HSPA9 complex",
+      "doi": "10.1038/s41589-026-02348-1",
+      "journal": "Nature Chemical Biology",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-16",
+      "url": "https://doi.org/10.1038/s41589-026-02348-1",
+      "authors": [
+        "Rachel E. Hayward",
+        "Raymond F. Berkeley",
+        "Zijian Gao",
+        "Maximilian Garhammer",
+        "Marc A. Morizono",
+        "Evert Njomen",
+        "Haoxin Li",
+        "Kristen E. DeMeester",
+        "Victor Cociorva",
+        "Mark A. Herzik",
+        "F. Ulrich Hartl",
+        "Bruno Melillo"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "35396ca209aee6",
+        "da3adb9a7e098b"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-3dab4f36bb8a9442",
+      "title": "Self-extending DNA recording with stochastic and programmed writing",
+      "doi": "10.64898/2026.10.14.759016",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759016v2",
+      "authors": [
+        "Zhang, Z.",
+        "Li, Y.",
+        "Peng, Y.",
+        "Ling, R.",
+        "Li, K.",
+        "Cheng, M.",
+        "Cheng, Y.",
+        "Zhang, C.",
+        "Wang, X.",
+        "Chen, S.",
+        "He, Z.",
+        "Chen, D."
+      ],
+      "topics": [
+        "Genome editing core",
+        "base editing"
+      ],
+      "savedKeys": [
+        "ff051e1d4e760d",
+        "8fb63beda1ae12"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-7688cf34a2c6c607",
+      "title": "StoichRNA: A Scalable Framework to Map and Optimize Combinatorial RNA Systems at Single-Cell Resolution",
+      "doi": "10.64898/2026.10.19.760129",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-20",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760129v1",
+      "authors": [
+        "Liu, Q.",
+        "Wang, L."
+      ],
+      "topics": [
+        "design",
+        "engineering",
+        "optimization",
+        "rna"
+      ],
+      "savedKeys": [
+        "77bf86d1d95f6b",
+        "2997e25fd7fbbd"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-ed7ea5fbafce4f74",
+      "title": "Distinct activation mechanisms underlie ligand efficacy at a GPCR",
+      "doi": "10.64898/2026.10.12.758633",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-18",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758633v1",
+      "authors": [
+        "Howard, M. K.",
+        "Fine, E. J.",
+        "Srinivasan, K.",
+        "Richman, D. D.",
+        "Freudenberg, J.",
+        "Weinberg, Z.",
+        "Rao, J.",
+        "Zou, Z.",
+        "Macdonald, C.",
+        "Rockefeller Grimes, P.",
+        "Varga, B. R.",
+        "Fraser, J. S.",
+        "Von Zastrow, M.",
+        "Majumdar, S.",
+        "Pimentel, H.",
+        "English, J.",
+        "Dror, R. O.",
+        "Manglik, A.",
+        "Coyote-Maestas, W."
+      ],
+      "topics": [
+        "gpcr",
+        "ligand",
+        "mutation",
+        "protein",
+        "receptor",
+        "sequence",
+        "variant"
+      ],
+      "savedKeys": [
+        "0df3d91e77cd6b",
+        "2ca6033ee775bc"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-0124b26b000ca686",
+      "title": "Multi-immersion oblique plane microscope (miOPM): a reconfigurable platform for high-resolution light-sheet fluorescence microscopy",
+      "doi": "10.1038/s41592-026-03245-0",
+      "journal": "Nature Methods",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-19",
+      "url": "https://doi.org/10.1038/s41592-026-03245-0",
+      "authors": [
+        "Bingying Chen",
+        "Alfred Millett-Sikking",
+        "Bo-Jui Chang",
+        "Seweryn Gałecki",
+        "Stephan Daetwyler",
+        "Jenny Jiou",
+        "Jim Monistrol",
+        "Qionghua Shen",
+        "Felix Zhou",
+        "Hsin-Yu Lin",
+        "Edward Jenkins",
+        "Miriam C. Stein"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "1d933b97e9c48b",
+        "ccd8ae6a7f0374"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-2210da6ae619bab2",
+      "title": "Monocyte surface Y RNAs potentiate innate immunity",
+      "doi": "10.1038/s41556-026-02100-w",
+      "journal": "Nature Cell Biology",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-19",
+      "url": "https://doi.org/10.1038/s41556-026-02100-w",
+      "authors": [
+        "Xiao Jiang",
+        "Weizhi He",
+        "Chu Xu",
+        "Wanwei Zheng",
+        "Chenye Li",
+        "Danhua Xu",
+        "Qixin Shao",
+        "Yin Li",
+        "Zhuo Liu",
+        "Wenshuai Li",
+        "Shuang He",
+        "Zhiqiang Wang"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "75858e1c9cc5aa",
+        "fc4df0ec3ab9cf"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-3abb836491229463",
+      "title": "AI-driven phenotypic profiling of organoids",
+      "doi": "10.64898/2026.10.21.760628",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760628v1",
+      "authors": [
+        "Wang, Y.",
+        "Sun, Y.",
+        "Jin, X."
+      ],
+      "topics": [
+        "Genome editing core",
+        "fidelity"
+      ],
+      "savedKeys": [
+        "3824368680ea0c",
+        "02d63e7676cdad"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-eb38b3861ed80fc5",
+      "title": "Generative modeling of spatially resolved perturbation responses with CONCERT",
+      "doi": "10.1101/2025.11.08.686890",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-18",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.08.686890v3",
+      "authors": [
+        "Lin, X.",
+        "Kong, Z.",
+        "Fu, B.",
+        "Ghosh, S.",
+        "Kellis, M.",
+        "Zitnik, M."
+      ],
+      "topics": [
+        "held-out",
+        "prediction",
+        "ranking"
+      ],
+      "savedKeys": [
+        "760bfacfa52dc8",
+        "721a11a52210be"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-de822c0f7eb42626",
+      "title": "Inference and validation of causal genetic interactions in aging human fibroblasts",
+      "doi": "10.64898/2026.10.21.760791",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760791v1",
+      "authors": [
+        "Krieger, M. S.",
+        "Milanova, D.",
+        "Thompson, D.",
+        "Cochran, N. R.",
+        "Wang, T.",
+        "Pokharel, B.",
+        "Ford, R. P.",
+        "Gheorghe, A. H.",
+        "Gilpin, W.",
+        "Freund, Y.",
+        "Sugihara, G.",
+        "Church, G."
+      ],
+      "topics": [],
+      "savedKeys": [
+        "c504c889cd4deb",
+        "fc0092af8915f5"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-24c52350909912bf",
+      "title": "The rise of reducing reagent-resistant TfR1 dimer marks ferroptosis",
+      "doi": "10.1038/s41556-026-02107-3",
+      "journal": "Nature Cell Biology",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41556-026-02107-3",
+      "authors": [
+        "Jianping He",
+        "Mackenzie Kelleher",
+        "Geraldine Veeckmans",
+        "Yuezhong Zhang",
+        "Luke Reynolds",
+        "Hannah M. Tanczos",
+        "Zhengrong Huang",
+        "Brett P. McLaughlin",
+        "Mary Ann Martinez Molina",
+        "Ava Lightburn",
+        "Mira Zamarro",
+        "Wesley Huang"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "b471e0fe109bfb",
+        "8c3ed07986bb79"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-1c9548a5a302ea82",
+      "title": "Micro-C-TALE: BAC-based targeted high-resolution measurement of 3D chromatin interactions",
+      "doi": "10.64898/2026.10.21.760768",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760768v1",
+      "authors": [
+        "Golberg, A.",
+        "Golov, A. K.",
+        "Shemer, R.",
+        "Kaplan, N."
+      ],
+      "topics": [
+        "Genome editing core",
+        "cas9",
+        "crispr",
+        "tale"
+      ],
+      "savedKeys": [
+        "a07582f8339664",
+        "03e4d9960282c7"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-02ed323bb30f2777",
+      "title": "Structure of a sparsely populated chimeric intermediate that facilitates fold-switching of a metamorphic protein",
+      "doi": "10.1073/pnas.2620010123",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1073/pnas.2620010123",
+      "authors": [
+        "Bodhisatwa Nandi",
+        "Ashok Sekhar"
+      ],
+      "topics": [
+        "design",
+        "engineering",
+        "protein",
+        "protein engineering",
+        "sequence"
+      ],
+      "savedKeys": [
+        "f08ecc8526197c",
+        "566e68c8431782"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-f411b4be0545c487",
+      "title": "Robust and accessible in situ sequencing with an open-source automated sequencer",
+      "doi": "10.64898/2026.10.18.759961",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.18.759961v1",
+      "authors": [
+        "Zhang, A.",
+        "Maltzer, Z.",
+        "Lapka, J.",
+        "Cheng, S.",
+        "Guthrie, A.",
+        "Slaughterbeck, C.",
+        "Fan, A. Y.",
+        "Goswami, N.",
+        "Rue, M. C. P.",
+        "Majeed, M.",
+        "Maharjan, D. M.",
+        "Ariza, J.",
+        "Ayala, A. P.",
+        "Bixby, M.",
+        "Dickson, C. T.",
+        "Hastings, S. D.",
+        "Huang, A.",
+        "O'Neill, T. E.",
+        "Oyama, A. A.",
+        "Shi, C.",
+        "Waters, J.",
+        "Wu, Y.-C.",
+        "Galluccio, R.",
+        "Zhan, H.",
+        "Bourne, J. A.",
+        "Horwitz, G.",
+        "Kebschull, J. M.",
+        "Wickersham, I. R.",
+        "Rudebeck, P.",
+        "Cahoon, A.",
+        "Chen, X."
+      ],
+      "topics": [
+        "Genome editing core",
+        "specificity"
+      ],
+      "savedKeys": [
+        "df279b189e5e4a",
+        "0c081c08921d7c"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-f692ee2ca1c5ebbc",
+      "title": "Multimodal precision diagnostics in clinical xenotransplantation",
+      "doi": "10.1038/s41586-026-11096-0",
+      "journal": "Nature",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41586-026-11096-0",
+      "authors": [
+        "Raphael P. H. Meier",
+        "Erwan Morgand",
+        "Fariza Mezine",
+        "Michael Mengel",
+        "Massimo Mangiola",
+        "Muhammad M. Mohiuddin",
+        "Robert A. Montgomery",
+        "Alexandre Loupy"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "645f62101029a4",
+        "ff454076e52e58"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-5c4c0059533889dd",
+      "title": "Dual recognition of phage SSB triggers DRT4 for antiphage defense",
+      "doi": "10.64898/2026.10.21.760695",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760695v1",
+      "authors": [
+        "Jasnauskaite, M.",
+        "Cibulskis, A.",
+        "Kazlauskaite, K.",
+        "Skorupskaite, A.",
+        "Juozapaitis, J.",
+        "Miksys, A.",
+        "Tomkuviene, M.",
+        "Malinauskaite, L.",
+        "Pausch, P."
+      ],
+      "topics": [],
+      "savedKeys": [
+        "f856f10af762ca",
+        "5be2603d455ce0"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-bc59c23950b21b1e",
+      "title": "Lipid nanoparticle shape and morphology determine the magnitude and duration of mRNA transfection",
+      "doi": "10.64898/2026.10.18.759824",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-22",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.18.759824v1",
+      "authors": [
+        "Elsafy, S.",
+        "Dulle, M.",
+        "Shahzad, S.",
+        "Hammoor, T.",
+        "Weiler, M.",
+        "Peacock, B.",
+        "Brealey, J.",
+        "Metselaar, J. M.",
+        "Lammers, T.",
+        "Sofias, A. M."
+      ],
+      "topics": [
+        "design",
+        "generation",
+        "optimization",
+        "protein",
+        "rna"
+      ],
+      "savedKeys": [
+        "823ae94391890e",
+        "3dd198458c1150"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-a4cf41d9e781dccd",
+      "title": "An environmentally regulated dichotomy in cell lineages of the root",
+      "doi": "10.1038/s41586-026-11179-y",
+      "journal": "Nature",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41586-026-11179-y",
+      "authors": [
+        "Marina Oliva",
+        "Tim Stuart",
+        "Dave Tang",
+        "Adil Khan",
+        "Olivier Clement",
+        "Dawid Makosa",
+        "Daniel Poppe",
+        "Jahnvi Pflueger",
+        "Jafar S. Jabbari",
+        "Scott Gigante",
+        "Jonathan Michael Dragwidge",
+        "Milly Petterson"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "ce044e5e209bfa",
+        "d68c050beded61"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-448c0db3c932836f",
+      "title": "A Vast Navigable Protein Sequence Subspace",
+      "doi": "10.64898/2026.10.18.759989",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-22",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.18.759989v1",
+      "authors": [
+        "Sinai, S.",
+        "Gane, A.",
+        "Jain, N.",
+        "Bryant, D.",
+        "Bileschi, M. L.",
+        "Bashir, A.",
+        "Church, G.",
+        "Kelsic, E.",
+        "Colwell, L."
+      ],
+      "topics": [
+        "capsid",
+        "dna",
+        "genome",
+        "high-throughput",
+        "protein",
+        "sequence"
+      ],
+      "savedKeys": [
+        "1fbf03cc6883a6",
+        "488b30408be218"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-2978cf5e197b854e",
+      "title": "Tuning inhibitor susceptibility of human 4-hydroxyphenylpyruvate dioxygenase to rescue tyrosine catabolism in the presence of β-triketones",
+      "doi": "10.64898/2026.10.22.760921",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760921v1",
+      "authors": [
+        "Neuckermans, J.",
+        "Mertens, A.",
+        "Lequeue, S.",
+        "Salvi, N. S.",
+        "Desmet, L.",
+        "Del'Haye, G. G.",
+        "Tretowicz, K.",
+        "Vanhaecke, T.",
+        "Schwaneberg, U.",
+        "De Kock, J."
+      ],
+      "topics": [
+        "AI-guided engineering",
+        "directed evolution"
+      ],
+      "savedKeys": [
+        "32a38e3957fb1c",
+        "3dc7b394cb34ec"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-83e4cbc7d97819b5",
+      "title": "Recent developments of fluorescent proteins and biosensors driven by cross-disciplinary insights",
+      "doi": "10.1038/s41592-026-03268-7",
+      "journal": "Nature Methods",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-16",
+      "url": "https://doi.org/10.1038/s41592-026-03268-7",
+      "authors": [
+        "Anneliese M. M. Gest",
+        "Sohum Mehta",
+        "Jin Zhang"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "cd1116ff43b01b",
+        "822f404965c435"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-74b010d61d63ed32",
+      "title": "Leveraging genomic deep learning models for the prediction of noncoding variant effects",
+      "doi": "10.1038/s41588-026-02769-7",
+      "journal": "Nature Genetics",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41588-026-02769-7",
+      "authors": [
+        "Pooja Kathail",
+        "Ayesha Bajwa",
+        "Nilah M. Ioannidis"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "87b527ba171fa5",
+        "eb6d47e02672ba"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-b04710efb3dcfedb",
+      "title": "Averaging in gene perturbation benchmarks hides perturbation-strength variation: Consequences for model evaluation",
+      "doi": "10.64898/2026.10.20.760537",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760537v1",
+      "authors": [
+        "Sharma, Y. S.",
+        "Subramaniyam, M.",
+        "Passariello, P.",
+        "Jay, D.",
+        "Render, D.",
+        "Szegedy, M."
+      ],
+      "topics": [
+        "Genome editing core",
+        "crispr"
+      ],
+      "savedKeys": [
+        "a32583d95a8854",
+        "2884115d2ee922"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-726ef940f4125df9",
+      "title": "What comes after de novo? Automated lead optimization of proteins with CRADLE-1",
+      "doi": "10.64898/2026.03.06.710001",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-16",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710001v3",
+      "authors": [
+        "Bixby, E.",
+        "Brunner, G.",
+        "Danciu, D.",
+        "Dela Rosa, R.",
+        "Deutschmann, N.",
+        "Ferragu, C.",
+        "Geiger, F.",
+        "Holberg, C.",
+        "Kidger, P.",
+        "Lindoulsi, A.",
+        "Lutz, N.",
+        "McColgan, T.",
+        "Milius, S.",
+        "van Rossum, H.",
+        "Shah, J.",
+        "Vandeloo, M.",
+        "Vidas, P.",
+        "van der Vorm, D.",
+        "Ziegler, J. D.",
+        "Baldi, N.",
+        "IJSpeert, C.",
+        "Monza, E.",
+        "Schriek, A."
+      ],
+      "topics": [
+        "binder",
+        "binder design",
+        "design",
+        "engineering",
+        "optimization",
+        "protein",
+        "protein engineering",
+        "sequence",
+        "sequence-function",
+        "thermostability",
+        "wet lab",
+        "wet-lab"
+      ],
+      "savedKeys": [
+        "2f064e07ab16d4",
+        "6c446f2a959e49"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-aee89b2631d41847",
+      "title": "Systematic mapping of the prokaryotic noncoding sequence space with a genomic language model",
+      "doi": "10.64898/2026.10.21.760802",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-22",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760802v1",
+      "authors": [
+        "Sun, G.",
+        "Hudelmaier, T.",
+        "Gilligan, J. C.",
+        "Gonzalez, G. A.",
+        "Yin, P.",
+        "Wan, F.",
+        "Ma, Z.",
+        "Durrant, M. G.",
+        "Ricci-Tam, C.",
+        "Pawluk, A.",
+        "Puschnik, A. S.",
+        "Konermann, S.",
+        "Hsu, P. D."
+      ],
+      "topics": [
+        "agent",
+        "dna",
+        "genomic language model",
+        "language model",
+        "protein",
+        "rna",
+        "sequence"
+      ],
+      "savedKeys": [
+        "3f0af7bf144a76",
+        "768eeceb94028e"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-7c06866a49a7eeb0",
+      "title": "A single archaeon couples long-chain fatty acid oxidation to methanogenesis",
+      "doi": "10.1038/s41586-026-11207-x",
+      "journal": "Nature",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41586-026-11207-x",
+      "authors": [
+        "Yue Yi",
+        "Zuorong Cao",
+        "Kejia Wu",
+        "Hengwu Ding",
+        "Lin Fu",
+        "Wenyi Gao",
+        "Ling Li",
+        "Lei Zhou",
+        "Zhuo Zhou",
+        "Lirong Dai",
+        "Yahai Lu",
+        "Lei Cheng"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "a4edfff82adcab",
+        "e01b0ed9c6e2c9"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-8d0a3f7f1d237a05",
+      "title": "Reference-free isoform discovery links unannotated RNA processing to disease risk",
+      "doi": "10.64898/2026.10.21.760529",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760529v1",
+      "authors": [
+        "Buen Abad Najar, C. F.",
+        "Xie, D.",
+        "Feng, R.",
+        "Carbonetto, P.",
+        "Cao, X.",
+        "Li, H.",
+        "Fang, L.",
+        "The Alzheimers Disease Sequencing Project Functional Genomics Consortium,",
+        "Wang, G.",
+        "Stephens, M.",
+        "Li, Y."
+      ],
+      "topics": [],
+      "savedKeys": [
+        "9a00a7fb502202",
+        "5b0450970d8fb8"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-b37cf8f1e9f2ad3b",
+      "title": "Auditing Confidence-Calibrated Benchmarking of Single-Cell Perturbation Models",
+      "doi": "10.64898/2026.10.12.758706",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-19",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758706v1",
+      "authors": [
+        "Gallone, M.",
+        "Ravidath, S.",
+        "Madireddy, S."
+      ],
+      "topics": [],
+      "savedKeys": [
+        "e7757e0fe7fc78",
+        "94f481aa89855d"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-12ea735178fe68bb",
+      "title": "Signal Associa: hot tumors elicit field-spanning NK cell coordination linked to their recruitment",
+      "doi": "10.64898/2026.10.21.760734",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760734v1",
+      "authors": [
+        "Rostami, M.",
+        "Choi, H.",
+        "Rho, Y.",
+        "Jeon, N. L.",
+        "Han, S. J."
+      ],
+      "topics": [],
+      "savedKeys": [
+        "1922f238eec5e5",
+        "decf04a05d40e7"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-45acdfb3846cece9",
+      "title": "Spatial multi-omic atlas profiles early organogenesis of a Carnegie stage 12 human embryo",
+      "doi": "10.1038/s41556-026-02086-5",
+      "journal": "Nature Cell Biology",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-20",
+      "url": "https://doi.org/10.1038/s41556-026-02086-5",
+      "authors": [
+        "Leoti Jiawei Wang",
+        "Huajian Yang",
+        "Jinzhu Song",
+        "Rusong Zhao",
+        "Shiyu Liu",
+        "Hua Hou",
+        "Chuanxin Zhang",
+        "Hao Tian",
+        "Jiayin Gao",
+        "Jun Chen",
+        "Zi-Jiang Chen",
+        "Han Zhao"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "776f00d41368be",
+        "3054d486950ccd"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-f359bec1ef2f76e0",
+      "title": "Information contracts determine what inverse perturbation benchmarks measure",
+      "doi": "10.64898/2026.10.19.760271",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760271v1",
+      "authors": [
+        "Li, J.",
+        "Huang, L. F.",
+        "Song, W.",
+        "Li, Y.",
+        "Jakub, J. W.",
+        "Qin, H.",
+        "Luo, Y.",
+        "Tao, C."
+      ],
+      "topics": [],
+      "savedKeys": [
+        "2a4cc38d6aeace",
+        "a495e2306530d1"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-e8026af5a82e0f11",
+      "title": "Decision benchmarking reveals when protein foundation models add experimental value",
+      "doi": "10.64898/2026.10.13.758966",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-20",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758966v1",
+      "authors": [
+        "Ding, W.",
+        "Lu, C.",
+        "Li, Y.",
+        "Gong, H.",
+        "Wang, Z."
+      ],
+      "topics": [
+        "dataset",
+        "engineering",
+        "mutation",
+        "prediction",
+        "protein",
+        "protein engineering",
+        "ranking",
+        "variant"
+      ],
+      "savedKeys": [
+        "d7f9bae4103dbd",
+        "4133663a3b1ab5"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-4f23ddfacca38609",
+      "title": "Going beyond labels: Semi-supervised learning for enzyme kinetic parameter prediction",
+      "doi": "10.64898/2026.10.15.759462",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759462v1",
+      "authors": [
+        "Malli, A.",
+        "Vasyutyn, D.",
+        "Majumder, A.",
+        "Kim, J. R."
+      ],
+      "topics": [
+        "benchmark",
+        "dataset",
+        "engineering",
+        "enzyme",
+        "prediction",
+        "sequence"
+      ],
+      "savedKeys": [
+        "510f0862f92349",
+        "6066e36b932c57"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-5fd64e56dec2bb19",
+      "title": "Programmable design of functional proteins from natural language",
+      "doi": "10.1038/s41586-026-11205-z",
+      "journal": "Nature",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://doi.org/10.1038/s41586-026-11205-z",
+      "authors": [
+        "Fengyuan Dai",
+        "Shiyang You",
+        "Yudian Zhu",
+        "Yuan Gao",
+        "Lihao Fu",
+        "Xibin Zhou",
+        "Jin Su",
+        "Chentong Wang",
+        "Yuliang Fan",
+        "Qingsong Tan",
+        "Xiaoxiao Ma",
+        "Xianjun Deng"
+      ],
+      "topics": [],
+      "savedKeys": [
+        "9d3c942c3ff658",
+        "e2b13dcab91c29"
+      ],
+      "metadataBasis": "existing_public_catalog"
+    },
+    {
+      "id": "paper-a70b776fc6b94455",
+      "title": "Reinforcement learning with evolutionary priors unlocks multi-site enzyme optimization from sparse experimental feedback",
+      "doi": "10.64898/2026.10.19.760152",
+      "journal": "bioRxiv",
+      "publicationYear": 2026,
+      "firstPublishedOnline": "2026-10-21",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760152v1",
+      "authors": [
+        "Xu, X.",
+        "Ye, H.",
+        "Gao, Z.",
+        "Zhang, R.",
+        "Zhou, X.",
+        "Zhang, G.",
+        "Guo, T.",
+        "He, W.",
+        "Feng, C.",
+        "Xiao, B.",
+        "Hu, F.",
+        "Zeng, Q.",
+        "Bai, A.",
+        "Zhang, X.",
+        "Wang, J.",
+        "Gao, X."
+      ],
+      "topics": [
+        "design",
+        "engineering",
+        "enzyme",
+        "mutation",
+        "optimization",
+        "protein",
+        "sequence",
+        "thermostability",
+        "variant"
+      ],
+      "savedKeys": [
+        "1aae15677b387a",
+        "f8d732fe554416"
+      ],
+      "metadataBasis": "existing_public_catalog"
     }
   ]
 }

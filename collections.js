@@ -75,8 +75,6 @@
       lookup=I.index(catalog.papers || []); history=hist;
       if (specialMode) {
         special=await get('./data/special/genome_editing_2025_2026.json');papers=special.papers || [];
-        $('coverage-label').textContent=special.coverageLabelKo || '조사 진행 중';
-        $('coverage-note').textContent=special.coverageNoteKo || '';
         $('collection-stats').textContent=`${papers.length} verified papers · ${special.journalScope.journals.length} configured journals · Updated ${special.updatedAt}`;
         $('topic-counts').textContent=Object.entries(special.counts.byTopic).map(([t,n])=>`${special.topics[t]} ${n}`).join(' · ')+' · 주제별 수는 중복 집계됩니다.';
         $('overview').innerHTML=(special.overview||[]).map(o=>`<div><h3 lang="ko">${esc(o.titleKo)}</h3><p lang="ko">${esc(o.textKo)}</p></div>`).join('');
@@ -86,8 +84,6 @@
       } else {
         papers=catalog.papers || [];
         $('collection-stats').textContent=`${papers.length} indexed papers · ${(history.events||[]).length} supplied records · Updated ${history.updatedAt || ''}`;
-        $('history-qualification').textContent=[history.dateQualificationKo,history.absenceQualificationKo].filter(Boolean).join(' ');
-        $('coverage-gaps').textContent=(history.coverageGaps||[]).map(g=>`${g.date||''} ${g.reasonKo}`).join(' ');
         options('meeting-year-filter',(history.events||[]).map(e=>e.presentedAt?.slice(0,4)),'All years');
       }
       options('journal-filter',papers.map(p=>p.journal),'All journals');

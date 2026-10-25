@@ -21,6 +21,18 @@ def test_special_scope_and_dates():
         assert paper['sourceEvidence'] and paper['verificationStatus']=='verified'
         assert paper['keyFindingKo'] or paper['interpretationStatus']=='pending'
 
+def test_collection_notices_not_rendered_but_audit_metadata_preserved():
+    special=(ROOT/'special.html').read_text(encoding='utf-8')
+    meetings=(ROOT/'journal-meetings.html').read_text(encoding='utf-8')
+    script=(ROOT/'collections.js').read_text(encoding='utf-8')
+    for removed_id in ['coverage-label', 'coverage-note', 'history-qualification', 'coverage-gaps']:
+        assert f'id="{removed_id}"' not in special+meetings
+        assert f"$('{removed_id}')" not in script
+    for notice in ['조사 진행 중', '자료 범위와 누락', '실제 발표 완료일', '발표 기록 없음은 제공된 목록에서']:
+        assert notice not in special+meetings+script
+    assert read('special/genome_editing_2025_2026.json')['coverageStatus']=='in_progress'
+    assert read('journal_meetings.json')['coverageGaps']
+
 def test_meeting_history_integrity_and_privacy():
     history=read('journal_meetings.json')
     catalog=read('meeting_archive_catalog.json')['papers']

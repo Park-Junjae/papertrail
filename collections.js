@@ -35,7 +35,7 @@
       <div class="paper-main"><p class="journal-citation">${esc(p.journal || '저널 미확인')}</p>
       <h3>${p.url?`<a href="${esc(url(p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a>`:esc(p.title)}</h3>
       <p class="paper-meta">${esc(year)}${p.doi?' · '+esc(p.doi):''}</p>
-      ${specialMode && p.authors?.length?`<p class="paper-meta">${esc(p.authors.join(', '))} et al.</p>`:''}
+      ${specialMode && p.authors?.length?`<p class="paper-meta">${esc(p.authors.slice(0,3).join(', '))}${p.authors.length>3?' et al.':''}</p>`:''}
       ${summary}${specialMode?`<div class="keyword-list">${(p.topics||[]).map(t=>`<span class="keyword">${esc(special.topics?.[t]||t)}</span>`).join('')}</div>`:''}
       ${historyMarkup(p)}${explanation}
       ${!specialMode && p.specialIssueId?`<p><a class="detail-link" href="./special.html?paper=${encodeURIComponent(p.specialIssueId)}">One-Year Special</a></p>`:''}</div>

@@ -22,8 +22,12 @@
 .collection-page .paper-card { grid-template-columns: 44px minmax(0,1fr) 96px; }
 .collection-page .paper-main h3 { overflow-wrap: anywhere; letter-spacing: 0; }
 .collection-page .paper-meta { overflow-wrap: anywhere; }
-.collection-page .paper-side { align-items: flex-end; }
-.collection-page .paper-index { padding-top: 6px; }
+.collection-page .paper-side { align-items: flex-end; align-self: start; flex-direction: column; flex-wrap: nowrap; }
+.annual-priority { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; margin-bottom: 12px; }
+.annual-priority > span { font-size: 11px; line-height: 1.4; color: var(--mid-gray); }
+.annual-priority strong { font-size: 28px; line-height: 1.1; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.annual-priority small { font-size: 11px; font-weight: 400; color: var(--mid-gray); }
+.collection-page .paper-index { padding-top: 6px; align-self: start; }
 .collection-page .collection-save { position: static; width: 36px; height: 40px; padding: 0; justify-content: center; border: 1px solid var(--line); border-radius: 3px; }
 .collection-page .collection-save svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.5; }
 .collection-page .collection-save[aria-pressed="true"] svg { fill: var(--ink); }
@@ -35,6 +39,7 @@
 .collection-page .analysis-label { margin: 12px 0 4px; font-weight: 600; }
 .collection-page .source-evidence { font-size: 12px; color: var(--mid-gray); }
 .collection-page .load-more-button { margin: 28px auto; display: block; }
+.collection-page .load-more-button[hidden] { display: none; }
 .collection-notice { font-size: 14px; color: var(--mid-gray); max-width: 900px; }
 .collection-empty { padding: 36px 0; border-top: 1px solid var(--line); }
 .collection-page .primary-nav-inner { flex-wrap: wrap; }
@@ -51,6 +56,10 @@
   .collection-page .paper-card { grid-template-columns: 28px minmax(0,1fr) 40px; gap: 10px; }
   .collection-page .paper-main { grid-column: 2; }
   .collection-page .paper-side { grid-column: 3; grid-row: 1; }
+  .collection-page:has(.annual-priority) .paper-card { grid-template-columns: 28px minmax(0,1fr) 64px; }
+  .annual-priority strong { font-size: 24px; }
+  .annual-priority small { font-size: 10px; }
+  .annual-priority > span { font-size: 10px; text-align: right; }
   .collection-page .paper-main h3 { font-size: 19px; }
   .collection-page .paper-index { font-size: 12px; }
 }

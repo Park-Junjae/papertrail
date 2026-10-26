@@ -1,4 +1,4 @@
-/* Read-only static collections. No model calls, ranking, or weekly mutations. */
+/* Read-only collections; annual priority is source-authored, never inferred here. */
 (function () {
   "use strict";
   const I = window.PaperIdentity;
@@ -25,10 +25,15 @@
   }
   function card(p,index) {
     const year=p.firstPublishedOnline || p.publicationYear || '연도 미상';
-    const summary=specialMode && p.keyFindingKo ? `<p class="paper-summary korean-copy" lang="ko">${esc(p.keyFindingKo)}</p>` : '';
-    const explanation=specialMode ? `<details><summary lang="ko">${p.keyFindingKo?'의미와 질문 · 출처':'서지정보 · 해석 보류'}</summary>
+    const review=specialMode ? p.genomeEditingReview : null;
+    const scored=review && Number.isInteger(review.score);
+    const summary=specialMode && (review?.digestKo || p.keyFindingKo) ? `<p class="paper-summary korean-copy" lang="ko">${esc(review?.digestKo || p.keyFindingKo)}</p>` : '';
+    const explanation=specialMode ? `<details><summary lang="ko">${p.keyFindingKo?'연구실 활용 · 지식 · 질문 · 출처':'서지정보 · 해석 보류'}</summary>
+      ${review?.labUseKo?`<p class="analysis-label" lang="ko">우리 랩 활용 포인트</p><p lang="ko">${esc(review.labUseKo)}</p>`:''}
+      ${review?.knowledgeKo?`<p class="analysis-label" lang="ko">얻어갈 지식</p><p lang="ko">${esc(review.knowledgeKo)}</p>`:''}
       ${p.scientificSignificanceKo?`<p class="analysis-label" lang="ko">왜 중요한가</p><p lang="ko">${esc(p.scientificSignificanceKo)}</p>`:''}
-      ${p.evidenceLimitationsKo?`<p class="analysis-label" lang="ko">생각해볼 질문</p><p lang="ko">${esc(p.evidenceLimitationsKo)}</p>`:''}
+      ${(review?.questionKo || p.evidenceLimitationsKo)?`<p class="analysis-label" lang="ko">생각해볼 질문</p><p lang="ko">${esc(review?.questionKo || p.evidenceLimitationsKo)}</p>`:''}
+      ${scored?`<p class="analysis-label" lang="ko">점수 근거</p><p lang="ko">${esc(review.scoreReasonKo)}</p><p class="source-evidence" lang="ko">직접 기여 ${review.components.directEditing}/45 · 방법 재사용 ${review.components.reusableMethod}/25 · 연구 전략 ${review.components.strategyValue}/20 · 개념적 진전 ${review.components.conceptualAdvance}/10</p>`:''}
       <p class="source-evidence" lang="ko">${p.keyFindingKo?'공개 초록 중심 요약 · 전문 전체 리뷰 아님':'제목·저널·온라인 게재일 확인 · 과학적 해석 미완료'}</p>
       ${(p.sourceEvidence||[]).map(s=>`<a class="source-evidence" href="${esc(url(s.url))}" target="_blank" rel="noopener noreferrer">확인 출처 · ${esc(s.checkedAt)}</a>`).join(' · ')}</details>` : eventMarkup(p);
     return `<article class="paper-card" id="${esc(p.id)}"><div class="paper-index">${String(index+1).padStart(2,'0')}</div>
@@ -39,7 +44,7 @@
       ${summary}${specialMode?`<div class="keyword-list">${(p.topics||[]).map(t=>`<span class="keyword">${esc(special.topics?.[t]||t)}</span>`).join('')}</div>`:''}
       ${historyMarkup(p)}${explanation}
       ${!specialMode && p.specialIssueId?`<p><a class="detail-link" href="./special.html?paper=${encodeURIComponent(p.specialIssueId)}">One-Year Special</a></p>`:''}</div>
-      <aside class="paper-side"><button class="utility-button collection-save" data-save="${esc(p.id)}" aria-label="${isSaved(p)?'Unsave':'Save'} paper" title="${isSaved(p)?'Unsave':'Save'} paper" aria-pressed="${isSaved(p)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11v17l-5.5-3.7-5.5 3.7z"/></svg></button></aside></article>`;
+      <aside class="paper-side">${scored?`<div class="annual-priority" aria-label="Lab priority ${review.score} out of 100"><span>Lab priority</span><strong>${review.score}<small>/100</small></strong><span lang="ko">${esc(review.priorityLabelKo)}</span></div>`:''}<button class="utility-button collection-save" data-save="${esc(p.id)}" aria-label="${isSaved(p)?'Unsave':'Save'} paper" title="${isSaved(p)?'Unsave':'Save'} paper" aria-pressed="${isSaved(p)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11v17l-5.5-3.7-5.5 3.7z"/></svg></button></aside></article>`;
   }
   function filtered() {
     const query=I.title($('collection-search').value), journal=$('journal-filter').value,topic=$('topic-filter')?.value;
@@ -52,6 +57,10 @@
         &&(!$('saved-filter').checked||isSaved(p))&&(!$('type-filter')?.value||p.articleType===$('type-filter').value);
     }).sort((a,b)=> {
       if ($('sort-filter').value==='title') return a.title.localeCompare(b.title);
+      if (specialMode && $('sort-filter').value==='score') {
+        const score=p=>Number.isInteger(p.genomeEditingReview?.score)?p.genomeEditingReview.score:-1;
+        return score(b)-score(a) || (a.genomeEditingReview?.rank ?? Infinity)-(b.genomeEditingReview?.rank ?? Infinity) || a.title.localeCompare(b.title);
+      }
       const d = specialMode ? p=>p.firstPublishedOnline||'' : p=>historyFor(p).map(e=>e.presentedAt||'').sort().at(-1)||'';
       return d(b).localeCompare(d(a))||a.title.localeCompare(b.title);
     });

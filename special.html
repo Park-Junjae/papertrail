@@ -2,11 +2,11 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Genome editing journal publications, 23 October 2025 to 23 October 2026. Verified partial edition.">
+  <meta name="description" content="Genome-editing lab research priorities and Korean paper digests, 23 October 2025 to 23 October 2026.">
   <title>Genome Editing — One Year in Review | papertrail</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./collections.css">
-  <script src="./paper-identity.js" defer></script><script src="./collections.js?v=20261026-annual" defer></script>
+  <link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./collections.css?v=20261026-lab-review">
+  <script src="./paper-identity.js" defer></script><script src="./collections.js?v=20261026-lab-review" defer></script>
 </head>
 <body class="collection-page" data-collection="special">
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -29,13 +29,13 @@
     <section class="collection-section shell" aria-labelledby="overview-title"><h2 id="overview-title">Scientific overview</h2><div class="collection-overview" id="overview"></div></section>
     <section class="collection-section shell" aria-labelledby="highlights-title"><h2 id="highlights-title">Selected developments</h2><ol class="collection-highlights" id="highlights"></ol></section>
     <section class="collection-section shell" id="catalog" aria-labelledby="catalog-title">
-      <h2 id="catalog-title">Verified paper catalog</h2>
+      <h2 id="catalog-title">Genome-editing lab priorities</h2>
       <form class="collection-filters" id="collection-filters" role="search" onsubmit="return false">
         <label class="search-field" for="collection-search">Search papers<input type="search" id="collection-search" placeholder="Title, DOI, author, journal" autocomplete="off"></label>
         <label>Journal<select id="journal-filter"><option value="">All journals</option></select></label>
         <label>Topic<select id="topic-filter"><option value="">All topics</option></select></label>
         <label>Meeting record<select id="history-filter"><option value="">All records</option><option value="recorded">발표 기록 있음</option><option value="none">발표 기록 없음</option></select></label>
-        <label>Sort<select id="sort-filter"><option value="newest">Newest first</option><option value="title">Title A–Z</option></select></label>
+        <label>Sort<select id="sort-filter"><option value="score">Lab priority: high to low</option><option value="newest">Newest first</option><option value="title">Title A–Z</option></select></label>
         <label>Article type<select id="type-filter"><option value="">All article types</option><option value="research">Original research</option><option value="review">Review</option></select></label>
         <label class="check-field"><input type="checkbox" id="saved-filter">Saved only</label>
         <button class="text-link" type="button" id="reset-filters">Reset filters</button>
@@ -47,7 +47,7 @@
     <section class="collection-section shell"><h2>Scope &amp; verification</h2>
       <p class="collection-notice">CNS Tracker의 실제 cns_high_impact 설정 20개 저널을 따릅니다. 첫 온라인 정식 게재일을 사용하며 preprint-only, 뉴스·해설·정정은 제외합니다. 리뷰는 원저와 구분합니다. 서지정보만 확인한 기록은 해석 미완료로 표시합니다.</p>
       <p class="collection-notice" id="journal-scope"></p>
-      <p><a href="./research/genome_editing_annual_digest_2025_2026.md" download>전체 한국어 digest (Markdown)</a> · <a href="./research/coverage_matrix_2025_2026.csv">Coverage matrix</a> · <a href="./research/special_issue_candidate_audit.csv">Candidate audit</a> · <a href="./data/special/genome_editing_2025_2026.json">Verified data</a></p>
+      <p><a href="./research/genome_editing_annual_digest_2025_2026.md" download>전체 한국어 digest (Markdown)</a> · <a href="./research/genome_editing_lab_scoring_20261026.md">점수 기준</a> · <a href="./research/coverage_matrix_2025_2026.csv">Coverage matrix</a> · <a href="./research/special_issue_candidate_audit.csv">Candidate audit</a> · <a href="./data/special/genome_editing_2025_2026.json">Verified data</a></p>
     </section>
   </main>
   <footer class="site-footer"><div class="shell"><a class="wordmark" href="./index.html">papertrail</a><p>Lab weekly research review</p></div></footer>

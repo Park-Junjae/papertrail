@@ -2363,11 +2363,77 @@
         "provided-zip-08-file-03"
       ],
       "dateNoteKo": "폴더는 10월 23일, 관련 슬라이드 표지는 10월 21일로 표기되어 실제 발표일은 미확정입니다."
+    },
+    {
+      "eventId": "event-1b9301d47ea99950",
+      "paperId": "paper-25f46e5e2992083d",
+      "paperTitle": "Prime assembly with linear DNA donors enables large genomic insertions",
+      "paperDoi": "10.1038/s41586-026-10460-4",
+      "presentedAt": null,
+      "dateBasis": "user_supplied",
+      "sourceRecord": "manual-20261026",
+      "recordBasis": "user_reported_presentation",
+      "recordedAt": "2026-10-26"
+    },
+    {
+      "eventId": "event-1bacc17bd3a71b57",
+      "paperId": "paper-1934294062ceb6df",
+      "paperTitle": "AI-guided redesign of laboratory-evolved reverse transcriptases enhances prime editing.",
+      "paperDoi": "10.1038/s41587-026-03149-6",
+      "presentedAt": null,
+      "dateBasis": "user_supplied",
+      "sourceRecord": "manual-20261026",
+      "recordBasis": "user_reported_presentation",
+      "recordedAt": "2026-10-26"
+    },
+    {
+      "eventId": "event-2763f2f11668303a",
+      "paperId": "paper-f2aa9a5a69cbe49f",
+      "paperTitle": "Precise DNA base editing using AlphaFold3-based contact modelling",
+      "paperDoi": "10.1038/s41586-026-10794-z",
+      "presentedAt": null,
+      "dateBasis": "user_supplied",
+      "sourceRecord": "manual-20261026",
+      "recordBasis": "user_reported_presentation",
+      "recordedAt": "2026-10-26"
+    },
+    {
+      "eventId": "event-518179b1099a0848",
+      "paperId": "paper-82086e71ad374d9d",
+      "paperTitle": "Quadruple pegRNA enables programmable and efficient large genomic insertion",
+      "paperDoi": "10.1038/s41586-026-10395-w",
+      "presentedAt": null,
+      "dateBasis": "user_supplied",
+      "sourceRecord": "manual-20261026",
+      "recordBasis": "user_reported_presentation",
+      "recordedAt": "2026-10-26"
+    },
+    {
+      "eventId": "event-6c59b50362b53398",
+      "paperId": "paper-fac205cd7e82cebe",
+      "paperTitle": "Customizing CRISPR-Cas PAM specificity with protein language models",
+      "paperDoi": "10.1038/s41587-025-02995-0",
+      "presentedAt": null,
+      "dateBasis": "user_supplied",
+      "sourceRecord": "manual-20261026",
+      "recordBasis": "user_reported_presentation",
+      "recordedAt": "2026-10-26"
+    },
+    {
+      "eventId": "event-b4250530ffc54cc5",
+      "paperId": "paper-fcc9164c57d9974a",
+      "paperTitle": "Structure and evolution-guided design of minimal RNA-guided nucleases",
+      "paperDoi": "10.1126/science.aed6123",
+      "presentedAt": null,
+      "dateBasis": "user_supplied",
+      "sourceRecord": "manual-20261026",
+      "recordBasis": "user_reported_presentation",
+      "recordedAt": "2026-10-26"
     }
   ],
   "historyStatus": "partial",
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-26",
   "dateQualificationKo": "날짜는 제공 자료의 폴더 표기입니다. 실제 발표 완료일을 확인한 기록은 아닙니다. 날짜 미상 기록도 보존했습니다.",
   "absenceQualificationKo": "발표 기록 없음은 제공된 목록에서 일치 기록을 찾지 못했다는 뜻이며, 미발표를 보장하지 않습니다.",
   "coverageGaps": [

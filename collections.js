@@ -16,12 +16,12 @@
   function historyMarkup(p) {
     if (history.historyStatus==='pending') return '<p class="meeting-history" lang="ko">발표 이력 미등록</p>';
     const events=historyFor(p), canonical=I.match(p,lookup);
-    if (!events.length) return '<p class="meeting-history" lang="ko">발표 기록 없음 · 제공 목록 기준</p>';
-    return `<p class="meeting-history" lang="ko"><a href="./journal-meetings.html?paper=${encodeURIComponent(canonical.id)}">발표 기록 ${events.length}건 · ${esc(events.map(e=>e.presentedAt || '날짜 미상').join(', '))}</a></p>`;
+    if (!events.length) return '<p class="meeting-history" lang="ko">발표 여부 미등록</p>';
+    return `<p class="meeting-history" lang="ko"><a href="./journal-meetings.html?paper=${encodeURIComponent(canonical.id)}">발표 기록 ${events.length}건 · ${esc(events.map(e=>e.presentedAt || (e.recordBasis==='user_reported_presentation'?'수동 기록 (날짜 미상)':'날짜 미상')).join(', '))}</a></p>`;
   }
   function eventMarkup(p) {
     const events=historyFor(p);
-    return events.length ? `<ul class="meeting-events" lang="ko">${events.map(e=>`<li>${esc(e.presentedAt || '날짜 미상')}${e.presentedAt?' · 폴더 표기':''}${e.dateNoteKo?' · '+esc(e.dateNoteKo):''}</li>`).join('')}</ul>` : '';
+    return events.length ? `<ul class="meeting-events" lang="ko">${events.map(e=>`<li>${esc(e.presentedAt || '날짜 미상')}${e.recordBasis==='user_reported_presentation'?' · 수동 기록':e.presentedAt?' · 폴더 표기':''}${e.dateNoteKo?' · '+esc(e.dateNoteKo):''}</li>`).join('')}</ul>` : '';
   }
   function card(p,index) {
     const year=p.firstPublishedOnline || p.publicationYear || '연도 미상';

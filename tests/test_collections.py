@@ -66,3 +66,17 @@ def test_repeat_missing_date_idempotence_no_presenters():
 def test_invalid_calendar_date_rejected():
     import pytest
     with pytest.raises(ValueError): clean_record({'title':'Alpha','presentedAt':'2026-02-31'},1,'input')
+
+
+def test_manual_presentation_records_keep_dates_unknown():
+    expected = {'10.1038/s41586-026-10460-4', '10.1038/s41587-026-03149-6',
+                '10.1038/s41586-026-10794-z', '10.1038/s41586-026-10395-w',
+                '10.1038/s41587-025-02995-0', '10.1126/science.aed6123'}
+    events = read('journal_meetings.json')['events']
+    manual = [e for e in events if e['recordBasis'] == 'user_reported_presentation']
+    assert {e['paperDoi'] for e in manual} == expected
+    assert len(manual) == len(expected)
+    assert all(e['presentedAt'] is None and e['recordedAt'] == '2026-10-26' for e in manual)
+    script = (ROOT / 'collections.js').read_text(encoding='utf-8')
+    assert '발표 여부 미등록' in script
+    assert '발표 기록 없음 · 제공 목록 기준' not in script

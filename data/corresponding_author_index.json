@@ -573,6 +573,318 @@
         "method": "biorxiv_author_corresponding",
         "excerpt": "author_corresponding: Brian L Hie"
       }
+    ],
+    "10.1038/s41586-026-10794-z": [
+      {
+        "id": "dali-li",
+        "name": "Dali Li",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41586-026-10794-z",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to\n                 Dali Li  or  Chengqi Yi . "
+      }
+    ],
+    "10.1016/j.cell.2026.04.047": [
+      {
+        "id": "wensheng-wei",
+        "name": "Wensheng Wei",
+        "verified": true,
+        "sourceUrl": "https://europepmc.org/article/MED/42269608",
+        "method": "publisher_electronic_address",
+        "excerpt": "Wensheng Wei; Biomedical Pioneering Innovation Center, Beijing Advanced Innovation Center for Genomics, Peking-Tsinghua Center for Life Sciences, Peking University Genome Editing Research Center, State Key Laboratory of Gene Function and Modulation Research, School of Life Sciences, Peking University, Beijing 100871, China; Changping Laboratory, Beijing 102206, China. Electronic address: wswei@pku.edu.cn."
+      }
+    ],
+    "10.1038/s41587-026-03227-9": [
+      {
+        "id": "jia-chen",
+        "name": "Jia Chen",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41587-026-03227-9",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to\n                 Jiaxu Hong ,  Li Yang  or  Jia Chen . "
+      }
+    ],
+    "10.1038/s41467-026-69678-5": [
+      {
+        "id": "dali-li",
+        "name": "Dali Li",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13031901/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Dali Li; corresp=; ✉Corresponding author."
+      }
+    ],
+    "10.1038/s41467-026-76778-9": [
+      {
+        "id": "dali-li",
+        "name": "Dali Li",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13558771/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Dali Li; corresp=yes; "
+      }
+    ],
+    "10.1038/s41477-026-02447-w": [
+      {
+        "id": "caixia-gao",
+        "name": "Caixia Gao",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41477-026-02447-w",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to\n                 Caixia Gao . "
+      }
+    ],
+    "10.1038/s41587-026-03174-5": [
+      {
+        "id": "caixia-gao",
+        "name": "Caixia Gao",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41587-026-03174-5",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to\n                 Caixia Gao . "
+      }
+    ],
+    "10.1038/s41587-026-03352-5": [
+      {
+        "id": "hui-yang",
+        "name": "Hui Yang",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41587-026-03352-5",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to\n                 Hainan Zhang ,  Jinhai Huang ,  Hui Yang ,  Guohe Tan ,  Yingsi Zhou  or  Guoling Li . "
+      }
+    ],
+    "10.1126/science.ady2167": [
+      {
+        "id": "caixia-gao",
+        "name": "Caixia Gao",
+        "verified": true,
+        "sourceUrl": "https://gaolab.genetics.ac.cn/en/publications/",
+        "method": "inspected_official_lab_star_legend",
+        "excerpt": "(*Corresponding author; 1 Co-first author). Zhu H1, Qin X1, Wei L1, Jiang D1, Zhang Q, Wang W, Liang R, Zhang R, Zhang K, Liu G, Zhao KT, Chen K, Qiu JL*, Gao C*. Science. 390(6774):eady2167, 2025.",
+        "retrievedAt": "2026-11-11"
+      }
+    ],
+    "10.1016/j.tibtech.2026.07.025": [
+      {
+        "id": "caixia-gao",
+        "name": "Caixia Gao",
+        "verified": true,
+        "sourceUrl": "https://europepmc.org/article/MED/42618444",
+        "method": "publisher_electronic_address",
+        "excerpt": "Caixia Gao; New Cornerstone Science Laboratory, Laboratory of Advanced Breeding Technologies, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing, China; College of Advanced Agricultural Sciences, University of Chinese Academy of Sciences, Beijing, China. Electronic address: cxgao@genetics.ac.cn."
+      }
+    ],
+    "10.1016/j.cell.2026.05.030": [
+      {
+        "id": "wensheng-wei",
+        "name": "Wensheng Wei",
+        "verified": true,
+        "sourceUrl": "https://europepmc.org/article/MED/42269605",
+        "method": "publisher_electronic_address",
+        "excerpt": "Wensheng Wei; Biomedical Pioneering Innovation Center, Peking-Tsinghua Center for Life Sciences, Peking University Genome Editing Research Center, State Key Laboratory of Gene Function and Modulation Research, School of Life Sciences, Peking University, Beijing 100871, China; Changping Laboratory, Beijing 102206, China. Electronic address: wswei@pku.edu.cn."
+      }
+    ],
+    "10.1038/s44222-026-00488-6": [
+      {
+        "id": "wensheng-wei",
+        "name": "Wensheng Wei",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s44222-026-00488-6",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to Xiaoxue Zhang (张小雪) or Wensheng Wei (魏文胜)."
+      }
+    ],
+    "10.64898/2026.11.05.763984": [
+      {
+        "id": "wensheng-wei",
+        "name": "Wensheng Wei",
+        "verified": true,
+        "sourceUrl": "https://www.biorxiv.org/content/early/2026/11/10/2026.11.05.763984.source.xml",
+        "method": "jats_corresp",
+        "excerpt": "Wensheng Wei; corresp=yes; * Corresponding author; email: wswei@pku.edu.cn"
+      }
+    ],
+    "10.1038/s41586-026-10342-9": [
+      {
+        "id": "jia-chen",
+        "name": "Jia Chen",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41586-026-10342-9",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to\n                 Yongrong Lai ,  Xiaodun Mou ,  Li Yang  or  Jia Chen . "
+      }
+    ],
+    "10.1016/j.cell.2026.09.059": [
+      {
+        "id": "hui-yang",
+        "name": "Hui Yang",
+        "verified": true,
+        "sourceUrl": "https://europepmc.org/article/MED/42933389",
+        "method": "publisher_electronic_address",
+        "excerpt": "Hui Yang; HuidaGene Therapeutics Co., Ltd., Shanghai 200131, China; Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan 528400, China; Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai 201203, China. Electronic address: huiyang@huidagene.com."
+      }
+    ],
+    "10.1007/s12264-026-01591-9": [
+      {
+        "id": "hui-yang",
+        "name": "Hui Yang",
+        "verified": true,
+        "sourceUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13545164",
+        "method": "jats_corresp",
+        "excerpt": "Hui Yang; corresp=yes; "
+      }
+    ],
+    "10.1016/j.stem.2026.08.009": [
+      {
+        "id": "jia-chen",
+        "name": "Jia Chen",
+        "verified": true,
+        "sourceUrl": "https://europepmc.org/article/MED/42705233",
+        "method": "publisher_electronic_address",
+        "excerpt": "Jia Chen; Gene Editing Center, School of Life Science and Technology, ShanghaiTech University, Shanghai 201210, China; Shanghai Clinical Research and Trial Center, Shanghai 201210, China; Shanghai Academy of Natural Sciences (SANS), ShanghaiTech University, Shanghai 201210, China. Electronic address: chenjia@shanghaitech.edu.cn."
+      }
+    ],
+    "10.1016/j.tibs.2026.02.001": [
+      {
+        "id": "wensheng-wei",
+        "name": "Wensheng Wei",
+        "verified": true,
+        "sourceUrl": "https://europepmc.org/article/MED/41850995",
+        "method": "publisher_electronic_address",
+        "excerpt": "Wensheng Wei; Changping Laboratory, Beijing 102206, China; Biomedical Pioneering Innovation Center, Beijing Advanced Innovation Center for Genomics, Peking-Tsinghua Center for Life Sciences, Peking University Genome Editing Research Center, State Key Laboratory of Gene Function and Modulation Research, School of Life Sciences, Peking University, Beijing 100871, China. Electronic address: wswei@pku.edu.cn."
+      }
+    ],
+    "10.1016/j.tibtech.2026.09.024": [
+      {
+        "id": "caixia-gao",
+        "name": "Caixia Gao",
+        "verified": true,
+        "sourceUrl": "https://europepmc.org/article/MED/42901830",
+        "method": "publisher_electronic_address",
+        "excerpt": "Caixia Gao; New Cornerstone Science Laboratory, Laboratory of Advanced Breeding Technologies, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing 100101, China; College of Advanced Agricultural Sciences, University of Chinese Academy of Sciences, Beijing 101408, China. Electronic address: cxgao@genetics.ac.cn."
+      }
+    ],
+    "10.1007/s11010-026-05492-3": [
+      {
+        "id": "dali-li",
+        "name": "Dali Li",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13061793/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Dali Li; corresp=; ✉Corresponding author."
+      }
+    ],
+    "10.1038/s41477-026-02423-4": [
+      {
+        "id": "caixia-gao",
+        "name": "Caixia Gao",
+        "verified": true,
+        "sourceUrl": "https://www.nature.com/articles/s41477-026-02423-4",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to\n                 Rui Zhang ,  Yuhang Chen  or  Caixia Gao . "
+      }
+    ],
+    "10.1016/j.bbrc.2026.153970": [
+      {
+        "id": "wensheng-wei",
+        "name": "Wensheng Wei",
+        "verified": true,
+        "sourceUrl": "https://europepmc.org/article/MED/42161060",
+        "method": "publisher_electronic_address",
+        "excerpt": "Wensheng Wei; Biomedical Pioneering Innovation Center, Beijing Advanced Innovation Center for Genomics, Peking-Tsinghua Center for Life Sciences, Peking University Genome Editing Research Center, State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences, Peking University, Beijing, 100871, China. Electronic address: wswei@pku.edu.cn."
+      }
+    ],
+    "10.1186/s43556-026-00589-z": [
+      {
+        "id": "dali-li",
+        "name": "Dali Li",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13627643/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Dali Li; corresp=yes; "
+      }
+    ],
+    "10.1126/science.aee1792": [
+      {
+        "id": "caixia-gao",
+        "name": "Caixia Gao",
+        "verified": true,
+        "sourceUrl": "https://gaolab.genetics.ac.cn/en/publications/",
+        "method": "inspected_official_lab_star_legend",
+        "excerpt": "(*Corresponding author; 1 Co-first author). Zhu H1, Jiang D1, Zhang Q1, Zhang K, Zhao KT, Qiu JL, Gao C*. Science. 0, eaee1792, 2026.",
+        "retrievedAt": "2026-11-11"
+      }
+    ],
+    "10.1053/j.gastro.2026.05.022": [
+      {
+        "id": "dali-li",
+        "name": "Dali Li",
+        "verified": true,
+        "sourceUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13340323",
+        "method": "jats_corresp",
+        "excerpt": "Dali Li; corresp=; Corresponding authors contact information: Dali Li, PhD, Shanghai Frontiers Science Center of Genome Editing and Cell Therapy, Shanghai Key Laboratory of Regulatory Biology and School of Life Sciences, East China Normal University, Shanghai Academy of Natural Sciences (SANS), Shanghai, China. dlli@bio.ecnu.edu.cn, Daniel Kotlarz, PhD, Dr. von Hauner Children's Hospital, Department of Pediatrics, University Hospital, LMU Munich, Munich, Germany. daniel.kotlarz@med.uni-muenchen.de; Institute of Translational Genomics, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany; German Center for Child and Adolescent Health (DZKJ), partner "
+      }
+    ],
+    "10.1007/s11427-025-3230-6": [
+      {
+        "id": "dali-li",
+        "name": "Dali Li",
+        "verified": true,
+        "sourceUrl": "https://link.springer.com/article/10.1007/s11427-025-3230-6",
+        "method": "publisher_correspondence_to",
+        "excerpt": "Correspondence to\n                 Ming Zhong ,  Xueli Zhang  or  Dali Li . "
+      }
+    ],
+    "10.1038/s41467-026-73237-3": [
+      {
+        "id": "dali-li",
+        "name": "Dali Li",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13370032/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Dali Li; corresp=; ✉Corresponding author."
+      }
+    ],
+    "10.1016/j.xplc.2026.101784": [
+      {
+        "id": "caixia-gao",
+        "name": "Caixia Gao",
+        "verified": true,
+        "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13261655/fullTextXML",
+        "method": "jats_corresp",
+        "excerpt": "Caixia Gao; corresp=; ∗∗Corresponding author cxgao@genetics.ac.cn"
+      }
+    ],
+    "10.1016/j.cell.2026.09.018": [
+      {
+        "id": "caixia-gao",
+        "name": "Caixia Gao",
+        "verified": true,
+        "sourceUrl": "https://europepmc.org/article/MED/42956714",
+        "method": "publisher_electronic_address",
+        "excerpt": "Caixia Gao; New Cornerstone Science Laboratory, Laboratory of Advanced Breeding Technologies, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing, China; College of Advanced Agricultural Sciences, University of Chinese Academy of Sciences, Beijing, China. Electronic address: cxgao@genetics.ac.cn."
+      }
+    ],
+    "10.1016/j.jmb.2025.169618": [
+      {
+        "id": "dali-li",
+        "name": "Dali Li",
+        "verified": true,
+        "sourceUrl": "https://europepmc.org/article/MED/41485557",
+        "method": "publisher_electronic_address",
+        "excerpt": "Dali Li; Shanghai Frontiers Science Center of Genome Editing and Cell Therapy, Shanghai Key Laboratory of Regulatory Biology and School of Life Sciences, East China Normal University, Shanghai 200241, China. Electronic address: dlli@bio.ecnu.edu.cn."
+      }
+    ],
+    "10.1016/j.jmb.2026.169683": [
+      {
+        "id": "caixia-gao",
+        "name": "Caixia Gao",
+        "verified": true,
+        "sourceUrl": "https://europepmc.org/article/MED/41672399",
+        "method": "publisher_electronic_address",
+        "excerpt": "Caixia Gao; New Cornerstone Science Laboratory, Laboratory of Advanced Breeding Technologies, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing, China; College of Advanced Agricultural Sciences, University of Chinese Academy of Sciences, Beijing, China. Electronic address: cxgao@genetics.ac.cn."
+      }
     ]
   }
 }

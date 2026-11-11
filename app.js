@@ -19,7 +19,14 @@ const CORRESPONDING_AUTHORS = [
   ["omar-abudayyeh", "Abudayyeh"], ["jennifer-doudna", "Doudna"],
   ["feng-zhang", "Feng Zhang"], ["david-liu", "David R. Liu"],
   ["brian-hie", "Brian L. Hie"],
+  ["caixia-gao", "Caixia Gao"], ["wensheng-wei", "Wensheng Wei"],
+  ["jia-chen", "Jia Chen"], ["hui-yang", "Hui Yang"], ["dali-li", "Dali Li"],
 ];
+const AUTHOR_COLLECTIONS = [
+  ["corresponding-year", "Corresponding authors · original collection"],
+  ["corresponding-year-20261111", "Gao · Wei · Chen · Yang · Li · past year"],
+];
+function isAuthorCollection(key) { return AUTHOR_COLLECTIONS.some(([id]) => id === key); }
 const hasDom = typeof document !== "undefined" && typeof window !== "undefined";
 const staticDataBase = hasDom
   ? document.documentElement.dataset.staticDataBase || (window.location.hostname.endsWith(".github.io") ? "./data" : "")
@@ -228,6 +235,11 @@ async function loadData(week = "") {
     const payload = await response.json();
     if (!response.ok) throw new Error(payload.error || `HTTP ${response.status}`);
     state.data = payload;
+    const members = payload.collectionAuthorIds || (isAuthorCollection(payload.weekKey) ? payload.digest?.perAuthor?.map(row => row.authorId) : null);
+    if (members && [...state.correspondingAuthors].some(id => !members.includes(id))) {
+      state.correspondingAuthors = new Set([...state.correspondingAuthors].filter(id => members.includes(id)));
+      setWeekQuery(payload.weekKey);
+    }
     if (staticDataBase && typeof PaperIdentity !== "undefined" && !meetingCatalog) {
       try {
         const [catalogResponse, historyResponse] = await Promise.all([
@@ -354,7 +366,7 @@ function renderIssue() {
   elements.breadcrumbCurrent.textContent = dateLabel || "this week";
   elements.issueDate.textContent = dateLabel;
   elements.heroEyebrow.textContent = data.site?.eyebrow || "LAB WEEKLY RESEARCH REVIEW";
-  elements.libraryTitle.textContent = data.weekKey === "corresponding-year" ? "Corresponding authors: past year" : "All papers this week";
+  elements.libraryTitle.textContent = isAuthorCollection(data.weekKey) ? "Corresponding authors: past year" : "All papers this week";
   const audit = data.collectionAudit;
   elements.collectionAudit.hidden = !audit;
   if (audit) {
@@ -363,10 +375,10 @@ function renderIssue() {
   const authorSummaries = digest.perAuthor || [];
   elements.authorSynthesis.hidden = !authorSummaries.length;
   elements.authorSynthesis.innerHTML = authorSummaries.map((row) => `<section>
-    <h3><a href="?week=corresponding-year&amp;authors=${encodeURIComponent(row.authorId)}#papers">${escapeHtml(CORRESPONDING_AUTHORS.find(([id]) => id === row.authorId)?.[1] || row.authorId)}</a></h3>
+    <h3><a href="?week=${encodeURIComponent(data.weekKey)}&amp;authors=${encodeURIComponent(row.authorId)}#papers">${escapeHtml(CORRESPONDING_AUTHORS.find(([id]) => id === row.authorId)?.[1] || row.authorId)}</a></h3>
     <p class="korean-copy" lang="ko">${escapeHtml(row.researchTrend)}</p>
     ${(row.relatedReading || []).map((item) => `<p class="korean-copy" lang="ko"><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a><br>${escapeHtml(item.roleStatus)}</p>`).join("")}</section>`).join("");
-  document.getElementById("digest-period-label").textContent = data.weekKey === "corresponding-year" ? "The year in science" : "The week in science";
+  document.getElementById("digest-period-label").textContent = isAuthorCollection(data.weekKey) ? "The year in science" : "The week in science";
   elements.digestTitle.textContent = digestHeadline(digest, data.weekKey);
   elements.digestSummary.textContent = digest.summary || data.site?.description || "";
   elements.editorNote.textContent = digest.executiveSummary || digest.summary || "";
@@ -410,7 +422,7 @@ function publishedArchiveWeeks(...groups) {
 
 function renderWeekSelect() {
   const weeks = state.publishedWeeks || publishedArchiveWeeks(state.data.availableWeeks || [], state.data.weekKey);
-  elements.weekSelect.innerHTML = `<option value="corresponding-year" ${state.data.weekKey === "corresponding-year" ? "selected" : ""}>Corresponding authors · past year</option>` + weeks.map((week) => `
+  elements.weekSelect.innerHTML = AUTHOR_COLLECTIONS.map(([key, label]) => `<option value="${key}" ${state.data.weekKey === key ? "selected" : ""}>${label}</option>`).join("") + weeks.map((week) => `
     <option value="${escapeHtml(week)}" ${week === state.data.weekKey ? "selected" : ""}>
       ${formatWeekOption(week)}
     </option>
@@ -428,7 +440,8 @@ function matchesCorrespondingAuthors(paper, selected) {
 }
 
 function renderCorrespondingAuthors() {
-  elements.correspondingAuthorFilters.innerHTML = CORRESPONDING_AUTHORS.map(([id, name]) => {
+  const members = state.data.collectionAuthorIds || (isAuthorCollection(state.data.weekKey) ? state.data.digest?.perAuthor?.map(row => row.authorId) : null);
+  elements.correspondingAuthorFilters.innerHTML = CORRESPONDING_AUTHORS.filter(([id]) => !members || members.includes(id)).map(([id, name]) => {
     const count = state.data.papers.filter((paper) => verifiedCorrespondingAuthors(paper).some((a) => a.id === id)).length;
     return `<label><input type="checkbox" value="${id}" ${state.correspondingAuthors.has(id) ? "checked" : ""} /> ${name} <span class="author-count">${count}</span></label>`;
   }).join("");
@@ -897,7 +910,7 @@ function normalizeSearch(value) {
 }
 
 function digestHeadline(digest, weekKey) {
-  if (weekKey === "corresponding-year") return "Corresponding authors: past year";
+  if (isAuthorCollection(weekKey)) return "Corresponding authors: past year";
   const theme = String(digest.theme || "research").trim();
   const cleaned = theme
     .replaceAll("/", " & ")

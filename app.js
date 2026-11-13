@@ -630,6 +630,7 @@ function rankPapersForTracker(papers, tracker = "all") {
 }
 
 function isMainTopEligible(paper, tracker = "all") {
+  if (paper.reviewStatus && paper.reviewStatus !== "completed") return false;
   if (tracker === "compbio") return matchesTracker(paper, tracker);
   if (!paper.lensRanks) return paper.tracker !== "compbio";
   return paper.mainPageEligible === true && paper.computationalOnly !== true;

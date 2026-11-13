@@ -382,6 +382,15 @@ function renderIssue() {
   elements.digestTitle.textContent = digestHeadline(digest, data.weekKey);
   elements.digestSummary.textContent = digest.summary || data.site?.description || "";
   elements.editorNote.textContent = digest.executiveSummary || digest.summary || "";
+  let supplements = document.getElementById("weekly-supplements");
+  if (!supplements) {
+    supplements = document.createElement("nav");
+    supplements.id = "weekly-supplements";
+    supplements.setAttribute("aria-label", "Supplemental reviews");
+    elements.editorNote.after(supplements);
+  }
+  supplements.innerHTML = supplementLinksMarkup(data.researchSupplements || []);
+  supplements.hidden = !supplements.innerHTML;
   elements.digestExpand.hidden = !digest.executiveSummary || digest.executiveSummary === digest.summary;
 
   elements.digestKeywords.innerHTML = (digest.keywords || [])
@@ -982,6 +991,12 @@ function safeUrl(value) {
   }
 }
 
+function supplementLinksMarkup(items) {
+  return items.filter(item => item?.reviewBasis === "title_only" &&
+    /^research\/title-review-\d{8}\.html$/.test(item.url || ""))
+    .map(item => `<p><a class="text-link korean-copy" lang="ko" href="./${escapeHtml(item.url)}">${escapeHtml(item.title)}</a></p>`).join("");
+}
+
 if (typeof module !== "undefined" && module.exports) {
   module.exports = {
     detailsMarkup,
@@ -1002,6 +1017,7 @@ if (typeof module !== "undefined" && module.exports) {
     selectTopPapers,
     trackerQualityNoteMarkup,
     reviewStatusMarkup,
+    supplementLinksMarkup,
   };
 }
 
